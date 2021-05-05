@@ -6,7 +6,7 @@
 
 `usage: search.py [-h] -f FILE [-H HOST] [-p PORT]`
 
-## find_field - find a field in result json
+## find_field.py - find a field in result json
 * Does a Depth-first-search looking for a field that matches the name passed in the args
 * Returns a path to the first field found.
 
