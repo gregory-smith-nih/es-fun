@@ -1,0 +1,8 @@
+{
+  "from" : 0, "size" : 100,
+  "query": {
+    "multi_match": {
+      "query": "CTEP"
+    }
+  }
+}
