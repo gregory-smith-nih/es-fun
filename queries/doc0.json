@@ -1,0 +1,25 @@
+{
+    "from": 0,
+    "size": 100,
+    "query": {
+        "nested": {
+            "path": "datetimes",
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "match": {
+                                "datetimes.type": "STATUS_DATE"
+                            }
+                        },
+                        {
+                            "match": {
+                                "datetimes.value": "2099-12-31T23:59:59.162123"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

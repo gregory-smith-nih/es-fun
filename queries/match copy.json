@@ -1,0 +1,7 @@
+{
+    "query": {
+        "match": {
+            "division_department_id": "CTEP"
+        }
+    }
+}

@@ -1,0 +1,4592 @@
+[
+  {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Liver"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "biomarkers": [
+      {
+        "assay_type": "Other",
+        "cadsr_id": "2581424",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Methylation",
+        "evs_id": "C18049",
+        "name": "GSTP1 (GST-Pi; Glutathione S-Transferase Pi; glutathione S-transferase pi 1; FAEES3; GSTPP; GSTP; DFN7; Glutathione S-Transferase P; Fatty Acid Ethyl Ester Synthase III; GST3; GSTP1-1; Myocardial, Glutathione S-Transf)",
+        "other_assay_type": "pyrosequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Sequencing, Real-Time PCR (quantitative PCR), Other",
+        "cadsr_id": "2578098",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Other",
+        "evs_id": "C128274",
+        "name": "Circulating cell-free DNA (Circulating DNA)",
+        "other_assay_type": "Methylation-specific PCR and microfluidic electrophoresis",
+        "other_evaluation_type": "Fragment length analysis",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Plasma",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3781501",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Methylation",
+        "evs_id": "C95041",
+        "name": "BMP4 (MCOPS6; BMP-2B; ZYME; BMP2B; OFC11; Bone Morphogenetic Protein 2B; BMP-4; DVR4; Bone Morphogenetic Protein 4; BMP2B1)",
+        "other_assay_type": "pyrosequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3419140",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Methylation",
+        "evs_id": "C60667",
+        "name": "RASSF1 (NORE2A; Ras Association Domain-Containing Protein 1; RASSF1A; 123F2; RDA32; Ras association (RalGDS/AF-6) domain family member 1; REH3P21)",
+        "other_assay_type": "pyrosequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      }
+    ],
+    "completion_date_type": "ANTICIPATED_COMPLETION_DATE",
+    "completion_date_value": "2016-11-30T00:00:00.000000",
+    "ctro_override": false,
+    "current_trial_status": "Recruiting",
+    "current_trial_status_date": "2014-11-14T00:00:00.000000",
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2015-06-17T14:11:12.974000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2099-12-31T23:59:59.162123"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2015-11-30T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2014-11-05T00:00:00.000000"
+      },
+      {
+        "type": "ANTICIPATED_COMPLETION_DATE",
+        "value": "2016-11-30T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This phase I trial studies the side effects and best dose of sorafenib tosylate when given together with yttrium Y 90 bead therapy in treating patients with liver cancer that has spread to other places in the body and usually cannot be cured or controlled with treatment. Sorafenib tosylate may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Radioembolization is a technique that involves the use of small radioactive glass beads called microspheres. Microsphere radiation therapy is delivered to the tumor through a catheter, which is a long tube inserted by a radiologist under x-ray guidance through the leg artery and directly up into the liver arteries. Before the radioembolization procedure, the radiologist will have injected a special dye so that the different arteries can be seen and the correct ones can be chosen (this is called an angiogram). The physician then inserts the microspheres directly through the catheter into the tumor’s blood supply. Once infused, the beads travel to the tumor, where they give off small amounts of radiation to the tumor site for several days. Giving sorafenib tosylate together with yttrium Y 90 bead therapy may kill more tumor cells.",
+    "diseases": [
+      {
+        "display_name": "Stage IVB Hepatocellular Carcinoma AJCC v7",
+        "id": "C5765",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Stage IVB Hepatocellular Cancer",
+        "parents": [
+          "C90181",
+          "C7123"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "Stage IVB Hepatocellular Carcinoma AJCC v7",
+        "status": "ACTIVE",
+        "synonyms": [
+          "Stage IVB Carcinoma of Liver Cells",
+          "Stage IVB Carcinoma of the Liver Cells",
+          "Stage IVB Hepatocellular Carcinoma",
+          "Stage IVB Hepatocellular Carcinoma AJCC v7",
+          "Stage IVB Liver Cell Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage B Adult Hepatocellular Carcinoma",
+        "id": "C115141",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "BCLC Stage B Hepatocellular Cancer",
+        "parents": [
+          "C7956",
+          "C115136"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "BCLC Stage B Adult Hepatocellular Carcinoma",
+        "status": "ACTIVE",
+        "synonyms": [
+          "BCLC Stage B Adult Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage B Adult Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Advanced Adult Hepatocellular Carcinoma",
+        "id": "C28302",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Advanced Hepatocellular Cancer",
+        "parents": [
+          "C7956",
+          "C167336"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "Advanced Adult Hepatocellular Carcinoma",
+        "status": "ACTIVE",
+        "synonyms": [
+          "Advanced Adult Hepatocellular Carcinoma",
+          "Advanced Adult Hepatoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IVA Hepatocellular Carcinoma AJCC v7",
+        "id": "C5764",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Stage IVA Hepatocellular Cancer",
+        "parents": [
+          "C90181",
+          "C7122"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "Stage IVA Hepatocellular Carcinoma AJCC v7",
+        "status": "ACTIVE",
+        "synonyms": [
+          "Stage IVA Hepatocellular Carcinoma",
+          "Stage IVA Hepatocellular Carcinoma AJCC v7",
+          "Stage IVA Liver Cell Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage C Adult Hepatocellular Carcinoma",
+        "id": "C115143",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "BCLC Stage C Hepatocellular Cancer",
+        "parents": [
+          "C7956",
+          "C115137"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "BCLC Stage C Adult Hepatocellular Carcinoma",
+        "status": "ACTIVE",
+        "synonyms": [
+          "BCLC Stage C Adult Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage C Adult Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Neoplasm",
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "parents": [
+          "C2991"
+        ],
+        "preferred_name": "Neoplasm",
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Digestive System Carcinoma",
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Carcinoma",
+        "parents": [
+          "C2916",
+          "C4890"
+        ],
+        "preferred_name": "Digestive System Carcinoma",
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Adenocarcinoma",
+        "id": "C4124",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Adenocarcinoma",
+        "parents": [
+          "C2852",
+          "C3482"
+        ],
+        "preferred_name": "Metastatic Adenocarcinoma",
+        "synonyms": [
+          "Adenocarcinoma, metastatic, NOS"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatocellular Carcinoma by BCLC Stage",
+        "id": "C115132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Carcinoma by BCLC Stage",
+        "parents": [
+          "C3099"
+        ],
+        "preferred_name": "Hepatocellular Carcinoma by BCLC Stage",
+        "synonyms": [
+          "BCLC Staging for Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Staging for Hepatocellular Carcinoma",
+          "Hepatocellular Carcinoma BCLC Staging",
+          "Hepatocellular Carcinoma Barcelona Clinic Liver Cancer Staging",
+          "Hepatocellular Carcinoma by Barcelona Clinic Liver Cancer Stage"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Malignant Neoplasm",
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "parents": [
+          "C7062"
+        ],
+        "preferred_name": "Malignant Neoplasm",
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Secondary Carcinoma",
+        "id": "C36310",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Secondary Carcinoma",
+        "parents": [
+          "C2916",
+          "C4968"
+        ],
+        "preferred_name": "Secondary Carcinoma",
+        "synonyms": [
+          "Secondary carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Malignant Digestive System Neoplasm",
+        "id": "C175547",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Malignant Digestive System Neoplasm",
+        "parents": [
+          "C9270",
+          "C162255"
+        ],
+        "preferred_name": "Advanced Malignant Digestive System Neoplasm",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Adenocarcinoma",
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adenocarcinoma",
+        "parents": [
+          "C2916",
+          "C7132"
+        ],
+        "preferred_name": "Adenocarcinoma",
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Malignant Hepatobiliary Neoplasm",
+        "id": "C8609",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Hepatobiliary Neoplasm",
+        "parents": [
+          "C8614",
+          "C4890"
+        ],
+        "preferred_name": "Malignant Hepatobiliary Neoplasm",
+        "synonyms": [
+          "Malignant Hepato-Biliary Neoplasm",
+          "Malignant Liver and Biliary Neoplasm",
+          "Malignant Liver and Biliary System Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IV Hepatocellular Carcinoma AJCC v7",
+        "id": "C90181",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Hepatocellular Cancer",
+        "parents": [
+          "C91228",
+          "C7121"
+        ],
+        "preferred_name": "Stage IV Hepatocellular Carcinoma AJCC v7",
+        "synonyms": [
+          "Stage IV Hepatocellular Carcinoma",
+          "Stage IV Hepatocellular Carcinoma AJCC v7"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Advanced Malignant Neoplasm",
+        "id": "C9270",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Malignant Neoplasm",
+        "parents": [
+          "C36263"
+        ],
+        "preferred_name": "Advanced Malignant Neoplasm",
+        "synonyms": [
+          "Advanced Cancer",
+          "advanced cancer"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Neoplasm",
+        "id": "C3261",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Neoplasm",
+        "parents": [
+          "C7062"
+        ],
+        "preferred_name": "Metastatic Neoplasm",
+        "synonyms": [
+          "Metastasis",
+          "Metastatic",
+          "Metastatic Disease",
+          "Metastatic Tumor",
+          "Neoplasm, metastatic",
+          "Tumor, metastatic",
+          "metastasis"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatocellular Carcinoma",
+        "id": "C3099",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Cancer",
+        "parents": [
+          "C2852",
+          "C7927"
+        ],
+        "preferred_name": "Hepatocellular Carcinoma",
+        "synonyms": [
+          "CARCINOMA, HEPATOCELLULAR, MALIGNANT",
+          "Carcinoma of Liver Cells",
+          "Carcinoma of the Liver Cells",
+          "HCC",
+          "Hepatocellular Carcinoma",
+          "Hepatocellular carcinoma",
+          "Hepatoma",
+          "LIHC",
+          "Liver Cell Cancer (Hepatocellular Carcinoma)",
+          "Liver Cell Carcinoma",
+          "Liver cell carcinoma",
+          "Primary Carcinoma of Liver Cells",
+          "Primary Carcinoma of the Liver Cells",
+          "hepatocellular carcinoma",
+          "hepatoma"
+        ],
+        "type": [
+          "maintype",
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Digestive System Neoplasm",
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Neoplasm",
+        "parents": [
+          "C2990",
+          "C3263"
+        ],
+        "preferred_name": "Digestive System Neoplasm",
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Neoplasm by Morphology",
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "parents": [
+          "C3262"
+        ],
+        "preferred_name": "Neoplasm by Morphology",
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "id": "C7103",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "parents": [
+          "C8614",
+          "C3196"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "synonyms": [
+          "Hepatic and Intrahepatic Bile Duct Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatobiliary Neoplasm",
+        "id": "C8614",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Neoplasm",
+        "parents": [
+          "C3052",
+          "C3959"
+        ],
+        "preferred_name": "Hepatobiliary Neoplasm",
+        "synonyms": [
+          "Hepatic and Biliary Neoplasms",
+          "Hepatic and Biliary Tumors",
+          "Hepatic, Biliary, and Gallbladder Neoplasms",
+          "Hepato-Biliary Neoplasm",
+          "Hepato-Biliary Tumor",
+          "Hepatobiliary Tumor",
+          "Hepatobiliary Tumors",
+          "Liver and Biliary Neoplasm",
+          "Liver and Biliary System Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Secondary Malignant Neoplasm",
+        "id": "C4968",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Secondary Malignant Neoplasm",
+        "parents": [
+          "C9305",
+          "C36255"
+        ],
+        "preferred_name": "Secondary Malignant Neoplasm",
+        "synonyms": [
+          "Development of SMN",
+          "Secondary Cancer",
+          "Secondary Malignancy",
+          "secondary cancer"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Malignant Neoplasm",
+        "id": "C36263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Malignant Neoplasm",
+        "parents": [
+          "C3261",
+          "C4968"
+        ],
+        "preferred_name": "Metastatic Malignant Neoplasm",
+        "synonyms": [
+          "Metastatic Cancer"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "id": "C7106",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "parents": [
+          "C7103"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "synonyms": [
+          "Epithelial Hepatic and Intrahepatic Bile Duct Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Digestive System Disorder",
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Disorder",
+        "parents": [
+          "C27551"
+        ],
+        "preferred_name": "Digestive System Disorder",
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Adenocarcinoma",
+        "id": "C159556",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Adenocarcinoma",
+        "parents": [
+          "C153171",
+          "C4124"
+        ],
+        "preferred_name": "Advanced Adenocarcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Epithelial Neoplasm",
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "parents": [
+          "C4741"
+        ],
+        "preferred_name": "Epithelial Neoplasm",
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Carcinoma",
+        "id": "C153171",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Carcinoma",
+        "parents": [
+          "C9270",
+          "C3482"
+        ],
+        "preferred_name": "Advanced Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Adult Hepatocellular Carcinoma",
+        "id": "C7956",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Cancer",
+        "parents": [
+          "C7711",
+          "C3099"
+        ],
+        "preferred_name": "Adult Hepatocellular Carcinoma",
+        "synonyms": [
+          "Adult Hepatocellular Carcinoma",
+          "Adult Hepatoma",
+          "Adult Primary Carcinoma of Liver Cell",
+          "Adult Primary Carcinoma of the Liver Cell",
+          "Adult Primary Hepatocellular Carcinoma",
+          "Adult Primary Hepatoma",
+          "Adult Primary Liver Cell Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage B Hepatocellular Carcinoma",
+        "id": "C115136",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "BCLC Stage B Hepatocellular Cancer",
+        "parents": [
+          "C115132"
+        ],
+        "preferred_name": "BCLC Stage B Hepatocellular Carcinoma",
+        "synonyms": [
+          "BCLC Stage B Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage B Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Neoplasm by Site",
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "parents": [
+          "C3262"
+        ],
+        "preferred_name": "Neoplasm by Site",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Digestive System Carcinoma",
+        "id": "C156746",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Digestive System Carcinoma",
+        "parents": [
+          "C153171",
+          "C175547",
+          "C133839"
+        ],
+        "preferred_name": "Advanced Digestive System Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IV Liver Cancer",
+        "id": "C7121",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Liver Cancer",
+        "parents": [
+          "C7927"
+        ],
+        "preferred_name": "Stage IV Liver Cancer",
+        "synonyms": [
+          "Stage IV Liver Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Secondary Neoplasm",
+        "id": "C36255",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Secondary Neoplasm",
+        "parents": [
+          "C7062"
+        ],
+        "preferred_name": "Secondary Neoplasm",
+        "synonyms": [
+          "Neoplasm, secondary",
+          "Secondary Tumor",
+          "Tumor, secondary",
+          "secondary tumor"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Carcinoma",
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "parents": [
+          "C3709",
+          "C9305"
+        ],
+        "preferred_name": "Carcinoma",
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Primary Malignant Liver Neoplasm",
+        "id": "C34803",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Primary Malignant Liver Neoplasm",
+        "parents": [
+          "C7103",
+          "C8609"
+        ],
+        "preferred_name": "Primary Malignant Liver Neoplasm",
+        "synonyms": [
+          "Primary Malignant Neoplasm of Liver"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Disease or Disorder",
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "parents": [
+          "C7057"
+        ],
+        "preferred_name": "Disease or Disorder",
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Liver Cancer",
+        "id": "C7927",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver Cancer",
+        "parents": [
+          "C96963",
+          "C7106",
+          "C34803"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Carcinoma",
+        "synonyms": [
+          "Biliary Tract Cancer",
+          "Cancer of Liver",
+          "Cancer of Liver and Intrahepatic Biliary Tract",
+          "Cancer of the Liver",
+          "Cancer of the Liver and Intrahepatic Biliary Tract",
+          "Liver Carcinoma",
+          "Liver and Intrahepatic Bile Duct Cancer",
+          "Liver and Intrahepatic Bile Duct Carcinoma",
+          "Liver and Intrahepatic Biliary Tract Cancer",
+          "Liver and Intrahepatic Biliary Tract Carcinoma",
+          "Liver and hepatobiliary cancer, NOS",
+          "Liver/hepatobiliary cancer",
+          "Primary Liver Carcinoma",
+          "liver cancer"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Disorder by Site",
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "parents": [
+          "C2991"
+        ],
+        "preferred_name": "Disorder by Site",
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Disease, Disorder or Finding",
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "parents": [],
+        "preferred_name": "Disease, Disorder or Finding",
+        "synonyms": [],
+        "type": []
+      },
+      {
+        "display_name": "Metastatic Digestive System Carcinoma",
+        "id": "C133839",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Digestive System Cancer",
+        "parents": [
+          "C96963",
+          "C3482",
+          "C162255"
+        ],
+        "preferred_name": "Metastatic Digestive System Carcinoma",
+        "synonyms": [
+          "Metastatic Digestive System Carcinoma",
+          "Metastatic Gastrointestinal Carcinoma",
+          "Metastatic Gastrointestinal System Cancer",
+          "Metastatic Gastrointestinal System Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Hepatocellular Carcinoma",
+        "id": "C154091",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Hepatocellular Carcinoma",
+        "parents": [
+          "C3099",
+          "C4124",
+          "C154088"
+        ],
+        "preferred_name": "Metastatic Hepatocellular Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Neoplasm by Special Category",
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "parents": [
+          "C3262"
+        ],
+        "preferred_name": "Neoplasm by Special Category",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IVA Liver Cancer",
+        "id": "C7122",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IVA Liver Cancer",
+        "parents": [
+          "C7121"
+        ],
+        "preferred_name": "Stage IVA Liver Cancer",
+        "synonyms": [
+          "Stage IVA Liver Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Metastatic Liver Carcinoma",
+        "id": "C154088",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Liver Carcinoma",
+        "parents": [
+          "C7927",
+          "C133839"
+        ],
+        "preferred_name": "Metastatic Liver Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Carcinoma",
+        "id": "C3482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Carcinoma",
+        "parents": [
+          "C36263",
+          "C36310"
+        ],
+        "preferred_name": "Metastatic Carcinoma",
+        "synonyms": [
+          "Carcinoma, metastatic, NOS"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage C Hepatocellular Carcinoma",
+        "id": "C115137",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "BCLC Stage C Hepatocellular Cancer",
+        "parents": [
+          "C115132"
+        ],
+        "preferred_name": "BCLC Stage C Hepatocellular Carcinoma",
+        "synonyms": [
+          "BCLC Stage C Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage C Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Hepatobiliary Disorder",
+        "id": "C3959",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Disorder",
+        "parents": [
+          "C2990"
+        ],
+        "preferred_name": "Hepatobiliary Disorder",
+        "synonyms": [
+          "Liver Disease",
+          "Liver and Biliary Disease",
+          "Liver and Biliary Disorder",
+          "Liver and Biliary System Disorder"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IVB Liver Cancer",
+        "id": "C7123",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IVB Liver Cancer",
+        "parents": [
+          "C7121"
+        ],
+        "preferred_name": "Stage IVB Liver Cancer",
+        "synonyms": [
+          "Stage IVB Liver Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Adult Liver Carcinoma",
+        "id": "C7711",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver Cancer",
+        "parents": [
+          "C2916",
+          "C7927"
+        ],
+        "preferred_name": "Adult Liver Carcinoma",
+        "synonyms": [
+          "Adult Liver Carcinoma",
+          "Adult Primary Cancer of Liver",
+          "Adult Primary Cancer of the Liver",
+          "Adult Primary Liver Cancer",
+          "Adult Primary Liver Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Hepatocellular Carcinoma",
+        "id": "C167336",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Hepatocellular Carcinoma",
+        "parents": [
+          "C159556",
+          "C156746",
+          "C154091"
+        ],
+        "preferred_name": "Advanced Hepatocellular Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "parents": [
+          "C3052",
+          "C9305"
+        ],
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Malignant Digestive System Neoplasm",
+        "id": "C162255",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Malignant Digestive System Neoplasm",
+        "parents": [
+          "C4890",
+          "C36263"
+        ],
+        "preferred_name": "Metastatic Malignant Digestive System Neoplasm",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatocellular Carcinoma by AJCC v7 Stage",
+        "id": "C91228",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Carcinoma by AJCC v7 Stage",
+        "parents": [
+          "C3099"
+        ],
+        "preferred_name": "Hepatocellular Carcinoma by AJCC v7 Stage",
+        "synonyms": [],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Glandular Cell Neoplasm",
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Glandular Cell Neoplasm",
+        "parents": [
+          "C3709"
+        ],
+        "preferred_name": "Glandular Cell Neoplasm",
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Liver and Intrahepatic Bile Duct Disorder",
+        "id": "C3196",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Disorder",
+        "parents": [
+          "C3959"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Disorder",
+        "synonyms": [
+          "Hepatic Disorder",
+          "Liver Disease",
+          "Liver Disorder",
+          "Liver disease"
+        ],
+        "type": [
+          "subtype"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "TSR_NCI-2014-02378_2014-12-09-1736_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/TSR_NCI-2014-02378_2014-12-09-1736_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "141030+Acoba+2014-1+Main+ICF+v1+18Sept2014.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/141030+Acoba+2014-1+Main+ICF+v1+18Sept2014.pdf",
+        "type": "INFORMED_CONSENT_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "141030+Initial.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/141030+Initial.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "Acoba+2014-1+Protocol+v11Aug2014.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/Acoba+2014-1+Protocol+v11Aug2014.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Patient must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines",
+        "display_order": 9,
+        "inclusive": true
+      },
+      {
+        "description": "Women/men of reproductive potential unwilling or unable to use an effective contraceptive method",
+        "display_order": 28,
+        "inclusive": false
+      },
+      {
+        "description": "Must not have known brain metastases",
+        "display_order": 22,
+        "inclusive": false
+      },
+      {
+        "description": "Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) or serum glutamate pyruvate transaminase (SGPT) (alanine aminotransferase [ALT]) =< 5 x the institutional upper limit of normal (IULN)",
+        "display_order": 15,
+        "inclusive": true
+      },
+      {
+        "description": "Known or suspected allergy or hypersensitivity to sorafenib",
+        "display_order": 20,
+        "inclusive": false
+      },
+      {
+        "description": "Have at least one tumor lesion that can be accurately measured according to Response Evaluation Criteria in Solid Tumors (RECIST version [v]1.1)",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Histologically or cytologically confirmed hepatocellular carcinoma (HCC) or clinical diagnosis by American Association for the Study of Liver Diseases (AASLD) criteria in cirrhotic subjects is required",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Pregnant or nursing women",
+        "display_order": 25,
+        "inclusive": false
+      },
+      {
+        "description": "Platelet count >= 60,000/ucl obtained within 28 days prior to registration",
+        "display_order": 12,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status =< 1",
+        "display_order": 10,
+        "inclusive": true
+      },
+      {
+        "description": "Serum bilirubin =< 2 x upper limit of normal (ULN)",
+        "display_order": 14,
+        "inclusive": true
+      },
+      {
+        "description": "Negative pregnancy test done =< 7 days prior to registration, for women of childbearing potential only",
+        "display_order": 19,
+        "inclusive": true
+      },
+      {
+        "description": "Must be able to swallow oral medications",
+        "display_order": 18,
+        "inclusive": true
+      },
+      {
+        "description": "History of myocardial infarction, stroke, ventricular arrhythmia, or symptomatic conduction abnormality within 6 months",
+        "display_order": 30,
+        "inclusive": false
+      },
+      {
+        "description": "Prior local therapy, such as surgery, hepatic arterial embolization, chemoembolization, radiofrequency ablation, percutaneous ethanol injection or cryoablation is allowed if the index lesion(s) remains outside of the treatment field or has progressed since prior treatment; local therapy must have been completed at least 4 weeks prior to the baseline scan",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Metastatic disease is allowed if investigator feels liver directed therapy could offer palliative benefit (i.e., minimal extrahepatic tumor burden)",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Hemoglobin >= 8.5 mg/dl obtained within 28 days prior to registration",
+        "display_order": 13,
+        "inclusive": true
+      },
+      {
+        "description": "Any malabsorption condition",
+        "display_order": 21,
+        "inclusive": false
+      },
+      {
+        "description": "Consultation with interventional radiologist and deemed an appropriate candidate for TARE",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Prior 90Y TARE or sorafenib is not allowed",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "No other prior malignancy is allowed except for the following: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately treated stage I or II cancer from which the patient is currently in complete remission, or any other cancer from which the patient has been disease-free for 3 years",
+        "display_order": 29,
+        "inclusive": false
+      },
+      {
+        "description": "Have a life expectancy of >= 12 weeks",
+        "display_order": 17,
+        "inclusive": true
+      },
+      {
+        "description": "Concurrent severe or uncontrolled medical disease (i.e., active systemic infection, diabetes, coronary artery disease, congestive heart failure) that, in the opinion of the investigator, would compromise the safety of the patient or compromise the ability of the patient to complete the study",
+        "display_order": 31,
+        "inclusive": false
+      },
+      {
+        "description": "Barcelona Clinic Liver Cancer stage B or C; segmental and subsegmental portal vein thrombosis is allowed",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "No evidence of cirrhosis or cirrhosis grade of Child-Pugh class A or B7",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "No concurrent anticancer chemotherapy or local therapy",
+        "display_order": 23,
+        "inclusive": false
+      },
+      {
+        "description": "Absolute neutrophil count (ANC) >= 1000/ucl obtained within 28 days prior to registration",
+        "display_order": 11,
+        "inclusive": true
+      },
+      {
+        "description": "Serum creatinine =< 1.5 x ULN OR a measured creatinine clearance or calculated creatinine clearance >= 50 mL/min",
+        "display_order": 16,
+        "inclusive": true
+      },
+      {
+        "description": "Inability to perform y90 TARE due to: (1) inability to catheterize the hepatic artery, (2) portal vein thrombosis/occlusion without the ability to perform selective infusion, (3) technetium Tc 99m-labeled macroaggregated albumin (Tc-99m MAA) hepatic artery perfusion scintigraphy shows unfavorable shunt fraction between the liver and the pulmonary parenchyma as determined by the interventional radiologist, or (4) other contraindication to TARE identified by interventional radiologist",
+        "display_order": 27,
+        "inclusive": false
+      },
+      {
+        "description": "No concurrent herbal or unconventional therapy (e.g., St. John's wort)",
+        "display_order": 24,
+        "inclusive": false
+      },
+      {
+        "description": "No prior radiation therapy to the liver",
+        "display_order": 26,
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "P30HI89942",
+        "nci_division_program": "NA"
+      },
+      {
+        "id": "P30CA71789",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2014-12-09T10:01:44.780000",
+        "description": "Patients receive sorafenib tosylate PO BID on days 1-28 and undergo radioembolization with yttrium Y 90 resin microspheres on day 14. Courses of sorafenib tosylate repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+        "identifier": 173381624,
+        "interventions": [
+          {
+            "category": "other",
+            "description": "Undergo transarterial radioembolization with yttrium Y 90 resin microspheres",
+            "display_order": 2,
+            "id": "C64539",
+            "inclusion_indicator": "TRIAL",
+            "name": "Yttrium Y 90 Resin Microspheres",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "other",
+            "description": "Correlative studies",
+            "display_order": 3,
+            "id": "C64263",
+            "inclusion_indicator": "TRIAL",
+            "name": "Laboratory Biomarker Analysis",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "other",
+            "description": "Undergo transarterial radioembolization with yttrium Y 90 resin microspheres",
+            "display_order": 1,
+            "id": "C116649",
+            "inclusion_indicator": "TRIAL",
+            "name": "Transarterial Radioembolization",
+            "synonyms": [
+              "TARE"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent",
+            "description": "Given PO",
+            "display_order": 0,
+            "id": "C2194",
+            "inclusion_indicator": "TRIAL",
+            "name": "Sorafenib Tosylate",
+            "synonyms": [
+              "Nexavar"
+            ],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C17948",
+            "inclusion_indicator": "TREE",
+            "name": "Therapeutic Implant",
+            "synonyms": [
+              "Drug Implant"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "name": "Antineoplastic Protein Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C16830",
+            "inclusion_indicator": "TREE",
+            "name": "Medical Device",
+            "synonyms": [
+              "Device",
+              "Medical Devices"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "name": "Targeted Therapy Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "name": "Laboratory Procedure",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ],
+            "type": "Other"
+          },
+          {
+            "category": "agent category",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C1967",
+            "inclusion_indicator": "TREE",
+            "name": "Tyrosine Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C15195",
+            "inclusion_indicator": "TREE",
+            "name": "Internal Radiation Therapy",
+            "synonyms": [
+              "Brachytherapy",
+              "Internal Radiation",
+              "Internal Radiation Brachytherapy",
+              "Radiation Brachytherapy"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C17423",
+            "inclusion_indicator": "TREE",
+            "name": "Drug Delivery System",
+            "synonyms": [
+              "Drug Delivery",
+              "Drug Delivery Systems"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "name": "Pharmacologic Substance",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "name": "Biomarker Analysis",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "none",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "name": "Mixed Category Laboratory Procedure",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "none",
+            "id": "C66902",
+            "inclusion_indicator": "TREE",
+            "name": "Hepatic Artery Embolization",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C1742",
+            "inclusion_indicator": "TREE",
+            "name": "Angiogenesis Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C1404",
+            "inclusion_indicator": "TREE",
+            "name": "Protein Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C163953",
+            "inclusion_indicator": "TREE",
+            "name": "VEGFR-targeting Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C93340",
+            "inclusion_indicator": "TREE",
+            "name": "Radioembolization",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "name": "Intervention or Procedure",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C71591",
+            "inclusion_indicator": "TREE",
+            "name": "Selective Internal Radiation Therapy",
+            "synonyms": [
+              "SIRT"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C15313",
+            "inclusion_indicator": "TREE",
+            "name": "Radiation Therapy",
+            "synonyms": [
+              "Cancer Radiotherapy",
+              "Irradiate",
+              "Irradiated",
+              "Irradiation",
+              "RT",
+              "Radiation",
+              "Radiotherapeutics",
+              "Radiotherapy",
+              "Therapy, Radiation"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "name": "Clinical or Research Activity",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "agent category",
+            "id": "C164037",
+            "inclusion_indicator": "TREE",
+            "name": "PDGFR-targeting Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "name": "Enzyme Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C62103",
+            "inclusion_indicator": "TREE",
+            "name": "Device",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "name": "Activity",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "name": "Activity",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "agent category",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "name": "Antineoplastic Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C159199",
+            "inclusion_indicator": "TREE",
+            "name": "PDGFR Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C15230",
+            "inclusion_indicator": "TREE",
+            "name": "Embolization Therapy",
+            "synonyms": [
+              "therapy, embolization"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "name": "Intervention or Procedure",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ],
+            "type": "Other"
+          },
+          {
+            "category": "none",
+            "id": "C19238",
+            "inclusion_indicator": "TREE",
+            "name": "Diagnostic, Therapeutic, or Research Equipment",
+            "synonyms": [
+              "Diagnostic, Therapeutic, and Research Equipment",
+              "Equipment",
+              "Hardware"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "name": "Signal Transduction Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C61074",
+            "inclusion_indicator": "TREE",
+            "name": "Serine/Threonine Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C15687",
+            "inclusion_indicator": "TREE",
+            "name": "Local Therapy",
+            "synonyms": [
+              "Localized Therapy"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C93259",
+            "inclusion_indicator": "TREE",
+            "name": "VEGFR Tyrosine Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C2336",
+            "inclusion_indicator": "TREE",
+            "name": "Raf Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C49236",
+            "inclusion_indicator": "TREE",
+            "name": "Therapeutic Procedure",
+            "synonyms": [
+              "TX",
+              "Therapeutic Interventions",
+              "Therapeutic Method",
+              "Therapeutic Technique",
+              "Therapy"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "name": "Clinical or Research Activity",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C15917",
+            "inclusion_indicator": "TREE",
+            "name": "Arterial Embolization",
+            "synonyms": [
+              "TAE",
+              "Transarterial Embolization"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C97325",
+            "inclusion_indicator": "TREE",
+            "name": "Manufactured Object",
+            "synonyms": [],
+            "type": "Radiation"
+          }
+        ],
+        "name": "Treatment (sorafenib tosylate, yttrium Y 90 TACE)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2014-12-09T14:31:53.948000"
+      }
+    ],
+    "has_count_history": false,
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT02288507"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "ACOBA-2014-1"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "20141916"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "173794"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "1149818"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "1-854066-1"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2014-02378"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "lead_organization_family": "University of Hawaii Cancer Center",
+    "lead_organization_id": "ACOBA-2014-1",
+    "lead_organizations": {
+      "id": "89942",
+      "name": "University of Hawaii Cancer Center"
+    },
+    "legacy_id": "171237960",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": 999,
+    "max_age_in_years": 999,
+    "max_age_units": "Years",
+    "min_age": 18,
+    "min_age_in_years": 18,
+    "min_age_units": "Years",
+    "min_target_accrual": 18,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2014-02378",
+    "nct_id": "NCT02288507",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "address_line_1": "701 Ilalo Street",
+        "address_line_2": "Suite 600",
+        "aliases": [
+          "Hawaii Minority Based CCOP",
+          "University of Hawaii"
+        ],
+        "city_municipality": "Honolulu",
+        "country": "United States",
+        "ctep_id": "HI004",
+        "current_recruiting_status": "ACTIVE",
+        "geo_coordinates": {
+          "lat": 21.3175,
+          "lon": -157.8428
+        },
+        "id": "89942",
+        "name": "University of Hawaii Cancer Center",
+        "name_with_id": "University of Hawaii Cancer Center___id:89942",
+        "persons": [
+          {
+            "ctep_id": "41793",
+            "first_name": "Jared",
+            "id": "3154436",
+            "last_name": "Acoba",
+            "middle_name": "D.",
+            "name": "Acoba, Jared D.",
+            "prefix": "Dr.",
+            "roles": [
+              {
+                "email": "jacoba@hawaii.edu",
+                "phone": "808-531-8521",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2014-11-28T13:27:55.026000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2014-11-26T10:22:39.822000"
+              }
+            ],
+            "strap_created_datetime": "2020-04-14T17:30:58.911738",
+            "strap_publication_date": "2021-04-07T23:18:05.461541",
+            "strap_publication_datetime": "2021-04-07T23:18:05.461541",
+            "strap_updated_datetime": "2021-04-07T23:18:05.461541",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "version_no": "734dbc6db4d581ec3ff198a54f34875e"
+          }
+        ],
+        "phone_numbers": [
+          "808-586-2979"
+        ],
+        "roles": [
+          {
+            "irb_approval_number": "10/30/2014",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "University of Hawaii Cancer Center",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:18:45.630000"
+          },
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2014-11-14T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:22:12.438000"
+          },
+          {
+            "local_sp_identifier": "ACOBA-2014-1",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:08:28.747000"
+          }
+        ],
+        "state_province_territory": "HI",
+        "status": "ACTIVE",
+        "status_datetime": "2015-01-12T09:32:25.437000",
+        "strap_created_datetime": "2020-04-14T17:16:45.183456",
+        "strap_publication_date": "2021-04-07T23:17:32.376300",
+        "strap_publication_datetime": "2021-04-07T23:17:32.376300",
+        "strap_updated_datetime": "2021-04-07T23:17:32.376300",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "va_organization": false,
+        "version_no": "4e6a6a3be171d4e35372238c4f6e6b02",
+        "zipcode": "96813"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_safety_related": true,
+        "measure": "Incidence of adverse events as measured by National Cancer Institute Common Terminology Criteria for Adverse Events v 4.0",
+        "time_frame": "Up to 2 years",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "All time-to-event variables will be assessed using Kaplan-Meier analysis methods. Where appropriate, the Wilcoxon Mann-Whitney test or t-test will be used to determine the relationship between groups with continuous variables. Univariate associations will be analyzed by Fisher’s exact test considering small sample sizes. TTP will be calculated based on progression as defined by RECIST and mRECIST and both intervals will be reported.",
+        "is_safety_related": false,
+        "measure": "Time to progression (TTP)",
+        "time_frame": "Date of entry on the study to the appearance of new metastatic lesions or objective tumor progression as defined by RECIST or modified (m)RECIST guidelines, assessed up to 2 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "All time-to-event variables will be assessed using Kaplan-Meier analysis methods. Where appropriate, the Wilcoxon Mann-Whitney test or t-test will be used to determine the relationship between groups with continuous variables. Univariate associations will be analyzed by Fisher’s exact test considering small sample sizes.",
+        "is_safety_related": false,
+        "measure": "Overall survival",
+        "time_frame": "Date of entry on study until death, assessed up to 2 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The parameters of interest and their 95% confidence interval will be estimated using exact statistics.",
+        "is_safety_related": false,
+        "measure": "Response rate (as measured by RECIST v1.1 and modified RECIST criteria)",
+        "time_frame": "Up to 2 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Differences in tumor cfDNA and mutation profiles at different time points in treatment will be analyzed, and associations with response to therapy will be assessed.",
+        "is_safety_related": false,
+        "measure": "Circulating cell free DNA quantification",
+        "time_frame": "Up to 2 years",
+        "type": "OTHER_PRE_SPECIFIED"
+      },
+      {
+        "analysis_method": "All time-to-event variables will be assessed using Kaplan-Meier analysis methods. Where appropriate, the Wilcoxon Mann-Whitney test or t-test will be used to determine the relationship between groups with continuous variables. Univariate associations will be analyzed by Fisher’s exact test considering small sample sizes. PFS will be calculated based on progression as defined by RECIST and mRECIST and both intervals will be reported.",
+        "is_safety_related": false,
+        "measure": "Progression free survival (PFS)",
+        "time_frame": "Date of entry on the study to the appearance of new metastatic lesions or objective tumor progression as defined by RECIST or mRECIST criteria, or death for any reason, assessed up to 2 years",
+        "type": "SECONDARY"
+      }
+    ],
+    "participating_sites": [
+      "89942"
+    ],
+    "persons": [
+      {
+        "ctep_id": "41793",
+        "first_name": "Jared",
+        "id": "3154436",
+        "last_name": "Acoba",
+        "middle_name": "D.",
+        "name": "Acoba, Jared D.",
+        "prefix": "Dr.",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:08:29.487000"
+          }
+        ],
+        "strap_created_datetime": "2020-04-14T17:30:58.911738",
+        "strap_publication_date": "2021-04-07T23:18:05.461541",
+        "strap_publication_datetime": "2021-04-07T23:18:05.461541",
+        "strap_updated_datetime": "2021-04-07T23:18:05.461541",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "version_no": "734dbc6db4d581ec3ff198a54f34875e"
+      }
+    ],
+    "phase": "I",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2015-11-30T00:00:00.000000",
+    "primary_purpose": "TREATMENT",
+    "principal_investigators": [
+      {
+        "first_name": "Jared",
+        "id": "3154436",
+        "last_name": "Acoba",
+        "middle_name": "D.",
+        "name": "Acoba, Jared D.",
+        "prefix": "Dr."
+      }
+    ],
+    "proprietary_trial": false,
+    "public_title": "Sorafenib Tosylate and Yttrium Y 90 Bead Therapy in Treating Patients with Advanced Liver Cancer",
+    "record_verification_date": "2015-06-17T14:11:12.974000",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "89942",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      },
+      {
+        "funding_mechanism": "P30",
+        "active": false,
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "71789",
+        "summary_4_report": false
+      },
+      {
+        "funding_mechanism": "P30",
+        "active": true,
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "71789",
+        "summary_4_report": false
+      },
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "NA",
+        "nih_institute": "HI",
+        "serial_number": "89942",
+        "summary_4_report": false
+      },
+      {
+        "active": false,
+        "funding_mechanism": "P30",
+        "inactivation_comment": "incorrect grant per submitter's response (CRM 32903).",
+        "nci_division_program": "NA",
+        "nih_institute": "HI",
+        "serial_number": "89942",
+        "summary_4_report": false
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. To determine the safety of concurrent sorafenib (sorafenib tosylate) and yttrium-90 transarterial radioembolization (90Y TARE) for patients with advanced hepatocellular cancer.\r\n\r\nSECONDARY OBJECTIVES:\r\nI. To determine the efficacy of concurrent sorafenib and yttrium-90 transarterial radioembolization (90Y TARE) for patients with advanced hepatocellular cancer.\r\n\r\nTERTIARY OBJECTIVES:\r\nI. To determine the predictive and prognostic properties of changes in circulating cell free deoxyribonucleic acid (DNA) for patients with advanced hepatocellular cancer treated with concurrent sorafenib and yttrium-90 transarterial radioembolization (90Y TARE).\r\n\r\nOUTLINE:\r\nPatients receive sorafenib tosylate orally (PO) twice daily (BID) on days 1-28 and undergo radioembolization with yttrium Y 90 resin microspheres on day 14. Courses of sorafenib tosylate repeat every 28 days in the absence of disease progression or unacceptable toxicity.\r\n\r\nAfter completion of study treatment, patients are followed up every 2 months for up to 2 years.",
+    "section801_indicator": true,
+    "sex_criteria": "SEX: ALL",
+    "sex_is_inclusive": true,
+    "site_principal_investigators": [
+      {
+        "first_name": "Jared",
+        "id": "3154436",
+        "last_name": "Acoba",
+        "middle_name": "D.",
+        "name": "Acoba, Jared D.",
+        "org_id": "89942",
+        "org_name": null
+      }
+    ],
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2014-11-05T00:00:00.000000",
+    "status_history": [
+      {
+        "message_datetime": "2014-11-14T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2014-11-14T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T21:58:33.720049",
+    "strap_publication_date": "2021-05-05T17:28:17.989001",
+    "strap_publication_datetime": "2021-05-05T17:28:17.989001",
+    "strap_updated_datetime": "2021-05-05T17:28:17.989001",
+    "study_classification_code": "SAFETY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "89942",
+    "time_perspective": "UNKNOWN",
+    "title": "Phase I Study of Sorafenib Concurrent with Yttrium-90 Transarterial Radioembolization in Patients with Advanced Hepatocellular Cancer",
+    "total_accrual": 0,
+    "total_open_participating_sites": 1,
+    "total_participating_sites": 1,
+    "trial_type": "Interventional",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "va_associated": false,
+    "version_no": "eda8f848f2e27f26336a44f4a51d0986"
+  },
+  {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Liver"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "biomarkers": [
+      {
+        "assay_type": "Other",
+        "cadsr_id": "2581424",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Methylation",
+        "evs_id": "C18049",
+        "name": "GSTP1 (GST-Pi; Glutathione S-Transferase Pi; glutathione S-transferase pi 1; FAEES3; GSTPP; GSTP; DFN7; Glutathione S-Transferase P; Fatty Acid Ethyl Ester Synthase III; GST3; GSTP1-1; Myocardial, Glutathione S-Transf)",
+        "other_assay_type": "pyrosequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Sequencing, Real-Time PCR (quantitative PCR), Other",
+        "cadsr_id": "2578098",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Other",
+        "evs_id": "C128274",
+        "name": "Circulating cell-free DNA (Circulating DNA)",
+        "other_assay_type": "Methylation-specific PCR and microfluidic electrophoresis",
+        "other_evaluation_type": "Fragment length analysis",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Plasma",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3781501",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Methylation",
+        "evs_id": "C95041",
+        "name": "BMP4 (MCOPS6; BMP-2B; ZYME; BMP2B; OFC11; Bone Morphogenetic Protein 2B; BMP-4; DVR4; Bone Morphogenetic Protein 4; BMP2B1)",
+        "other_assay_type": "pyrosequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3419140",
+        "evaluation_type": "Level/Quantity, Genetic Analysis, Methylation",
+        "evs_id": "C60667",
+        "name": "RASSF1 (NORE2A; Ras Association Domain-Containing Protein 1; RASSF1A; 123F2; RDA32; Ras association (RalGDS/AF-6) domain family member 1; REH3P21)",
+        "other_assay_type": "pyrosequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      }
+    ],
+    "completion_date_type": "ANTICIPATED_COMPLETION_DATE",
+    "completion_date_value": "2016-11-30T00:00:00.000000",
+    "ctro_override": false,
+    "current_trial_status": "Recruiting",
+    "current_trial_status_date": "2014-11-14T00:00:00.000000",
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2015-06-17T14:11:12.974000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2099-12-31T23:59:59.162123"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2015-11-30T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2014-11-05T00:00:00.000000"
+      },
+      {
+        "type": "ANTICIPATED_COMPLETION_DATE",
+        "value": "2016-11-30T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This phase I trial studies the side effects and best dose of sorafenib tosylate when given together with yttrium Y 90 bead therapy in treating patients with liver cancer that has spread to other places in the body and usually cannot be cured or controlled with treatment. Sorafenib tosylate may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Radioembolization is a technique that involves the use of small radioactive glass beads called microspheres. Microsphere radiation therapy is delivered to the tumor through a catheter, which is a long tube inserted by a radiologist under x-ray guidance through the leg artery and directly up into the liver arteries. Before the radioembolization procedure, the radiologist will have injected a special dye so that the different arteries can be seen and the correct ones can be chosen (this is called an angiogram). The physician then inserts the microspheres directly through the catheter into the tumor’s blood supply. Once infused, the beads travel to the tumor, where they give off small amounts of radiation to the tumor site for several days. Giving sorafenib tosylate together with yttrium Y 90 bead therapy may kill more tumor cells.",
+    "diseases": [
+      {
+        "display_name": "Stage IVB Hepatocellular Carcinoma AJCC v7",
+        "id": "C5765",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Stage IVB Hepatocellular Cancer",
+        "parents": [
+          "C90181",
+          "C7123"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "Stage IVB Hepatocellular Carcinoma AJCC v7",
+        "status": "ACTIVE",
+        "synonyms": [
+          "Stage IVB Carcinoma of Liver Cells",
+          "Stage IVB Carcinoma of the Liver Cells",
+          "Stage IVB Hepatocellular Carcinoma",
+          "Stage IVB Hepatocellular Carcinoma AJCC v7",
+          "Stage IVB Liver Cell Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage B Adult Hepatocellular Carcinoma",
+        "id": "C115141",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "BCLC Stage B Hepatocellular Cancer",
+        "parents": [
+          "C7956",
+          "C115136"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "BCLC Stage B Adult Hepatocellular Carcinoma",
+        "status": "ACTIVE",
+        "synonyms": [
+          "BCLC Stage B Adult Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage B Adult Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Advanced Adult Hepatocellular Carcinoma",
+        "id": "C28302",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Advanced Hepatocellular Cancer",
+        "parents": [
+          "C7956",
+          "C167336"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "Advanced Adult Hepatocellular Carcinoma",
+        "status": "ACTIVE",
+        "synonyms": [
+          "Advanced Adult Hepatocellular Carcinoma",
+          "Advanced Adult Hepatoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IVA Hepatocellular Carcinoma AJCC v7",
+        "id": "C5764",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Stage IVA Hepatocellular Cancer",
+        "parents": [
+          "C90181",
+          "C7122"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "Stage IVA Hepatocellular Carcinoma AJCC v7",
+        "status": "ACTIVE",
+        "synonyms": [
+          "Stage IVA Hepatocellular Carcinoma",
+          "Stage IVA Hepatocellular Carcinoma AJCC v7",
+          "Stage IVA Liver Cell Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage C Adult Hepatocellular Carcinoma",
+        "id": "C115143",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "BCLC Stage C Hepatocellular Cancer",
+        "parents": [
+          "C7956",
+          "C115137"
+        ],
+        "paths": [
+          {
+            "concepts": [
+              {
+                "code": "C3099",
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma"
+              },
+              {
+                "code": "C7927",
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma"
+              }
+            ],
+            "direction": 1
+          }
+        ],
+        "preferred_name": "BCLC Stage C Adult Hepatocellular Carcinoma",
+        "status": "ACTIVE",
+        "synonyms": [
+          "BCLC Stage C Adult Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage C Adult Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Neoplasm",
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "parents": [
+          "C2991"
+        ],
+        "preferred_name": "Neoplasm",
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Digestive System Carcinoma",
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Carcinoma",
+        "parents": [
+          "C2916",
+          "C4890"
+        ],
+        "preferred_name": "Digestive System Carcinoma",
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Adenocarcinoma",
+        "id": "C4124",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Adenocarcinoma",
+        "parents": [
+          "C2852",
+          "C3482"
+        ],
+        "preferred_name": "Metastatic Adenocarcinoma",
+        "synonyms": [
+          "Adenocarcinoma, metastatic, NOS"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatocellular Carcinoma by BCLC Stage",
+        "id": "C115132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Carcinoma by BCLC Stage",
+        "parents": [
+          "C3099"
+        ],
+        "preferred_name": "Hepatocellular Carcinoma by BCLC Stage",
+        "synonyms": [
+          "BCLC Staging for Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Staging for Hepatocellular Carcinoma",
+          "Hepatocellular Carcinoma BCLC Staging",
+          "Hepatocellular Carcinoma Barcelona Clinic Liver Cancer Staging",
+          "Hepatocellular Carcinoma by Barcelona Clinic Liver Cancer Stage"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Malignant Neoplasm",
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "parents": [
+          "C7062"
+        ],
+        "preferred_name": "Malignant Neoplasm",
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Secondary Carcinoma",
+        "id": "C36310",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Secondary Carcinoma",
+        "parents": [
+          "C2916",
+          "C4968"
+        ],
+        "preferred_name": "Secondary Carcinoma",
+        "synonyms": [
+          "Secondary carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Malignant Digestive System Neoplasm",
+        "id": "C175547",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Malignant Digestive System Neoplasm",
+        "parents": [
+          "C9270",
+          "C162255"
+        ],
+        "preferred_name": "Advanced Malignant Digestive System Neoplasm",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Adenocarcinoma",
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adenocarcinoma",
+        "parents": [
+          "C2916",
+          "C7132"
+        ],
+        "preferred_name": "Adenocarcinoma",
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Malignant Hepatobiliary Neoplasm",
+        "id": "C8609",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Hepatobiliary Neoplasm",
+        "parents": [
+          "C8614",
+          "C4890"
+        ],
+        "preferred_name": "Malignant Hepatobiliary Neoplasm",
+        "synonyms": [
+          "Malignant Hepato-Biliary Neoplasm",
+          "Malignant Liver and Biliary Neoplasm",
+          "Malignant Liver and Biliary System Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IV Hepatocellular Carcinoma AJCC v7",
+        "id": "C90181",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Hepatocellular Cancer",
+        "parents": [
+          "C91228",
+          "C7121"
+        ],
+        "preferred_name": "Stage IV Hepatocellular Carcinoma AJCC v7",
+        "synonyms": [
+          "Stage IV Hepatocellular Carcinoma",
+          "Stage IV Hepatocellular Carcinoma AJCC v7"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Advanced Malignant Neoplasm",
+        "id": "C9270",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Malignant Neoplasm",
+        "parents": [
+          "C36263"
+        ],
+        "preferred_name": "Advanced Malignant Neoplasm",
+        "synonyms": [
+          "Advanced Cancer",
+          "advanced cancer"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Neoplasm",
+        "id": "C3261",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Neoplasm",
+        "parents": [
+          "C7062"
+        ],
+        "preferred_name": "Metastatic Neoplasm",
+        "synonyms": [
+          "Metastasis",
+          "Metastatic",
+          "Metastatic Disease",
+          "Metastatic Tumor",
+          "Neoplasm, metastatic",
+          "Tumor, metastatic",
+          "metastasis"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatocellular Carcinoma",
+        "id": "C3099",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Cancer",
+        "parents": [
+          "C2852",
+          "C7927"
+        ],
+        "preferred_name": "Hepatocellular Carcinoma",
+        "synonyms": [
+          "CARCINOMA, HEPATOCELLULAR, MALIGNANT",
+          "Carcinoma of Liver Cells",
+          "Carcinoma of the Liver Cells",
+          "HCC",
+          "Hepatocellular Carcinoma",
+          "Hepatocellular carcinoma",
+          "Hepatoma",
+          "LIHC",
+          "Liver Cell Cancer (Hepatocellular Carcinoma)",
+          "Liver Cell Carcinoma",
+          "Liver cell carcinoma",
+          "Primary Carcinoma of Liver Cells",
+          "Primary Carcinoma of the Liver Cells",
+          "hepatocellular carcinoma",
+          "hepatoma"
+        ],
+        "type": [
+          "maintype",
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Digestive System Neoplasm",
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Neoplasm",
+        "parents": [
+          "C2990",
+          "C3263"
+        ],
+        "preferred_name": "Digestive System Neoplasm",
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Neoplasm by Morphology",
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "parents": [
+          "C3262"
+        ],
+        "preferred_name": "Neoplasm by Morphology",
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "id": "C7103",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "parents": [
+          "C8614",
+          "C3196"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "synonyms": [
+          "Hepatic and Intrahepatic Bile Duct Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatobiliary Neoplasm",
+        "id": "C8614",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Neoplasm",
+        "parents": [
+          "C3052",
+          "C3959"
+        ],
+        "preferred_name": "Hepatobiliary Neoplasm",
+        "synonyms": [
+          "Hepatic and Biliary Neoplasms",
+          "Hepatic and Biliary Tumors",
+          "Hepatic, Biliary, and Gallbladder Neoplasms",
+          "Hepato-Biliary Neoplasm",
+          "Hepato-Biliary Tumor",
+          "Hepatobiliary Tumor",
+          "Hepatobiliary Tumors",
+          "Liver and Biliary Neoplasm",
+          "Liver and Biliary System Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Secondary Malignant Neoplasm",
+        "id": "C4968",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Secondary Malignant Neoplasm",
+        "parents": [
+          "C9305",
+          "C36255"
+        ],
+        "preferred_name": "Secondary Malignant Neoplasm",
+        "synonyms": [
+          "Development of SMN",
+          "Secondary Cancer",
+          "Secondary Malignancy",
+          "secondary cancer"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Malignant Neoplasm",
+        "id": "C36263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Malignant Neoplasm",
+        "parents": [
+          "C3261",
+          "C4968"
+        ],
+        "preferred_name": "Metastatic Malignant Neoplasm",
+        "synonyms": [
+          "Metastatic Cancer"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "id": "C7106",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "parents": [
+          "C7103"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "synonyms": [
+          "Epithelial Hepatic and Intrahepatic Bile Duct Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Digestive System Disorder",
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Disorder",
+        "parents": [
+          "C27551"
+        ],
+        "preferred_name": "Digestive System Disorder",
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Adenocarcinoma",
+        "id": "C159556",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Adenocarcinoma",
+        "parents": [
+          "C153171",
+          "C4124"
+        ],
+        "preferred_name": "Advanced Adenocarcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Epithelial Neoplasm",
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "parents": [
+          "C4741"
+        ],
+        "preferred_name": "Epithelial Neoplasm",
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Carcinoma",
+        "id": "C153171",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Carcinoma",
+        "parents": [
+          "C9270",
+          "C3482"
+        ],
+        "preferred_name": "Advanced Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Adult Hepatocellular Carcinoma",
+        "id": "C7956",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Cancer",
+        "parents": [
+          "C7711",
+          "C3099"
+        ],
+        "preferred_name": "Adult Hepatocellular Carcinoma",
+        "synonyms": [
+          "Adult Hepatocellular Carcinoma",
+          "Adult Hepatoma",
+          "Adult Primary Carcinoma of Liver Cell",
+          "Adult Primary Carcinoma of the Liver Cell",
+          "Adult Primary Hepatocellular Carcinoma",
+          "Adult Primary Hepatoma",
+          "Adult Primary Liver Cell Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage B Hepatocellular Carcinoma",
+        "id": "C115136",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "BCLC Stage B Hepatocellular Cancer",
+        "parents": [
+          "C115132"
+        ],
+        "preferred_name": "BCLC Stage B Hepatocellular Carcinoma",
+        "synonyms": [
+          "BCLC Stage B Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage B Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Neoplasm by Site",
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "parents": [
+          "C3262"
+        ],
+        "preferred_name": "Neoplasm by Site",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Digestive System Carcinoma",
+        "id": "C156746",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Digestive System Carcinoma",
+        "parents": [
+          "C153171",
+          "C175547",
+          "C133839"
+        ],
+        "preferred_name": "Advanced Digestive System Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IV Liver Cancer",
+        "id": "C7121",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Liver Cancer",
+        "parents": [
+          "C7927"
+        ],
+        "preferred_name": "Stage IV Liver Cancer",
+        "synonyms": [
+          "Stage IV Liver Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Secondary Neoplasm",
+        "id": "C36255",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Secondary Neoplasm",
+        "parents": [
+          "C7062"
+        ],
+        "preferred_name": "Secondary Neoplasm",
+        "synonyms": [
+          "Neoplasm, secondary",
+          "Secondary Tumor",
+          "Tumor, secondary",
+          "secondary tumor"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Carcinoma",
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "parents": [
+          "C3709",
+          "C9305"
+        ],
+        "preferred_name": "Carcinoma",
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Primary Malignant Liver Neoplasm",
+        "id": "C34803",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Primary Malignant Liver Neoplasm",
+        "parents": [
+          "C7103",
+          "C8609"
+        ],
+        "preferred_name": "Primary Malignant Liver Neoplasm",
+        "synonyms": [
+          "Primary Malignant Neoplasm of Liver"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Disease or Disorder",
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "parents": [
+          "C7057"
+        ],
+        "preferred_name": "Disease or Disorder",
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Liver Cancer",
+        "id": "C7927",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver Cancer",
+        "parents": [
+          "C96963",
+          "C7106",
+          "C34803"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Carcinoma",
+        "synonyms": [
+          "Biliary Tract Cancer",
+          "Cancer of Liver",
+          "Cancer of Liver and Intrahepatic Biliary Tract",
+          "Cancer of the Liver",
+          "Cancer of the Liver and Intrahepatic Biliary Tract",
+          "Liver Carcinoma",
+          "Liver and Intrahepatic Bile Duct Cancer",
+          "Liver and Intrahepatic Bile Duct Carcinoma",
+          "Liver and Intrahepatic Biliary Tract Cancer",
+          "Liver and Intrahepatic Biliary Tract Carcinoma",
+          "Liver and hepatobiliary cancer, NOS",
+          "Liver/hepatobiliary cancer",
+          "Primary Liver Carcinoma",
+          "liver cancer"
+        ],
+        "type": [
+          "maintype"
+        ]
+      },
+      {
+        "display_name": "Disorder by Site",
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "parents": [
+          "C2991"
+        ],
+        "preferred_name": "Disorder by Site",
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Disease, Disorder or Finding",
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "parents": [],
+        "preferred_name": "Disease, Disorder or Finding",
+        "synonyms": [],
+        "type": []
+      },
+      {
+        "display_name": "Metastatic Digestive System Carcinoma",
+        "id": "C133839",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Digestive System Cancer",
+        "parents": [
+          "C96963",
+          "C3482",
+          "C162255"
+        ],
+        "preferred_name": "Metastatic Digestive System Carcinoma",
+        "synonyms": [
+          "Metastatic Digestive System Carcinoma",
+          "Metastatic Gastrointestinal Carcinoma",
+          "Metastatic Gastrointestinal System Cancer",
+          "Metastatic Gastrointestinal System Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Hepatocellular Carcinoma",
+        "id": "C154091",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Hepatocellular Carcinoma",
+        "parents": [
+          "C3099",
+          "C4124",
+          "C154088"
+        ],
+        "preferred_name": "Metastatic Hepatocellular Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Neoplasm by Special Category",
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "parents": [
+          "C3262"
+        ],
+        "preferred_name": "Neoplasm by Special Category",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IVA Liver Cancer",
+        "id": "C7122",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IVA Liver Cancer",
+        "parents": [
+          "C7121"
+        ],
+        "preferred_name": "Stage IVA Liver Cancer",
+        "synonyms": [
+          "Stage IVA Liver Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Metastatic Liver Carcinoma",
+        "id": "C154088",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Liver Carcinoma",
+        "parents": [
+          "C7927",
+          "C133839"
+        ],
+        "preferred_name": "Metastatic Liver Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Carcinoma",
+        "id": "C3482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Carcinoma",
+        "parents": [
+          "C36263",
+          "C36310"
+        ],
+        "preferred_name": "Metastatic Carcinoma",
+        "synonyms": [
+          "Carcinoma, metastatic, NOS"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "BCLC Stage C Hepatocellular Carcinoma",
+        "id": "C115137",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "BCLC Stage C Hepatocellular Cancer",
+        "parents": [
+          "C115132"
+        ],
+        "preferred_name": "BCLC Stage C Hepatocellular Carcinoma",
+        "synonyms": [
+          "BCLC Stage C Hepatocellular Carcinoma",
+          "Barcelona Clinic Liver Cancer Stage C Hepatocellular Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Hepatobiliary Disorder",
+        "id": "C3959",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Disorder",
+        "parents": [
+          "C2990"
+        ],
+        "preferred_name": "Hepatobiliary Disorder",
+        "synonyms": [
+          "Liver Disease",
+          "Liver and Biliary Disease",
+          "Liver and Biliary Disorder",
+          "Liver and Biliary System Disorder"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Stage IVB Liver Cancer",
+        "id": "C7123",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IVB Liver Cancer",
+        "parents": [
+          "C7121"
+        ],
+        "preferred_name": "Stage IVB Liver Cancer",
+        "synonyms": [
+          "Stage IVB Liver Carcinoma"
+        ],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Adult Liver Carcinoma",
+        "id": "C7711",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver Cancer",
+        "parents": [
+          "C2916",
+          "C7927"
+        ],
+        "preferred_name": "Adult Liver Carcinoma",
+        "synonyms": [
+          "Adult Liver Carcinoma",
+          "Adult Primary Cancer of Liver",
+          "Adult Primary Cancer of the Liver",
+          "Adult Primary Liver Cancer",
+          "Adult Primary Liver Carcinoma"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Advanced Hepatocellular Carcinoma",
+        "id": "C167336",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Advanced Hepatocellular Carcinoma",
+        "parents": [
+          "C159556",
+          "C156746",
+          "C154091"
+        ],
+        "preferred_name": "Advanced Hepatocellular Carcinoma",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "parents": [
+          "C3052",
+          "C9305"
+        ],
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Metastatic Malignant Digestive System Neoplasm",
+        "id": "C162255",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Metastatic Malignant Digestive System Neoplasm",
+        "parents": [
+          "C4890",
+          "C36263"
+        ],
+        "preferred_name": "Metastatic Malignant Digestive System Neoplasm",
+        "synonyms": [],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Hepatocellular Carcinoma by AJCC v7 Stage",
+        "id": "C91228",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Carcinoma by AJCC v7 Stage",
+        "parents": [
+          "C3099"
+        ],
+        "preferred_name": "Hepatocellular Carcinoma by AJCC v7 Stage",
+        "synonyms": [],
+        "type": [
+          "stage"
+        ]
+      },
+      {
+        "display_name": "Glandular Cell Neoplasm",
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Glandular Cell Neoplasm",
+        "parents": [
+          "C3709"
+        ],
+        "preferred_name": "Glandular Cell Neoplasm",
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "type": [
+          "subtype"
+        ]
+      },
+      {
+        "display_name": "Liver and Intrahepatic Bile Duct Disorder",
+        "id": "C3196",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Disorder",
+        "parents": [
+          "C3959"
+        ],
+        "preferred_name": "Liver and Intrahepatic Bile Duct Disorder",
+        "synonyms": [
+          "Hepatic Disorder",
+          "Liver Disease",
+          "Liver Disorder",
+          "Liver disease"
+        ],
+        "type": [
+          "subtype"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "TSR_NCI-2014-02378_2014-12-09-1736_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/TSR_NCI-2014-02378_2014-12-09-1736_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "141030+Acoba+2014-1+Main+ICF+v1+18Sept2014.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/141030+Acoba+2014-1+Main+ICF+v1+18Sept2014.pdf",
+        "type": "INFORMED_CONSENT_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "141030+Initial.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/141030+Initial.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "Acoba+2014-1+Protocol+v11Aug2014.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02378/Acoba+2014-1+Protocol+v11Aug2014.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Patient must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines",
+        "display_order": 9,
+        "inclusive": true
+      },
+      {
+        "description": "Women/men of reproductive potential unwilling or unable to use an effective contraceptive method",
+        "display_order": 28,
+        "inclusive": false
+      },
+      {
+        "description": "Must not have known brain metastases",
+        "display_order": 22,
+        "inclusive": false
+      },
+      {
+        "description": "Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) or serum glutamate pyruvate transaminase (SGPT) (alanine aminotransferase [ALT]) =< 5 x the institutional upper limit of normal (IULN)",
+        "display_order": 15,
+        "inclusive": true
+      },
+      {
+        "description": "Known or suspected allergy or hypersensitivity to sorafenib",
+        "display_order": 20,
+        "inclusive": false
+      },
+      {
+        "description": "Have at least one tumor lesion that can be accurately measured according to Response Evaluation Criteria in Solid Tumors (RECIST version [v]1.1)",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Histologically or cytologically confirmed hepatocellular carcinoma (HCC) or clinical diagnosis by American Association for the Study of Liver Diseases (AASLD) criteria in cirrhotic subjects is required",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Pregnant or nursing women",
+        "display_order": 25,
+        "inclusive": false
+      },
+      {
+        "description": "Platelet count >= 60,000/ucl obtained within 28 days prior to registration",
+        "display_order": 12,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status =< 1",
+        "display_order": 10,
+        "inclusive": true
+      },
+      {
+        "description": "Serum bilirubin =< 2 x upper limit of normal (ULN)",
+        "display_order": 14,
+        "inclusive": true
+      },
+      {
+        "description": "Negative pregnancy test done =< 7 days prior to registration, for women of childbearing potential only",
+        "display_order": 19,
+        "inclusive": true
+      },
+      {
+        "description": "Must be able to swallow oral medications",
+        "display_order": 18,
+        "inclusive": true
+      },
+      {
+        "description": "History of myocardial infarction, stroke, ventricular arrhythmia, or symptomatic conduction abnormality within 6 months",
+        "display_order": 30,
+        "inclusive": false
+      },
+      {
+        "description": "Prior local therapy, such as surgery, hepatic arterial embolization, chemoembolization, radiofrequency ablation, percutaneous ethanol injection or cryoablation is allowed if the index lesion(s) remains outside of the treatment field or has progressed since prior treatment; local therapy must have been completed at least 4 weeks prior to the baseline scan",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Metastatic disease is allowed if investigator feels liver directed therapy could offer palliative benefit (i.e., minimal extrahepatic tumor burden)",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Hemoglobin >= 8.5 mg/dl obtained within 28 days prior to registration",
+        "display_order": 13,
+        "inclusive": true
+      },
+      {
+        "description": "Any malabsorption condition",
+        "display_order": 21,
+        "inclusive": false
+      },
+      {
+        "description": "Consultation with interventional radiologist and deemed an appropriate candidate for TARE",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Prior 90Y TARE or sorafenib is not allowed",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "No other prior malignancy is allowed except for the following: adequately treated basal cell or squamous cell skin cancer, in situ cervical cancer, adequately treated stage I or II cancer from which the patient is currently in complete remission, or any other cancer from which the patient has been disease-free for 3 years",
+        "display_order": 29,
+        "inclusive": false
+      },
+      {
+        "description": "Have a life expectancy of >= 12 weeks",
+        "display_order": 17,
+        "inclusive": true
+      },
+      {
+        "description": "Concurrent severe or uncontrolled medical disease (i.e., active systemic infection, diabetes, coronary artery disease, congestive heart failure) that, in the opinion of the investigator, would compromise the safety of the patient or compromise the ability of the patient to complete the study",
+        "display_order": 31,
+        "inclusive": false
+      },
+      {
+        "description": "Barcelona Clinic Liver Cancer stage B or C; segmental and subsegmental portal vein thrombosis is allowed",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "No evidence of cirrhosis or cirrhosis grade of Child-Pugh class A or B7",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "No concurrent anticancer chemotherapy or local therapy",
+        "display_order": 23,
+        "inclusive": false
+      },
+      {
+        "description": "Absolute neutrophil count (ANC) >= 1000/ucl obtained within 28 days prior to registration",
+        "display_order": 11,
+        "inclusive": true
+      },
+      {
+        "description": "Serum creatinine =< 1.5 x ULN OR a measured creatinine clearance or calculated creatinine clearance >= 50 mL/min",
+        "display_order": 16,
+        "inclusive": true
+      },
+      {
+        "description": "Inability to perform y90 TARE due to: (1) inability to catheterize the hepatic artery, (2) portal vein thrombosis/occlusion without the ability to perform selective infusion, (3) technetium Tc 99m-labeled macroaggregated albumin (Tc-99m MAA) hepatic artery perfusion scintigraphy shows unfavorable shunt fraction between the liver and the pulmonary parenchyma as determined by the interventional radiologist, or (4) other contraindication to TARE identified by interventional radiologist",
+        "display_order": 27,
+        "inclusive": false
+      },
+      {
+        "description": "No concurrent herbal or unconventional therapy (e.g., St. John's wort)",
+        "display_order": 24,
+        "inclusive": false
+      },
+      {
+        "description": "No prior radiation therapy to the liver",
+        "display_order": 26,
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "P30HI89942",
+        "nci_division_program": "NA"
+      },
+      {
+        "id": "P30CA71789",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2014-12-09T10:01:44.780000",
+        "description": "Patients receive sorafenib tosylate PO BID on days 1-28 and undergo radioembolization with yttrium Y 90 resin microspheres on day 14. Courses of sorafenib tosylate repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+        "identifier": 173381624,
+        "interventions": [
+          {
+            "category": "other",
+            "description": "Undergo transarterial radioembolization with yttrium Y 90 resin microspheres",
+            "display_order": 2,
+            "id": "C64539",
+            "inclusion_indicator": "TRIAL",
+            "name": "Yttrium Y 90 Resin Microspheres",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "other",
+            "description": "Correlative studies",
+            "display_order": 3,
+            "id": "C64263",
+            "inclusion_indicator": "TRIAL",
+            "name": "Laboratory Biomarker Analysis",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "other",
+            "description": "Undergo transarterial radioembolization with yttrium Y 90 resin microspheres",
+            "display_order": 1,
+            "id": "C116649",
+            "inclusion_indicator": "TRIAL",
+            "name": "Transarterial Radioembolization",
+            "synonyms": [
+              "TARE"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent",
+            "description": "Given PO",
+            "display_order": 0,
+            "id": "C2194",
+            "inclusion_indicator": "TRIAL",
+            "name": "Sorafenib Tosylate",
+            "synonyms": [
+              "Nexavar"
+            ],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C17948",
+            "inclusion_indicator": "TREE",
+            "name": "Therapeutic Implant",
+            "synonyms": [
+              "Drug Implant"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "name": "Antineoplastic Protein Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C16830",
+            "inclusion_indicator": "TREE",
+            "name": "Medical Device",
+            "synonyms": [
+              "Device",
+              "Medical Devices"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "name": "Targeted Therapy Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "name": "Laboratory Procedure",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ],
+            "type": "Other"
+          },
+          {
+            "category": "agent category",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C1967",
+            "inclusion_indicator": "TREE",
+            "name": "Tyrosine Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C15195",
+            "inclusion_indicator": "TREE",
+            "name": "Internal Radiation Therapy",
+            "synonyms": [
+              "Brachytherapy",
+              "Internal Radiation",
+              "Internal Radiation Brachytherapy",
+              "Radiation Brachytherapy"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C17423",
+            "inclusion_indicator": "TREE",
+            "name": "Drug Delivery System",
+            "synonyms": [
+              "Drug Delivery",
+              "Drug Delivery Systems"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "name": "Pharmacologic Substance",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "name": "Biomarker Analysis",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "none",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "name": "Mixed Category Laboratory Procedure",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "none",
+            "id": "C66902",
+            "inclusion_indicator": "TREE",
+            "name": "Hepatic Artery Embolization",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C1742",
+            "inclusion_indicator": "TREE",
+            "name": "Angiogenesis Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C1404",
+            "inclusion_indicator": "TREE",
+            "name": "Protein Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C163953",
+            "inclusion_indicator": "TREE",
+            "name": "VEGFR-targeting Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C93340",
+            "inclusion_indicator": "TREE",
+            "name": "Radioembolization",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "name": "Intervention or Procedure",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C71591",
+            "inclusion_indicator": "TREE",
+            "name": "Selective Internal Radiation Therapy",
+            "synonyms": [
+              "SIRT"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C15313",
+            "inclusion_indicator": "TREE",
+            "name": "Radiation Therapy",
+            "synonyms": [
+              "Cancer Radiotherapy",
+              "Irradiate",
+              "Irradiated",
+              "Irradiation",
+              "RT",
+              "Radiation",
+              "Radiotherapeutics",
+              "Radiotherapy",
+              "Therapy, Radiation"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "name": "Clinical or Research Activity",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "agent category",
+            "id": "C164037",
+            "inclusion_indicator": "TREE",
+            "name": "PDGFR-targeting Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "name": "Enzyme Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C62103",
+            "inclusion_indicator": "TREE",
+            "name": "Device",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "name": "Activity",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "name": "Activity",
+            "synonyms": [],
+            "type": "Other"
+          },
+          {
+            "category": "agent category",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "name": "Antineoplastic Agent",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C159199",
+            "inclusion_indicator": "TREE",
+            "name": "PDGFR Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C15230",
+            "inclusion_indicator": "TREE",
+            "name": "Embolization Therapy",
+            "synonyms": [
+              "therapy, embolization"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "name": "Intervention or Procedure",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ],
+            "type": "Other"
+          },
+          {
+            "category": "none",
+            "id": "C19238",
+            "inclusion_indicator": "TREE",
+            "name": "Diagnostic, Therapeutic, or Research Equipment",
+            "synonyms": [
+              "Diagnostic, Therapeutic, and Research Equipment",
+              "Equipment",
+              "Hardware"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "name": "Signal Transduction Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C61074",
+            "inclusion_indicator": "TREE",
+            "name": "Serine/Threonine Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C15687",
+            "inclusion_indicator": "TREE",
+            "name": "Local Therapy",
+            "synonyms": [
+              "Localized Therapy"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "agent category",
+            "id": "C93259",
+            "inclusion_indicator": "TREE",
+            "name": "VEGFR Tyrosine Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "agent category",
+            "id": "C2336",
+            "inclusion_indicator": "TREE",
+            "name": "Raf Kinase Inhibitor",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "category": "none",
+            "id": "C49236",
+            "inclusion_indicator": "TREE",
+            "name": "Therapeutic Procedure",
+            "synonyms": [
+              "TX",
+              "Therapeutic Interventions",
+              "Therapeutic Method",
+              "Therapeutic Technique",
+              "Therapy"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "name": "Clinical or Research Activity",
+            "synonyms": [],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C15917",
+            "inclusion_indicator": "TREE",
+            "name": "Arterial Embolization",
+            "synonyms": [
+              "TAE",
+              "Transarterial Embolization"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "category": "none",
+            "id": "C97325",
+            "inclusion_indicator": "TREE",
+            "name": "Manufactured Object",
+            "synonyms": [],
+            "type": "Radiation"
+          }
+        ],
+        "name": "Treatment (sorafenib tosylate, yttrium Y 90 TACE)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2014-12-09T14:31:53.948000"
+      }
+    ],
+    "has_count_history": false,
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT02288507"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "ACOBA-2014-1"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "20141916"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "173794"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "1149818"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "1-854066-1"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2014-02378"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "lead_organization_family": "University of Hawaii Cancer Center",
+    "lead_organization_id": "ACOBA-2014-1",
+    "lead_organizations": {
+      "id": "89942",
+      "name": "University of Hawaii Cancer Center"
+    },
+    "legacy_id": "171237960",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": 999,
+    "max_age_in_years": 999,
+    "max_age_units": "Years",
+    "min_age": 18,
+    "min_age_in_years": 18,
+    "min_age_units": "Years",
+    "min_target_accrual": 18,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2014-02378",
+    "nct_id": "NCT02288507",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "address_line_1": "701 Ilalo Street",
+        "address_line_2": "Suite 600",
+        "aliases": [
+          "Hawaii Minority Based CCOP",
+          "University of Hawaii"
+        ],
+        "city_municipality": "Honolulu",
+        "country": "United States",
+        "ctep_id": "HI004",
+        "current_recruiting_status": "ACTIVE",
+        "geo_coordinates": {
+          "lat": 21.3175,
+          "lon": -157.8428
+        },
+        "id": "89942",
+        "name": "University of Hawaii Cancer Center",
+        "name_with_id": "University of Hawaii Cancer Center___id:89942",
+        "persons": [
+          {
+            "ctep_id": "41793",
+            "first_name": "Jared",
+            "id": "3154436",
+            "last_name": "Acoba",
+            "middle_name": "D.",
+            "name": "Acoba, Jared D.",
+            "prefix": "Dr.",
+            "roles": [
+              {
+                "email": "jacoba@hawaii.edu",
+                "phone": "808-531-8521",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2014-11-28T13:27:55.026000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2014-11-26T10:22:39.822000"
+              }
+            ],
+            "strap_created_datetime": "2020-04-14T17:30:58.911738",
+            "strap_publication_date": "2021-04-07T23:18:05.461541",
+            "strap_publication_datetime": "2021-04-07T23:18:05.461541",
+            "strap_updated_datetime": "2021-04-07T23:18:05.461541",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "version_no": "734dbc6db4d581ec3ff198a54f34875e"
+          }
+        ],
+        "phone_numbers": [
+          "808-586-2979"
+        ],
+        "roles": [
+          {
+            "irb_approval_number": "10/30/2014",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "University of Hawaii Cancer Center",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:18:45.630000"
+          },
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2014-11-14T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:22:12.438000"
+          },
+          {
+            "local_sp_identifier": "ACOBA-2014-1",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:08:28.747000"
+          }
+        ],
+        "state_province_territory": "HI",
+        "status": "ACTIVE",
+        "status_datetime": "2015-01-12T09:32:25.437000",
+        "strap_created_datetime": "2020-04-14T17:16:45.183456",
+        "strap_publication_date": "2021-04-07T23:17:32.376300",
+        "strap_publication_datetime": "2021-04-07T23:17:32.376300",
+        "strap_updated_datetime": "2021-04-07T23:17:32.376300",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "va_organization": false,
+        "version_no": "4e6a6a3be171d4e35372238c4f6e6b02",
+        "zipcode": "96813"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_safety_related": true,
+        "measure": "Incidence of adverse events as measured by National Cancer Institute Common Terminology Criteria for Adverse Events v 4.0",
+        "time_frame": "Up to 2 years",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "All time-to-event variables will be assessed using Kaplan-Meier analysis methods. Where appropriate, the Wilcoxon Mann-Whitney test or t-test will be used to determine the relationship between groups with continuous variables. Univariate associations will be analyzed by Fisher’s exact test considering small sample sizes. TTP will be calculated based on progression as defined by RECIST and mRECIST and both intervals will be reported.",
+        "is_safety_related": false,
+        "measure": "Time to progression (TTP)",
+        "time_frame": "Date of entry on the study to the appearance of new metastatic lesions or objective tumor progression as defined by RECIST or modified (m)RECIST guidelines, assessed up to 2 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "All time-to-event variables will be assessed using Kaplan-Meier analysis methods. Where appropriate, the Wilcoxon Mann-Whitney test or t-test will be used to determine the relationship between groups with continuous variables. Univariate associations will be analyzed by Fisher’s exact test considering small sample sizes.",
+        "is_safety_related": false,
+        "measure": "Overall survival",
+        "time_frame": "Date of entry on study until death, assessed up to 2 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The parameters of interest and their 95% confidence interval will be estimated using exact statistics.",
+        "is_safety_related": false,
+        "measure": "Response rate (as measured by RECIST v1.1 and modified RECIST criteria)",
+        "time_frame": "Up to 2 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Differences in tumor cfDNA and mutation profiles at different time points in treatment will be analyzed, and associations with response to therapy will be assessed.",
+        "is_safety_related": false,
+        "measure": "Circulating cell free DNA quantification",
+        "time_frame": "Up to 2 years",
+        "type": "OTHER_PRE_SPECIFIED"
+      },
+      {
+        "analysis_method": "All time-to-event variables will be assessed using Kaplan-Meier analysis methods. Where appropriate, the Wilcoxon Mann-Whitney test or t-test will be used to determine the relationship between groups with continuous variables. Univariate associations will be analyzed by Fisher’s exact test considering small sample sizes. PFS will be calculated based on progression as defined by RECIST and mRECIST and both intervals will be reported.",
+        "is_safety_related": false,
+        "measure": "Progression free survival (PFS)",
+        "time_frame": "Date of entry on the study to the appearance of new metastatic lesions or objective tumor progression as defined by RECIST or mRECIST criteria, or death for any reason, assessed up to 2 years",
+        "type": "SECONDARY"
+      }
+    ],
+    "participating_sites": [
+      "89942"
+    ],
+    "persons": [
+      {
+        "ctep_id": "41793",
+        "first_name": "Jared",
+        "id": "3154436",
+        "last_name": "Acoba",
+        "middle_name": "D.",
+        "name": "Acoba, Jared D.",
+        "prefix": "Dr.",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2014-11-26T10:08:29.487000"
+          }
+        ],
+        "strap_created_datetime": "2020-04-14T17:30:58.911738",
+        "strap_publication_date": "2021-04-07T23:18:05.461541",
+        "strap_publication_datetime": "2021-04-07T23:18:05.461541",
+        "strap_updated_datetime": "2021-04-07T23:18:05.461541",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "version_no": "734dbc6db4d581ec3ff198a54f34875e"
+      }
+    ],
+    "phase": "I",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2015-11-30T00:00:00.000000",
+    "primary_purpose": "TREATMENT",
+    "principal_investigators": [
+      {
+        "first_name": "Jared",
+        "id": "3154436",
+        "last_name": "Acoba",
+        "middle_name": "D.",
+        "name": "Acoba, Jared D.",
+        "prefix": "Dr."
+      }
+    ],
+    "proprietary_trial": false,
+    "public_title": "Sorafenib Tosylate and Yttrium Y 90 Bead Therapy in Treating Patients with Advanced Liver Cancer",
+    "record_verification_date": "2015-06-17T14:11:12.974000",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "89942",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      },
+      {
+        "funding_mechanism": "P30",
+        "active": true,
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "71789",
+        "summary_4_report": false
+      },
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "NA",
+        "nih_institute": "HI",
+        "serial_number": "89942",
+        "summary_4_report": false
+      },
+      {
+        "active": false,
+        "funding_mechanism": "P30",
+        "inactivation_comment": "incorrect grant per submitter's response (CRM 32903).",
+        "nci_division_program": "NA",
+        "nih_institute": "HI",
+        "serial_number": "89942",
+        "summary_4_report": false
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. To determine the safety of concurrent sorafenib (sorafenib tosylate) and yttrium-90 transarterial radioembolization (90Y TARE) for patients with advanced hepatocellular cancer.\r\n\r\nSECONDARY OBJECTIVES:\r\nI. To determine the efficacy of concurrent sorafenib and yttrium-90 transarterial radioembolization (90Y TARE) for patients with advanced hepatocellular cancer.\r\n\r\nTERTIARY OBJECTIVES:\r\nI. To determine the predictive and prognostic properties of changes in circulating cell free deoxyribonucleic acid (DNA) for patients with advanced hepatocellular cancer treated with concurrent sorafenib and yttrium-90 transarterial radioembolization (90Y TARE).\r\n\r\nOUTLINE:\r\nPatients receive sorafenib tosylate orally (PO) twice daily (BID) on days 1-28 and undergo radioembolization with yttrium Y 90 resin microspheres on day 14. Courses of sorafenib tosylate repeat every 28 days in the absence of disease progression or unacceptable toxicity.\r\n\r\nAfter completion of study treatment, patients are followed up every 2 months for up to 2 years.",
+    "section801_indicator": true,
+    "sex_criteria": "SEX: ALL",
+    "sex_is_inclusive": true,
+    "site_principal_investigators": [
+      {
+        "first_name": "Jared",
+        "id": "3154436",
+        "last_name": "Acoba",
+        "middle_name": "D.",
+        "name": "Acoba, Jared D.",
+        "org_id": "89942",
+        "org_name": null
+      }
+    ],
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2014-11-05T00:00:00.000000",
+    "status_history": [
+      {
+        "message_datetime": "2014-11-14T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2014-11-14T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T21:58:33.720049",
+    "strap_publication_date": "2021-05-05T17:28:17.989001",
+    "strap_publication_datetime": "2021-05-05T17:28:17.989001",
+    "strap_updated_datetime": "2021-05-05T17:28:17.989001",
+    "study_classification_code": "SAFETY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "89942",
+    "time_perspective": "UNKNOWN",
+    "title": "Phase I Study of Sorafenib Concurrent with Yttrium-90 Transarterial Radioembolization in Patients with Advanced Hepatocellular Cancer",
+    "total_accrual": 0,
+    "total_open_participating_sites": 1,
+    "total_participating_sites": 1,
+    "trial_type": "Interventional",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "va_associated": false,
+    "version_no": "eda8f848f2e27f26336a44f4a51d0986"
+  }
+]

@@ -1,0 +1,25 @@
+{
+    "from": 0,
+    "size": 100,
+    "query": {
+        "nested": {
+            "path": "resourcing",
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "match": {
+                                "resourcing.nci_division_program": "OD"
+                            }
+                        },
+                        {
+                            "match": {
+                                "resourcing.active": true
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

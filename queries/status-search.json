@@ -1,0 +1,10 @@
+{
+  "from": 0,
+  "size": 100,
+  "query": {
+    "match": {
+      "division_department_id": "CTEP"
+    }
+  },
+  "_source": "division_department_id"
+}
