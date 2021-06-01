@@ -9,13 +9,13 @@ ES=$HOST:$PORT/$INDEX
 function es {
     method="$1"; shift
     cmd="$1"; shift
-    index="$1"; shift
+    type="$1"; shift
     data="$1"; shift
-    echo '>>>' $method $cmd $data
-    if [[ "$index" ]]; then index="/"$index; fi
+    echo '>>>' $method $cmd $type $data
+    if [[ "$type" ]]; then type="/"$type; fi
     if [[ "$cmd" ]]; then cmd="/"$cmd; fi
     if [[ "$data" ]]; then data="-d @$data"; fi
-    curl -X $method -H 'Content-Type: application/json' "$ES$index$cmd?pretty" $data
+    echo curl -X $method -H 'Content-Type: application/json' "$ES$type$cmd?pretty" $data
 }
 
 jq < trial.settings-resourcing.json > trial._settings.json '.settings'
