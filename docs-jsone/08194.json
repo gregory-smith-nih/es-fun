@@ -1,0 +1,2967 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2014-01252",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Liver"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "containers": [
+      {
+        "id": "16557400",
+        "program_codes": [
+          "238432998"
+        ]
+      }
+    ],
+    "ctro_override": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2015-04-10T13:03:00.228000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2014-09-23T13:51:58.566000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2015-08-03T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2014-02-03T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This phase II trial studies how well single-photon emission computed tomography (SPECT) and computed tomography (CT) work in predicting TheraSphere (yttrium Y 90 glass microspheres) dose distribution in patients with liver cancer. SPECT is a type of CT scan in which a small amount of a radioactive drug is injected into a vein and a scanner is used to make detailed images of areas inside the body where the radioactive material is taken up by the cells. CT scan is a procedure that uses a computer linked to an x-ray machine to make a series of detailed pictures of areas inside the body. Comparing results of diagnostic procedures done before and after yttrium Y 90 glass microspheres treatment may help doctors predict a patient's response to the treatment.",
+    "diseases": [
+      {
+        "display_name": "Localized Resectable Adult Liver Carcinoma",
+        "id": "C7877",
+        "is_lead_disease": false,
+        "name": "Resectable Liver Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Localized Resectable Adult Liver Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma",
+                "code": "C7927"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Localized Resectable Adult Liver Cancer",
+          "Localized Resectable Adult Liver Carcinoma",
+          "Localized Resectable Adult Primary Cancer of Liver",
+          "Localized Resectable Adult Primary Cancer of the Liver",
+          "Localized Resectable Adult Primary Liver Cancer"
+        ],
+        "parents": [
+          "C7711",
+          "C7625",
+          "C165293"
+        ]
+      },
+      {
+        "display_name": "Localized Unresectable Adult Liver Carcinoma",
+        "id": "C7878",
+        "is_lead_disease": false,
+        "name": "Unresectable Liver Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Localized Unresectable Adult Liver Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma",
+                "code": "C7927"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Localized Non-Resectable Adult Liver Cancer",
+          "Localized Non-Resectable Adult Liver Carcinoma",
+          "Localized Unresectable Adult Liver Carcinoma",
+          "Localized Unresectable Adult Primary Cancer of Liver",
+          "Localized Unresectable Adult Primary Cancer of the Liver",
+          "Localized Unresectable Adult Primary Liver Cancer"
+        ],
+        "parents": [
+          "C7711",
+          "C7625",
+          "C165171"
+        ]
+      },
+      {
+        "display_name": "Adult Hepatocellular Carcinoma",
+        "id": "C7956",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Adult Hepatocellular Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Hepatocellular Carcinoma",
+                "code": "C3099"
+              },
+              {
+                "idx": 1,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma",
+                "code": "C7927"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult Hepatocellular Carcinoma",
+          "Adult Hepatoma",
+          "Adult Primary Carcinoma of Liver Cell",
+          "Adult Primary Carcinoma of the Liver Cell",
+          "Adult Primary Hepatocellular Carcinoma",
+          "Adult Primary Hepatoma",
+          "Adult Primary Liver Cell Carcinoma"
+        ],
+        "parents": [
+          "C7711",
+          "C3099"
+        ]
+      },
+      {
+        "display_name": "Recurrent Adult Liver Cancer",
+        "id": "C7880",
+        "is_lead_disease": false,
+        "name": "Recurrent Liver Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Adult Liver Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Liver and Intrahepatic Bile Duct Carcinoma",
+                "code": "C7927"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Adult Liver Cancer",
+          "Recurrent Adult Liver Carcinoma",
+          "Recurrent Adult Primary Cancer of Liver",
+          "Recurrent Adult Primary Cancer of the Liver",
+          "Recurrent Adult Primary Liver Cancer",
+          "Relapsed Adult Liver Cancer",
+          "Relapsed Adult Primary Cancer of Liver",
+          "Relapsed Adult Primary Cancer of the Liver",
+          "Relapsed Adult Primary Liver Cancer"
+        ],
+        "parents": [
+          "C7711",
+          "C7110",
+          "C131500"
+        ]
+      },
+      {
+        "id": "C150604",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Resectable Carcinoma",
+        "display_name": "Resectable Carcinoma",
+        "preferred_name": "Resectable Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2916",
+          "C150602"
+        ]
+      },
+      {
+        "id": "C129654",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Digestive System Adenocarcinoma",
+        "display_name": "Unresectable Digestive System Adenocarcinoma",
+        "preferred_name": "Unresectable Digestive System Adenocarcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Unresectable Gastrointestinal System Adenocarcinoma"
+        ],
+        "parents": [
+          "C2852",
+          "C155903"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C150602",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Resectable Malignant Neoplasm",
+        "display_name": "Resectable Malignant Neoplasm",
+        "preferred_name": "Resectable Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C155903",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Digestive System Carcinoma",
+        "display_name": "Unresectable Digestive System Carcinoma",
+        "preferred_name": "Unresectable Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C96963",
+          "C148124",
+          "C162845"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C7711",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver Cancer",
+        "display_name": "Adult Liver Carcinoma",
+        "preferred_name": "Adult Liver Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult Liver Carcinoma",
+          "Adult Primary Cancer of Liver",
+          "Adult Primary Cancer of the Liver",
+          "Adult Primary Liver Cancer",
+          "Adult Primary Liver Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C7927"
+        ]
+      },
+      {
+        "id": "C8576",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Localized Malignant Neoplasm",
+        "display_name": "Localized Malignant Neoplasm",
+        "preferred_name": "Localized Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Local Cancer",
+          "Localized Cancer",
+          "Localized Malignancy",
+          "local cancer"
+        ],
+        "parents": [
+          "C36037",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C7103",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "display_name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "preferred_name": "Liver and Intrahepatic Bile Duct Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hepatic and Intrahepatic Bile Duct Neoplasm"
+        ],
+        "parents": [
+          "C8614",
+          "C3196"
+        ]
+      },
+      {
+        "id": "C7927",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver Cancer",
+        "display_name": "Liver Cancer",
+        "preferred_name": "Liver and Intrahepatic Bile Duct Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Biliary Tract Cancer",
+          "Cancer of Liver",
+          "Cancer of Liver and Intrahepatic Biliary Tract",
+          "Cancer of the Liver",
+          "Cancer of the Liver and Intrahepatic Biliary Tract",
+          "Liver Carcinoma",
+          "Liver and Intrahepatic Bile Duct Cancer",
+          "Liver and Intrahepatic Bile Duct Carcinoma",
+          "Liver and Intrahepatic Biliary Tract Cancer",
+          "Liver and Intrahepatic Biliary Tract Carcinoma",
+          "Liver and hepatobiliary cancer, NOS",
+          "Liver/hepatobiliary cancer",
+          "Primary Liver Carcinoma",
+          "liver cancer"
+        ],
+        "parents": [
+          "C96963",
+          "C7106",
+          "C34803"
+        ]
+      },
+      {
+        "id": "C165293",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Resectable Liver and Intrahepatic Bile Duct Carcinoma",
+        "display_name": "Resectable Liver and Intrahepatic Bile Duct Carcinoma",
+        "preferred_name": "Resectable Liver and Intrahepatic Bile Duct Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7927",
+          "C156909",
+          "C7692"
+        ]
+      },
+      {
+        "id": "C8614",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Neoplasm",
+        "display_name": "Hepatobiliary Neoplasm",
+        "preferred_name": "Hepatobiliary Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hepatic and Biliary Neoplasms",
+          "Hepatic and Biliary Tumors",
+          "Hepatic, Biliary, and Gallbladder Neoplasms",
+          "Hepato-Biliary Neoplasm",
+          "Hepato-Biliary Tumor",
+          "Hepatobiliary Tumor",
+          "Hepatobiliary Tumors",
+          "Liver and Biliary Neoplasm",
+          "Liver and Biliary System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C3959"
+        ]
+      },
+      {
+        "id": "C7106",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "display_name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "preferred_name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Hepatic and Intrahepatic Bile Duct Neoplasm"
+        ],
+        "parents": [
+          "C7103"
+        ]
+      },
+      {
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Carcinoma",
+        "display_name": "Digestive System Carcinoma",
+        "preferred_name": "Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C156909",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Resectable Digestive System Carcinoma",
+        "display_name": "Resectable Digestive System Carcinoma",
+        "preferred_name": "Resectable Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C96963",
+          "C150604"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C34803",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Primary Malignant Liver Neoplasm",
+        "display_name": "Primary Malignant Liver Neoplasm",
+        "preferred_name": "Primary Malignant Liver Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Primary Malignant Neoplasm of Liver"
+        ],
+        "parents": [
+          "C7103",
+          "C8609"
+        ]
+      },
+      {
+        "id": "C131500",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Primary Malignant Neoplasm",
+        "display_name": "Recurrent Primary Malignant Neoplasm",
+        "preferred_name": "Recurrent Primary Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Primary Malignancy"
+        ],
+        "parents": [
+          "C4813"
+        ]
+      },
+      {
+        "id": "C165171",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Liver and Intrahepatic Bile Duct Carcinoma",
+        "display_name": "Unresectable Liver and Intrahepatic Bile Duct Carcinoma",
+        "preferred_name": "Unresectable Liver and Intrahepatic Bile Duct Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7927",
+          "C129654",
+          "C35648"
+        ]
+      },
+      {
+        "id": "C162845",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Malignant Digestive System Neoplasm",
+        "display_name": "Unresectable Malignant Digestive System Neoplasm",
+        "preferred_name": "Unresectable Malignant Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C4890",
+          "C27359"
+        ]
+      },
+      {
+        "id": "C3196",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Liver and Intrahepatic Bile Duct Disorder",
+        "display_name": "Liver and Intrahepatic Bile Duct Disorder",
+        "preferred_name": "Liver and Intrahepatic Bile Duct Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hepatic Disorder",
+          "Liver Disease",
+          "Liver Disorder",
+          "Liver disease"
+        ],
+        "parents": [
+          "C3959"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Neoplasm",
+        "display_name": "Digestive System Neoplasm",
+        "preferred_name": "Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "parents": [
+          "C2990",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C148124",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Carcinoma",
+        "display_name": "Unresectable Carcinoma",
+        "preferred_name": "Unresectable Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2916",
+          "C27359"
+        ]
+      },
+      {
+        "id": "C7625",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Localized Carcinoma",
+        "display_name": "Localized Carcinoma",
+        "preferred_name": "Localized Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2916",
+          "C8576"
+        ]
+      },
+      {
+        "id": "C27359",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Malignant Neoplasm",
+        "display_name": "Unresectable Malignant Neoplasm",
+        "preferred_name": "Unresectable Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Unresectable Malignant Tumor"
+        ],
+        "parents": [
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C4798",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neoplasm",
+        "display_name": "Recurrent Neoplasm",
+        "preferred_name": "Recurrent Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Neoplasm Recurrence",
+          "Recurrence",
+          "Recurrent",
+          "Recurrent Tumor",
+          "recurrence"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C7692",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Resectable Malignant Liver Neoplasm",
+        "display_name": "Resectable Malignant Liver Neoplasm",
+        "preferred_name": "Resectable Malignant Liver Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Resectable Hepatic Malignant Neoplasm",
+          "Resectable Malignant Neoplasm of Liver"
+        ],
+        "parents": [
+          "C7103",
+          "C8609",
+          "C150602"
+        ]
+      },
+      {
+        "id": "C7619",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Carcinoma",
+        "display_name": "Recurrent Carcinoma",
+        "preferred_name": "Recurrent Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Cancer",
+          "Relapsed Cancer",
+          "Relapsed Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C8609",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Hepatobiliary Neoplasm",
+        "display_name": "Malignant Hepatobiliary Neoplasm",
+        "preferred_name": "Malignant Hepatobiliary Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Hepato-Biliary Neoplasm",
+          "Malignant Liver and Biliary Neoplasm",
+          "Malignant Liver and Biliary System Neoplasm"
+        ],
+        "parents": [
+          "C8614",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adenocarcinoma",
+        "display_name": "Adenocarcinoma",
+        "preferred_name": "Adenocarcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C7132"
+        ]
+      },
+      {
+        "id": "C4813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Neoplasm",
+        "display_name": "Recurrent Malignant Neoplasm",
+        "preferred_name": "Recurrent Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrence",
+          "Recurrent Cancer",
+          "Recurrent Malignant Tumor",
+          "recurrence",
+          "recurrent cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C36037",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Localized Neoplasm",
+        "display_name": "Localized Neoplasm",
+        "preferred_name": "Localized Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-Metastatic Neoplasm",
+          "tumor confined to organ of origin",
+          "tumor_confined_to_organ_of_origin"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Disorder",
+        "display_name": "Digestive System Disorder",
+        "preferred_name": "Digestive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C7110",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Liver Cancer",
+        "display_name": "Recurrent Liver Carcinoma",
+        "preferred_name": "Recurrent Liver Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Cancer of Liver",
+          "Recurrent Cancer of the Liver",
+          "Recurrent Liver Carcinoma",
+          "Relapsed Cancer of Liver",
+          "Relapsed Cancer of the Liver",
+          "Relapsed Liver Cancer"
+        ],
+        "parents": [
+          "C7927",
+          "C7622"
+        ]
+      },
+      {
+        "id": "C3099",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatocellular Cancer",
+        "display_name": "Hepatocellular Carcinoma",
+        "preferred_name": "Hepatocellular Carcinoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "CARCINOMA, HEPATOCELLULAR, MALIGNANT",
+          "Carcinoma of Liver Cells",
+          "Carcinoma of the Liver Cells",
+          "HCC",
+          "Hepatocellular Carcinoma",
+          "Hepatocellular carcinoma",
+          "Hepatoma",
+          "LIHC",
+          "Liver Cell Cancer (Hepatocellular Carcinoma)",
+          "Liver Cell Carcinoma",
+          "Liver cell carcinoma",
+          "Primary Carcinoma of Liver Cells",
+          "Primary Carcinoma of the Liver Cells",
+          "hepatocellular carcinoma",
+          "hepatoma"
+        ],
+        "parents": [
+          "C2852",
+          "C7927"
+        ]
+      },
+      {
+        "id": "C7622",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Digestive System Carcinoma",
+        "display_name": "Recurrent Digestive System Carcinoma",
+        "preferred_name": "Recurrent Digestive System Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Gastrointestinal System Cancer",
+          "Recurrent Gastrointestinal System Carcinoma"
+        ],
+        "parents": [
+          "C96963",
+          "C7619"
+        ]
+      },
+      {
+        "id": "C3959",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Disorder",
+        "display_name": "Hepatobiliary Disorder",
+        "preferred_name": "Hepatobiliary Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Liver Disease",
+          "Liver and Biliary Disease",
+          "Liver and Biliary Disorder",
+          "Liver and Biliary System Disorder"
+        ],
+        "parents": [
+          "C2990"
+        ]
+      },
+      {
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Glandular Cell Neoplasm",
+        "display_name": "Glandular Cell Neoplasm",
+        "preferred_name": "Glandular Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "parents": [
+          "C3709"
+        ]
+      },
+      {
+        "id": "C35648",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Unresectable Malignant Liver Neoplasm",
+        "display_name": "Unresectable Malignant Liver Neoplasm",
+        "preferred_name": "Unresectable Malignant Liver Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-Resectable Hepatic Malignant Neoplasm",
+          "Non-Resectable Malignant Liver Neoplasm",
+          "Non-Resectable Malignant Neoplasm of Liver"
+        ],
+        "parents": [
+          "C7103",
+          "C8609",
+          "C162845"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "J1289 PROT A2 081414 TRACKED.docx",
+        "s3_path": "ctrppa/registry_data/NCI-2014-01252/J1289 PROT A2 081414 TRACKED.docx",
+        "type": "PROTOCOL_HIGHLIGHTED_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "TSR_NCI-2014-01252_2014-10-03-1449_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-01252/TSR_NCI-2014-01252_2014-10-03-1449_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "J1289 PROT A2 081414.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-01252/J1289 PROT A2 081414.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "J1289 CIR (study staff - prot (A2 dated 8-14-14) -cf - rev COI info - rev rad exposure info) appr 091614.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-01252/J1289 CIR (study staff - prot (A2 dated 8-14-14) -cf - rev COI info - rev rad exposure info) appr 091614.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Scheduled for radioembolization with TheraSphere before noon (to allow for imaging post-therapy)",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Must not be enrolled in another clinical study",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Scheduled for radioembolization with TheraSphere",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status of 0-2",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "At least 2 months interval from prior conventional transarterial chemoembolization (cTACE) (conventional TACE) or DEB-TACE (doxorubicin [doxorubicin hydrochloride] eluting bead TACE)",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Unresectable hepatocellular carcinoma patients with liver-predominant disease, or patients with hepatocellular carcinoma who refuse surgery; multifocal hepatocellular carcinoma (HCC) is acceptable, no diffuse HCC",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "A wash-out period interval from prior anti-angiogenic systemic therapy of at least double the half life of the anti-angiogenic agent (e.g., 4 days wash-out for sorafenib; 1 month wash-out for bevacizumab)",
+        "display_order": 6,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "grants": [
+      {
+        "id": "P30CA6973",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2014-06-12T15:19:56.280000",
+        "description": "Patients undergo Tc-99m MAA SPECT and dual-phase CBCT at baseline. Patients then undergo radioembolization with yttrium Y 90 glass microspheres. After treatment and no later than 24 hours, patients undergo Bremsstrahlung SPECT/CT and Y-90 PET/CT.",
+        "identifier": 146898940,
+        "interventions": [
+          {
+            "description": "Undergo radioembolization with yttrium Y 90 glass microspheres",
+            "id": "C38679",
+            "name": "Yttrium Y 90 Glass Microspheres",
+            "type": "Radiation",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Undergo Tc-99m MAA SPECT/CT",
+            "id": "C17203",
+            "name": "Single Photon Emission Computed Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "Medical Imaging, Single Photon Emission Computed Tomography",
+              "SPECT",
+              "SPECT imaging",
+              "SPET",
+              "Single Photon Emission Tomography",
+              "Tomography, Emission-Computed, Single-Photon",
+              "tomography, emission computed, single photon"
+            ]
+          },
+          {
+            "description": "Undergo Y-90 PET/CT",
+            "id": "C17204",
+            "name": "Computed Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "CAT",
+              "CAT Scan",
+              "CT",
+              "Computerized Axial Tomography",
+              "Computerized Tomography"
+            ]
+          },
+          {
+            "description": "Undergo cone-beam CT",
+            "id": "C71695",
+            "name": "Cone-Beam Computed Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "Cone Beam CT"
+            ]
+          },
+          {
+            "description": "Undergo Bremsstrahlung SPECT/CT",
+            "id": "C17203",
+            "name": "Single Photon Emission Computed Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "Medical Imaging, Single Photon Emission Computed Tomography",
+              "SPECT",
+              "SPECT imaging",
+              "SPET",
+              "Single Photon Emission Tomography",
+              "Tomography, Emission-Computed, Single-Photon",
+              "tomography, emission computed, single photon"
+            ]
+          },
+          {
+            "description": "Undergo Y-90 PET/CT",
+            "id": "C17007",
+            "name": "Positron Emission Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "Medical Imaging, Positron Emission Tomography",
+              "PET",
+              "PET Scan",
+              "Positron Emission Tomography Scan",
+              "Positron-Emission Tomography"
+            ]
+          },
+          {
+            "description": "Undergo Tc-99m MAA SPECT/CT",
+            "id": "C87398",
+            "name": "Technetium Tc-99m Albumin Aggregated",
+            "type": "Radiation",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "99mTc-Macro Albumin Aggregate",
+              "Tc 99m-labeled MAA",
+              "Tc99m-MAA",
+              "Technetium Tc 99m-Labeled Macroaggregated Albumin",
+              "Technetium Tc-99m Albumin Colloid"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Computed Tomography",
+            "id": "C17204",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "CAT",
+              "CAT Scan",
+              "CT",
+              "Computerized Axial Tomography",
+              "Computerized Tomography"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Agent",
+              "Drug",
+              "Drug Substance",
+              "Pharmaceutical Agent",
+              "Pharmaceuticals",
+              "Pharmacologic Agent",
+              "Pharmacological Substance"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Imaging Technique",
+            "id": "C17369",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Diagnostic Imaging Technique",
+              "Imaging",
+              "Imaging Procedures",
+              "Medical Imaging"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Radioconjugate",
+            "id": "C2124",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Radio Conjugates"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Diagnostic Procedure",
+            "id": "C18020",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Diagnostic Method",
+              "Diagnostic Technique",
+              "Diagnostic Test"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Radiopharmaceutical Compound",
+            "id": "C1446",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Radioactive Pharmaceutical",
+              "Radiochemical",
+              "Radiopharmaceuticals"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Radiation",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Diagnostic Imaging",
+            "id": "C16502",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Diagnostic (Tc-99m MAA, SPECT/CT)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2014-10-03T12:49:21.584000"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "J1289"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2014-01252"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_organization_family": "Sidney Kimmel Comprehensive Cancer Center",
+    "legacy_id": "145958839",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999.0 Years",
+    "max_age_in_years": 999,
+    "min_age": "18.0 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 20,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2014-01252",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "125217",
+        "ctep_id": "MD017",
+        "name": "Johns Hopkins University/Sidney Kimmel Cancer Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "600 North Wolfe Street",
+        "city_municipality": "Baltimore",
+        "state_province_territory": "MD",
+        "country": "United States",
+        "zipcode": "21287",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Johns Hopkins East Baltimore Campus",
+          "Johns Hopkins University CCOP",
+          "Johns Hopkins University/Sidney Kimmel Comprehensive Cancer Center",
+          "Shirley E Reddoch MD LLC",
+          "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins Hospital",
+          "Viragh Family Foundation Inc"
+        ],
+        "emails": [
+          "jhcccro@jhmi.edu"
+        ],
+        "phone_numbers": [
+          "410-955-8804"
+        ],
+        "status_datetime": "2015-05-05T09:30:35.108000",
+        "strap_created_datetime": "2020-04-14T17:15:58.434760",
+        "strap_updated_datetime": "2021-04-07T23:16:47.416791",
+        "strap_publication_datetime": "2021-04-07T23:16:47.416791",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:47.416791",
+        "version_no": "a863910b4bafdcda5407c59bd9efdc52",
+        "geo_coordinates": {
+          "lat": 39.3021,
+          "lon": -76.5621
+        },
+        "persons": [
+          {
+            "id": "1686705",
+            "ctep_id": "33140",
+            "prefix": "Dr.",
+            "first_name": "Jean-Francois (Jeff)",
+            "middle_name": "H.",
+            "last_name": "Geschwind",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:46:48.297747",
+            "strap_updated_datetime": "2021-04-07T23:47:39.781524",
+            "strap_publication_datetime": "2021-04-07T23:47:39.781524",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:47:39.781524",
+            "version_no": "65d1bc2a3c93485a70243829e0891d51",
+            "name": "Geschwind, Jean-Francois (Jeff) H.",
+            "roles": [
+              {
+                "email": "jfg@jhmi.edu",
+                "phone": "410-614-6597",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2014-06-03T11:31:54.812000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2014-06-03T11:30:51.804000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2015-03-26T00:00:00.000002"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2014-02-03T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2015-04-10T13:03:00.613000"
+          },
+          {
+            "local_sp_identifier": "J1289",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2014-09-24T11:59:19.947000"
+          },
+          {
+            "irb_approval_number": "NA_00077208",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "Johns Hopkins University/Sidney Kimmel Cancer Center",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2014-09-26T13:02:21.137000"
+          }
+        ],
+        "name_with_id": "Johns Hopkins University/Sidney Kimmel Cancer Center___id:125217",
+        "current_recruiting_status": "CLOSED_TO_ACCRUAL"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "The tumor mean absorbed dose will be computed. A generalized linear model (GLM) for repeated measures will be fitted. Will estimate μ and its 95% confidence interval.",
+        "is_safety_related": false,
+        "measure": "EUD for liver tumors",
+        "time_frame": "Up to 1 month post-treatment",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "A GLM for repeated measures will be fitted. Will estimate μ and its 95% confidence interval.",
+        "is_safety_related": false,
+        "measure": "TCP for liver tumors",
+        "time_frame": "Up to 1 month post-treatment",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Will estimate μ and its 95% confidence interval.",
+        "is_safety_related": false,
+        "measure": "The NTCP for normal liver tissue",
+        "time_frame": "Up to 1 month post-treatment",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Will estimate μ and its 95% confidence interval.",
+        "is_safety_related": false,
+        "measure": "The BED for normal liver tissue",
+        "time_frame": "Up to 1 month post-treatment",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Pre-therapy dose will be observed using segmented MAA image, voxelized MAA image, segmented CBCT image, voxelized CBCT image, combination of segmented CBCT image (to specify edges) and segmented MAA image. The post-therapy dose distribution will be determined by averaging its corresponding values from Bremsstrahlung SPECT/CT image and Y-90 PET/CT image.",
+        "is_safety_related": false,
+        "measure": "Mean liver observed dose",
+        "time_frame": "Up to 1 month post-treatment",
+        "type": "PRIMARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "1686705",
+        "ctep_id": "33140",
+        "prefix": "Dr.",
+        "first_name": "Jean-Francois (Jeff)",
+        "middle_name": "H.",
+        "last_name": "Geschwind",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:46:48.297747",
+        "strap_updated_datetime": "2021-04-07T23:47:39.781524",
+        "strap_publication_datetime": "2021-04-07T23:47:39.781524",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:47:39.781524",
+        "version_no": "65d1bc2a3c93485a70243829e0891d51",
+        "name": "Geschwind, Jean-Francois (Jeff) H.",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2014-09-24T11:59:20.256000"
+          }
+        ]
+      }
+    ],
+    "phase": "II",
+    "primary_purpose": "DIAGNOSTIC",
+    "proprietary_trial": false,
+    "public_title": "Single-Photon Emission Computed Tomography and Positron Emission Tomography in Predicting TheraSphere Dose Distribution in Patients with Liver Cancer",
+    "resourcing": [
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "6973",
+        "summary_4_report": false
+      },
+      {
+        "active": true,
+        "organization_id": "125217",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      }
+    ],
+    "scientific_description": "PRIAMRY OBJECTIVES:\r\nI. To validate methods for performing pre-therapy (TheraSphere [yttrium Y 90 glass microspheres]) dosimetry using quantitative technetium Tc 99m-labeled macroaggregated albumin (Tc-99m MAA) SPECT and C-Arm CT imaging.\r\n\r\nSECONDARY OBJECTIVES:\r\nI. To utilize the dosimetry obtained from the TheraSphere imaging to estimate the current range of normal liver doses.\r\nII. To validate predictions of the equivalent uniform dose (EUD), tumor control probability (TCP), biologically effective dose (BED) distribution, and normal tissue complication probability (NTCP).\r\n\r\nOUTLINE:\r\nPatients undergo Tc-99m MAA SPECT and dual-phase cone-beam CT (CBCT) at baseline. Patients then undergo radioembolization with yttrium Y 90 glass microspheres. After treatment and no later than 24 hours, patients undergo Bremsstrahlung SPECT/CT and Y-90 PET/CT.\r\n\r\nAfter completion of study, patients are followed up at 1 month.",
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2015-03-26T00:00:00.000001",
+        "status": "Active, not recruiting",
+        "status_datetime": "2015-03-26T00:00:00.000001"
+      },
+      {
+        "comments": [
+          "CTRP new version learning curve"
+        ],
+        "message_datetime": "2014-02-03T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2014-02-03T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T21:32:17.159552",
+    "strap_publication_datetime": "2021-05-25T22:16:58.829547",
+    "strap_updated_datetime": "2021-05-25T22:16:58.829547",
+    "study_classification_code": "EFFICACY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "125217",
+    "time_perspective": "UNKNOWN",
+    "title": "Validation of Dose Estimation Methods and Measurement of Normal Liver Dose in Y-90 Therasphere Therapy with Quantitative Nuclear Imaging",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "bf8f3c00fc3adae180fa770ab005a137",
+    "strap_publication_date": "2021-05-25T22:16:58.829547",
+    "current_trial_status": "Active, not recruiting",
+    "participating_sites": [
+      "125217"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "1686705",
+        "name": "Geschwind, Jean-Francois (Jeff) H.",
+        "first_name": "Jean-Francois (Jeff)",
+        "middle_name": "H.",
+        "last_name": "Geschwind",
+        "org_id": "125217",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "lead_organization_id": "J1289",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Jean-Francois (Jeff)",
+        "last_name": "Geschwind",
+        "middle_name": "H.",
+        "name": "Geschwind, Jean-Francois (Jeff) H.",
+        "prefix": "Dr.",
+        "id": "1686705"
+      }
+    ],
+    "current_trial_status_date": "2015-03-26T00:00:00.000001",
+    "record_verification_date": "2015-04-10T13:03:00.228000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2015-08-03T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2014-02-03T00:00:00.000000",
+    "lead_organizations": {
+      "id": "125217",
+      "name": "Johns Hopkins University/Sidney Kimmel Cancer Center"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Resectable Liver Cancer",
+          "code": "C7877",
+          "ancestor_ids": [
+            "C7927"
+          ],
+          "parent_ids": [
+            "C7927"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Hepatocellular Cancer",
+          "code": "C3099",
+          "ancestor_ids": [
+            "C7927"
+          ],
+          "parent_ids": [
+            "C7927"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Liver Cancer",
+          "code": "C7927",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Unresectable Liver Cancer",
+          "code": "C7878",
+          "ancestor_ids": [
+            "C7927"
+          ],
+          "parent_ids": [
+            "C7927"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Recurrent Liver Cancer",
+          "code": "C7880",
+          "ancestor_ids": [
+            "C7927"
+          ],
+          "parent_ids": [
+            "C7927"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Hepatocellular Cancer",
+          "code": "C7956",
+          "ancestor_ids": [
+            "C3099",
+            "C7927"
+          ],
+          "parent_ids": [
+            "C3099"
+          ],
+          "type": [
+            "subtype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7711",
+          "name": "Liver Cancer",
+          "parent_ids": [
+            "C7927",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [
+            "C2990",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C9305"
+          ],
+          "code": "C2852",
+          "name": "Adenocarcinoma",
+          "parent_ids": [
+            "C7132",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C36037",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C8576",
+            "C9305"
+          ],
+          "code": "C7625",
+          "name": "Localized Carcinoma",
+          "parent_ids": [
+            "C8576",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3959"
+          ],
+          "code": "C8614",
+          "name": "Hepatobiliary Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C3959"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27359",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C162845",
+          "name": "Unresectable Malignant Digestive System Neoplasm",
+          "parent_ids": [
+            "C4890",
+            "C27359"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C2990",
+          "name": "Digestive System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991"
+          ],
+          "code": "C3959",
+          "name": "Hepatobiliary Disorder",
+          "parent_ids": [
+            "C2990"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7619",
+            "C7622",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7110",
+          "name": "Recurrent Liver Cancer",
+          "parent_ids": [
+            "C7927",
+            "C7622"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7132",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C3099",
+          "name": "Hepatocellular Cancer",
+          "parent_ids": [
+            "C7927",
+            "C2852"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C7132",
+          "name": "Glandular Cell Neoplasm",
+          "parent_ids": [
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3099",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7132",
+            "C7711",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7956",
+          "name": "Hepatocellular Cancer",
+          "parent_ids": [
+            "C3099",
+            "C7711"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C27359",
+          "name": "Unresectable Malignant Neoplasm",
+          "parent_ids": [
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C129654",
+            "C148124",
+            "C155903",
+            "C162845",
+            "C27359",
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C35648",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7132",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C165171",
+          "name": "Unresectable Liver and Intrahepatic Bile Duct Carcinoma",
+          "parent_ids": [
+            "C7927",
+            "C129654",
+            "C35648"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150602",
+            "C150604",
+            "C156909",
+            "C165293",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C36037",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7625",
+            "C7692",
+            "C7711",
+            "C7927",
+            "C8576",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7877",
+          "name": "Resectable Liver Cancer",
+          "parent_ids": [
+            "C7625",
+            "C165293",
+            "C7711"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C148124",
+            "C155903",
+            "C162845",
+            "C27359",
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7132",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C129654",
+          "name": "Unresectable Digestive System Adenocarcinoma",
+          "parent_ids": [
+            "C2852",
+            "C155903"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4813",
+          "name": "Recurrent Malignant Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C4798"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C36037",
+          "name": "Localized Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150602",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C8609",
+            "C8614",
+            "C9305"
+          ],
+          "code": "C7692",
+          "name": "Resectable Malignant Liver Neoplasm",
+          "parent_ids": [
+            "C8609",
+            "C150602",
+            "C7103"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C4890",
+            "C7062",
+            "C8614",
+            "C9305"
+          ],
+          "code": "C8609",
+          "name": "Malignant Hepatobiliary Neoplasm",
+          "parent_ids": [
+            "C8614",
+            "C4890"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C96963",
+          "name": "Digestive System Carcinoma",
+          "parent_ids": [
+            "C4890",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7927",
+          "name": "Liver Cancer",
+          "parent_ids": [
+            "C7106",
+            "C96963",
+            "C34803"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150602",
+            "C150604",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C156909",
+          "name": "Resectable Digestive System Carcinoma",
+          "parent_ids": [
+            "C96963",
+            "C150604"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150602",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C150604",
+          "name": "Resectable Carcinoma",
+          "parent_ids": [
+            "C150602",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C7103",
+            "C8614"
+          ],
+          "code": "C7106",
+          "name": "Liver and Intrahepatic Bile Duct Epithelial Neoplasm",
+          "parent_ids": [
+            "C7103"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3959"
+          ],
+          "code": "C3196",
+          "name": "Liver and Intrahepatic Bile Duct Disorder",
+          "parent_ids": [
+            "C3959"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27359",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C148124",
+          "name": "Unresectable Carcinoma",
+          "parent_ids": [
+            "C2916",
+            "C27359"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C150602",
+          "name": "Resectable Malignant Neoplasm",
+          "parent_ids": [
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C162845",
+            "C27359",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C8609",
+            "C8614",
+            "C9305"
+          ],
+          "code": "C35648",
+          "name": "Unresectable Malignant Liver Neoplasm",
+          "parent_ids": [
+            "C8609",
+            "C162845",
+            "C7103"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C8609",
+            "C8614",
+            "C9305"
+          ],
+          "code": "C34803",
+          "name": "Primary Malignant Liver Neoplasm",
+          "parent_ids": [
+            "C8609",
+            "C7103"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C8614"
+          ],
+          "code": "C7103",
+          "name": "Liver and Intrahepatic Bile Duct Neoplasm",
+          "parent_ids": [
+            "C8614",
+            "C3196"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C36037",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C8576",
+          "name": "Localized Malignant Neoplasm",
+          "parent_ids": [
+            "C36037",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150602",
+            "C150604",
+            "C156909",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7692",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C165293",
+          "name": "Resectable Liver and Intrahepatic Bile Duct Carcinoma",
+          "parent_ids": [
+            "C7927",
+            "C156909",
+            "C7692"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C9305",
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7619",
+          "name": "Recurrent Carcinoma",
+          "parent_ids": [
+            "C4813",
+            "C2916"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4890",
+          "name": "Malignant Gastrointestinal Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4890",
+            "C7062",
+            "C7619",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7622",
+          "name": "Recurrent Digestive System Carcinoma",
+          "parent_ids": [
+            "C96963",
+            "C7619"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C131500",
+          "name": "Recurrent Primary Malignant Neoplasm",
+          "parent_ids": [
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C148124",
+            "C162845",
+            "C27359",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C155903",
+          "name": "Unresectable Digestive System Carcinoma",
+          "parent_ids": [
+            "C148124",
+            "C96963",
+            "C162845"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C4798",
+          "name": "Recurrent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C131500",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7110",
+            "C7619",
+            "C7622",
+            "C7711",
+            "C7927",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7880",
+          "name": "Recurrent Liver Cancer",
+          "parent_ids": [
+            "C131500",
+            "C7110",
+            "C7711"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C129654",
+            "C148124",
+            "C155903",
+            "C162845",
+            "C165171",
+            "C27359",
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3196",
+            "C3262",
+            "C3263",
+            "C34803",
+            "C35648",
+            "C36037",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7103",
+            "C7106",
+            "C7132",
+            "C7625",
+            "C7711",
+            "C7927",
+            "C8576",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7878",
+          "name": "Unresectable Liver Cancer",
+          "parent_ids": [
+            "C165171",
+            "C7625",
+            "C7711"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

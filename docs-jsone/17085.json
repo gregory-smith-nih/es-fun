@@ -1,0 +1,1030 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2014-02006",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUMMARY",
+    "age_criteria": "Minimum age: 12 Months\nMaximum age: 20 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Multiple"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "consortia_trial_category": "EXTERNALLY_PEER_REVIEWED",
+    "ctro_override": false,
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2014-10-04T21:02:41.017000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2014-09-17T15:46:58.328000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2013-02-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2009-09-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_COMPLETION_DATE",
+        "value": "2013-02-01T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This phase I study is designed to determine the maximum tolerated dose of Irinotecan given\n      intravenous for 5 days every 3 weeks in combination with fixed doses of Vincristine,\n      Temozolomide and Bevacizumab (VIT-B) in patients with refractory solid tumors.",
+    "diseases": [
+      {
+        "display_name": "Childhood Solid Tumor",
+        "id": "C9107",
+        "is_lead_disease": false,
+        "name": "Solid Tumor",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Childhood Solid Neoplasm",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Solid Neoplasm",
+                "code": "C9292"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Childhood Solid Neoplasm",
+          "Childhood Solid Tumor",
+          "Pediatric Solid Tumor"
+        ],
+        "parents": [
+          "C6283",
+          "C9292"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C9292",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Solid Tumor",
+        "display_name": "Solid Tumor",
+        "preferred_name": "Solid Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Solid Neoplasm",
+          "Solid Tumour",
+          "Solid tumor, NOS",
+          "solid tumor"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C89328",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pediatric Disorder",
+        "display_name": "Pediatric Disorder",
+        "preferred_name": "Pediatric Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Pediatric Disease",
+          "Pediatric Disease or Disorder"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C6283",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm",
+        "display_name": "Childhood Neoplasm",
+        "preferred_name": "Childhood Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Childhood Neoplasm",
+          "Childhood Tumor",
+          "Pediatric Neoplasm",
+          "Pediatric Tumor"
+        ],
+        "parents": [
+          "C7062",
+          "C89328"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "NCT00993044.xml",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02006/NCT00993044.xml",
+        "type": "OTHER"
+      },
+      {
+        "active": true,
+        "name": "TSR_NCI-2014-02006_2014-09-26-1100_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2014-02006/TSR_NCI-2014-02006_2014-09-26-1100_O.rtf",
+        "type": "TSR"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Life Expectancy: Must be > 8 weeks.",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "Weight: Patient must be more than or equal to 10 Kilograms.\n\n        Histological Diagnosis:",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Age: Patients must be > 12 months and < 21 years of age at the time of study entry.",
+        "display_order": 0,
+        "inclusive": true
+      },
+      {
+        "description": "Males or females of reproductive age may not participate unless they have agreed to\n             use an effective contraceptive method.",
+        "display_order": 12,
+        "inclusive": false
+      },
+      {
+        "description": "Karnofsky > 50% for patients >16 years of age and Lansky > 50 for children < 16 years\n             of age (Appendix I).",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Patients must have had histological verification of the malignancy at some time prior\n             to study entry.",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Patients who have received bevacizumab and/or Irinotecan previously are ineligible.\n             Non brain tumor patients who have previously received Temozolomide are ineligible.",
+        "display_order": 9,
+        "inclusive": false
+      },
+      {
+        "description": "Disease must have failed standard therapy (therapies) or be a disease for which no\n             standard therapy exists.",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "All solid tumors are eligible with the exclusion of lymphomas. For patients with\n             neuroblastoma, diagnosis based on elevated catecholamines in the urine and tumor\n             cells on bone marrow aspirates/biopsies is acceptable.",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Lactating women must agree not to breast-feed.",
+        "display_order": 11,
+        "inclusive": false
+      },
+      {
+        "description": "For patients with germ cell tumors, diagnosis based on elevated tumor markers (serum\n             alpha fetoprotein and/or serum beta human chorionic gonadotropin) and radiographic\n             evidence of disease is acceptable.\n\n        Disease Status:",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Clinically Significant Unrelated Systemic Illness: Patients with serious infections\n             or significant pulmonary, hepatic, renal, or other end-organ dysfunction which in the\n             judgment of the Principal or Co-Investigators would compromise the patient's ability\n             to tolerate prescribed chemotherapy or are likely to interfere with the study\n             procedures or results will not be eligible.",
+        "display_order": 14,
+        "inclusive": false
+      },
+      {
+        "description": "Patient with stable disease on other therapies are not eligible.\n\n        Performance Level:",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Patients Who Have an Uncontrolled Infection will not be eligible for enrollment until\n             all infections are under control.",
+        "display_order": 13,
+        "inclusive": false
+      },
+      {
+        "description": "Pregnancy or Breast-Feeding: Pregnant patients are ineligible for this study due to\n             the known teratogenic effects of the cytotoxic agents. Pregnancy tests must be\n             obtained in females of childbearing potential prior to enrollment.",
+        "display_order": 10,
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "groups": [
+      {
+        "created_datetime": "2014-09-17T15:47:05.836000",
+        "identifier": 166024617,
+        "name": "Single Arm",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2014-09-17T15:47:05.836000",
+        "interventions": []
+      },
+      {
+        "description": "THIS IS A DEFAULT.",
+        "id": "DEFAULT_ID",
+        "identifier": 99999999999,
+        "interventions": [
+          {
+            "description": "Given IV",
+            "id": "C2039",
+            "name": "Bevacizumab",
+            "type": "Biological/Vaccine",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Avastin",
+              "Mvasi",
+              "Zirabev"
+            ]
+          },
+          {
+            "description": "Given orally",
+            "id": "C1244",
+            "name": "Temozolomide",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Methazolastone",
+              "Temcad",
+              "Temodal",
+              "Temodar"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C1739",
+            "name": "Vincristine Sulfate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Kyocristine",
+              "Oncovin",
+              "Vincasar",
+              "Vincosid",
+              "Vincrex"
+            ]
+          },
+          {
+            "description": "Given intravenously (IV)",
+            "id": "C1381",
+            "name": "Irinotecan Hydrochloride",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Campto",
+              "Camptosar",
+              "Irinomedac"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Biological Agent",
+            "id": "C307",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Alkaloid",
+            "id": "C221",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antimitotic Agent",
+            "id": "C273",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase-I Inhibitor",
+            "id": "C1904",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Triazene Compound",
+            "id": "C902",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Protein Inhibitor",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Vinca Alkaloid Compound",
+            "id": "C932",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Alkylating Agent",
+            "id": "C1590",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Organic Chemical",
+            "id": "C718",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug or Chemical by Structure",
+            "id": "C1913",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Tubulin Binding Agent",
+            "id": "C25974",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Anti-VEGF Monoclonal Antibody",
+            "id": "C2496",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Antibody",
+            "id": "C129822",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Natural Product",
+            "id": "C1907",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Plant Product",
+            "id": "C1931",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase Inhibitor",
+            "id": "C1748",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Vinca-Domain Binding Agent",
+            "id": "C67422",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Biological Agent",
+            "id": "C129821",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Binding Agent",
+            "id": "C2842",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Signal Transduction Inhibitor",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Camptothecin Analogue",
+            "id": "C2843",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Angiogenesis Inhibitor",
+            "id": "C1742",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Monoclonal Antibody Therapy",
+            "id": "C20401",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Monoclonal Antibody"
+            ]
+          }
+        ],
+        "name": "DEFAULT"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT00993044"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "09-00214"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2014-02006"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "lead_organization_family": "USC Norris Comprehensive Cancer Center",
+    "legacy_id": "166024525",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "20 Years",
+    "max_age_in_years": 20,
+    "min_age": "12 Months",
+    "min_age_in_years": 1,
+    "min_target_accrual": 13,
+    "nci_id": "NCI-2014-02006",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "37492",
+        "ctep_id": "CA009",
+        "name": "Children's Hospital Los Angeles",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "4650 Sunset Boulevard",
+        "city_municipality": "Los Angeles",
+        "state_province_territory": "CA",
+        "country": "United States",
+        "zipcode": "90027",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "emails": [
+          "ekatz@chla.usc.edu"
+        ],
+        "phone_numbers": [
+          "323-660-2450"
+        ],
+        "urls": [
+          "http://www.chla.org/site/c.ipINKTOAJsG/b.4096755/k.CD60/Hospital_Contact_Information.htm"
+        ],
+        "status_datetime": "2012-08-31T11:31:29.920000",
+        "strap_created_datetime": "2020-04-14T17:16:23.761040",
+        "strap_updated_datetime": "2021-04-07T23:17:23.649360",
+        "strap_publication_datetime": "2021-04-07T23:17:23.649360",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:23.649360",
+        "version_no": "483897008354d5f4fb390806e79b76b1",
+        "geo_coordinates": {
+          "lat": 34.1252,
+          "lon": -118.292
+        },
+        "persons": [
+          {
+            "id": "6815698",
+            "ctep_id": "43858",
+            "prefix": "Dr.",
+            "first_name": "Rajkumar",
+            "last_name": "Venkatramani",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:46:37.455833",
+            "strap_updated_datetime": "2021-04-07T23:32:32.597886",
+            "strap_publication_datetime": "2021-04-07T23:32:32.597886",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:32:32.597886",
+            "version_no": "df9ea0bd66b86ded6f0c1ee8eb099d76",
+            "name": "Venkatramani, Rajkumar",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2015-09-09T20:34:36.363000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "local_sp_identifier": "09-00214",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2014-09-18T07:20:47.553000"
+          },
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2014-09-18T07:20:48.550000"
+          },
+          {
+            "accrual_statuses": [
+              {
+                "status": "COMPLETED",
+                "status_datetime": "2014-01-03T00:00:00.000006"
+              },
+              {
+                "comment": "CTA and intervention",
+                "status": "CLOSED_TO_ACCRUAL_AND_INTERVENTION",
+                "status_datetime": "2013-08-31T00:00:00.000005"
+              },
+              {
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2013-07-31T00:00:00.000004"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2009-11-01T00:00:00.000003"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2009-09-25T00:00:00.000002"
+              },
+              {
+                "status": "IN_REVIEW",
+                "status_datetime": "2009-08-13T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "Vit-B Study",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2015-09-09T20:34:35.209000"
+          }
+        ],
+        "name_with_id": "Children's Hospital Los Angeles___id:37492",
+        "current_recruiting_status": "COMPLETED"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "Number of participants with dose limiting toxicity events",
+        "is_primary": true,
+        "is_safety_related": true,
+        "measure": "Dose Limiting Toxicity",
+        "time_frame": "2 years",
+        "type": "PRIMARY"
+      }
+    ],
+    "phase": "I",
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": true,
+    "public_title": "A Study of Vincristine, Escalating Doses of Irinotecan, Temozolomide and Bevacizumab (Vit-b) in Pediatric and Adolescent Patients With Recurrent or Refractory Solid Tumors of Non-hematopoietic Origin",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "37492",
+        "summary_4_report": true,
+        "type": "INDUSTRIAL"
+      }
+    ],
+    "section801_indicator": true,
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2014-09-17T00:00:00.000002",
+        "status": "Completed",
+        "status_datetime": "2014-09-17T00:00:00.000002"
+      },
+      {
+        "comments": [
+          "confirmed by CT.Gov"
+        ],
+        "message_datetime": "2012-10-01T00:00:00.000001",
+        "status": "Active, not recruiting",
+        "status_datetime": "2012-10-01T00:00:00.000001"
+      },
+      {
+        "comments": [
+          "confirmed by CT.Gov"
+        ],
+        "message_datetime": "2009-09-01T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2009-09-01T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T21:20:36.800363",
+    "strap_publication_datetime": "2021-05-25T22:17:14.408904",
+    "strap_updated_datetime": "2021-05-25T22:17:14.408904",
+    "study_classification_code": "SAFETY",
+    "study_source": "EXTERNALLY_PEER_REVIEWED",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "3830539",
+    "time_perspective": "UNKNOWN",
+    "title": "A Phase I Study of Vincristine, Escalating Doses of Irinotecan, Temozolomide and Bevacizumab (Vit-b) in Pediatric and Adolescent Patients With Recurrent or Refractory Solid Tumors of Non-hematopoietic Origin",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "e6b6baff3011c5861ece94ef9a0e1193",
+    "strap_publication_date": "2021-05-25T22:17:14.408904",
+    "current_trial_status": "Completed",
+    "participating_sites": [
+      "37492"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "6815698",
+        "name": "Venkatramani, Rajkumar",
+        "first_name": "Rajkumar",
+        "middle_name": null,
+        "last_name": "Venkatramani",
+        "org_id": "37492",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT00993044",
+    "lead_organization_id": "09-00214",
+    "va_associated": false,
+    "current_trial_status_date": "2014-09-17T00:00:00.000002",
+    "record_verification_date": "2014-10-04T21:02:41.017000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2013-02-01T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2009-09-01T00:00:00.000000",
+    "completion_date_type": "ACTUAL_COMPLETION_DATE",
+    "completion_date_value": "2013-02-01T00:00:00.000000",
+    "lead_organizations": {
+      "id": "37492",
+      "name": "Children's Hospital Los Angeles"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Solid Tumor",
+          "code": "C9292",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Solid Tumor",
+          "code": "C9107",
+          "ancestor_ids": [
+            "C9292"
+          ],
+          "parent_ids": [
+            "C9292"
+          ],
+          "type": [
+            "subtype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C6283",
+            "C7062",
+            "C89328",
+            "C9292"
+          ],
+          "code": "C9107",
+          "name": "Solid Tumor",
+          "parent_ids": [
+            "C9292",
+            "C6283"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062",
+            "C89328"
+          ],
+          "code": "C6283",
+          "name": "Neoplasm",
+          "parent_ids": [
+            "C7062",
+            "C89328"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C9292",
+          "name": "Solid Tumor",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9292",
+          "name": "Solid Tumor",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C89328",
+          "name": "Pediatric Disorder",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

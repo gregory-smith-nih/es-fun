@@ -1,0 +1,1124 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-9999-00003",
+  "_score": 1,
+  "_source": {
+    "age_criteria": "Age: 20 - 100",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Multiple",
+      "Lung"
+    ],
+    "biomarkers": [
+      {
+        "assay_type": "Multiplex Immunoassay",
+        "cadsr_id": "3259385",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C18368",
+        "name": "TNF (TNF A; DIF; Tumor Necrosis Factor Alpha; Tumor Necrosis Factor; Tumor Necrosis Factor-Alpha; TNFSF2; TNF-alpha; TNFalpha; Cachectin; TNFA; Tumor Necrosis Factor (TNF Superfamily, Member 2); Tumor necrosis factor ligand superfamily member 2; TNF-a)",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      }
+    ],
+    "datetimes": [
+      {
+        "type": "ANTICIPATED_START_DATE",
+        "value": "1991-01-09T23:44:40.237000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2016-09-15T14:44:00.257000"
+      },
+      {
+        "type": "ANTICIPATED_COMPLETION_DATE",
+        "value": "1991-04-19T15:54:27.469000"
+      }
+    ],
+    "description": "a brief summary of what the trial is",
+    "diseases": [
+      {
+        "id": "C4872",
+        "is_lead_disease": true,
+        "name": "Breast Cancer",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Breast Carcinoma",
+        "preferred_name": "Breast Carcinoma",
+        "paths": null,
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Breast Carcinoma",
+          "Breast cancer, NOS",
+          "Cancer of Breast",
+          "Cancer of the Breast",
+          "Carcinoma of Breast",
+          "Carcinoma of the Breast",
+          "Mammary Carcinoma",
+          "breast cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C9335"
+        ]
+      },
+      {
+        "id": "C94774",
+        "is_lead_disease": false,
+        "name": "Early-Stage Breast Cancer",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Early-Stage Breast Carcinoma",
+        "preferred_name": "Early-Stage Breast Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Breast Carcinoma",
+                "code": "C4872"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Early-Stage Breast Carcinoma",
+          "early-stage breast cancer"
+        ],
+        "parents": [
+          "C4872"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C4872",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Breast Cancer",
+        "display_name": "Breast Carcinoma",
+        "preferred_name": "Breast Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Breast Carcinoma",
+          "Breast cancer, NOS",
+          "Cancer of Breast",
+          "Cancer of the Breast",
+          "Carcinoma of Breast",
+          "Carcinoma of the Breast",
+          "Mammary Carcinoma",
+          "breast cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C9335"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C26709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Breast Disorder",
+        "display_name": "Breast Disorder",
+        "preferred_name": "Breast Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Breast Disease",
+          "Breast Diseases"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C26709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Breast Disorder",
+        "display_name": "Breast Disorder",
+        "preferred_name": "Breast Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Breast Disease",
+          "Breast Diseases"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2910",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Breast Neoplasm",
+        "display_name": "Breast Neoplasm",
+        "preferred_name": "Breast Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Breast Tumor",
+          "Neoplasm of Breast",
+          "Neoplasm of the Breast",
+          "Tumor of Breast",
+          "Tumor of the Breast"
+        ],
+        "parents": [
+          "C26709",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C9335",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Breast Neoplasm",
+        "display_name": "Malignant Breast Neoplasm",
+        "preferred_name": "Malignant Breast Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Breast Tumor",
+          "Malignant Neoplasm of Breast",
+          "Malignant Neoplasm of the Breast",
+          "Malignant Tumor of Breast",
+          "Malignant Tumor of the Breast"
+        ],
+        "parents": [
+          "C2910",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C9335",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Breast Neoplasm",
+        "display_name": "Malignant Breast Neoplasm",
+        "preferred_name": "Malignant Breast Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Breast Tumor",
+          "Malignant Neoplasm of Breast",
+          "Malignant Neoplasm of the Breast",
+          "Malignant Tumor of Breast",
+          "Malignant Tumor of the Breast"
+        ],
+        "parents": [
+          "C2910",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C2910",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Breast Neoplasm",
+        "display_name": "Breast Neoplasm",
+        "preferred_name": "Breast Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Breast Tumor",
+          "Neoplasm of Breast",
+          "Neoplasm of the Breast",
+          "Tumor of Breast",
+          "Tumor of the Breast"
+        ],
+        "parents": [
+          "C26709",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Due to the complexity of state and federal requirements governing the participation of prisoners in research, prisoner-patients shall not be approached for participation in the Registry.",
+        "inclusive": false,
+        "type": ""
+      }
+    ],
+    "expanded_access_trial": true,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "P00AB11123",
+        "nci_division_program": "ABC"
+      }
+    ],
+    "groups": [
+      {
+        "description": "Patients receive intra-operative infusion of uniformly-labeled [U-13C] glucose; 1,2-carbon C 13-labeled glucose; 1, 2-13C acetate; or combined uniformly-labeled [U-13C] glucose and 2-13C acetate. Samples are then analyzed via 13C NMR.",
+        "interventions": [
+          {
+            "category": "other",
+            "description": "Given via intra-operative infusion",
+            "id": "C118637",
+            "inclusion_indicator": "TRIAL",
+            "name": "1,2-Carbon C 13-labeled Glucose",
+            "synonyms": [
+              "D-Glucose-1,2-13C2",
+              "Dextrose-1,2-13C2",
+              "[1,2-13C]glucose"
+            ],
+            "type": "Radiation"
+          },
+          {
+            "type": "Radiation",
+            "name": "Radiopharmaceutical Compound",
+            "id": "C1446",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Radioactive Pharmaceutical",
+              "Radiochemical",
+              "Radiopharmaceuticals"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Radiation",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Agent",
+              "Drug",
+              "Drug Substance",
+              "Pharmaceutical Agent",
+              "Pharmaceuticals",
+              "Pharmacologic Agent",
+              "Pharmacological Substance"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Radioconjugate",
+            "id": "C2124",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Radio Conjugates"
+            ]
+          }
+        ],
+        "name": "Diagnostic (13C-NMR)",
+        "type": "EXPERIMENTAL"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT00001234"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "TCREG-000-11-V2-3345"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "PARALLEL",
+    "irb_approval_req_indicator": true,
+    "links": [
+      {
+        "description": "Test link 1",
+        "display_order": 0,
+        "url": "https://www.yahoo.com"
+      },
+      {
+        "description": "Test link 2",
+        "display_order": 1,
+        "url": "https://www.youtube.com"
+      }
+    ],
+    "min_target_accrual": 10000,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-9999-00003",
+    "nci_programs": [
+      {
+        "program": "SPORE",
+        "status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_primary": true,
+        "is_safety_related": true,
+        "measure": "To characterize the safety and tolerability of elesclomol sodium administered once weekly to subjects with solid tumors",
+        "time_frame": "Jan 2011",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "To test the effectiveness of the treatment",
+        "time_frame": "Dec 2010 - Feb 2011",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Analysis of bioefficiency over time",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "To test the bioefficiency of the treatment",
+        "time_frame": "Feb 2009 - Jun 2010",
+        "type": "PRIMARY"
+      }
+    ],
+    "phase": "Early Phase I",
+    "pilot": true,
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": true,
+    "public_title": "Test trial for Newly Added Fields",
+    "randomized_trial": true,
+    "scientific_description": "insert a detailed description here",
+    "sex_criteria": "SEX: BOTH",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2018-09-12T00:00:00.000005",
+        "status": "Completed",
+        "status_datetime": "2018-09-12T00:00:00.000005"
+      }
+    ],
+    "strap_created_datetime": "2021-04-14T15:45:48.063648",
+    "strap_updated_datetime": "2021-04-27T20:44:44.848638",
+    "study_source": "INDUSTRIAL",
+    "study_subtype": "OBSERVATIONAL",
+    "study_type": "INTERVENTIONAL",
+    "test_data": true,
+    "title": "Test trial for Newly Added Fields",
+    "user_created_id": "A Service",
+    "user_created_organization": "Non-Affiliate",
+    "version_no": "1fd673db99f1caaa526b1d706276fb8d",
+    "strap_publication_date": "2021-04-27T20:44:44.848638",
+    "current_trial_status": "Completed",
+    "participating_sites": [],
+    "trial_type": "Interventional",
+    "nct_id": "NCT00001234",
+    "lead_organization_id": "TCREG-000-11-V2-3345",
+    "va_associated": false,
+    "current_trial_status_date": "2018-09-12T00:00:00.000005",
+    "start_date_type": "ANTICIPATED_START_DATE",
+    "start_date_value": "1991-01-09T23:44:40.237000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2016-09-15T14:44:00.257000",
+    "completion_date_type": "ANTICIPATED_COMPLETION_DATE",
+    "completion_date_value": "1991-04-19T15:54:27.469000",
+    "total_participating_sites": 0,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [
+      {
+        "id": "C4872",
+        "name": "Breast Cancer",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C2910",
+        "name": "Breast Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Early-Stage Breast Cancer",
+          "code": "C94774",
+          "ancestor_ids": [
+            "C4872"
+          ],
+          "parent_ids": [
+            "C4872"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Breast Cancer",
+          "code": "C4872",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2910",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9335",
+          "name": "Malignant Breast Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C2910"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C2910",
+          "name": "Breast Neoplasm",
+          "parent_ids": [
+            "C26709",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2910",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4872",
+            "C7062",
+            "C9305",
+            "C9335"
+          ],
+          "code": "C94774",
+          "name": "Early-Stage Breast Cancer",
+          "parent_ids": [
+            "C4872"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C26709",
+          "name": "Breast Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2910",
+          "name": "Breast Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C3709",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2910",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305",
+            "C9335"
+          ],
+          "code": "C4872",
+          "name": "Breast Cancer",
+          "parent_ids": [
+            "C9335",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

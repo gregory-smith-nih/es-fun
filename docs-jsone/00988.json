@@ -1,0 +1,3173 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2013-02143",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Non-Hodgkin Lymphoma"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "ctro_override": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2014-04-28T14:51:42.123000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2013-10-31T10:49:00.135000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2012-11-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2008-07-05T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_COMPLETION_DATE",
+        "value": "2014-04-25T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This phase II clinical trial studies how well bortezomib, rituximab, fludarabine phosphate, mitoxantrone hydrochloride, and dexamethasone work in treating patients with relapsed or refractory follicular lymphoma. Bortezomib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as rituximab, can block cancer growth in different ways. Some block the ability of cancer to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Drugs used in chemotherapy, such as fludarabine phosphate, mitoxantrone hydrochloride and dexamethasone, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving bortezomib with rituximab, fludarabine phosphate, mitoxantrone hydrochloride, and dexamethasone may be an effective treatment for follicular lymphoma.",
+    "diseases": [
+      {
+        "display_name": "Recurrent Grade 1 Follicular Lymphoma",
+        "id": "C8155",
+        "is_lead_disease": false,
+        "name": "Recurrent Grade 1 Follicular Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Grade 1 Follicular Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Non-Hodgkin Lymphoma",
+                "code": "C3211"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Recurrent Follicular Small Cleaved Cell Lymphoma",
+          "Recurrent Grade I Follicular Lymphoma",
+          "Recurrent Grade I Follicular Small Cleaved Cell Lymphoma",
+          "Relapsed Follicular Small Cleaved Cell Lymphoma",
+          "Relapsed Grade I Follicular Lymphoma",
+          "Relapsed Grade I Follicular Small Cleaved Cell Lymphoma"
+        ],
+        "parents": [
+          "C3465",
+          "C5007"
+        ]
+      },
+      {
+        "display_name": "Recurrent Grade 3 Follicular Lymphoma",
+        "id": "C8158",
+        "is_lead_disease": false,
+        "name": "Recurrent Grade 3 Follicular Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Grade 3 Follicular Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Non-Hodgkin Lymphoma",
+                "code": "C3211"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Recurrent Follicular Large Cell Lymphoma",
+          "Recurrent Grade III Follicular Large Cell Lymphoma",
+          "Recurrent Grade III Follicular Lymphoma",
+          "Relapsed Follicular Large Cell Lymphoma",
+          "Relapsed Grade III Follicular Large Cell Lymphoma",
+          "Relapsed Grade III Follicular Lymphoma"
+        ],
+        "parents": [
+          "C3460",
+          "C178553",
+          "C5007"
+        ]
+      },
+      {
+        "display_name": "Recurrent Grade 2 Follicular Lymphoma",
+        "id": "C8156",
+        "is_lead_disease": false,
+        "name": "Recurrent Grade 2 Follicular Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Grade 2 Follicular Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Non-Hodgkin Lymphoma",
+                "code": "C3211"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Recurrent Follicular Mixed Cell Lymphoma",
+          "Recurrent Grade II Follicular Lymphoma",
+          "Recurrent Grade II Follicular Mixed Cell Lymphoma",
+          "Relapsed Follicular Mixed Cell Lymphoma",
+          "Relapsed Grade II Follicular Lymphoma",
+          "Relapsed Grade II Follicular Mixed Cell Lymphoma"
+        ],
+        "parents": [
+          "C8968",
+          "C5007"
+        ]
+      },
+      {
+        "id": "C7056",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Mature B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Mature B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Mature B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Mature B-Cell Lymphoma",
+          "Mature B-Cell Lymphomas",
+          "Mature B-Cell Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C3457",
+          "C27910"
+        ]
+      },
+      {
+        "id": "C3457",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Non Hodgkin's Lymphoma",
+          "B-Cell Non-Hodgkin's Lymphoma",
+          "B-cell lymphoma",
+          "Lymphomas Non-Hodgkin's B-Cell",
+          "Non-Hodgkin's B-Cell Lymphoma",
+          "Non-Hodgkin's Lymphoma B-Cell"
+        ],
+        "parents": [
+          "C27907",
+          "C3211"
+        ]
+      },
+      {
+        "id": "C9308",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoproliferative Disorder",
+        "display_name": "Lymphoproliferative Disorder",
+        "preferred_name": "Lymphoproliferative Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphoproliferative disease, NOS",
+          "Lymphoproliferative disorder, NOS",
+          "lymphoproliferative disorder"
+        ],
+        "parents": [
+          "C26323"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C171299",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C8504",
+          "C7056"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C27134",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+          "Hematologic Cancer",
+          "Hematologic Malignancy",
+          "Hematologic Neoplasm",
+          "Hematological Neoplasm",
+          "Hematological Tumor",
+          "Hematopoietic Cancer",
+          "Hematopoietic Cell Tumor",
+          "Hematopoietic Neoplasm",
+          "Hematopoietic Neoplasms including Lymphomas",
+          "Hematopoietic Tumor",
+          "Hematopoietic and Lymphoid Neoplasms",
+          "Hematopoietic malignancy, NOS",
+          "Hematopoietic, Including Myeloma",
+          "Malignant Hematologic Neoplasm",
+          "Malignant Hematopoietic Neoplasm",
+          "hematologic cancer"
+        ],
+        "parents": [
+          "C26323",
+          "C35813",
+          "C4741"
+        ]
+      },
+      {
+        "id": "C147861",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lymphoproliferative Disorder",
+        "display_name": "Recurrent Lymphoproliferative Disorder",
+        "preferred_name": "Recurrent Lymphoproliferative Disorder",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9308"
+        ]
+      },
+      {
+        "id": "C26323",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematologic and Lymphocytic Disorder",
+        "display_name": "Hematologic and Lymphocytic Disorder",
+        "preferred_name": "Hematologic and Lymphocytic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Disease",
+          "Blood Disorder",
+          "Hematologic Disorder",
+          "Hematological Disorder"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C35813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Tumor"
+        ],
+        "parents": [
+          "C35814",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C27907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Neoplasm",
+        "display_name": "B-Cell Neoplasm",
+        "preferred_name": "B-Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Lymphocytic Neoplasm"
+        ],
+        "parents": [
+          "C7065"
+        ]
+      },
+      {
+        "id": "C7065",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphocytic Neoplasm",
+        "display_name": "Lymphocytic Neoplasm",
+        "preferred_name": "Lymphocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphocytic Tumor",
+          "Lymphocytic and Plasma Cell Neoplasm",
+          "Lymphocytic and Plasma Cell Tumor",
+          "Lymphocytic and Plasma Cell Tumour",
+          "Lymphocytic and Plasmacytic Neoplasm",
+          "Lymphoid Neoplasm",
+          "Lymphoid Tumor",
+          "Lymphoid and Plasma Cell Tumor",
+          "Lymphoid and Plasma Cell Tumour",
+          "Lymphoid and Plasmacytic Neoplasm",
+          "Lymphoid and Plasmacytic Tumor",
+          "Lymphoid and Plasmacytic Tumour"
+        ],
+        "parents": [
+          "C27134",
+          "C9308"
+        ]
+      },
+      {
+        "id": "C3209",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Follicular Lymphoma",
+        "display_name": "Follicular Lymphoma",
+        "preferred_name": "Follicular Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Follicle Center Lymphoma",
+          "Follicular Centre Cell Lymphoma",
+          "Follicular Non-Hodgkin Lymphoma",
+          "Follicular Non-Hodgkin's Lymphoma",
+          "Follicular lymphoma",
+          "LYMPHOMA, FOLLICULAR, MALIGNANT",
+          "Lymphoma, Follicular Centre Cell",
+          "follicular lymphoma"
+        ],
+        "parents": [
+          "C7056"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C7215",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma by Clinical Course",
+        "display_name": "Non-Hodgkin Lymphoma by Clinical Course",
+        "preferred_name": "Non-Hodgkin Lymphoma by Clinical Course",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-Hodgkin's Lymphoma by Clinical Course"
+        ],
+        "parents": [
+          "C3211"
+        ]
+      },
+      {
+        "id": "C178553",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Aggressive B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Recurrent Aggressive B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent Aggressive B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C178541",
+          "C156232",
+          "C8841"
+        ]
+      },
+      {
+        "id": "C8968",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Grade 2 Follicular Lymphoma",
+        "display_name": "Grade 2 Follicular Lymphoma",
+        "preferred_name": "Grade 2 Follicular Lymphoma",
+        "type": [
+          "grade"
+        ],
+        "synonyms": [
+          "Follicular Lymphoma Grade 2",
+          "Follicular Mixed Cell Lymphoma",
+          "Follicular Mixed Lymphocytic-Histiocytic Lymphoma",
+          "Follicular lymphoma, grade 2",
+          "Grade 2",
+          "Grade II Follicular Lymphoma",
+          "Grade II Follicular Mixed Cell Lymphoma",
+          "Nodular Mixed Lymphoma",
+          "WHO Follicular Lymphoma Histologic Grade 2",
+          "follicular mixed cell lymphoma",
+          "grade 2 follicular lymphoma"
+        ],
+        "parents": [
+          "C3209",
+          "C171299"
+        ]
+      },
+      {
+        "id": "C165799",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Mature B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Recurrent Mature B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent Mature B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7056",
+          "C8841"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C172133",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Lymphoid Neoplasm",
+        "display_name": "Recurrent Malignant Lymphoid Neoplasm",
+        "preferred_name": "Recurrent Malignant Lymphoid Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7065",
+          "C27358",
+          "C147861"
+        ]
+      },
+      {
+        "id": "C4798",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neoplasm",
+        "display_name": "Recurrent Neoplasm",
+        "preferred_name": "Recurrent Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Neoplasm Recurrence",
+          "Recurrence",
+          "Recurrent",
+          "Recurrent Tumor",
+          "recurrence"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3208",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoma",
+        "display_name": "Lymphoma",
+        "preferred_name": "Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "LYMPHOMA, MALIGNANT",
+          "Lymphoma (Hodgkin and Non-Hodgkin)",
+          "Lymphoma (Hodgkin's and Non-Hodgkin's)",
+          "Lymphoma, NOS",
+          "Lymphomatous",
+          "Malignant Lymphoma",
+          "lymphoma"
+        ],
+        "parents": [
+          "C7065",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C8504",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Indolent Non-Hodgkin Lymphoma",
+        "display_name": "Indolent Non-Hodgkin Lymphoma",
+        "preferred_name": "Indolent Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Indolent Non-Hodgkin's Lymphoma",
+          "NHL, indolent, NOS",
+          "Non-Hodgkin lymphoma, indolent, NOS",
+          "indolent lymphoma"
+        ],
+        "parents": [
+          "C7215"
+        ]
+      },
+      {
+        "id": "C156232",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Aggressive Non-Hodgkin Lymphoma",
+        "display_name": "Recurrent Aggressive Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent Aggressive Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9244",
+          "C9251"
+        ]
+      },
+      {
+        "id": "C134157",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lymphoma",
+        "display_name": "Recurrent Lymphoma",
+        "preferred_name": "Recurrent Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3208",
+          "C172133"
+        ]
+      },
+      {
+        "id": "C27358",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Recurrent Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Recurrent Hematologic Malignancy",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Hematologic Cancer",
+          "Recurrent Hematologic Malignancy",
+          "Relapsed Hematologic Cancer",
+          "Relapsed Hematologic Malignancy"
+        ],
+        "parents": [
+          "C27134",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3465",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Grade 1 Follicular Lymphoma",
+        "display_name": "Grade 1 Follicular Lymphoma",
+        "preferred_name": "Grade 1 Follicular Lymphoma",
+        "type": [
+          "grade"
+        ],
+        "synonyms": [
+          "Follicular Lymphoma Grade 1",
+          "Follicular Small Cleaved Cell Lymphoma",
+          "Follicular lymphoma, grade 1",
+          "Follicular lymphoma, small cleaved cell",
+          "Grade 1",
+          "Grade I Follicular Lymphoma",
+          "Grade I Follicular Small Cleaved Cell Lymphoma",
+          "Poorly Differentiated Nodular Lymphocytic Lymphoma",
+          "WHO Follicular Lymphoma Histologic Grade 1",
+          "grade 1 follicular lymphoma"
+        ],
+        "parents": [
+          "C3209",
+          "C171299"
+        ]
+      },
+      {
+        "id": "C3460",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Grade 3 Follicular Lymphoma",
+        "display_name": "Grade 3 Follicular Lymphoma",
+        "preferred_name": "Grade 3 Follicular Lymphoma",
+        "type": [
+          "grade"
+        ],
+        "synonyms": [
+          "Follicular Large Cell Lymphoma",
+          "Follicular Lymphoma Grade 3",
+          "Follicular Lymphoma, Predominantly Large Cell",
+          "Follicular lymphoma, grade 3",
+          "Grade 3",
+          "Grade III Follicular Large Cell Lymphoma",
+          "Grade III Follicular Lymphoma",
+          "Nodular Histiocytic Lymphoma",
+          "WHO Follicular Lymphoma Histologic Grade 3",
+          "follicular large cell lymphoma",
+          "grade 3 follicular lymphoma"
+        ],
+        "parents": [
+          "C178541",
+          "C3209"
+        ]
+      },
+      {
+        "id": "C27910",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Mature B-Cell Neoplasm",
+        "display_name": "Mature B-Cell Neoplasm",
+        "preferred_name": "Mature B-Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Mature B-Cell Lymphocytic Neoplasm"
+        ],
+        "parents": [
+          "C27907"
+        ]
+      },
+      {
+        "id": "C178541",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Aggressive B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Aggressive B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Aggressive B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9244",
+          "C3457"
+        ]
+      },
+      {
+        "id": "C3211",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma",
+        "display_name": "Non-Hodgkin Lymphoma",
+        "preferred_name": "Non-Hodgkin Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "NHL",
+          "NHL, NOS",
+          "Non-Hodgkin lymphoma, NOS",
+          "Non-Hodgkin's Lymphoma",
+          "Non-Hodgkin's Lymphoma (NHL)",
+          "non-Hodgkin lymphoma"
+        ],
+        "parents": [
+          "C3208"
+        ]
+      },
+      {
+        "id": "C8841",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "B-Cell Lymphoma Recurrent",
+          "Recurrent B-Cell Lymphoma",
+          "Recurrent B-Cell Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C3457",
+          "C9251"
+        ]
+      },
+      {
+        "id": "C9244",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Aggressive Non-Hodgkin Lymphoma",
+        "display_name": "Aggressive Non-Hodgkin Lymphoma",
+        "preferred_name": "Aggressive Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Aggressive Non-Hodgkin's Lymphoma",
+          "NHL, aggressive, NOS",
+          "Non-Hodgkin lymphoma, aggressive, NOS",
+          "aggressive lymphoma"
+        ],
+        "parents": [
+          "C7215"
+        ]
+      },
+      {
+        "id": "C4813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Neoplasm",
+        "display_name": "Recurrent Malignant Neoplasm",
+        "preferred_name": "Recurrent Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrence",
+          "Recurrent Cancer",
+          "Recurrent Malignant Tumor",
+          "recurrence",
+          "recurrent cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C5007",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Follicular Lymphoma",
+        "display_name": "Recurrent Follicular Lymphoma",
+        "preferred_name": "Recurrent Follicular Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3209",
+          "C165799"
+        ]
+      },
+      {
+        "id": "C35814",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Disorder",
+        "display_name": "Hematopoietic and Lymphoid System Disorder",
+        "preferred_name": "Hematopoietic and Lymphoid System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C9251",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Non-Hodgkin Lymphoma",
+        "display_name": "Recurrent Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non-Hodgkin's Lymphoma Relapsed",
+          "Recurrent Non-Hodgkin's Lymphoma",
+          "Relapsed Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C3211",
+          "C134157"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "TSR_NCI-2013-02143_2013-11-14-1221_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-02143/TSR_NCI-2013-02143_2013-11-14-1221_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "00008487_Consentv063009_CR6_DCI.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-02143/00008487_Consentv063009_CR6_DCI.pdf",
+        "type": "INFORMED_CONSENT_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "00008487_Protocolv012009_CR6_DCI.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-02143/00008487_Protocolv012009_CR6_DCI.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "00008487_IRBv062713_CR6_DCI.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-02143/00008487_IRBv062713_CR6_DCI.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Absolute neutrophil count of < 1000 within 14 days before enrollment unless documented by the treating physician to be due to disease",
+        "display_order": 9,
+        "inclusive": false
+      },
+      {
+        "description": "Platelet count of < 50,000 within 14 days before enrollment unless documented by the treating physician to be due to the disease",
+        "display_order": 8,
+        "inclusive": false
+      },
+      {
+        "description": "Patients with known human immunodeficiency virus positive (HIV+) status; (patients may start therapy while awaiting result of test and be withdrawn from protocol therapy if the test returns positive)",
+        "display_order": 17,
+        "inclusive": false
+      },
+      {
+        "description": "Serious medical or psychiatric illness likely to interfere with participation in this clinical study",
+        "display_order": 16,
+        "inclusive": false
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status 0-2",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Male subject agrees to use an acceptable method for contraception for the duration of the study therapy",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Total bilirubin < 3 times the upper limit of normal unless documented by the treating physician to be secondary to underlying lymphoma",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Patient has received other investigational drugs for this disease within 14 days of enrollment",
+        "display_order": 15,
+        "inclusive": false
+      },
+      {
+        "description": "Cardiac ejection fraction less than 35% at study entry measured by echocardiogram, multi gated acquisition scan (MUGA) or cardiac magnetic resonance imaging (MRI)",
+        "display_order": 18,
+        "inclusive": false
+      },
+      {
+        "description": "Estimated or measured creatinine clearance of less than 30 ml/min",
+        "display_order": 10,
+        "inclusive": false
+      },
+      {
+        "description": "Aspartate aminotransferase (AST), alanine aminotransferase (ALT) < 3 times upper limit of normal unless documented by the treating physician to be secondary to underlying lymphoma",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Patient has >= grade 2 peripheral neuropathy",
+        "display_order": 11,
+        "inclusive": false
+      },
+      {
+        "description": "No prior bortezomib therapy",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Patient must have a diagnosis of grade1-3 follicular lymphoma with persistent, relapsed, or refractory disease to at least one prior regimen",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Myocardial infarction within 6 months prior to enrollment or has New York Hospital Association (NYHA) class III or IV heart failure, uncontrolled angina, severe uncontrolled ventricular arrhythmias, or electrocardiographic evidence of acute ischemia",
+        "display_order": 12,
+        "inclusive": false
+      },
+      {
+        "description": "Patient has hypersensitivity to boron, mannitol or any drug included in the current protocol",
+        "display_order": 13,
+        "inclusive": false
+      },
+      {
+        "description": "Female subject is pregnant or lactating; confirmation that the subject is not pregnant must be established by a negative serum beta (B)-human chorionic gonadotropin (B-hCG) pregnancy test result within 2 weeks of enrollment; pregnancy testing is not required for post-menopausal or surgically sterilized women",
+        "display_order": 14,
+        "inclusive": false
+      },
+      {
+        "description": "Voluntary written informed consent before performance of any study-related procedure not part of normal medical care, with the understanding that consent may be withdrawn by the subject at any time; female subject is either post-menopausal or surgically sterilized or willing to use an acceptable method of birth control (i.e., a hormonal contraceptive, intra-uterine device, diaphragm with spermicide, condom with spermicide, or abstinence) for the duration of the study therapy",
+        "display_order": 3,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "grants": [
+      {
+        "id": "P30CA14236",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2013-11-05T13:42:05.650000",
+        "description": "Patients receive bortezomib IV on days 1 and 8, fludarabine phosphate IV over 30 minutes on days 1-3, rituximab IV on day 1, dexamethasone PO on days 1-5, and mitoxantrone hydrochloride IV over 30 minutes on day 2. Treatment repeats every 28 days for up to 8 courses in the absence of disease progression or unacceptable toxicity.",
+        "identifier": 126002751,
+        "interventions": [
+          {
+            "description": "Given IV",
+            "id": "C1102",
+            "name": "Fludarabine Phosphate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Beneflur"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C1702",
+            "name": "Rituximab",
+            "type": "Biological/Vaccine",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "MabThera",
+              "Rituxan",
+              "Truxima"
+            ]
+          },
+          {
+            "description": "Given PO",
+            "id": "C422",
+            "name": "Dexamethasone",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Aacidexam",
+              "Adexone",
+              "Aknichthol Dexa",
+              "Alba-Dex",
+              "Alin",
+              "Alin Depot",
+              "Alin Oftalmico",
+              "Amplidermis",
+              "Anemul mono",
+              "Auricularum",
+              "Auxiloson",
+              "Baycadron",
+              "Baycuten",
+              "Baycuten N",
+              "Cortidexason",
+              "Cortisumman",
+              "Decacort",
+              "Decadrol",
+              "Decadron",
+              "Decadron DP",
+              "Decalix",
+              "Decameth",
+              "Decasone R.p.",
+              "Dectancyl",
+              "Dekacort",
+              "Deltafluorene",
+              "Deronil",
+              "Desameton",
+              "Dexa-Mamallet",
+              "Dexa-Rhinosan",
+              "Dexa-Scheroson",
+              "Dexa-sine",
+              "Dexacortal",
+              "Dexacortin",
+              "Dexafarma",
+              "Dexafluorene",
+              "Dexalocal",
+              "Dexamecortin",
+              "Dexameth",
+              "Dexamethasone Intensol",
+              "Dexamonozon",
+              "Dexapos",
+              "Dexinoral",
+              "Dexone",
+              "Dinormon",
+              "Dxevo",
+              "Fluorodelta",
+              "Fortecortin",
+              "Gammacorten",
+              "Hemady",
+              "Hexadrol",
+              "Lokalison-F",
+              "Loverine",
+              "Millicorten",
+              "Mymethasone",
+              "Orgadrone",
+              "Spersadex",
+              "TaperDex",
+              "Visumetazone",
+              "ZoDex"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C665",
+            "name": "Mitoxantrone Hydrochloride",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Mitroxone",
+              "Neotalem",
+              "Onkotrone",
+              "Pralifan"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C1851",
+            "name": "Bortezomib",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Velcade"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Purine Antagonist",
+            "id": "C1556",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Anthraquinone Analogue",
+            "id": "C253",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Protein Inhibitor",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase Inhibitor",
+            "id": "C1748",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Monoclonal Antibody Therapy",
+            "id": "C20401",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Monoclonal Antibody"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Steroid Hormone",
+            "id": "C1636",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antimetabolite",
+            "id": "C272",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Hormone Therapy",
+            "id": "C147908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Hormone Therapy Agent"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Immunosuppressant",
+            "id": "C574",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Organic Chemical",
+            "id": "C718",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Adrenal Agent",
+            "id": "C2364",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antiemetic Agent",
+            "id": "C267",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "CD20-targeting Agent",
+            "id": "C164034",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Intercalating Agent",
+            "id": "C582",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Ribonucleotide Reductase Inhibitor",
+            "id": "C2150",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Corticosteroid",
+            "id": "C211",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Quinone Compound",
+            "id": "C796",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Biological Agent",
+            "id": "C129821",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug or Chemical by Structure",
+            "id": "C1913",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Glucocorticoid",
+            "id": "C521",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Biological Agent",
+            "id": "C307",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Agent Affecting Nervous System",
+            "id": "C78272",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Proteasome Inhibitor",
+            "id": "C2160",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase-II Inhibitor",
+            "id": "C1968",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Antibody",
+            "id": "C129822",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Binding Agent",
+            "id": "C2842",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Signal Transduction Inhibitor",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Hormone",
+            "id": "C548",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Anti-CD20 Monoclonal Antibody",
+            "id": "C141215",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "Treatment (bortezomib, rituximab, chemotherapy)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2013-11-14T12:17:32.943000"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT00510887"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "Pro00008487"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "8785"
+      },
+      {
+        "type": "Duplicate NCI study protocol identifier",
+        "value": "NCI-2010-01503"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2013-02143"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_organization_family": "Duke Cancer Institute",
+    "legacy_id": "125678249",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999.0 Years",
+    "max_age_in_years": 999,
+    "min_age": "18.0 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 37,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2013-02143",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "149280",
+        "ctep_id": "NC010",
+        "name": "Duke University Medical Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "2301 Erwin Road",
+        "city_municipality": "Durham",
+        "state_province_territory": "NC",
+        "country": "United States",
+        "zipcode": "27710",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Duke Cancer Institute",
+          "Duke University",
+          "Duke University Health Center - Pratt Street"
+        ],
+        "phone_numbers": [
+          "888-275-3853"
+        ],
+        "fax_numbers": [
+          "919-684-5653"
+        ],
+        "urls": [
+          "http://www.cancer.duke.edu/"
+        ],
+        "status_datetime": "2010-06-04T10:01:34.691000",
+        "strap_created_datetime": "2020-04-14T17:15:58.563037",
+        "strap_updated_datetime": "2021-04-07T23:31:59.475629",
+        "strap_publication_datetime": "2021-04-07T23:31:59.475629",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:31:59.475629",
+        "version_no": "5ae92b3553be46b6539902b6196ed0c6",
+        "geo_coordinates": {
+          "lat": 35.9995,
+          "lon": -78.94
+        },
+        "persons": [
+          {
+            "id": "1048396",
+            "ctep_id": "26992",
+            "prefix": "Dr.",
+            "first_name": "David",
+            "middle_name": "Alan",
+            "last_name": "Rizzieri",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:16:18.365266",
+            "strap_updated_datetime": "2021-04-07T23:17:11.930933",
+            "strap_publication_datetime": "2021-04-07T23:17:11.930933",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:17:11.930933",
+            "version_no": "9c3966110fdf9483cc072f7fcd33582d",
+            "name": "Rizzieri, David Alan",
+            "roles": [
+              {
+                "email": "david.rizzieri@dm.duke.edu",
+                "phone": "919-668-1040",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2013-10-31T14:56:59.558000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2013-10-31T14:56:19.943000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "ADMINISTRATIVELY_COMPLETE",
+                "status_datetime": "2014-04-25T00:00:00.000003"
+              },
+              {
+                "comment": "Changed date from 03/10/2010 to match Overall trial status date per CTRP data clean-up EW# 43492.",
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2010-03-16T00:00:00.000002"
+              },
+              {
+                "comment": "Changed date from 07/15/2008 per Center feedback for CTRP data clean-up EW# 43492.",
+                "status": "ACTIVE",
+                "status_datetime": "2006-07-19T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2014-04-28T16:24:34.360000"
+          },
+          {
+            "irb_approval_number": "06/27/2013",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "Duke University Medical Center",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2013-10-31T14:47:10.325000"
+          },
+          {
+            "local_sp_identifier": "Pro00008487",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2014-12-16T16:15:03.295000"
+          }
+        ],
+        "name_with_id": "Duke University Medical Center___id:149280",
+        "current_recruiting_status": "ADMINISTRATIVELY_COMPLETE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_safety_related": false,
+        "measure": "ORR (complete and partial response rate)",
+        "time_frame": "Up to 36 months",
+        "type": "PRIMARY"
+      },
+      {
+        "is_safety_related": true,
+        "measure": "Incidence of adverse events as graded by the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 3.0",
+        "time_frame": "Up to 36 months",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "PFS will be described with Kaplan-Meier analyses.",
+        "is_safety_related": false,
+        "measure": "Progression-free survival (PFS)",
+        "time_frame": "Number of days between on study and the date of progression or death, whichever comes first, assessed up to 36 months",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "EFS will be described with Kaplan-Meier analyses.",
+        "is_safety_related": false,
+        "measure": "Event-free survival (EFV)",
+        "time_frame": "Number of days between time of response or stable disease and the date of relapse or death, whichever comes first, assessed up to 36 months",
+        "type": "PRIMARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "1048396",
+        "ctep_id": "26992",
+        "prefix": "Dr.",
+        "first_name": "David",
+        "middle_name": "Alan",
+        "last_name": "Rizzieri",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:16:18.365266",
+        "strap_updated_datetime": "2021-04-07T23:17:11.930933",
+        "strap_publication_datetime": "2021-04-07T23:17:11.930933",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:11.930933",
+        "version_no": "9c3966110fdf9483cc072f7fcd33582d",
+        "name": "Rizzieri, David Alan",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2014-12-16T16:15:03.661000"
+          }
+        ]
+      }
+    ],
+    "phase": "II",
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": false,
+    "public_title": "Bortezomib, Rituximab, Fludarabine Phosphate, Mitoxantrone Hydrochloride, and Dexamethasone in Treating Patients With Relapsed or Refractory Follicular Lymphoma",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "138345",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      },
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "14236",
+        "summary_4_report": false
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. Evaluate the efficacy overall response rate (ORR) of combining bortezomib with rituximab, fludarabine (fludarabine phosphate), mitoxantrone (mitoxantrone hydrochloride), and dexamethasone in treating patients with follicular cell lymphoma.\r\n\r\nSECONDARY OBJECTIVES:\r\nI. Evaluate the safety of this regimen in patients with follicular lymphoma.\r\nII. Evaluate the time to disease progression in patients treated on this regimen.\r\nIII. Evaluate progression free survival of patients treated on this regimen.\r\nIV. Evaluate overall survival of patients treated with this regimen.\r\n\r\nOUTLINE:\r\nPatients receive bortezomib intravenously (IV) on days 1 and 8, fludarabine phosphate IV over 30 minutes on days 1-3, rituximab IV on day 1, dexamethasone orally (PO) on days 1-5, and mitoxantrone hydrochloride IV over 30 minutes on day 2. Treatment repeats every 28 days for up to 8 courses in the absence of disease progression or unacceptable toxicity.\r\n\r\nAfter completion of study treatment, patients are followed up at 3, 6, 9, 12, 18, 24, and 36 months.",
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "comments": [
+          "Low accrual"
+        ],
+        "message_datetime": "2014-04-25T00:00:00.000003",
+        "status": "Terminated",
+        "status_datetime": "2014-04-25T00:00:00.000003"
+      },
+      {
+        "message_datetime": "2010-03-16T00:00:00.000001",
+        "status": "Active, not recruiting",
+        "status_datetime": "2010-03-16T00:00:00.000001"
+      },
+      {
+        "comments": [
+          "Changed date from 07/15/2008 per Center feedback for CTRP data clean-up EW# 43492."
+        ],
+        "message_datetime": "2006-07-19T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2006-07-19T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T22:08:20.373815",
+    "strap_publication_datetime": "2021-05-25T22:16:59.307166",
+    "strap_updated_datetime": "2021-05-25T22:16:59.307166",
+    "study_classification_code": "EFFICACY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "149280",
+    "time_perspective": "UNKNOWN",
+    "title": "A Phase Two Study of Bortezomib in Combination with Rituximab, Fludarabine, Mitoxantrone, and Dexamethasone (VR-FND) for Relapsed or Refractory Follicular Lymphoma",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "why_study_stopped": "Low accrual",
+    "version_no": "0e51ad0d7f6817aeb684d02c9f071896",
+    "strap_publication_date": "2021-05-25T22:16:59.307166",
+    "current_trial_status": "Terminated",
+    "participating_sites": [
+      "149280"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "1048396",
+        "name": "Rizzieri, David Alan",
+        "first_name": "David",
+        "middle_name": "Alan",
+        "last_name": "Rizzieri",
+        "org_id": "149280",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT00510887",
+    "lead_organization_id": "Pro00008487",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "David",
+        "last_name": "Rizzieri",
+        "middle_name": "Alan",
+        "name": "Rizzieri, David Alan",
+        "prefix": "Dr.",
+        "id": "1048396"
+      }
+    ],
+    "current_trial_status_date": "2014-04-25T00:00:00.000003",
+    "record_verification_date": "2014-04-28T14:51:42.123000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2012-11-01T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2008-07-05T00:00:00.000000",
+    "completion_date_type": "ACTUAL_COMPLETION_DATE",
+    "completion_date_value": "2014-04-25T00:00:00.000000",
+    "lead_organizations": {
+      "id": "149280",
+      "name": "Duke University Medical Center"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Recurrent Grade 3 Follicular Lymphoma",
+          "code": "C8158",
+          "ancestor_ids": [
+            "C27134",
+            "C3208",
+            "C3211"
+          ],
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Non-Hodgkin Lymphoma",
+          "code": "C3211",
+          "ancestor_ids": [
+            "C27134",
+            "C3208"
+          ],
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Recurrent Grade 1 Follicular Lymphoma",
+          "code": "C8155",
+          "ancestor_ids": [
+            "C27134",
+            "C3208",
+            "C3211"
+          ],
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Lymphoma",
+          "code": "C3208",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Recurrent Grade 2 Follicular Lymphoma",
+          "code": "C8156",
+          "ancestor_ids": [
+            "C27134",
+            "C3208",
+            "C3211"
+          ],
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "code": "C27134",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C9244",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C156232",
+          "name": "Recurrent Aggressive Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C9244",
+            "C9251"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C27907",
+          "name": "B-Cell Neoplasm",
+          "parent_ids": [
+            "C7065"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C27134",
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C4741",
+            "C35813",
+            "C26323"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C171299",
+          "name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C7056",
+            "C8504"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3208",
+          "name": "Lymphoma",
+          "parent_ids": [
+            "C7065",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C26323",
+          "name": "Hematologic and Lymphocytic Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C9244",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C178541",
+          "name": "Aggressive B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3457",
+            "C9244"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C9308",
+          "name": "Lymphoproliferative Disorder",
+          "parent_ids": [
+            "C26323"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C27910",
+          "name": "Mature B-Cell Neoplasm",
+          "parent_ids": [
+            "C27907"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C9308"
+          ],
+          "code": "C7065",
+          "name": "Lymphocytic Neoplasm",
+          "parent_ids": [
+            "C27134",
+            "C9308"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C178541",
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C9244",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3460",
+          "name": "Grade 3 Follicular Lymphoma",
+          "parent_ids": [
+            "C3209",
+            "C178541"
+          ],
+          "type": [
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3211",
+          "name": "Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C9251",
+          "name": "Recurrent Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C134157",
+            "C3211"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C147861",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C172133",
+          "name": "Recurrent Malignant Lymphoid Neoplasm",
+          "parent_ids": [
+            "C7065",
+            "C27358",
+            "C147861"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C9244",
+          "name": "Aggressive Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C7215"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4813",
+          "name": "Recurrent Malignant Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C4798"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C171299",
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3465",
+          "name": "Grade 1 Follicular Lymphoma",
+          "parent_ids": [
+            "C3209",
+            "C171299"
+          ],
+          "type": [
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3209",
+          "name": "Follicular Lymphoma",
+          "parent_ids": [
+            "C7056"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3208",
+          "name": "Lymphoma",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C165799",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C8841",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C5007",
+          "name": "Recurrent Follicular Lymphoma",
+          "parent_ids": [
+            "C3209",
+            "C165799"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7215",
+          "name": "Non-Hodgkin Lymphoma by Clinical Course",
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35814"
+          ],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [
+            "C35814",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7056",
+          "name": "Mature B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3457",
+            "C27910"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C156232",
+            "C165799",
+            "C172133",
+            "C178541",
+            "C178553",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C3460",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C5007",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8841",
+            "C9244",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8158",
+          "name": "Recurrent Grade 3 Follicular Lymphoma",
+          "parent_ids": [
+            "C3460",
+            "C178553",
+            "C5007"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C165799",
+            "C171299",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C3465",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C5007",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C8841",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8155",
+          "name": "Recurrent Grade 1 Follicular Lymphoma",
+          "parent_ids": [
+            "C3465",
+            "C5007"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C8841",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C165799",
+          "name": "Recurrent Mature B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C7056",
+            "C8841"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3457",
+          "name": "B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C27907",
+            "C3211"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C35814",
+            "C9308"
+          ],
+          "code": "C147861",
+          "name": "Recurrent Lymphoproliferative Disorder",
+          "parent_ids": [
+            "C9308"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C134157",
+          "name": "Recurrent Lymphoma",
+          "parent_ids": [
+            "C3208",
+            "C172133"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C156232",
+            "C172133",
+            "C178541",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8841",
+            "C9244",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C178553",
+          "name": "Recurrent Aggressive B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C178541",
+            "C8841",
+            "C156232"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C171299",
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8968",
+          "name": "Grade 2 Follicular Lymphoma",
+          "parent_ids": [
+            "C3209",
+            "C171299"
+          ],
+          "type": [
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8841",
+          "name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3457",
+            "C9251"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8504",
+          "name": "Indolent Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C7215"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C35814",
+          "name": "Hematopoietic and Lymphoid System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C4798",
+          "name": "Recurrent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C27358",
+          "name": "Recurrent Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C27134",
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C165799",
+            "C171299",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C5007",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C8841",
+            "C8968",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8156",
+          "name": "Recurrent Grade 2 Follicular Lymphoma",
+          "parent_ids": [
+            "C8968",
+            "C5007"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1847 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2015-01822",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUMMARY",
+    "age_criteria": "Minimum age: 12 Months\nMaximum age: 21 Years",
+    "age_is_inclusive": true,
+    "alias": "PEDS-PLAN",
+    "anatomic_sites": [
+      "Brain and Nervous System"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "ctro_override": false,
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2017-04-01T00:00:00.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2015-10-20T16:08:23.400000"
+      },
+      {
+        "type": "EXPECTED_ABSTRACTION_COMPLETION_DATE",
+        "value": "2015-11-04T00:00:00.000000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2020-09-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2015-09-01T00:00:00.000000"
+      },
+      {
+        "type": "ANTICIPATED_COMPLETION_DATE",
+        "value": "2025-09-01T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "A prospective open label, multicenter study to evaluate the feasibility and acute toxicity\n      of using molecularly guided therapy in combination with standard therapy followed by\n      maintenance therapy with DFMO in subjects with newly diagnosed high risk neuroblastoma.",
+    "diseases": [
+      {
+        "display_name": "Neuroblastoma",
+        "id": "C3270",
+        "is_lead_disease": false,
+        "name": "Neuroblastoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Neuroblastoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Primitive Neuroectodermal Tumor",
+                "code": "C3716"
+              },
+              {
+                "idx": 1,
+                "label": "Nervous System Neoplasm",
+                "code": "C3268"
+              }
+            ]
+          },
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Primitive Neuroectodermal Tumor",
+                "code": "C3716"
+              },
+              {
+                "idx": 1,
+                "label": "Embryonal Neoplasm",
+                "code": "C3264"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "NEUROBLASTOMA, MALIGNANT",
+          "Neural Crest Tumor, Malignant",
+          "Neuroblastoma (NBL)",
+          "Neuroblastoma (Schwannian Stroma-Poor)",
+          "Neuroblastoma (Schwannian Stroma-poor)",
+          "Neuroblastoma, NOS",
+          "neuroblastoma"
+        ],
+        "parents": [
+          "C6963"
+        ]
+      },
+      {
+        "display_name": "Ganglioneuroblastoma, Nodular",
+        "id": "C42058",
+        "is_lead_disease": false,
+        "name": "Ganglioneuroblastoma, Nodular",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Ganglioneuroblastoma, Nodular",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ganglioneuroblastoma",
+                "code": "C3790"
+              },
+              {
+                "idx": 1,
+                "label": "Primitive Neuroectodermal Tumor",
+                "code": "C3716"
+              },
+              {
+                "idx": 2,
+                "label": "Nervous System Neoplasm",
+                "code": "C3268"
+              }
+            ]
+          },
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ganglioneuroblastoma",
+                "code": "C3790"
+              },
+              {
+                "idx": 1,
+                "label": "Primitive Neuroectodermal Tumor",
+                "code": "C3716"
+              },
+              {
+                "idx": 2,
+                "label": "Embryonal Neoplasm",
+                "code": "C3264"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3790"
+        ]
+      },
+      {
+        "display_name": "Ganglioneuroblastoma, Intermixed",
+        "id": "C42057",
+        "is_lead_disease": false,
+        "name": "Ganglioneuroblastoma, Intermixed",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Ganglioneuroblastoma, Intermixed",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ganglioneuroblastoma",
+                "code": "C3790"
+              },
+              {
+                "idx": 1,
+                "label": "Primitive Neuroectodermal Tumor",
+                "code": "C3716"
+              },
+              {
+                "idx": 2,
+                "label": "Nervous System Neoplasm",
+                "code": "C3268"
+              }
+            ]
+          },
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ganglioneuroblastoma",
+                "code": "C3790"
+              },
+              {
+                "idx": 1,
+                "label": "Primitive Neuroectodermal Tumor",
+                "code": "C3716"
+              },
+              {
+                "idx": 2,
+                "label": "Embryonal Neoplasm",
+                "code": "C3264"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Ganglioneuroblastoma, Intermixed (Schwannian Stroma-Rich)"
+        ],
+        "parents": [
+          "C3790"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C26835",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Nervous System Disorder",
+        "display_name": "Nervous System Disorder",
+        "preferred_name": "Nervous System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Nervous System",
+          "Neurologic Disorder",
+          "Neurological Disorder",
+          "Unspecified Nervous System Problem"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C35562",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neuroepithelial, Perineurial, and Schwann Cell Neoplasm",
+        "display_name": "Neuroepithelial, Perineurial, and Schwann Cell Neoplasm",
+        "preferred_name": "Neuroepithelial, Perineurial, and Schwann Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neural Neoplasm",
+          "Neural Tumor"
+        ],
+        "parents": [
+          "C4741",
+          "C3268"
+        ]
+      },
+      {
+        "id": "C3716",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Primitive Neuroectodermal Tumor (PNET)",
+        "display_name": "Primitive Neuroectodermal Tumor",
+        "preferred_name": "Primitive Neuroectodermal Tumor",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Neuroectodermal Neoplasm",
+          "Neuroectodermal Tumor",
+          "Neuroepithelioma",
+          "PNET",
+          "PNET, NOS",
+          "Primitive Neuroectodermal Neoplasm",
+          "Primitive Neuroectodermal Tumor",
+          "Primitive neuroectodermal tumor, NOS",
+          "neuroectodermal tumor",
+          "primitive neuroectodermal tumor"
+        ],
+        "parents": [
+          "C3264",
+          "C4788",
+          "C3787"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C3790",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ganglioneuroblastoma",
+        "display_name": "Ganglioneuroblastoma",
+        "preferred_name": "Ganglioneuroblastoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "GANGLIONEUROBLASTOMA, MALIGNANT"
+        ],
+        "parents": [
+          "C6963"
+        ]
+      },
+      {
+        "id": "C4788",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Nervous System Neoplasm",
+        "display_name": "Malignant Nervous System Neoplasm",
+        "preferred_name": "Malignant Nervous System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Nervous System",
+          "Malignant Neoplasm of the Nervous System",
+          "Malignant Nervous System Tumor",
+          "Malignant Tumor of Nervous System",
+          "Malignant Tumor of the Nervous System",
+          "Nervous System Neoplasms, Malignant"
+        ],
+        "parents": [
+          "C9305",
+          "C3268"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3264",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Embryonal Neoplasm",
+        "display_name": "Embryonal Neoplasm",
+        "preferred_name": "Embryonal Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "embryonal tumor"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3268",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Nervous System Tumor",
+        "display_name": "Nervous System Neoplasm",
+        "preferred_name": "Nervous System Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasm of Nervous System",
+          "Neoplasm of the Nervous System",
+          "Nervous System Neoplasm",
+          "Nervous System Neoplasms",
+          "Nervous System Tumour",
+          "Tumor of Nervous System",
+          "Tumor of the Nervous System"
+        ],
+        "parents": [
+          "C3263",
+          "C26835"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C3787",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neuroepithelial Neoplasm",
+        "display_name": "Neuroepithelial Neoplasm",
+        "preferred_name": "Neuroepithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Neuroepithelial Tissue",
+          "Neoplasm of Neuroepithelium",
+          "Neoplasm of the Neuroepithelium",
+          "Neuroepithelial Neoplasms",
+          "Neuroepithelial Tissue Neoplasm",
+          "Neuroepithelial Tissue Tumor",
+          "Neuroepithelial Tumor",
+          "Neuroepithelial Tumors",
+          "Neuroepitheliomatous Neoplasms",
+          "Tumor of Neuroepithelial Tissue",
+          "Tumor of Neuroepithelium",
+          "Tumor of the Neuroepithelium"
+        ],
+        "parents": [
+          "C35562"
+        ]
+      },
+      {
+        "id": "C6963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neuroblastic Tumor",
+        "display_name": "Neuroblastic Tumor",
+        "preferred_name": "Neuroblastic Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3716"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "NCT02559778.xml",
+        "s3_path": "ctrppa/registry_data/NCI-2015-01822/NCT02559778.xml",
+        "type": "OTHER"
+      },
+      {
+        "active": true,
+        "name": "TSR_NCI-2015-01822_2015-11-04-1723_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2015-01822/TSR_NCI-2015-01822_2015-11-04-1723_O.rtf",
+        "type": "TSR"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Subjects must be age ≤ 21 years at initial diagnosis",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Diagnosis: Subjects must have a diagnosis of high-risk (defined in protocol)\n             neuroblastoma or ganglioneuroblastoma (nodular or intermixed) verified by histology\n             or demonstration of clumps of tumor cells in bone marrow with elevated urinary\n             catecholamine metabolites.",
+        "display_order": 0,
+        "inclusive": true
+      },
+      {
+        "description": "Specimens will be obtained only in a non-significant risk manner and not solely for\n             the purpose of investigational testing.",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Adequate Cardiac Function (defined in protocol)",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Both male and female post-pubertal study subjects need to agree to use one of the\n             more effective birth control methods during treatment and for six months after\n             treatment is stopped. These methods include total abstinence (no sex), oral\n             contraceptives (\"the pill\"), an intrauterine device (IUD), levonorgestrol implants\n             (Norplant), or medroxyprogesterone acetate injections (Depo-provera shots). If one of\n             these cannot be used, contraceptive foam with a condom is recommended.",
+        "display_order": 9,
+        "inclusive": true
+      },
+      {
+        "description": "A negative serum pregnancy test is required for female participants of child bearing\n             potential (≥13 years of age or after onset of menses)",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "Ability to tolerate PBSC collection: No known contraindication to PBSC collection.",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects who are 12-18 months of age with INSS Stage 4 and all stage 3 subjects with\n             favorable biologic features (ie, nonamplified MYCN, favorable pathology, and DNA\n             index > 1) are not eligible.",
+        "display_order": 11,
+        "inclusive": false
+      },
+      {
+        "description": "Adequate liver function must be demonstrated (defined in protocol)",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects receiving any investigational drug concurrently.",
+        "display_order": 13,
+        "inclusive": false
+      },
+      {
+        "description": "Lactating females are not eligible unless they have agreed not to breastfeed their\n             infants.",
+        "display_order": 12,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects must have adequate renal function defined as a Serum creatinine based on\n             age/gender (defined in protocol)",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects must not have had prior systemic therapy except for localized emergency\n             radiation to sites of life-threatening or function-threatening disease and/or no more\n             than 1 cycle of chemotherapy per a low or intermediate risk neuroblastoma regimen (as\n             per P9641, A3961, ANBL0531, or similar) prior to determination of MYCN amplification\n             status and histology.",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects with any other medical condition, including but not limited to malabsorption\n             syndromes, mental illness or substance abuse, deemed by the Investigator to be likely\n             to interfere with the interpretation of the results or which would interfere with a\n             subject's ability to sign or the legal guardian's ability to sign the informed\n             consent, and subject's ability to cooperate and participate in the study",
+        "display_order": 14,
+        "inclusive": false
+      },
+      {
+        "description": "Informed Consent: All subjects and/or legal guardians must sign informed written\n             consent. Assent, when appropriate, will be obtained according to institutional\n             guidelines",
+        "display_order": 10,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "groups": [
+      {
+        "created_datetime": "2017-04-28T03:08:50.414000",
+        "description": "The addition of one targeted therapy (bortezomib, crizotinib, dasatinib, lapatinib, sorafenib or vorinostat), determined using genomic profiling of tumor will be combined with standard upfront treatment during cycles 3-6 of induction chemotherapy. This will be followed by consolidation, immunotherapy and then 2 years of DFMO as maintenance.",
+        "identifier": 303498149,
+        "name": "Addition of Targeted Agent",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2017-04-28T03:08:50.414000",
+        "interventions": []
+      },
+      {
+        "description": "THIS IS A DEFAULT.",
+        "id": "DEFAULT_ID",
+        "identifier": 99999999999,
+        "interventions": [
+          {
+            "id": "C74061",
+            "name": "Crizotinib",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Xalkori"
+            ]
+          },
+          {
+            "id": "C2194",
+            "name": "Sorafenib Tosylate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Nexavar"
+            ]
+          },
+          {
+            "id": "C226",
+            "name": "Eflornithine",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": []
+          },
+          {
+            "id": "C1851",
+            "name": "Bortezomib",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Velcade"
+            ]
+          },
+          {
+            "id": "C66878",
+            "name": "Lapatinib Ditosylate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Tykerb"
+            ]
+          },
+          {
+            "id": "C1796",
+            "name": "Vorinostat",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Zolinza"
+            ]
+          },
+          {
+            "id": "C38713",
+            "name": "Dasatinib",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Sprycel"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Polyamine Synthesis Inhibitor",
+            "id": "C2076",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "c-Met-targeting Agent",
+            "id": "C164000",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "VEGFR-targeting Agent",
+            "id": "C163953",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Tyrosine Kinase Inhibitor",
+            "id": "C1967",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Raf Kinase Inhibitor",
+            "id": "C2336",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "PDGFR Inhibitor",
+            "id": "C159199",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Angiogenesis Inhibitor",
+            "id": "C1742",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Serine/Threonine Kinase Inhibitor",
+            "id": "C61074",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "HER2 Inhibitor",
+            "id": "C159156",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Protein Inhibitor",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor",
+            "id": "C2167",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "c-Met Inhibitor",
+            "id": "C143099",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Ornithine Decarboxylase Inhibitor",
+            "id": "C2088",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "EGFR-targeting Agent",
+            "id": "C163952",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Protein Kinase Inhibitor",
+            "id": "C1404",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "ALK Inhibitor",
+            "id": "C141136",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "VEGFR Tyrosine Kinase Inhibitor",
+            "id": "C93259",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Histone Deacetylase Inhibitor",
+            "id": "C1946",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "BCR-ABL Inhibitor",
+            "id": "C155700",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Signal Transduction Inhibitor",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Proteasome Inhibitor",
+            "id": "C2160",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "HER2-targeting Agent",
+            "id": "C163760",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "PDGFR-targeting Agent",
+            "id": "C164037",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "DEFAULT"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT02559778"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "NMTRC012"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2015-01822"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "legacy_id": "208932237",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "21 Years",
+    "max_age_in_years": 21,
+    "min_age": "12 Months",
+    "min_age_in_years": 1,
+    "min_target_accrual": 24,
+    "nci_id": "NCI-2015-01822",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "34801235",
+        "name": "Giselle Sholler",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "100 Michigan Ave",
+        "address_line_2": "Helen DeVos Children's Hospital Hematology/Oncology MC249,Floor 10",
+        "city_municipality": "Grand Rapids",
+        "state_province_territory": "MI",
+        "country": "United States",
+        "zipcode": "49503",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "phone_numbers": [
+          "616-267-1925"
+        ],
+        "urls": [
+          "http://www.spectrumhealth.org/body_physdirectory.cfm?id=100&action=detail&ref=4971"
+        ],
+        "status_datetime": "2014-04-23T14:16:52.301000",
+        "strap_created_datetime": "2020-04-14T17:16:28.167545",
+        "strap_updated_datetime": "2021-04-07T23:17:12.851035",
+        "strap_publication_datetime": "2021-04-07T23:17:12.851035",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:12.851035",
+        "version_no": "924100920cacde0d32ba35fdcd7ce5a8",
+        "geo_coordinates": {
+          "lat": 42.9643,
+          "lon": -85.6569
+        },
+        "roles": [
+          {
+            "local_sp_identifier": "NMTRC012",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2017-04-28T03:08:50.017000"
+          },
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2017-04-28T03:08:50.167000"
+          }
+        ],
+        "persons": [],
+        "name_with_id": "Giselle Sholler___id:34801235",
+        "current_recruiting_status": "UNKNOWN"
+      },
+      {
+        "id": "214990",
+        "ctep_id": "SC008",
+        "name": "Medical University of South Carolina",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "171 Ashley Avenue",
+        "city_municipality": "Charleston",
+        "state_province_territory": "SC",
+        "country": "United States",
+        "zipcode": "29425",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Hollings Cancer Center at Medical University of South Carolina"
+        ],
+        "phone_numbers": [
+          "843-792-9321"
+        ],
+        "status_datetime": "2008-12-31T00:49:14.982000",
+        "strap_created_datetime": "2020-04-14T17:16:11.166399",
+        "strap_updated_datetime": "2021-04-07T23:17:00.126330",
+        "strap_publication_datetime": "2021-04-07T23:17:00.126330",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:00.126330",
+        "version_no": "d619fa87d34a5f2ac5b80cc686af44dc",
+        "geo_coordinates": {
+          "lat": 32.7799,
+          "lon": -79.9416
+        },
+        "persons": [
+          {
+            "id": "1830568",
+            "ctep_id": "34470",
+            "prefix": "Dr.",
+            "first_name": "Jacqueline",
+            "middle_name": "M.",
+            "last_name": "Kraveka",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:16:05.380692",
+            "strap_updated_datetime": "2021-04-07T23:17:17.715424",
+            "strap_publication_datetime": "2021-04-07T23:17:17.715424",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:17:17.715424",
+            "version_no": "c5a0c7e09dff06f9803681fbac8c3dc5",
+            "name": "Kraveka, Jacqueline M.",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2017-06-12T14:52:08.059000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2016-01-01T00:00:00.000003"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2015-11-20T00:00:00.000002"
+              },
+              {
+                "status": "IN_REVIEW",
+                "status_datetime": "2015-11-12T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "102438",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2017-06-12T14:52:07.798000"
+          }
+        ],
+        "name_with_id": "Medical University of South Carolina___id:214990",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "id": "139049",
+        "ctep_id": "MN022",
+        "name": "University of Minnesota/Masonic Cancer Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "420 Delaware Street Southeast",
+        "city_municipality": "Minneapolis",
+        "state_province_territory": "MN",
+        "country": "United States",
+        "zipcode": "55455",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Masonic Cancer Center, University of Minnesota",
+          "University of Minnesota Medical Center-Fairview"
+        ],
+        "phone_numbers": [
+          "612-624-2620"
+        ],
+        "urls": [
+          "http://www.uofmbmt.org/Adult/PlanYourVisit/MapsandDirections/cs_099483.asp"
+        ],
+        "status_datetime": "2015-12-30T12:44:30.636000",
+        "strap_created_datetime": "2020-04-14T17:16:01.120319",
+        "strap_updated_datetime": "2021-04-07T23:16:50.909149",
+        "strap_publication_datetime": "2021-04-07T23:16:50.909149",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:50.909149",
+        "version_no": "7e4747115c9d69404656a8d2e10cd1fc",
+        "geo_coordinates": {
+          "lat": 44.974,
+          "lon": -93.2319
+        },
+        "persons": [
+          {
+            "id": "6617063",
+            "ctep_id": "43684",
+            "prefix": "Dr.",
+            "first_name": "Heather",
+            "last_name": "Stefanski",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:46:33.716198",
+            "strap_updated_datetime": "2021-04-07T23:17:18.038344",
+            "strap_publication_datetime": "2021-04-07T23:17:18.038344",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:17:18.038344",
+            "version_no": "483721d0e3c599203fc7538e09d1184b",
+            "name": "Stefanski, Heather",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2017-06-06T17:00:30.025000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2017-05-09T00:00:00.000003"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2016-11-16T00:00:00.000002"
+              },
+              {
+                "status": "IN_REVIEW",
+                "status_datetime": "2016-11-15T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "2016CG174",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2017-06-06T17:00:29.732000"
+          }
+        ],
+        "name_with_id": "University of Minnesota/Masonic Cancer Center___id:139049",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "At completion of the induction therapy, the investigators will determine feasibility of adding molecularly guided targeted therapy to standard of care chemotherapy. Feasibility will be defined as:\nSubject has a targeted agent identified\nReceives 75% of dosing of medications while on study protocol during cycles 3-6\nSubject is not removed from study due to targeted agent drug related toxicity.",
+        "is_primary": true,
+        "measure": "Number of subjects that have a targeted agent chosen for treatment.",
+        "time_frame": "2 years",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "At completion of the induction therapy, the investigators will determine feasibility of adding molecularly guided targeted therapy to standard of care chemotherapy. Feasibility will be defined as:\nSubject has a targeted agent identified\nReceives 75% of dosing of medications while on study protocol during cycles 3-6\nSubject is not removed from study due to targeted agent drug related toxicity.",
+        "is_primary": true,
+        "measure": "Number of subjects that receive 75% of dosing of medications while on study protocol during cycles 3-6.",
+        "time_frame": "2 years",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "At completion of the induction therapy, the investigators will determine feasibility of adding molecularly guided targeted therapy to standard of care chemotherapy. Feasibility will be defined as:\nSubject has a targeted agent identified\nReceives 75% of dosing of medications while on study protocol during cycles 3-6\nSubject is not removed from study due to targeted agent drug related toxicity.",
+        "is_primary": true,
+        "measure": "Number of subjects required to go off therapy due to treatment-related adverse events as assessed by CTCAE v4.0.",
+        "time_frame": "1 year",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": true,
+        "measure": "Number of subjects that are able to complete 2 years of DFMO therapy.",
+        "time_frame": "3 years",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+        "time_frame": "3 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "To measure the response of treatments chosen based on:\nOverall response rate (ORR) after induction therapy\nProgression free survival (PFS)",
+        "is_primary": false,
+        "measure": "Overall Response Rate (ORR) of Participants by the presence of radiologically assessable disease by cross-sectional CT or MRI imaging and/or by MIBG or PET scans.",
+        "time_frame": "3 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "To measure the response of treatments chosen based on:\nOverall response rate (ORR) after induction therapy\nProgression free survival (PFS)",
+        "is_primary": false,
+        "measure": "Number of days that subjects remain disease free",
+        "time_frame": "3 years",
+        "type": "SECONDARY"
+      }
+    ],
+    "phase": "I",
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": true,
+    "public_title": "Pediatric Precision Laboratory Advanced Neuroblastoma Therapy",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "34801235",
+        "summary_4_report": true,
+        "type": "INDUSTRIAL"
+      }
+    ],
+    "section801_indicator": false,
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2015-10-20T16:08:22.327000",
+        "status": "Recruiting",
+        "status_datetime": "2015-10-20T16:08:22.327000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T19:07:33.666227",
+    "strap_publication_datetime": "2021-05-25T22:17:13.786231",
+    "strap_updated_datetime": "2021-05-25T22:17:13.786231",
+    "study_classification_code": "SAFETY_OR_EFFICACY",
+    "study_source": "INDUSTRIAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "3830539",
+    "time_perspective": "UNKNOWN",
+    "title": "PEDS-PLAN - Pediatric Precision Laboratory Advanced Neuroblastoma Therapy- A Pilot Study Using Molecular Guided Therapy With Induction Chemotherapy Followed by Maintenance With DFMO for Subjects With Newly Diagnosed High-Risk Neuroblastoma",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "2196c63bff696ff3733a1aa0be4c2c65",
+    "strap_publication_date": "2021-05-25T22:17:13.786231",
+    "current_trial_status": "Recruiting",
+    "participating_sites": [
+      "139049",
+      "214990"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "6617063",
+        "name": "Stefanski, Heather",
+        "first_name": "Heather",
+        "middle_name": null,
+        "last_name": "Stefanski",
+        "org_id": "139049",
+        "org_name": null
+      },
+      {
+        "id": "1830568",
+        "name": "Kraveka, Jacqueline M.",
+        "first_name": "Jacqueline",
+        "middle_name": "M.",
+        "last_name": "Kraveka",
+        "org_id": "214990",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT02559778",
+    "lead_organization_id": "NMTRC012",
+    "va_associated": false,
+    "current_trial_status_date": "2015-10-20T16:08:22.327000",
+    "record_verification_date": "2017-04-01T00:00:00.000000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2020-09-01T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2015-09-01T00:00:00.000000",
+    "completion_date_type": "ANTICIPATED_COMPLETION_DATE",
+    "completion_date_value": "2025-09-01T00:00:00.000000",
+    "lead_organizations": {
+      "id": "34801235",
+      "name": "Giselle Sholler"
+    },
+    "total_participating_sites": 2,
+    "total_open_participating_sites": 2,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Neuroblastoma",
+          "code": "C3270",
+          "ancestor_ids": [
+            "C3264",
+            "C3268",
+            "C3716"
+          ],
+          "parent_ids": [
+            "C3716"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Ganglioneuroblastoma, Nodular",
+          "code": "C42058",
+          "ancestor_ids": [
+            "C3264",
+            "C3268",
+            "C3716",
+            "C3790"
+          ],
+          "parent_ids": [
+            "C3790"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Ganglioneuroblastoma",
+          "code": "C3790",
+          "ancestor_ids": [
+            "C3268",
+            "C3716"
+          ],
+          "parent_ids": [
+            "C3716"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Embryonal Neoplasm",
+          "code": "C3264",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Ganglioneuroblastoma, Intermixed",
+          "code": "C42057",
+          "ancestor_ids": [
+            "C3264",
+            "C3268",
+            "C3716",
+            "C3790"
+          ],
+          "parent_ids": [
+            "C3790"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Primitive Neuroectodermal Tumor (PNET)",
+          "code": "C3716",
+          "ancestor_ids": [
+            "C3268"
+          ],
+          "parent_ids": [
+            "C3268"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Nervous System Tumor",
+          "code": "C3268",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Ganglioneuroblastoma",
+          "code": "C3790",
+          "ancestor_ids": [
+            "C3264",
+            "C3716"
+          ],
+          "parent_ids": [
+            "C3716"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Primitive Neuroectodermal Tumor (PNET)",
+          "code": "C3716",
+          "ancestor_ids": [
+            "C3264"
+          ],
+          "parent_ids": [
+            "C3264"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C3264",
+          "name": "Embryonal Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3264",
+            "C3268",
+            "C35562",
+            "C3787",
+            "C4741",
+            "C4788",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3716",
+          "name": "Primitive Neuroectodermal Tumor (PNET)",
+          "parent_ids": [
+            "C3787",
+            "C3264",
+            "C4788"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3268",
+          "name": "Nervous System Tumor",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3264",
+            "C3268",
+            "C35562",
+            "C3716",
+            "C3787",
+            "C4741",
+            "C4788",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C6963",
+          "name": "Neuroblastic Tumor",
+          "parent_ids": [
+            "C3716"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3264",
+            "C3268",
+            "C35562",
+            "C3716",
+            "C3787",
+            "C3790",
+            "C4741",
+            "C4788",
+            "C6963",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C42058",
+          "name": "Ganglioneuroblastoma, Nodular",
+          "parent_ids": [
+            "C3790"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3264",
+            "C3268",
+            "C35562",
+            "C3716",
+            "C3787",
+            "C4741",
+            "C4788",
+            "C6963",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3790",
+          "name": "Ganglioneuroblastoma",
+          "parent_ids": [
+            "C6963"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3268",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4788",
+          "name": "Malignant Nervous System Neoplasm",
+          "parent_ids": [
+            "C3268",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3268",
+            "C4741"
+          ],
+          "code": "C35562",
+          "name": "Neuroepithelial, Perineurial, and Schwann Cell Neoplasm",
+          "parent_ids": [
+            "C3268",
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3268",
+            "C35562",
+            "C4741"
+          ],
+          "code": "C3787",
+          "name": "Neuroepithelial Neoplasm",
+          "parent_ids": [
+            "C35562"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C26835",
+          "name": "Nervous System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3264",
+            "C3268",
+            "C35562",
+            "C3716",
+            "C3787",
+            "C3790",
+            "C4741",
+            "C4788",
+            "C6963",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C42057",
+          "name": "Ganglioneuroblastoma, Intermixed",
+          "parent_ids": [
+            "C3790"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3268",
+          "name": "Nervous System Tumor",
+          "parent_ids": [
+            "C3263",
+            "C26835"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26835",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3264",
+            "C3268",
+            "C35562",
+            "C3716",
+            "C3787",
+            "C4741",
+            "C4788",
+            "C6963",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3270",
+          "name": "Neuroblastoma",
+          "parent_ids": [
+            "C6963"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

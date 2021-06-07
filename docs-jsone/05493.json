@@ -1,0 +1,3562 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2012-01061",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 70.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Multiple"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "biomarkers": [
+      {
+        "assay_type": "PCR",
+        "evaluation_type": "Level/Quantity",
+        "name": "BCR-ABL1 Fusion Protein",
+        "purpose": "Eligibility Criterion",
+        "status": "DELECTED_IN_CADSR",
+        "tissue_specimen_type": "Whole Blood",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Other",
+        "evaluation_type": "Level/Quantity",
+        "name": "BCR-ABL1 Fusion Protein",
+        "other_assay_type": "G-banding",
+        "purpose": "Eligibility Criterion",
+        "status": "DELECTED_IN_CADSR",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "PCR",
+        "evaluation_type": "Level/Quantity",
+        "name": "BCR-ABL1 Fusion Protein",
+        "purpose": "Eligibility Criterion",
+        "status": "DELECTED_IN_CADSR",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "In Situ Hybridization",
+        "evaluation_type": "Level/Quantity",
+        "name": "BCR-ABL1 Fusion Protein",
+        "purpose": "Eligibility Criterion",
+        "status": "DELECTED_IN_CADSR",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "In Situ Hybridization",
+        "evaluation_type": "Level/Quantity",
+        "name": "BCR-ABL1 Fusion Protein",
+        "purpose": "Eligibility Criterion",
+        "status": "DELECTED_IN_CADSR",
+        "tissue_specimen_type": "Whole Blood",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Other",
+        "evaluation_type": "Level/Quantity",
+        "name": "BCR-ABL1 Fusion Protein",
+        "other_assay_type": "G-banding",
+        "purpose": "Eligibility Criterion",
+        "status": "DELECTED_IN_CADSR",
+        "tissue_specimen_type": "Whole Blood",
+        "use": "Integral"
+      }
+    ],
+    "ctro_override": false,
+    "data_monitoring_committee_appointed": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2015-09-30T13:13:43.412000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2012-06-19T14:35:41.441000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2014-07-23T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2012-12-20T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_COMPLETION_DATE",
+        "value": "2014-07-23T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "In this study researchers want to find out more about the side effects of a new drug for Philadelphia chromosome-positive (Ph+) acute lymphoblastic leukemia (ALL) and chronic myelogenous leukemia (CML) blastic phase (BP) and if this disease will respond better to nilotinib combined with standard hyper-CVAD therapy rather than hyper-CVAD alone. Hyper-CVAD is a combination of cyclophosphamide, mesna, vincristine (vincristine sulfate), doxorubicin (doxorubicin hydrochloride), dexamethasone, methotrexate, cytarabine, and rituximab (only for patients with cluster of differentiation [CD]20 positive disease). Researchers don’t know all the ways that this drug may affect people.",
+    "diseases": [
+      {
+        "display_name": "Adult B Acute Lymphoblastic Leukemia",
+        "id": "C9143",
+        "is_lead_disease": false,
+        "name": "B Acute Lymphoblastic Leukemia",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Adult B Acute Lymphoblastic Leukemia",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Acute Lymphoblastic Leukemia",
+                "code": "C3167"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoid Leukemia",
+                "code": "C7539"
+              },
+              {
+                "idx": 2,
+                "label": "Leukemia",
+                "code": "C3161"
+              },
+              {
+                "idx": 3,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult B Acute Lymphoblastic Leukemia",
+          "Adult B Cell ALL",
+          "Adult B Cell Acute Lymphoblastic Leukemia",
+          "Adult B Cell Acute Lymphocytic Leukemia",
+          "Adult B-Cell ALL",
+          "Adult B-Cell Acute Lymphoblastic Leukemia",
+          "Adult B-Cell Acute Lymphocytic Leukemia",
+          "Adult Precursor B-Lymphoblastic Leukemia",
+          "B Cell Adult ALL",
+          "B Cell Adult Acute Lymphoblastic Leukemia",
+          "B Cell Adult Acute Lymphocytic Leukemia",
+          "B-Cell Adult ALL",
+          "B-Cell Adult Acute Lymphoblastic Leukemia",
+          "B-Cell Adult Acute Lymphocytic Leukemia"
+        ],
+        "parents": [
+          "C4967",
+          "C8644"
+        ]
+      },
+      {
+        "display_name": "Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+        "id": "C3174",
+        "is_lead_disease": false,
+        "name": "Chronic Myelogenous Leukemia (CML)",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Myeloid Leukemia",
+                "code": "C3172"
+              },
+              {
+                "idx": 1,
+                "label": "Leukemia",
+                "code": "C3161"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "BCR-ABL Positive Chronic Myelogenous Leukemia",
+          "CML",
+          "CML - Chronic Myelogenous Leukemia",
+          "Chronic Granulocytic Leukemia",
+          "Chronic Myelocytic Leukemia",
+          "Chronic Myelogenous Leukemia",
+          "Chronic Myelogenous Leukemia, BCR-ABL1 Positive",
+          "Chronic Myelogenous Leukemias",
+          "Chronic Myeloid Leukemia",
+          "Chronic myelogenous leukemia, BCR-ABL positive",
+          "Hematopoeitic - Chronic Myelocytic Leukemia (CML)",
+          "chronic granulocytic leukemia",
+          "chronic myelogenous leukemia",
+          "chronic myeloid leukemia"
+        ],
+        "parents": [
+          "C3172",
+          "C4345"
+        ]
+      },
+      {
+        "display_name": "Adult B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "id": "C114819",
+        "is_lead_disease": false,
+        "name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Adult B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Acute Lymphoblastic Leukemia",
+                "code": "C3167"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoid Leukemia",
+                "code": "C7539"
+              },
+              {
+                "idx": 2,
+                "label": "Leukemia",
+                "code": "C3161"
+              },
+              {
+                "idx": 3,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+          "Adult B Acute Lymphoblastic Leukemia with t(9;22)(q34;q11.2); BCR-ABL1"
+        ],
+        "parents": [
+          "C9143",
+          "C36312"
+        ]
+      },
+      {
+        "display_name": "Untreated Adult Acute Lymphoblastic Leukemia",
+        "id": "C115910",
+        "is_lead_disease": false,
+        "name": "Untreated Acute Lymphoblastic Leukemia (ALL)",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Untreated Adult Acute Lymphoblastic Leukemia",
+        "paths": null,
+        "type": [
+          "finding"
+        ],
+        "synonyms": [
+          "Untreated Adult Acute Lymphoblastic Leukemia"
+        ],
+        "parents": [
+          "C167435",
+          "C115907"
+        ]
+      },
+      {
+        "display_name": "Blastic Phase",
+        "id": "C115160",
+        "is_lead_disease": false,
+        "name": "Blastic Phase",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Blastic Phase",
+        "paths": null,
+        "type": [
+          "finding"
+        ],
+        "synonyms": [
+          "Blast Crisis",
+          "Blast Phase"
+        ],
+        "parents": [
+          "C35553"
+        ]
+      },
+      {
+        "id": "C36292",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Laboratory Test Result",
+        "display_name": "Laboratory Test Result",
+        "preferred_name": "Laboratory Test Result",
+        "type": [],
+        "synonyms": [
+          "LAB_RESULT",
+          "Lab Findings",
+          "Laboratory Finding",
+          "Laboratory Report",
+          "Labs",
+          "TEST RESULT",
+          "Test Result",
+          "test result",
+          "test_result"
+        ],
+        "parents": [
+          "C77140"
+        ]
+      },
+      {
+        "id": "C9308",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoproliferative Disorder",
+        "display_name": "Lymphoproliferative Disorder",
+        "preferred_name": "Lymphoproliferative Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphoproliferative disease, NOS",
+          "Lymphoproliferative disorder, NOS",
+          "lymphoproliferative disorder"
+        ],
+        "parents": [
+          "C26323"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C36312",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "display_name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "preferred_name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Acute Lymphoblastic Leukemia, Philadelphia Chromosome Positive",
+          "B Acute Lymphoblastic Leukemia with t(9;22)(q34;q11.2); BCR-ABL1",
+          "B-Cell Acute Lymphoblastic Leukemia with t(9;22)(q34;q11.2); BCR-ABL1",
+          "Philadelphia Positive Acute Lymphoblastic Leukemia",
+          "Philadelphia Positive Precursor Lymphoblastic Leukemia"
+        ],
+        "parents": [
+          "C8644",
+          "C80331"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C27134",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+          "Hematologic Cancer",
+          "Hematologic Malignancy",
+          "Hematologic Neoplasm",
+          "Hematological Neoplasm",
+          "Hematological Tumor",
+          "Hematopoietic Cancer",
+          "Hematopoietic Cell Tumor",
+          "Hematopoietic Neoplasm",
+          "Hematopoietic Neoplasms including Lymphomas",
+          "Hematopoietic Tumor",
+          "Hematopoietic and Lymphoid Neoplasms",
+          "Hematopoietic malignancy, NOS",
+          "Hematopoietic, Including Myeloma",
+          "Malignant Hematologic Neoplasm",
+          "Malignant Hematopoietic Neoplasm",
+          "hematologic cancer"
+        ],
+        "parents": [
+          "C26323",
+          "C35813",
+          "C4741"
+        ]
+      },
+      {
+        "id": "C35501",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Bone Marrow Neoplasm",
+        "display_name": "Malignant Bone Marrow Neoplasm",
+        "preferred_name": "Malignant Bone Marrow Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Bone Marrow Tumor",
+          "bone marrow cancer"
+        ],
+        "parents": [
+          "C35370",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C26323",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematologic and Lymphocytic Disorder",
+        "display_name": "Hematologic and Lymphocytic Disorder",
+        "preferred_name": "Hematologic and Lymphocytic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Disease",
+          "Blood Disorder",
+          "Hematologic Disorder",
+          "Hematological Disorder"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C35813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Tumor"
+        ],
+        "parents": [
+          "C35814",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C26683",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Abnormal Laboratory Test Result",
+        "display_name": "Abnormal Laboratory Test Result",
+        "preferred_name": "Abnormal Laboratory Test Result",
+        "type": [],
+        "synonyms": [
+          "Abnormal Lab Test Result",
+          "Abnormal Laboratory Test",
+          "Abnormal, NOS"
+        ],
+        "parents": [
+          "C36292"
+        ]
+      },
+      {
+        "id": "C3172",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Myeloid Leukemia",
+        "display_name": "Myeloid Leukemia",
+        "preferred_name": "Myeloid Leukemia",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "LEUKEMIA, GRANULOCYTIC, MALIGNANT",
+          "Leukemia Granulocytic",
+          "Leukemia Myeloid",
+          "Myelocytic Leukemia",
+          "Myelogenous Leukemia",
+          "Myeloid leukemia, NOS",
+          "Non-Lymphoblastic Leukemia",
+          "Non-Lymphocytic Leukemia",
+          "Non-lymphoblastic Leukemia",
+          "Non-lymphocytic Leukemia"
+        ],
+        "parents": [
+          "C3161",
+          "C35501",
+          "C9290"
+        ]
+      },
+      {
+        "id": "C80328",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+        "display_name": "B Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+        "preferred_name": "B Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities"
+        ],
+        "parents": [
+          "C8936"
+        ]
+      },
+      {
+        "id": "C7065",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphocytic Neoplasm",
+        "display_name": "Lymphocytic Neoplasm",
+        "preferred_name": "Lymphocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphocytic Tumor",
+          "Lymphocytic and Plasma Cell Neoplasm",
+          "Lymphocytic and Plasma Cell Tumor",
+          "Lymphocytic and Plasma Cell Tumour",
+          "Lymphocytic and Plasmacytic Neoplasm",
+          "Lymphoid Neoplasm",
+          "Lymphoid Tumor",
+          "Lymphoid and Plasma Cell Tumor",
+          "Lymphoid and Plasma Cell Tumour",
+          "Lymphoid and Plasmacytic Neoplasm",
+          "Lymphoid and Plasmacytic Tumor",
+          "Lymphoid and Plasmacytic Tumour"
+        ],
+        "parents": [
+          "C27134",
+          "C9308"
+        ]
+      },
+      {
+        "id": "C7055",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Precursor Lymphoid Neoplasm",
+        "display_name": "Precursor Lymphoid Neoplasm",
+        "preferred_name": "Precursor Lymphoid Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Precursor Lymphoblastic Leukemia/Lymphoma",
+          "Precursor Lymphoblastic Lymphoma/Leukemia"
+        ],
+        "parents": [
+          "C7065",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C27907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Neoplasm",
+        "display_name": "B-Cell Neoplasm",
+        "preferred_name": "B-Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Lymphocytic Neoplasm"
+        ],
+        "parents": [
+          "C7065"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C167435",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Leukemia Finding",
+        "display_name": "Leukemia Finding",
+        "preferred_name": "Leukemia Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C36289"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3167",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Acute Lymphoblastic Leukemia (ALL)",
+        "display_name": "Acute Lymphoblastic Leukemia (ALL)",
+        "preferred_name": "Acute Lymphoblastic Leukemia",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "ALL",
+          "ALL - Acute Lymphocytic Leukemia",
+          "ALL_TYPE",
+          "Acute Lymphoblastic Leukemia",
+          "Acute Lymphocytic Leukaemia",
+          "Acute Lymphocytic Leukemia",
+          "Acute Lymphocytic Leukemias",
+          "Acute Lymphogenous Leukemia",
+          "Acute Lymphoid Leukemia",
+          "Acute lymphatic leukemia",
+          "Acute lymphoblastic leukemia",
+          "Acute lymphoblastic leukemia (ALL)",
+          "Acute lymphoblastic leukemia, NOS",
+          "Acute lymphoblastic leukemia, precursor cell type",
+          "Acute lymphocytic leukemia",
+          "Acute lymphoid leukemia",
+          "LEUKEMIA, LYMPHOBLASTIC, MALIGNANT",
+          "Lymphoblastic Leukemia",
+          "Lymphoblastic leukemia, NOS",
+          "Precursor Cell Lymphoblastic Leukemia",
+          "Precursor Lymphoblasic Leukemia",
+          "Precursor Lymphoblastic Leukemia",
+          "Precursor cell lymphoblastic leukemia, NOS",
+          "acute lymphoblastic leukemia",
+          "acute lymphocytic leukemia"
+        ],
+        "parents": [
+          "C9300",
+          "C7539",
+          "C7055"
+        ]
+      },
+      {
+        "id": "C8644",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B Acute Lymphoblastic Leukemia",
+        "display_name": "B Acute Lymphoblastic Leukemia",
+        "preferred_name": "B Acute Lymphoblastic Leukemia",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Acute B Cell Lymphocytic Leukemia",
+          "Acute B-Cell Lymphocytic Leukemia",
+          "B Cell Acute Lymphocytic Leukemia",
+          "B Cell Precursor Type Acute Leukemia",
+          "B-ALL",
+          "B-Cell Acute Lymphoblastic Leukemia",
+          "B-Cell Acute Lymphocytic Leukemia",
+          "B-Cell Lymphoblastic Leukemia",
+          "B-Cell Precursor Type Acute Leukemia",
+          "B-Cell Type Acute Leukemia",
+          "B-cell acute lymphoblastic leukemia",
+          "B-cell acute lymphocytic leukemia",
+          "B-precursor ALL",
+          "Precursor B-Lymphoblastic Leukemia",
+          "Precursor B-cell lymphoblastic leukemia",
+          "Precursor B-lymphoblastic leukemia (B-precursor ALL)",
+          "precursor B-lymphoblastic leukemia"
+        ],
+        "parents": [
+          "C3167",
+          "C8936"
+        ]
+      },
+      {
+        "id": "C7539",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoid Leukemia",
+        "display_name": "Lymphoid Leukemia",
+        "preferred_name": "Lymphoid Leukemia",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "LEUKEMIA, LYMPHOCYTIC, MALIGNANT",
+          "Lymphocytic Leukemia",
+          "Lymphogenous Leukemia",
+          "Lymphoid leukemia, NOS",
+          "lymphocytic leukemia"
+        ],
+        "parents": [
+          "C3161",
+          "C7065"
+        ]
+      },
+      {
+        "id": "C34433",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Bone Marrow Disorder",
+        "display_name": "Bone Marrow Disorder",
+        "preferred_name": "Bone Marrow Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bone Marrow Disease"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C9290",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Myeloid Neoplasm",
+        "display_name": "Myeloid Neoplasm",
+        "preferred_name": "Myeloid Neoplasm",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Myeloid Malignancy",
+          "Myeloid Tumor"
+        ],
+        "parents": [
+          "C27134"
+        ]
+      },
+      {
+        "id": "C35370",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Bone Marrow Neoplasm",
+        "display_name": "Bone Marrow Neoplasm",
+        "preferred_name": "Bone Marrow Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bone Marrow Tumor",
+          "Neoplasm of Bone Marrow"
+        ],
+        "parents": [
+          "C34433",
+          "C35813"
+        ]
+      },
+      {
+        "id": "C35553",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Abnormal Blood Chemistry and Hematology Test Result",
+        "display_name": "Abnormal Blood Chemistry and Hematology Test Result",
+        "preferred_name": "Abnormal Blood Chemistry and Hematology Test Result",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C26683"
+        ]
+      },
+      {
+        "id": "C9143",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B Acute Lymphoblastic Leukemia",
+        "display_name": "Adult B Acute Lymphoblastic Leukemia",
+        "preferred_name": "Adult B Acute Lymphoblastic Leukemia",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult B Acute Lymphoblastic Leukemia",
+          "Adult B Cell ALL",
+          "Adult B Cell Acute Lymphoblastic Leukemia",
+          "Adult B Cell Acute Lymphocytic Leukemia",
+          "Adult B-Cell ALL",
+          "Adult B-Cell Acute Lymphoblastic Leukemia",
+          "Adult B-Cell Acute Lymphocytic Leukemia",
+          "Adult Precursor B-Lymphoblastic Leukemia",
+          "B Cell Adult ALL",
+          "B Cell Adult Acute Lymphoblastic Leukemia",
+          "B Cell Adult Acute Lymphocytic Leukemia",
+          "B-Cell Adult ALL",
+          "B-Cell Adult Acute Lymphoblastic Leukemia",
+          "B-Cell Adult Acute Lymphocytic Leukemia"
+        ],
+        "parents": [
+          "C4967",
+          "C8644"
+        ]
+      },
+      {
+        "id": "C4345",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Chronic Myeloproliferative Disease",
+        "display_name": "Myeloproliferative Neoplasm",
+        "preferred_name": "Myeloproliferative Neoplasm",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "CMPD",
+          "Chronic Myeloproliferative Disorder",
+          "Chronic Myeloproliferative Disorders",
+          "Chronic Myeloproliferative Neoplasm",
+          "Chronic myeloproliferative disease, NOS",
+          "Chronic myeloproliferative disorder",
+          "MPD",
+          "MPN",
+          "Myeloproliferative Disease",
+          "Myeloproliferative Disorder",
+          "Myeloproliferative Neoplasm",
+          "Myeloproliferative Tumor",
+          "Myeloproliferative disease, NOS",
+          "Myeloproliferative neoplasm, NOS",
+          "myeloproliferative disorder"
+        ],
+        "parents": [
+          "C35501",
+          "C9290"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C8936",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B Lymphoblastic Leukemia/Lymphoma",
+        "display_name": "B Lymphoblastic Leukemia/Lymphoma",
+        "preferred_name": "B Lymphoblastic Leukemia/Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Precursor B Lymphoblastic Leukemia/Lymphoma",
+          "Precursor B-Lymphoblastic Lymphoma/Leukemia"
+        ],
+        "parents": [
+          "C27907",
+          "C7055"
+        ]
+      },
+      {
+        "id": "C77140",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Clinical Test Result",
+        "display_name": "Clinical Test Result",
+        "preferred_name": "Clinical Test Result",
+        "type": [],
+        "synonyms": [
+          "Diagnostic Test Result",
+          "Test Result"
+        ],
+        "parents": [
+          "C3367"
+        ]
+      },
+      {
+        "id": "C35814",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Disorder",
+        "display_name": "Hematopoietic and Lymphoid System Disorder",
+        "preferred_name": "Hematopoietic and Lymphoid System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C4967",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Acute Lymphoblastic Leukemia (ALL)",
+        "display_name": "Adult Acute Lymphoblastic Leukemia",
+        "preferred_name": "Adult Acute Lymphoblastic Leukemia",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult ALL",
+          "Adult Acute Lymphoblastic Leukemia",
+          "Adult Acute Lymphocytic Leukemia",
+          "Adult Acute Lymphogenous Leukemia",
+          "Adult Acute Lymphoid Leukemia",
+          "Adult Precursor Lymphoblastic Leukemia"
+        ],
+        "parents": [
+          "C3167"
+        ]
+      },
+      {
+        "id": "C115907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Untreated Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Untreated Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Untreated Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C36289"
+        ]
+      },
+      {
+        "id": "C9300",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Acute Leukemia",
+        "display_name": "Acute Leukemia",
+        "preferred_name": "Acute Leukemia",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "acute leukemia"
+        ],
+        "parents": [
+          "C3161"
+        ]
+      },
+      {
+        "id": "C80331",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "display_name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "preferred_name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+          "B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1",
+          "B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34;q11.2); BCR-ABL1"
+        ],
+        "parents": [
+          "C80328"
+        ]
+      },
+      {
+        "id": "C36289",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic System Finding",
+        "display_name": "Hematopoietic System Finding",
+        "preferred_name": "Hematopoietic System Finding",
+        "type": [],
+        "synonyms": [
+          "HEMATOPOIETIC SYSTEM",
+          "Hematological"
+        ],
+        "parents": [
+          "C36278"
+        ]
+      },
+      {
+        "id": "C36278",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Finding by Site or System",
+        "display_name": "Finding by Site or System",
+        "preferred_name": "Finding by Site or System",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C3367"
+        ]
+      },
+      {
+        "id": "C3161",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Leukemia",
+        "display_name": "Leukemia",
+        "preferred_name": "Leukemia",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood (Leukemia)",
+          "LEUKEMIA, MALIGNANT",
+          "Leukemia NOS",
+          "Leukemia, Disease",
+          "Leukemia, NOS",
+          "Leukemias",
+          "Leukemias, General",
+          "leukemia"
+        ],
+        "parents": [
+          "C27134",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3367",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Finding",
+        "display_name": "Finding",
+        "preferred_name": "Finding",
+        "type": [],
+        "synonyms": [
+          "Observable Entity",
+          "finding"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": false,
+        "name": "MayoConsent_IRB Submitted.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2012-01061/MayoConsent_IRB Submitted.pdf",
+        "type": "INFORMED_CONSENT_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "TSR_NCI-2012-01061_2014-08-12-1154_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2012-01061/TSR_NCI-2012-01061_2014-08-12-1154_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": false,
+        "name": "MC1184Prot_IRB Submitted.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2012-01061/MC1184Prot_IRB Submitted.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      },
+      {
+        "active": false,
+        "name": "Initial IRB Submission.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2012-01061/Initial IRB Submission.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Acute or chronic liver disease or severe renal disease considered unrelated to the cancer",
+        "display_order": 31,
+        "inclusive": false
+      },
+      {
+        "description": "Other active malignancy =< 3 years prior to registration; EXCEPTIONS: Non-melanotic skin cancer or carcinoma-in-situ of the cervix",
+        "display_order": 21,
+        "inclusive": false
+      },
+      {
+        "description": "Creatinine =< 1.5 x ULN",
+        "display_order": 11,
+        "inclusive": true
+      },
+      {
+        "description": "Patients receiving any medications or substances that are inducers of CYP3A4; use of the following inducers are prohibited =< 7 days prior to registration\r\n* Inducers of CYP3A4\r\n** Efavirenz (Sustiva®)\r\n** Nevirapine (Viramune®)\r\n** Carbamazepine (Carbatrol®, Epitol®, Equetro™, Tegretol®, Tegretol-XR®)\r\n** Modafinil (Provigil®)\r\n** Phenobarbital (Luminal®)\r\n** Phenytoin (Dilantin®, Phenytek®)\r\n** Pioglitazone (Actos®)\r\n** Rifabutin (Mycobutin®)\r\n** Rifampin (Rifadin®)\r\n** St. John’s wort",
+        "display_order": 26,
+        "inclusive": false
+      },
+      {
+        "description": "Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) =< 3 x ULN",
+        "display_order": 9,
+        "inclusive": true
+      },
+      {
+        "description": "History of significant congenital or acquired bleeding disorder unrelated to cancer",
+        "display_order": 32,
+        "inclusive": false
+      },
+      {
+        "description": "Total bilirubin < 1.5 x ULN (does not apply to patients with isolated hyperbilirubinemia [e.g., Gilbert’s disease], in this situation the direct bilirubin =< 2 x ULN)",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Receiving any other investigational agent which would be considered as a treatment for the primary neoplasm",
+        "display_order": 20,
+        "inclusive": false
+      },
+      {
+        "description": "Alkaline phosphatase =< 3 x ULN",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "Previous treatment with chemotherapy or any other tyrosine kinase inhibitor (prior imatinib or dasatinib for CML-CP/-AP is allowed)",
+        "display_order": 23,
+        "inclusive": false
+      },
+      {
+        "description": "Any of the following because this study involves investigational agent(s) whose genotoxic, mutagenic and teratogenic effects on the developing fetus and newborn are unknown\r\n* Pregnant women\r\n* Nursing women\r\n* Men or women of childbearing potential who are unwilling to employ adequate contraception throughout the study and for 3 months after completion of study treatment",
+        "display_order": 16,
+        "inclusive": false
+      },
+      {
+        "description": "Acute or chronic pancreatic disease",
+        "display_order": 29,
+        "inclusive": false
+      },
+      {
+        "description": "Patients currently receiving treatment with any medications that have the potential to prolong the QT interval and the treatment cannot be either discontinued or switched to a different medication prior to starting study drug",
+        "display_order": 27,
+        "inclusive": false
+      },
+      {
+        "description": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, or psychiatric illness/social situations that would limit compliance with study requirements",
+        "display_order": 19,
+        "inclusive": false
+      },
+      {
+        "description": "Co-morbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study or interfere significantly with the proper assessment of safety and toxicity of the prescribed regimens",
+        "display_order": 17,
+        "inclusive": false
+      },
+      {
+        "description": "History of myocardial infarction =< 12 months, or congestive heart failure requiring use of ongoing maintenance therapy for life-threatening ventricular arrhythmias",
+        "display_order": 22,
+        "inclusive": false
+      },
+      {
+        "description": "Provide informed written consent",
+        "display_order": 13,
+        "inclusive": true
+      },
+      {
+        "description": "Immunocompromised patients (other than that related to the use of corticosteroids) including patients known to be human immunodeficiency virus (HIV) positive (even if on highly active antiretroviral therapy [HAART])",
+        "display_order": 18,
+        "inclusive": false
+      },
+      {
+        "description": "Major surgery =< 4 weeks prior to registration or not recovered from prior surgery",
+        "display_order": 33,
+        "inclusive": false
+      },
+      {
+        "description": "Serum glutamic pyruvic transaminase (SGPT) (alanine aminotransferase [ALT]) =< 3 x ULN",
+        "display_order": 10,
+        "inclusive": true
+      },
+      {
+        "description": "Negative serum pregnancy test done =< 7 days prior to registration, for women of childbearing potential only",
+        "display_order": 12,
+        "inclusive": true
+      },
+      {
+        "description": "Untreated, histological confirmed Philadelphia positive B-cell acute lymphoblastic leukemia or chronic myeloid leukemia blast-phase lymphoid lineage (bilineal, biphenotypic or undifferentiated) per World Health Organization (WHO) criteria; NOTE: Dexamethasone (or corticosteroids) use is allowed if needed before starting chemotherapy; prior imatinib or dasatinib therapy for CML chronic phase (CP) or acute phase (AP) is allowed",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0, 1, or 2",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Treatment with other investigational agents =< 14 days of registration",
+        "display_order": 34,
+        "inclusive": false
+      },
+      {
+        "description": "Impaired cardiac function including any one of the following:\r\n* Inability to monitor the QT interval on electrocardiogram (ECG)\r\n* Congenital long QT syndrome or a known family history of long QT syndrome\r\n* Cardiac ejection fraction (EF) < 45%\r\n* Clinically significant resting brachycardia (< 50 beats per minute)\r\n* Corrected QT interval (QTc) > 450 msec on baseline ECG; if QTc > 450 msec and electrolytes are not within normal ranges, electrolytes should be corrected and then the patient re-screened for QTc\r\n* Other clinically significant uncontrolled heart disease (e.g. unstable angina, congestive heart failure or uncontrolled hypertension)\r\n* History of or presence of clinically significant ventricular or atrial tachyarrhythmias",
+        "display_order": 24,
+        "inclusive": false
+      },
+      {
+        "description": "Magnesium/potassium/phosphorus within normal limits (WNL)",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Impaired gastrointestinal (GI) function or GI disease that may significantly alter the absorption of study drug (e.g., ulcerative diseases, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, small bowel resection or gastric bypass surgery)",
+        "display_order": 28,
+        "inclusive": false
+      },
+      {
+        "description": "Serum amylase =< 1.5 x upper limit of normal (ULN)",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Lipase =< 1.5 x ULN",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Willing to return to Mayo Clinic Rochester or Mayo Clinic Arizona for follow-up during the active monitoring phase of the study",
+        "display_order": 14,
+        "inclusive": true
+      },
+      {
+        "description": "Molecular or cytogenetic documentation of BCR-ABL fusion gene via any of the following: reverse transcriptase-polymerase chain reaction (RT-PCR), G-banding, or fluorescence in situ hybridization (FISH) testing from peripheral blood and/or bone marrow sampling",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Willing to provide CSF and blood samples for correlative research purposes",
+        "display_order": 15,
+        "inclusive": true
+      },
+      {
+        "description": "Patients receiving any medications or substances that are strong or moderate inhibitors of cytochrome P450 3A4 (CYP3A4); use of the following strong or moderate inhibitors are prohibited =< 7 days prior to registration\r\n* Strong Inhibitors of CYP3A4; > 5-fold increase in the plasma area under the curve (AUC) values or more than 80% decrease in clearance\r\n** Indinavir (Crixivan®)\r\n** Nelfinavir (Viracept®)\r\n** Atazanavir (Reyataz®)\r\n** Ritonavir (Norvir®)\r\n** Clarithromycin (Biaxin®, Biaxin XL®)\r\n** Itraconazole (Sporanox®)\r\n** Ketoconazole (Nizoral®)\r\n** Nefazodone (Serzone®)\r\n** Saquinavir (Fortovase®, Invirase®)\r\n** Telithromycin (Ketek®)\r\n* Moderate Inhibitors of CYP3A4; > 2-fold increase in the plasma AUC values or 50-80% decrease in clearance\r\n** Aprepitant (Emend®)\r\n** Erythromycin (Erythrocin®, E.E.S. ®, Ery-Tab®, Eryc®, EryPed®, PCE®)\r\n** Fluconazole (Diflucan®)\r\n** Grapefruit juice\r\n** Verapamil (Calan®, Calan SR®, Covera-HS®, Isoptin SR®, Verelan®, Verelan PM®)\r\n** Diltiazem (Cardizem®, Cardizem CD®, Cardizem LA®, Cardizem SR®, Cartia XT™, Dilacor XR®, Diltia XT®, Taztia XT™, Tiazac®)",
+        "display_order": 25,
+        "inclusive": false
+      },
+      {
+        "description": "Known cytopathologically confirmed central nervous system (CNS) infiltration",
+        "display_order": 30,
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "P30CA15083",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2012-06-20T14:36:31.808000",
+        "description": "See Detailed Description",
+        "identifier": 95786686,
+        "interventions": [
+          {
+            "description": "Correlative studies",
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Given IV or IT",
+            "id": "C408",
+            "name": "Cytarabine",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "ARA-cell",
+              "Alexan",
+              "Arabine",
+              "Aracytin",
+              "Aracytine",
+              "Cytarbel",
+              "Cytosar",
+              "Erpalfa",
+              "Starasid",
+              "Udicil"
+            ]
+          },
+          {
+            "description": "Correlative studies",
+            "id": "C62674",
+            "name": "Pharmacological Study",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Given IV",
+            "id": "C1326",
+            "name": "Doxorubicin Hydrochloride",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Adriacin",
+              "Adriamycin",
+              "Adriblastina",
+              "Adriblastine",
+              "Adrimedac",
+              "DOXO-CELL",
+              "Doxolem",
+              "Doxorubin",
+              "Farmiblastina",
+              "Rubex"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C192",
+            "name": "Mesna",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Ausobronc",
+              "Filesna",
+              "Mesnex",
+              "Mesnil",
+              "Mexan",
+              "Mistabron",
+              "Mistabronco",
+              "Mitexan",
+              "Mucofluid",
+              "Mucolene",
+              "Uromitexan",
+              "Ziken"
+            ]
+          },
+          {
+            "description": "Given PO",
+            "id": "C48375",
+            "name": "Nilotinib",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": []
+          },
+          {
+            "description": "Given IV or IT",
+            "id": "C642",
+            "name": "Methotrexate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Abitrexate",
+              "Amethopterin",
+              "Brimexate",
+              "Emtexate",
+              "Emthexat",
+              "Emthexate",
+              "Farmitrexat",
+              "Fauldexato",
+              "Folex",
+              "Folex PFS",
+              "Lantarel",
+              "Ledertrexate",
+              "Lumexon",
+              "Maxtrex",
+              "Medsatrexate",
+              "Metex",
+              "Methoblastin",
+              "Methotrexate LPF",
+              "Metrotex",
+              "Mexate",
+              "Mexate-AQ",
+              "Novatrex",
+              "Rheumatrex",
+              "Texate",
+              "Tremetex",
+              "Trexeron",
+              "Trixilem"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C1702",
+            "name": "Rituximab",
+            "type": "Biological/Vaccine",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "MabThera",
+              "Rituxan",
+              "Truxima"
+            ]
+          },
+          {
+            "description": "Given IV or PO",
+            "id": "C422",
+            "name": "Dexamethasone",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Aacidexam",
+              "Adexone",
+              "Aknichthol Dexa",
+              "Alba-Dex",
+              "Alin",
+              "Alin Depot",
+              "Alin Oftalmico",
+              "Amplidermis",
+              "Anemul mono",
+              "Auricularum",
+              "Auxiloson",
+              "Baycadron",
+              "Baycuten",
+              "Baycuten N",
+              "Cortidexason",
+              "Cortisumman",
+              "Decacort",
+              "Decadrol",
+              "Decadron",
+              "Decadron DP",
+              "Decalix",
+              "Decameth",
+              "Decasone R.p.",
+              "Dectancyl",
+              "Dekacort",
+              "Deltafluorene",
+              "Deronil",
+              "Desameton",
+              "Dexa-Mamallet",
+              "Dexa-Rhinosan",
+              "Dexa-Scheroson",
+              "Dexa-sine",
+              "Dexacortal",
+              "Dexacortin",
+              "Dexafarma",
+              "Dexafluorene",
+              "Dexalocal",
+              "Dexamecortin",
+              "Dexameth",
+              "Dexamethasone Intensol",
+              "Dexamonozon",
+              "Dexapos",
+              "Dexinoral",
+              "Dexone",
+              "Dinormon",
+              "Dxevo",
+              "Fluorodelta",
+              "Fortecortin",
+              "Gammacorten",
+              "Hemady",
+              "Hexadrol",
+              "Lokalison-F",
+              "Loverine",
+              "Millicorten",
+              "Mymethasone",
+              "Orgadrone",
+              "Spersadex",
+              "TaperDex",
+              "Visumetazone",
+              "ZoDex"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C405",
+            "name": "Cyclophosphamide",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "CYCLO-cell",
+              "Carloxan",
+              "Cicloxal",
+              "Cycloblastin",
+              "Cycloblastine",
+              "Cyclostin",
+              "Cyclostine",
+              "Cytophosphan",
+              "Fosfaseron",
+              "Genoxal",
+              "Genuxal",
+              "Ledoxina"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C607",
+            "name": "Leucovorin Calcium",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Adinepar",
+              "Calcifolin",
+              "Calfolex",
+              "Calinat",
+              "Cehafolin",
+              "Citofolin",
+              "Citrec",
+              "Cromatonbic Folinico",
+              "Dalisol",
+              "Disintox",
+              "Divical",
+              "Ecofol",
+              "Emovis",
+              "FOLI-cell",
+              "Flynoken A",
+              "Folaren",
+              "Folaxin",
+              "Foliben",
+              "Folidan",
+              "Folidar",
+              "Folinac",
+              "Folinoral",
+              "Folinvit",
+              "Foliplus",
+              "Folix",
+              "Imo",
+              "Lederfolat",
+              "Lederfolin",
+              "Leucosar",
+              "Rescufolin",
+              "Rescuvolin",
+              "Tonofolin",
+              "Wellcovorin"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C1739",
+            "name": "Vincristine Sulfate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Kyocristine",
+              "Oncovin",
+              "Vincasar",
+              "Vincosid",
+              "Vincrex"
+            ]
+          },
+          {
+            "description": "Given PO",
+            "id": "C770",
+            "name": "Prednisone",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Adasone",
+              "Cortancyl",
+              "Dacortin",
+              "DeCortin",
+              "Decortisyl",
+              "Decorton",
+              "Deltacortene",
+              "Deltison",
+              "Deltra",
+              "Econosone",
+              "Meprosona-F",
+              "Ofisolona",
+              "Panafcort",
+              "Panasol-S",
+              "Paracort",
+              "Perrigo Prednisone",
+              "Predicor",
+              "Predicorten",
+              "Prednicort",
+              "Prednidib",
+              "Prednilonga",
+              "Predniment",
+              "Prednisone Intensol",
+              "Prednitone",
+              "Promifen",
+              "Rayos",
+              "Servisone"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Doxorubicin Preparation",
+            "id": "C67502",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Protein Inhibitor",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase Inhibitor",
+            "id": "C1748",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Monoclonal Antibody Therapy",
+            "id": "C20401",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Monoclonal Antibody"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Vinca Alkaloid Compound",
+            "id": "C932",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Natural Product",
+            "id": "C1907",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Steroid Hormone",
+            "id": "C1636",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Protective Agent",
+            "id": "C26170",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antimetabolite",
+            "id": "C272",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Hormone Therapy",
+            "id": "C147908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Hormone Therapy Agent"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Immunosuppressant",
+            "id": "C574",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Organic Chemical",
+            "id": "C718",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Mustard Agent",
+            "id": "C2114",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Adrenal Agent",
+            "id": "C2364",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antimitotic Agent",
+            "id": "C273",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Tubulin Binding Agent",
+            "id": "C25974",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antiemetic Agent",
+            "id": "C267",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Folate Antagonist",
+            "id": "C511",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "CD20-targeting Agent",
+            "id": "C164034",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pyrimidine Antagonist",
+            "id": "C1557",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "c-KIT Inhibitor",
+            "id": "C159198",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Uroprotective Agent",
+            "id": "C2082",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Adjuvant",
+            "id": "C2140",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "PDGFR Inhibitor",
+            "id": "C159199",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "PDGFR-targeting Agent",
+            "id": "C164037",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Groove Binding Agent",
+            "id": "C2161",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Corticosteroid",
+            "id": "C211",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Nitrogen Mustard Compound",
+            "id": "C697",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Alkaloid",
+            "id": "C221",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Vinca-Domain Binding Agent",
+            "id": "C67422",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Antibiotic",
+            "id": "C259",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Biological Agent",
+            "id": "C129821",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Glucocorticoid",
+            "id": "C521",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Minor Groove Binding Agent",
+            "id": "C2115",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Biological Agent",
+            "id": "C307",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug or Chemical by Structure",
+            "id": "C1913",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Agent Affecting Nervous System",
+            "id": "C78272",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Folic Acid Derivative",
+            "id": "C2078",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase-II Inhibitor",
+            "id": "C1968",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Plant Product",
+            "id": "C1931",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Study",
+            "id": "C63536",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Binding Agent",
+            "id": "C2842",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Signal Transduction Inhibitor",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Dihydrofolate Reductase Inhibitor",
+            "id": "C2153",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Antibody",
+            "id": "C129822",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Tyrosine Kinase Inhibitor",
+            "id": "C1967",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Anti-CD20 Monoclonal Antibody",
+            "id": "C141215",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Therapeutic Hormone",
+            "id": "C548",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Research Activity",
+            "id": "C15429",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Research"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "BCR-ABL Inhibitor",
+            "id": "C155700",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Protein Kinase Inhibitor",
+            "id": "C1404",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Alkylating Agent",
+            "id": "C1590",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Chemoprotective Agent",
+            "id": "C2459",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "cKIT-targeting Agent",
+            "id": "C163999",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Anthracycline Antineoplastic Antibiotic",
+            "id": "C1594",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Treatment (nilotinib, combination chemotherapy)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2012-06-25T14:27:45.206000"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT01670084"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "MC1184"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2012-01061"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_organization_family": "Mayo Clinic Cancer Center",
+    "legacy_id": "95742920",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "70.0 Years",
+    "max_age_in_years": 70,
+    "min_age": "18.0 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 44,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2012-01061",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "139137",
+        "ctep_id": "MN026",
+        "name": "Mayo Clinic",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "200 First Street Southwest",
+        "city_municipality": "Rochester",
+        "state_province_territory": "MN",
+        "country": "United States",
+        "zipcode": "55905",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Mayo Clinic Cancer Center"
+        ],
+        "phone_numbers": [
+          "507-538-7623"
+        ],
+        "fax_numbers": [
+          "507-284-0161"
+        ],
+        "urls": [
+          "http://www.mayoclinic.com/"
+        ],
+        "status_datetime": "2015-01-12T10:24:23.948000",
+        "strap_created_datetime": "2020-04-14T17:31:00.910525",
+        "strap_updated_datetime": "2021-04-07T23:16:50.256906",
+        "strap_publication_datetime": "2021-04-07T23:16:50.256906",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:50.256906",
+        "version_no": "ddb866b8757b7cd2afea774036e9739d",
+        "geo_coordinates": {
+          "lat": 44.0368,
+          "lon": -92.4912
+        },
+        "persons": [
+          {
+            "id": "12274220",
+            "ctep_id": "46829",
+            "prefix": "Dr.",
+            "first_name": "Aref",
+            "last_name": "Al-Kali",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:16:27.808859",
+            "strap_updated_datetime": "2021-04-07T23:47:56.153685",
+            "strap_publication_datetime": "2021-04-07T23:47:56.153685",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:47:56.153685",
+            "version_no": "ca2fad5831b7dd590b9e01ba016b35bd",
+            "name": "Al-Kali, Aref",
+            "roles": [
+              {
+                "email": "alkali.aref@mayo.edu",
+                "phone": "507-266-0690",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2012-06-20T08:05:32.473000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2012-06-20T08:04:13.220000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "EW 62826: patient accrual = 0 in CTRP. Confirmed with trial owner that there was no accrual on trial. Withdrawal status (07/24/2014) added per trial owner",
+                "status": "WITHDRAWN",
+                "status_datetime": "2014-07-24T00:00:00.000002"
+              },
+              {
+                "status": "IN_REVIEW",
+                "status_datetime": "2012-06-19T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2017-02-08T09:43:33.309000"
+          },
+          {
+            "irb_approval_status": "SUBMITTED_PENDING",
+            "irb_organizational_affiliation": "Mayo Clinic",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2012-06-20T08:02:13.972000"
+          },
+          {
+            "local_sp_identifier": "MC1184",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2015-10-09T14:18:09.803000"
+          },
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-10-09T14:18:11.879000"
+          }
+        ],
+        "name_with_id": "Mayo Clinic___id:139137",
+        "current_recruiting_status": "WITHDRAWN"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "The distribution of duration of CR will be estimated using the method of Kaplan-Meier.",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Duration of CR, defined for all evaluable patients who have achieved a CR as the date at which the patient’s objective status is first noted to be a CR to the earliest date relapse is documented",
+        "time_frame": "Up to 4 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Frequency tables will be reviewed to determine patterns.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Maximum grade for each type of adverse event, graded according to the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v4.0",
+        "time_frame": "Up to 30 days after last dose of study drug",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The proportion of successes will be estimated by the number of successes divided by the total number of evaluable patients. Exact binomial 95% confidence intervals for the true success proportion will be calculated.",
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "Disease-free survival rate, defined as a patient who is alive and relapse-free, in patients who achieve a CR during the first 2 courses",
+        "time_frame": "2 years",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Exact binomial 95% confidence intervals for the true CR rate will be calculated. In patients who achieve a CR, the rates of complete cytogenetic response and complete molecular response will also be calculated along with exact binomial 95% confidence intervals.",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "CR rate, estimated by the number of patients achieving an objective status of CR during the first 2 courses of treatment divided by the total number of evaluable patients",
+        "time_frame": "56 days",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The distribution of survival time will be estimated using the method of Kaplan-Meier.",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Overall survival time, defined as the time from registration to death due to any cause",
+        "time_frame": "2 years",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "12274220",
+        "ctep_id": "46829",
+        "prefix": "Dr.",
+        "first_name": "Aref",
+        "last_name": "Al-Kali",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:16:27.808859",
+        "strap_updated_datetime": "2021-04-07T23:47:56.153685",
+        "strap_publication_datetime": "2021-04-07T23:47:56.153685",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:47:56.153685",
+        "version_no": "ca2fad5831b7dd590b9e01ba016b35bd",
+        "name": "Al-Kali, Aref",
+        "roles": [
+          {
+            "role": "RESPONSIBLE_PARTY_STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-10-09T14:18:13.277000"
+          },
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-10-09T14:18:10.524000"
+          }
+        ]
+      }
+    ],
+    "phase": "II",
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": false,
+    "public_title": "Nilotinib and Combination Chemotherapy in Treating Patients With Newly Diagnosed Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia or Blastic Phase Chronic Myelogenous Leukemia",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "139137",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      },
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "15083",
+        "summary_4_report": false
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. To determine the clinical efficacy (2-year disease-free survival rate) of nilotinib and combination chemotherapy in adult patients newly diagnosed with Philadelphia chromosome positive B-cell acute lymphoblastic leukemia or blast crisis of chronic myeloid leukemia.\r\n\r\nSECONDARY OBJECTIVES:\r\nI. Determine the 2-year overall survival rate.\r\nII. Determine the complete response (CR) rates (hematological, cytogenetic, and molecular) in patients treated with this regimen.\r\nIII. Determine the CR duration in patients treated with this regimen.\r\nIV. Assess the safety and toxicity of this regimen by National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0.\r\n\r\nTERTIARY OBJECTIVES:\r\nI. Assess the prognostic and predictive factors for patients treated with this regimen.\r\nII. Assess the cerebrospinal fluid (CSF) penetration for Nilotinib (CSF Nilotinib levels) in humans.\r\nIII. Assess the Abelson (ABL) kinase domain mutations frequency at diagnosis, during therapy, and at relapse.\r\n\r\nOUTLINE: \r\nINDUCTION AND CONSOLIDATION SCHEDULE A (COURSES 1, 3, 5, 7): Patients receive cyclophosphamide intravenously (IV) twice daily (BID) over 2 hours on days 1-3, mesna IV continuously on days 1-3, doxorubicin hydrochloride IV over 48 hours on day 4, vincristine sulfate IV on days 4 and 11, dexamethasone IV or orally (PO) on days 1-4 and 4-11, methotrexate intrathecally (IT) on day 2, cytarabine IT on day 8, and nilotinib PO BID on days 1-14. Patients with CD20-positive disease also receive rituximab IV on days 1 and 11.\r\n\r\nINDUCTION AND CONSOLIDATION SCHEDULE B (COURSES 2, 4, 6, 8): Patients receive methotrexate IV continuously over 22 hours on day 1, cytarabine IV over 2 hours on days 2-3, leucovorin calcium IV every 6 hours on day 1, methotrexate IT on day 2, cytarabine IT on day 8, and nilotinib PO BID on days 1-14. Patients with CD20-positive disease also receive rituximab IV on days 1 and 11.\r\n\r\nMAINTENANCE (COURSES 9-32): Patients receive nilotinib PO BID on days 1-28 (days 1-14 for minimal residual disease [MRD]-positive patients), vincristine sulfate IV on day 1, and prednisone PO on days 1 to 5. Patients also receive rituximab IV on day 1 of each course if CD20-positive, every sixth course if MRD-negative, or every third course if MRD-positive.\r\n\r\nINTENSIFICATION: Patients receive treatment as in Schedule A in courses 14 and 20 of maintenance therapy and treatment as in Schedule B in courses 15 and 21 of maintenance therapy.\r\n\r\nDELAYED MAINTENANCE (COURSES 33-36): Patients receive nilotinib PO BID on days 1 to 84. Treatment repeats every 84 days for up to 4 courses.\r\n\r\nTreatment continues in the absence of disease progression or unacceptable toxicity.\r\n\r\nAfter completion of study treatment, patients are followed up every 6-12 months for 4 years.",
+    "section801_indicator": true,
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "comments": [
+          "EW 62826: patient accrual = 0 in CTRP. Confirmed with trial owner that there was no accrual on trial. Withdrawal status (07/24/2014) added per trial owner",
+          "EW 62826: patient accrual = 0 in CTRP. Confirmed with trial owner that there was no accrual on trial. Withdrawal status (07/24/2014) added per trial owner"
+        ],
+        "message_datetime": "2014-07-24T00:00:00.000002",
+        "status": "Withdrawn",
+        "status_datetime": "2014-07-24T00:00:00.000002"
+      },
+      {
+        "message_datetime": "2012-06-19T00:00:00.000000",
+        "status": "Not yet recruiting",
+        "status_datetime": "2012-06-19T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T20:05:56.050920",
+    "strap_publication_datetime": "2021-05-25T22:17:00.543764",
+    "strap_updated_datetime": "2021-05-25T22:17:00.543764",
+    "study_classification_code": "EFFICACY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "139137",
+    "time_perspective": "UNKNOWN",
+    "title": "A Phase II Study of Combination Nilotinib and Hyper-CVAD in Patients Newly Diagnosed with Philadelphia-Chromosome Positive Acute Lymphoblastic Leukemia or Chronic Myeloid Leukemia Blast-Phase Lymphoid Lineage",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "why_study_stopped": "EW 62826: patient accrual = 0 in CTRP. Confirmed with trial owner that there was no accrual on trial. Withdrawal status (07/24/2014) added per trial owner",
+    "version_no": "539c7c90303d2ff8298e542c940b59e8",
+    "strap_publication_date": "2021-05-25T22:17:00.543764",
+    "current_trial_status": "Withdrawn",
+    "participating_sites": [
+      "139137"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "12274220",
+        "name": "Al-Kali, Aref",
+        "first_name": "Aref",
+        "middle_name": null,
+        "last_name": "Al-Kali",
+        "org_id": "139137",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT01670084",
+    "lead_organization_id": "MC1184",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Aref",
+        "last_name": "Al-Kali",
+        "middle_name": null,
+        "name": "Al-Kali, Aref",
+        "prefix": "Dr.",
+        "id": "12274220"
+      }
+    ],
+    "current_trial_status_date": "2014-07-24T00:00:00.000002",
+    "record_verification_date": "2015-09-30T13:13:43.412000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2014-07-23T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2012-12-20T00:00:00.000000",
+    "completion_date_type": "ACTUAL_COMPLETION_DATE",
+    "completion_date_value": "2014-07-23T00:00:00.000000",
+    "lead_organizations": {
+      "id": "139137",
+      "name": "Mayo Clinic"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Lymphoid Leukemia",
+          "code": "C7539",
+          "ancestor_ids": [
+            "C27134",
+            "C3161"
+          ],
+          "parent_ids": [
+            "C3161"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Chronic Myelogenous Leukemia (CML)",
+          "code": "C3174",
+          "ancestor_ids": [
+            "C27134",
+            "C3161",
+            "C3172"
+          ],
+          "parent_ids": [
+            "C3172"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Acute Lymphoblastic Leukemia (ALL)",
+          "code": "C3167",
+          "ancestor_ids": [
+            "C27134",
+            "C3161",
+            "C7539"
+          ],
+          "parent_ids": [
+            "C7539"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Myeloid Leukemia",
+          "code": "C3172",
+          "ancestor_ids": [
+            "C27134",
+            "C3161"
+          ],
+          "parent_ids": [
+            "C3161"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "B Acute Lymphoblastic Leukemia",
+          "code": "C9143",
+          "ancestor_ids": [
+            "C27134",
+            "C3161",
+            "C3167",
+            "C7539"
+          ],
+          "parent_ids": [
+            "C3167"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Untreated Acute Lymphoblastic Leukemia (ALL)",
+          "code": "C115910",
+          "ancestor_ids": [
+            "C114819",
+            "C27134",
+            "C3161",
+            "C3167",
+            "C3172",
+            "C3174",
+            "C7539",
+            "C9143"
+          ],
+          "parent_ids": [],
+          "type": [
+            "finding"
+          ]
+        },
+        {
+          "name": "Leukemia",
+          "code": "C3161",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+          "code": "C114819",
+          "ancestor_ids": [
+            "C27134",
+            "C3161",
+            "C3167",
+            "C7539"
+          ],
+          "parent_ids": [
+            "C3167"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Blastic Phase",
+          "code": "C115160",
+          "ancestor_ids": [
+            "C114819",
+            "C27134",
+            "C3161",
+            "C3167",
+            "C3172",
+            "C3174",
+            "C7539",
+            "C9143"
+          ],
+          "parent_ids": [],
+          "type": [
+            "finding"
+          ]
+        },
+        {
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "code": "C27134",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C80328",
+            "C8936",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C80331",
+          "name": "B Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2); BCR-ABL1",
+          "parent_ids": [
+            "C80328"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C27907",
+          "name": "B-Cell Neoplasm",
+          "parent_ids": [
+            "C7065"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35813",
+            "C35814"
+          ],
+          "code": "C35370",
+          "name": "Bone Marrow Neoplasm",
+          "parent_ids": [
+            "C35813",
+            "C34433"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C27134",
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C4741",
+            "C35813",
+            "C26323"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3161",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9300",
+          "name": "Acute Leukemia",
+          "parent_ids": [
+            "C3161"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3161",
+            "C3167",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4967",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C7539",
+            "C8644",
+            "C8936",
+            "C9300",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C9143",
+          "name": "B Acute Lymphoblastic Leukemia",
+          "parent_ids": [
+            "C8644",
+            "C4967"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C26323",
+          "name": "Hematologic and Lymphocytic Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C9308",
+          "name": "Lymphoproliferative Disorder",
+          "parent_ids": [
+            "C26323"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3161",
+          "name": "Leukemia",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C9308"
+          ],
+          "code": "C7065",
+          "name": "Lymphocytic Neoplasm",
+          "parent_ids": [
+            "C27134",
+            "C9308"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3161",
+            "C3167",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C7539",
+            "C9300",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C4967",
+          "name": "Acute Lymphoblastic Leukemia (ALL)",
+          "parent_ids": [
+            "C3167"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3161",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7539",
+          "name": "Lymphoid Leukemia",
+          "parent_ids": [
+            "C7065",
+            "C3161"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C34433",
+          "name": "Bone Marrow Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3161",
+            "C3167",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C7539",
+            "C8936",
+            "C9300",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8644",
+          "name": "B Acute Lymphoblastic Leukemia",
+          "parent_ids": [
+            "C8936",
+            "C3167"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C8936",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C80328",
+          "name": "B Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+          "parent_ids": [
+            "C8936"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3161",
+            "C3172",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4345",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C3174",
+          "name": "Chronic Myelogenous Leukemia (CML)",
+          "parent_ids": [
+            "C3172",
+            "C4345"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7055",
+          "name": "Precursor Lymphoid Neoplasm",
+          "parent_ids": [
+            "C7065",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35814"
+          ],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [
+            "C35814",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3161",
+          "name": "Leukemia",
+          "parent_ids": [
+            "C27134",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3161",
+            "C3167",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C36312",
+            "C4741",
+            "C4967",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C7539",
+            "C80328",
+            "C80331",
+            "C8644",
+            "C8936",
+            "C9143",
+            "C9300",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C114819",
+          "name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+          "parent_ids": [
+            "C9143",
+            "C36312"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3161",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C3172",
+          "name": "Myeloid Leukemia",
+          "parent_ids": [
+            "C3161",
+            "C35501",
+            "C9290"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3161",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C7539",
+            "C9300",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3167",
+          "name": "Acute Lymphoblastic Leukemia (ALL)",
+          "parent_ids": [
+            "C7539",
+            "C9300",
+            "C7055"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8936",
+          "name": "B Lymphoblastic Leukemia/Lymphoma",
+          "parent_ids": [
+            "C27907",
+            "C7055"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3161",
+            "C3167",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7055",
+            "C7062",
+            "C7065",
+            "C7539",
+            "C80328",
+            "C80331",
+            "C8644",
+            "C8936",
+            "C9300",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C36312",
+          "name": "B Acute Lymphoblastic Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+          "parent_ids": [
+            "C80331",
+            "C8644"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35813",
+            "C35814",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C35501",
+          "name": "Malignant Bone Marrow Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C35370"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C9290",
+          "name": "Myeloid Neoplasm",
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C35814",
+          "name": "Hematopoietic and Lymphoid System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C4345",
+          "name": "Chronic Myeloproliferative Disease",
+          "parent_ids": [
+            "C35501",
+            "C9290"
+          ],
+          "type": [
+            "subtype"
+          ]
+        }
+      ],
+      "biomarkers": []
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "es-fun",
+  "version": "1.0.0",
+  "description": "## Set up ElasticSearch 6.8.1 * Directions: https://www.elastic.co/blog/getting-started-with-elasticsearch-security * Install Java 8 Runtime: https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html * Download and install Elasticsearch 6.8.5: `curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.8.5.tar.gz`   * NOTE: this link https://www.elastic.co/downloads/past-releases/elasticsearch-6-3-1 will get 6.3.1 but it has a catastrophic error that makes it unusable with Java 8. Recommend you get 6.8.5 as noted above * edit elasticsearch.yml     - set port=9210 * edit .bashrc     - #export ES_HOME=~/elasticsearch-7.13.0     - #export ES_HOME=~/elasticsearch-6.3.1     - export ES_HOME=~/elasticsearch-6.8.5     - export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home     - export PATH=$JAVA_HOME/bin:${ES_HOME}/bin:$PATH * run `elasticsearch`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregory-smith-nih/es-fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregory-smith-nih/es-fun/issues"
+  },
+  "homepage": "https://github.com/gregory-smith-nih/es-fun#readme",
+  "dependencies": {
+    "glstools": "^1.8.5"
+  }
+}

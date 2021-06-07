@@ -1,0 +1,2090 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2011-00889",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUMMARY",
+    "age_criteria": "Minimum age: 18 Years\nMaximum age: 999 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Melanoma, Skin"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "containers": [
+      {
+        "id": "16493519",
+        "program_codes": [
+          "238432868"
+        ]
+      }
+    ],
+    "ctro_override": false,
+    "data_monitoring_committee_appointed": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2014-05-01T00:00:00.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2011-05-16T18:18:32.417000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2010-04-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2009-08-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_COMPLETION_DATE",
+        "value": "2012-10-01T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "The purpose of this clinical research study is to compare pharmacokinetics of ipilimumab\n      manufactured by two different processes",
+    "diseases": [
+      {
+        "display_name": "Stage IV Cutaneous Melanoma AJCC v6 and v7",
+        "id": "C9096",
+        "is_lead_disease": false,
+        "name": "Stage IV Cutaneous (Skin) Melanoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IV Cutaneous Melanoma AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Cutaneous Melanoma",
+                "code": "C3510"
+              },
+              {
+                "idx": 1,
+                "label": "Melanoma",
+                "code": "C3224"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Malignant Melanoma (of Skin), Stage IV",
+          "Stage IV Cutaneous Malignant Melanoma",
+          "Stage IV Cutaneous Melanoma",
+          "Stage IV Cutaneous Melanoma AJCC v6 and v7",
+          "Stage IV Malignant Melanoma of Skin",
+          "Stage IV Malignant Melanoma of the Skin",
+          "Stage IV Malignant Skin Melanoma",
+          "Stage IV Melanoma of Skin",
+          "Stage IV Melanoma of the Skin",
+          "Stage IV Skin Melanoma AJCC v6",
+          "Stage IV Skin Melanoma AJCC v7",
+          "stage IV melanoma"
+        ],
+        "parents": [
+          "C90514",
+          "C91231"
+        ]
+      },
+      {
+        "display_name": "Stage IIIB Cutaneous Melanoma AJCC v7",
+        "id": "C86051",
+        "is_lead_disease": false,
+        "name": "Stage IIIB Cutaneous (Skin) Melanoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIB Cutaneous Melanoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Cutaneous Melanoma",
+                "code": "C3510"
+              },
+              {
+                "idx": 1,
+                "label": "Melanoma",
+                "code": "C3224"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIIB Cutaneous Melanoma AJCC v7",
+          "Stage IIIB Skin Melanoma AJCC v7"
+        ],
+        "parents": [
+          "C88415"
+        ]
+      },
+      {
+        "display_name": "Recurrent Melanoma",
+        "id": "C7087",
+        "is_lead_disease": false,
+        "name": "Recurrent Melanoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Melanoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Melanoma",
+                "code": "C3224"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Malignant Melanoma"
+        ],
+        "parents": [
+          "C3224",
+          "C131500"
+        ]
+      },
+      {
+        "display_name": "Stage IIIC Cutaneous Melanoma AJCC v7",
+        "id": "C86053",
+        "is_lead_disease": false,
+        "name": "Stage IIIC Cutaneous (Skin) Melanoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIC Cutaneous Melanoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Cutaneous Melanoma",
+                "code": "C3510"
+              },
+              {
+                "idx": 1,
+                "label": "Melanoma",
+                "code": "C3224"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIIC Cutaneous Melanoma AJCC v7",
+          "Stage IIIC Skin Melanoma AJCC v7"
+        ],
+        "parents": [
+          "C88415"
+        ]
+      },
+      {
+        "display_name": "Stage IIIA Cutaneous Melanoma AJCC v7",
+        "id": "C86049",
+        "is_lead_disease": false,
+        "name": "Stage IIIA Cutaneous (Skin) Melanoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIA Cutaneous Melanoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Cutaneous Melanoma",
+                "code": "C3510"
+              },
+              {
+                "idx": 1,
+                "label": "Melanoma",
+                "code": "C3224"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIIA Cutaneous Melanoma AJCC v7",
+          "Stage IIIA Skin Melanoma AJCC v7"
+        ],
+        "parents": [
+          "C88415"
+        ]
+      },
+      {
+        "id": "C4798",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neoplasm",
+        "display_name": "Recurrent Neoplasm",
+        "preferred_name": "Recurrent Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Neoplasm Recurrence",
+          "Recurrence",
+          "Recurrent",
+          "Recurrent Tumor",
+          "recurrence"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C91231",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Cutaneous Melanoma by AJCC v7 Stage",
+        "display_name": "Cutaneous Melanoma by AJCC v7 Stage",
+        "preferred_name": "Cutaneous Melanoma by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3510"
+        ]
+      },
+      {
+        "id": "C90514",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Cutaneous Melanoma by AJCC v6 Stage",
+        "display_name": "Cutaneous Melanoma by AJCC v6 Stage",
+        "preferred_name": "Cutaneous Melanoma by AJCC v6 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3510"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C7161",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Skin Melanocytic Neoplasm",
+        "display_name": "Skin Melanocytic Neoplasm",
+        "preferred_name": "Skin Melanocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cutaneous Melanocytic Neoplasm",
+          "Melanocytic Neoplasm of Skin",
+          "Melanocytic Skin Neoplasm"
+        ],
+        "parents": [
+          "C7058",
+          "C3372"
+        ]
+      },
+      {
+        "id": "C3371",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Skin Disorder",
+        "display_name": "Skin Disorder",
+        "preferred_name": "Skin Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cutaneous Disorder",
+          "Disorder of Skin",
+          "Skin Diseases and Manifestations",
+          "Skin Disorders"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C3510",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Cutaneous (Skin) Melanoma",
+        "display_name": "Cutaneous Melanoma",
+        "preferred_name": "Cutaneous Melanoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "CM",
+          "Cutaneous Melanoma",
+          "Malignant Cutaneous Melanoma",
+          "Malignant Melanoma (of Skin), Stage Unspecified",
+          "Malignant Melanoma of Skin",
+          "Malignant Melanoma of Skin Stage Unspecified",
+          "Melanoma of Skin",
+          "Melanoma of the Skin",
+          "Skin Melanoma",
+          "Skin, Melanoma"
+        ],
+        "parents": [
+          "C2920",
+          "C3224",
+          "C7161"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3372",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Skin Tumor",
+        "display_name": "Skin Neoplasm",
+        "preferred_name": "Skin Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Skin",
+          "Neoplasm of the Skin",
+          "Skin Neoplasm",
+          "Skin Neoplasms",
+          "Tumor of Skin",
+          "Tumor of the Skin"
+        ],
+        "parents": [
+          "C3263",
+          "C3371"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C88415",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage III Cutaneous (Skin) Melanoma",
+        "display_name": "Stage III Cutaneous Melanoma AJCC v7",
+        "preferred_name": "Stage III Cutaneous Melanoma AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage III Cutaneous Melanoma AJCC v7",
+          "Stage III Skin Melanoma AJCC v7"
+        ],
+        "parents": [
+          "C91231"
+        ]
+      },
+      {
+        "id": "C4813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Neoplasm",
+        "display_name": "Recurrent Malignant Neoplasm",
+        "preferred_name": "Recurrent Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrence",
+          "Recurrent Cancer",
+          "Recurrent Malignant Tumor",
+          "recurrence",
+          "recurrent cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C131500",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Primary Malignant Neoplasm",
+        "display_name": "Recurrent Primary Malignant Neoplasm",
+        "preferred_name": "Recurrent Primary Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Primary Malignancy"
+        ],
+        "parents": [
+          "C4813"
+        ]
+      },
+      {
+        "id": "C3224",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Melanoma",
+        "display_name": "Melanoma",
+        "preferred_name": "Melanoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "MELANOMA, MALIGNANT",
+          "Malignant Melanoma",
+          "Melanoma, NOS",
+          "melanoma"
+        ],
+        "parents": [
+          "C9305",
+          "C7058"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C2920",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Skin Neoplasm",
+        "display_name": "Malignant Skin Neoplasm",
+        "preferred_name": "Malignant Skin Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Skin",
+          "Malignant Neoplasm of the Skin",
+          "Malignant Skin Tumor",
+          "Malignant Tumor of Skin",
+          "Malignant Tumor of the Skin",
+          "Melanoma and Non-Melanoma Skin Cancer",
+          "Skin Cancer",
+          "Skin Cancer, Including Melanoma",
+          "Skin Neoplasm, Malignant",
+          "Skin cancer, NOS",
+          "skin cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C3372"
+        ]
+      },
+      {
+        "id": "C7058",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Melanocytic Neoplasm",
+        "display_name": "Melanocytic Neoplasm",
+        "preferred_name": "Melanocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C4741"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "2011-00889 part site FHCRC.xls",
+        "s3_path": "ctrppa/registry_data/NCI-2011-00889/2011-00889 part site FHCRC.xls",
+        "type": "PARTICIPATING_SITES"
+      },
+      {
+        "active": true,
+        "name": "NCT00920907.xml",
+        "s3_path": "ctrppa/registry_data/NCI-2011-00889/NCT00920907.xml",
+        "type": "OTHER"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Inadequate hematologic, hepatic or renal function",
+        "display_order": 6,
+        "inclusive": false
+      },
+      {
+        "description": "Measurable/evaluable disease per modified World Health Organization (mWHO) criteria",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Active Brain Metastasis",
+        "display_order": 3,
+        "inclusive": false
+      },
+      {
+        "description": "Primary ocular or mucosal melanoma",
+        "display_order": 4,
+        "inclusive": false
+      },
+      {
+        "description": "Prior Autoimmune disease",
+        "display_order": 5,
+        "inclusive": false
+      },
+      {
+        "description": "Use of immunosuppressants",
+        "display_order": 7,
+        "inclusive": false
+      },
+      {
+        "description": "Prior treatment with a CD137 agonist or cytotoxic T lymphocyte antigen 4 (CTLA-4)\n             inhibitor",
+        "display_order": 8,
+        "inclusive": false
+      },
+      {
+        "description": "Histologic diagnosis of malignant melanoma",
+        "display_order": 0,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status 0-1",
+        "display_order": 1,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "groups": [
+      {
+        "created_datetime": "2014-06-23T01:08:15.344000",
+        "description": "Reference",
+        "identifier": 147698413,
+        "name": "Ipilimumab (Process B)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2014-06-23T01:08:15.344000",
+        "interventions": []
+      },
+      {
+        "created_datetime": "2014-06-23T01:08:15.377000",
+        "description": "Test",
+        "identifier": 147698421,
+        "name": "Ipilimumab (Process C)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2014-06-23T01:08:15.377000",
+        "interventions": []
+      },
+      {
+        "description": "THIS IS A DEFAULT.",
+        "id": "DEFAULT_ID",
+        "identifier": 99999999999,
+        "interventions": [
+          {
+            "description": "Correlative studies",
+            "id": "C62674",
+            "name": "Pharmacological Study",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Given intravenously",
+            "id": "C2654",
+            "name": "Ipilimumab",
+            "type": "Biological/Vaccine",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Yervoy"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Biological Agent",
+            "id": "C307",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Anti-CTLA-4 Monoclonal Antibody",
+            "id": "C128036",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Research Activity",
+            "id": "C15429",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Research"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Biological Agent",
+            "id": "C129821",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Study",
+            "id": "C63536",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Antibody",
+            "id": "C129822",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Monoclonal Antibody Therapy",
+            "id": "C20401",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Monoclonal Antibody"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immune Checkpoint Modulator",
+            "id": "C141144",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "DEFAULT"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT00920907"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "CA184-087"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2011-00889"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "PARALLEL",
+    "legacy_id": "74291172",
+    "links": [
+      {
+        "description": "This is google.com",
+        "display_order": 0,
+        "url": "https://www.google.com"
+      }
+    ],
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999 Years",
+    "max_age_in_years": 999,
+    "min_age": "18 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 99,
+    "nci_grant_provided": false,
+    "nci_id": "NCI-2011-00889",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 2,
+    "organizations": [
+      {
+        "id": "11899250",
+        "name": "Bristol-Myers Squibb - Plainsboro",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "777 Scudders Mill Road",
+        "city_municipality": "Plainsboro",
+        "state_province_territory": "NJ",
+        "country": "United States",
+        "zipcode": "08536",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "emails": [
+          "stacy.stein@i3research.com"
+        ],
+        "phone_numbers": [
+          "800-321-1305"
+        ],
+        "urls": [
+          "http://www.bms.com"
+        ],
+        "status_datetime": "2011-12-02T13:20:52.286000",
+        "strap_created_datetime": "2020-04-14T17:15:51.660149",
+        "strap_updated_datetime": "2021-04-07T23:16:48.034905",
+        "strap_publication_datetime": "2021-04-07T23:16:48.034905",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:48.034905",
+        "version_no": "03e6fa210fb3a142c7de1c1627b24b9f",
+        "geo_coordinates": {
+          "lat": 40.3338,
+          "lon": -74.5836
+        },
+        "roles": [
+          {
+            "local_sp_identifier": "CA184-087",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2011-05-18T09:00:44.574000"
+          }
+        ],
+        "persons": [],
+        "name_with_id": "Bristol-Myers Squibb - Plainsboro___id:11899250",
+        "current_recruiting_status": "UNKNOWN"
+      },
+      {
+        "id": "39492311",
+        "name": "Fred Hutch/University of Washington Cancer Consortium",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "1100 Fairview Avenue North",
+        "city_municipality": "Seattle",
+        "state_province_territory": "WA",
+        "country": "United States",
+        "zipcode": "98109",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "emails": [
+          "khansen@fredhutch.org"
+        ],
+        "phone_numbers": [
+          "206-667-5900"
+        ],
+        "status_datetime": "2015-09-22T07:26:05.583000",
+        "strap_created_datetime": "2020-04-14T17:16:30.647359",
+        "strap_updated_datetime": "2021-04-07T23:17:26.169412",
+        "strap_publication_datetime": "2021-04-07T23:17:26.169412",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:26.169412",
+        "version_no": "9569b81b07c85e933208f9a387c93508",
+        "geo_coordinates": {
+          "lat": 47.6307,
+          "lon": -122.3461
+        },
+        "persons": [
+          {
+            "id": "8927337",
+            "ctep_id": "45356",
+            "prefix": "Dr.",
+            "first_name": "Shailender",
+            "last_name": "Bhatia",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:31:39.339829",
+            "strap_updated_datetime": "2021-04-07T23:47:41.899832",
+            "strap_publication_datetime": "2021-04-07T23:47:41.899832",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:47:41.899832",
+            "version_no": "47f0a497357c69e3c25bad5bd999c690",
+            "name": "Bhatia, Shailender",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2011-12-29T09:47:40.048000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "COMPLETED",
+                "status_datetime": "2012-10-19T00:00:00.000004"
+              },
+              {
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2009-10-22T00:00:00.000003"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2009-09-23T00:00:00.000002"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2009-08-18T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "UW09013",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2011-12-29T09:47:39.484000"
+          }
+        ],
+        "name_with_id": "Fred Hutch/University of Washington Cancer Consortium___id:39492311",
+        "current_recruiting_status": "COMPLETED"
+      },
+      {
+        "id": "170680",
+        "ctep_id": "NY016",
+        "name": "Memorial Sloan-Kettering Cancer Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "1275 York Avenue",
+        "city_municipality": "New York",
+        "state_province_territory": "NY",
+        "country": "United States",
+        "zipcode": "10065",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Memorial Sloan Kettering Cancer Center",
+          "Memorial Sloan Kettering Cancer Center.",
+          "Memorial Sloan-Kettering Cancer Center"
+        ],
+        "phone_numbers": [
+          "212-639-2000"
+        ],
+        "urls": [
+          "http://www.mskcc.org/cancer-care/main/memorial-hospital"
+        ],
+        "status_datetime": "2014-02-11T09:06:53.632000",
+        "strap_created_datetime": "2020-04-14T17:16:03.863592",
+        "strap_updated_datetime": "2021-04-07T23:16:57.696047",
+        "strap_publication_datetime": "2021-04-07T23:16:57.696047",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:57.696047",
+        "version_no": "01f8d6a4d0ef5992afcf5c7b46dbdf8a",
+        "geo_coordinates": {
+          "lat": 40.7656,
+          "lon": -73.9624
+        },
+        "persons": [
+          {
+            "id": "1569418",
+            "ctep_id": "31372",
+            "prefix": "Dr.",
+            "first_name": "Jedd",
+            "middle_name": "David",
+            "last_name": "Wolchok",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:16:09.026008",
+            "strap_updated_datetime": "2021-04-07T23:48:00.481490",
+            "strap_publication_datetime": "2021-04-07T23:48:00.481490",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:48:00.481490",
+            "version_no": "e16ed9b7de65f7bd6b357978fc780d26",
+            "name": "Wolchok, Jedd David",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2015-09-22T09:31:02.785000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "COMPLETED",
+                "status_datetime": "2013-07-03T00:00:00.000004"
+              },
+              {
+                "status": "CLOSED_TO_ACCRUAL_AND_INTERVENTION",
+                "status_datetime": "2013-07-03T00:00:00.000003"
+              },
+              {
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2010-07-13T00:00:00.000002"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2009-07-31T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "09-079",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2015-09-22T09:31:01.273000"
+          }
+        ],
+        "name_with_id": "Memorial Sloan-Kettering Cancer Center___id:170680",
+        "current_recruiting_status": "COMPLETED"
+      },
+      {
+        "id": "71815",
+        "ctep_id": "FL065",
+        "name": "Moffitt Cancer Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "12902 Magnolia Drive",
+        "city_municipality": "Tampa",
+        "state_province_territory": "FL",
+        "country": "United States",
+        "zipcode": "33612",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Moffitt Cancer Center at Tampa General Hospital"
+        ],
+        "emails": [
+          "canceranswers@moffitt.org"
+        ],
+        "phone_numbers": [
+          "800-456-7121",
+          "888-663-3488"
+        ],
+        "urls": [
+          "http://www.moffitt.org/contact"
+        ],
+        "status_datetime": "2014-10-01T14:28:54.004000",
+        "strap_created_datetime": "2020-04-14T17:31:45.615790",
+        "strap_updated_datetime": "2021-04-07T23:17:33.108647",
+        "strap_publication_datetime": "2021-04-07T23:17:33.108647",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:33.108647",
+        "version_no": "5a539663a1d1e6927bdb17119667475c",
+        "geo_coordinates": {
+          "lat": 28.0508,
+          "lon": -82.45
+        },
+        "persons": [
+          {
+            "id": "349693",
+            "ctep_id": "19618",
+            "prefix": "Dr.",
+            "first_name": "Jeffrey",
+            "middle_name": "S.",
+            "last_name": "Weber",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:16:21.165863",
+            "strap_updated_datetime": "2021-04-07T23:17:08.823640",
+            "strap_publication_datetime": "2021-04-07T23:17:08.823640",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:17:08.823640",
+            "version_no": "d35ae980a2bc5a429343e954ba5b1c9a",
+            "name": "Weber, Jeffrey S.",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2015-08-14T10:43:26.672000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "COMPLETED",
+                "status_datetime": "2013-07-30T00:00:00.000004"
+              },
+              {
+                "status": "CLOSED_TO_ACCRUAL_AND_INTERVENTION",
+                "status_datetime": "2011-08-17T00:00:00.000003"
+              },
+              {
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2011-05-16T00:00:00.000002"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2009-08-03T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "MCC-15977",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2015-08-14T10:43:25.749000"
+          }
+        ],
+        "name_with_id": "Moffitt Cancer Center___id:71815",
+        "current_recruiting_status": "COMPLETED"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "Single-dose Pharmacokinetic (PK) parameters of ipilimumab were derived from serum concentration versus time data. Cmax was measured from first dose to end of the induction period (4 doses) as micrograms per milliliter (μg/mL). Samples were obtained at 0 hour (predose) on Days 1, 2, 3, 4, and Weeks 2, 3, 4, 7, and 10; Day 1, samples were also obtained 1 h 30 minutes (min), 2 h, 2 h 30 min, 3 h 30 min, 4 h 30 min, and 6 h post dose.  In calculating PK parameters, predose concentrations and concentrations prior to first quantifiable concentration below the lower limit of quantitation (LLOQ) were",
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "Maximum Observed Serum Concentration (Cmax) of Ipilimumab Manufactured by Process C Relative to the Cmax of Ipilimumab Manufactured by Process B - Evaluable Pharmacokinetic Population",
+        "time_frame": "Day 1 to Day 84",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "The single-dose pharmacokinetic parameters of ipilimumab were derived from serum concentration versus time data.  AUC(0-21d) was measured from first dose to end of the induction period as micrograms*hours per milliliter (μg*h/mL). Samples were obtained at 0 hour (predose) on Days 1, 2, 3, 4, and Weeks 2, 3, 4, 7, and 10; Day 1, samples were also obtained 1 h 30 minutes (min), 2 h, 2 h 30 min, 3 h 30 min, 4 h 30 min, and 6 h post dose.  In calculating PK parameters, predose concentrations and concentrations prior to first quantifiable concentration below the lower limit of quantitation (LLOQ) w",
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "Area Under the Serum Concentration-time Curve (AUC) From Time Zero to Day 21, AUC(0-21d), of Ipilimumab Manufactured by Process C Relative to the AUC(0-21d) of Ipilimumab Manufactured by Process B - Evaluable Pharmacokinetic Population",
+        "time_frame": "Day 1 to Day 84",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "The single-dose Pharmacokinetic parameters of ipilimumab were derived from serum concentration versus time data. Tmax was measured from first dose to end of the induction period (4 doses) in hours (h). Samples were obtained at 0 h (predose) on Days 1, 2, 3, 4, and Weeks 2, 3, 4, 7, and 10; Day 1, samples were also obtained 1 h 30 minutes (min), 2 h, 2 h 30 min, 3 h 30 min, 4 h 30 min, and 6 h post dose.  In calculating PK parameters, predose concentrations and concentrations prior to first quantifiable concentration below the lower limit of quantitation (LLOQ) were treated as \"missing\" for the",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Time of Maximum Observed Serum Concentration (Tmax) of Ipilimumab Manufactured by Process C Relative to the Tmax of Ipilimumab Manufactured by Process B - Evaluable Pharmacokinetic Population",
+        "time_frame": "Day 1 to Day 84",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The single-dose Pharmacokinetic parameters of ipilimumab were derived from serum concentration versus time data. T-HALF was measured from first dose to end of the induction period (4 doses) in day(s). Samples were obtained at 0 hour (predose) on Days 1, 2, 3, 4, and Weeks 2, 3, 4, 7, and 10; Day 1, samples were also obtained 1 h 30 minutes (min), 2 h, 2 h 30 min, 3 h 30 min, 4 h 30 min, and 6 h post dose.  In calculating PK parameters, predose concentrations and concentrations prior to first quantifiable concentration below the lower limit of quantitation (LLOQ) were treated as \"missing\" for t",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Terminal Elimination Half Life (T-HALF) of Ipilimumab Manufactured by Process C Relative to the T-HALF of Ipilimumab Manufactured by Process B - Evaluable Pharmacokinetic Population",
+        "time_frame": "Day 1 to Day 84",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The single-dose Pharmacokinetic parameters of ipilimumab were derived from serum concentration versus time data. CLT was measured from first dose to end of the induction period (4 doses) in milliliters per hour (mL/h). Samples were obtained at 0 hour (predose) on Days 1, 2, 3, 4, and Weeks 2, 3, 4, 7, and 10; Day 1, samples were also obtained 1 h 30 minutes (min), 2 h, 2 h 30 min, 3 h 30 min, 4 h 30 min, and 6 h post dose.  In calculating PK parameters, predose concentrations and concentrations prior to first quantifiable concentration below the lower limit of quantitation (LLOQ) were treated",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Clearance (CLT) of Ipilimumab Manufactured by Process C Relative to the CLT of Ipilimumab Manufactured by Process B - Evaluable Pharmacokinetic Population",
+        "time_frame": "Day 1 to Day 84",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "The single-dose Pharmacokinetic parameters of ipilimumab were derived from serum concentration versus time data. Vss was measured from first dose to end of the induction period (4 doses) in liter(s) (L). Samples were obtained at 0 hour (predose) on Days 1, 2, 3, 4, and Weeks 2, 3, 4, 7, and 10; Day 1, samples were also obtained 1 h 30 minutes (min), 2 h, 2 h 30 min, 3 h 30 min, 4 h 30 min, and 6 h post dose.  In calculating PK parameters, predose concentrations and concentrations prior to first quantifiable concentration below the lower limit of quantitation (LLOQ) were treated as \"missing\" fo",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Volume of Distribution at Steady State (Vss) of Ipilimumab Manufactured by Process C Relative to the Vss of Ipilimumab Manufactured by Process B - Evaluable Pharmacokinetic Population",
+        "time_frame": "Day 1 to Day 84",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Overall Response (OR) was determined as the combination of assessments of index and non-index lesions using mWHO criteria which were: Complete Response=complete disappearance of all lesions; Partial Response=decrease, relative to baseline, of 50% or greater in the sum of the products of the two largest perpendicular diameters of all index lesions, in the absence of Complete Response; Stable Disease=does not meet criteria for complete or partial response, in the absence of progressive disease, or a decrease or tumor stabilization of one or more non-index lesions; Progressive Disease (Progressio",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Best Overall Tumor Response Per Investigator Based on Modified World Health Organization (mWHO) Criteria - All Randomized Participants",
+        "time_frame": "Day 1 to last patient, last visit, approximately 3 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "ir RC=modifications of mWHO criteria reflecting clinical experience with ipilimumab in over 20 completed and/or ongoing clinical studies. irRC were designed to capture clinical activity of ipilimumab immunotherapy that may not be adequately addressed by the mWHO criteria. irComplete Response (irCR): Complete disappearance of all index and non-index lesions. irPartial Response (irPR): Decrease, relative to baseline, of 50% or greater in the sum of the products of the two largest perpendicular diameters of all index and all new measurable lesions in the absence of irCR, non-index lesions not con",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Best Overall Tumor Response Per Investigator Based on Immune-related (ir) Response Criteria (RC) - All Randomized Participants",
+        "time_frame": "Day 1 to last patient, last visit, approximately 3 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Overall survival (OS) was defined as the time between the first dose of study treatment and death and was analyzed using Kaplan-Meier methods, with participants who had not died censored at the last date known to be alive. Overall survival was measured in months.",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Median Overall Survival Following First Ipilimumab Dose - All Treated Participants",
+        "time_frame": "Week 1 (first dose) to last patient, last visit, approximately 3 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Absolute lymphocyte counts (ALC) were obtained throughout the study as part of the hematology panel. Results collected from 28 days prior to the first infusion of ipilimumab through the end of the Induction-Dosing Period were included in the analyses of ALC. Mean ALC was estimated via an extended linear model, with linear splines and a spatial exponential within-patient correlation structure. Lymphocytes were measured as 1000 cells per micro liter (c/µL).",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Model Estimates of Mean Absolute Lymphocyte Count at Each Nominal Ipilimumab Induction Dose and at End of the Induction Dosing Period",
+        "time_frame": "Day 0 (prior to first dose) to Day 84",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Adverse events (AEs) and Serious AEs (SAEs) were graded using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse events version 3.0. Medical Dictionary for Regulatory Activities (MedDRA) version 15.1 was used. Note there is a difference in number of participants with an SAE in this outcome measure and the number listed in the Adverse Events Section of this document. This is because the SAEs reported in the xml upload of the Adverse Events section includes additional participants who reported SAEs after the clinical study report database was closed.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Number of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs), Deaths, and AEs Leading to Discontinuation",
+        "time_frame": "Day 1 to last patient, last visit, approximately 3 years",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Electrochemiluminescent (ECL) Immunoassay was used to detect human anti-human ipilimumab antibodies (HAHA) in serum. Blood samples were collected prior to the start of each ipilimumab infusion at Weeks 1, 4, 7, 10,  24, and at end of treatment.  Those participants who were positive HAHA on treatment were then tested for presence of neutralizing antibodies.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Number of Participants Who Developed Antibodies and Neutralizing Antibodies",
+        "time_frame": "Prior to start of drug Week 1 to Week 24 on treatment or end of treatment",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Systolic and Diastolic blood pressure were measured in millimeters of mercury (mmHg) and were obtained after the participant had been seated for 5 minutes. Vital sign measurements were collected at Screening (baseline), Weeks 1, 4, 7, 10, 12, 24 and every 12 weeks thereafter in the Maintenance Phase, and at the End of Treatment visit.  The change from baseline in blood pressure one hour post end of infusion at the end of induction Period, Week 36 of Maintenance Period, and end of treatment,  up to data cutoff for July 2010 are presented below.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Mean Change From Baseline in Sitting Systolic and Diastolic Blood Pressure - All Treated Participants up to Data Cutoff",
+        "time_frame": "Screening to data cut off for July 2010, approximately 36 Weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Pulse Rate was measured in beats per minute (bpm) and was obtained after the participant had been seated for 5 minutes. Vital sign measurements were collected at Screening (baseline), Weeks 1, 4, 7, 10, 12, 24 and every 12 weeks thereafter in the Maintenance Phase, and at the End of Treatment visit.  The change from baseline in blood pressure one hour post end of infusion at the end of induction Period, Week 36 of Maintenance Period, and end of treatment, up to data cutoff for July 2010 are presented below.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Mean Change From Baseline in Sitting Pulse Rate - All Treated Participants up to Data Cutoff",
+        "time_frame": "Screening to data cut off for July 2010, approximately 36 Weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Common Terminology Criteria (CTC), Version 3 used to assess parameters. Lower limit of normal (LLN); grams per deciliter (g/dL); Grade (GR); cells per microliter (c/µL). Hemoglobin Gr 1:<LLN to 10.0 g/dL, Gr 2:<10.0 to 8.0 g/dL, Gr 3:<8.0 to 6.5 g/dL, Gr 4:<6.5 g/dL. Absolute neutrophil (ANC) and ANC plus bands: Gr 1:<LLN to 1.5*10^3 c/µL, Gr 2:<1.5 to 1.0*10^3 c/µL, Gr 3:<1.0 to 0.5*10^3 c/µL, Gr 4:<0.5*10^3 c/µL. Platelet count Gr 1:LLN to 75.0*10^9 c/L, Gr 2:<75.0 to 50.0*10^9 c/L, Gr 3:<50.0 to 25.0*10^9 c/L, Gr 4:<25.0 to 10^9 c/L. Lymphocytes Gr 1: <1.5 to 0.8 *10^3 c/µL, Gr 2 <0.8 to 0.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Number of Participants With 2-Grade or Greater Shift From Baseline (Worsening) in Hematology Laboratory Safety Tests - All Treated Participants",
+        "time_frame": "Screening to data cut off for July 2010, approximately 36 Weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Alanine transaminase (ALT); Aspartate aminotransferase (AST); Alkaline phosphatase (ALP); upper limits of normal (ULN).  ALT Gr 1:>1.0 to 2.5*ULN; Gr 2: >2.5 to 5.0*ULN; Gr 3: >5.0 to 20.0*ULN; Gr 4: >20.0*ULN. AST Gr 1: >1.0 to 2.5*ULN; Gr 2: >2.5 to 5.0*ULN; Gr 3: >5.0 to 20.0*ULN; Gr 4: >20.0*ULN. Total bilirubin Gr 1: >1.0 to 1.5*ULN; Gr 2: >1.5 to 3.0*ULN; Gr 3: >3.0 to 10..0*ULN; Gr 4: >10.0.0*ULN. ALP (U/L) Gr1:>1.0 to 2.5*ULN, Gr2:>2.5 to 5.0*ULN, Gr3:>5.0 to 20.0*ULN, Gr4:>20.0*ULN. Albumin (low) Gr 1:<LLN to 3 g/dL; Gr 2: <3.0 - 2.0 g/L; Gr 3: < 2 g/dL.  Creatinine Gr 1: >1 - 1.5*ULN",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Number of Participants With 2-Grade or Greater Shift From Baseline (Worsening) in Chemistry Laboratory Safety Tests (Non-electrolyte) - All Treated Participants",
+        "time_frame": "Screening to data cut off for July 2010, approximately 36 Weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Sodium high (H) Gr 1:>ULN - 150; Gr 2: >150 -  155; Gr 3: >155 -  160; Gr 4: >160 mmol/L; Sodium low(L) Gr 1:<LLN - 130; Gr 3: <130 - 120; Gr 4: <120 mmol/L. Potassium (H) Gr 1: >ULN -  5.5; Gr 2: >5.5 -  6.0; Gr 3: > 6.0 -  7.0; Gr 4: >7.0 mmol/L; Potassium (L) Gr 1: <LLN - 3.0; Gr 2: <LLN - 3.0; Gr 3: < 3.0 - 2.5; Gr 4: <2.5 mmol/L. Bicarbonate Gr1: 16-<LLN, Gr2: 11-16, Gr3, 8-11, Gr4: <8 milliequivalents per liter (mEq/L). Phosphorus Gr 1: 2.5 - <LLN, Gr2 2.0-<2.5, Gr3: 1.0-<2.0, Gr4: <1.0. Calcium (L) Gr 1: <LLN to 8.0; Gr2: 7.0 - 8.0; Gr3: 6.0-7.0; Gr 4: <6.0 mg/dL; calcium (H) Gr1:>ULN -",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Number of Participants With 2-Grade or Greater Shift From Baseline (Worsening) in Electrolyte Laboratory Safety Tests - All Treated Participants",
+        "time_frame": "Screening to data cut off for July 2010, approximately 36 Weeks",
+        "type": "SECONDARY"
+      }
+    ],
+    "phase": "I",
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": true,
+    "public_title": "Comparison of Ipilimumab Manufactured by 2 Different Processes in Participants With Advanced Melanoma",
+    "randomized_trial": true,
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "11899250",
+        "summary_4_report": true,
+        "type": "INDUSTRIAL"
+      }
+    ],
+    "section801_indicator": false,
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2013-12-24T00:00:00.000002",
+        "status": "Completed",
+        "status_datetime": "2013-12-24T00:00:00.000002"
+      },
+      {
+        "comments": [
+          "Added primary completion date 04/01/2010 as closed to accrual status per validation errors"
+        ],
+        "message_datetime": "2010-04-01T00:00:00.000001",
+        "status": "Active, not recruiting",
+        "status_datetime": "2010-04-01T00:00:00.000001"
+      },
+      {
+        "comments": [
+          "Added trial start date 08/01/2009 as active status per validation errors"
+        ],
+        "message_datetime": "2009-08-01T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2009-08-01T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T18:57:10.566830",
+    "strap_publication_datetime": "2021-05-25T22:17:03.707982",
+    "strap_updated_datetime": "2021-05-25T22:17:03.707982",
+    "study_classification_code": "UNKNOWN",
+    "study_source": "INDUSTRIAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "3830539",
+    "time_perspective": "UNKNOWN",
+    "title": "A Randomized, Parallel, Open-Label Study to Compare the Pharmacokinetics of Ipilimumab (BMS-734016) Process C to Process B in Subjects With Advanced Melanoma",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "47f511b3d05bd2c3d6de2167492ff2d2",
+    "strap_publication_date": "2021-05-25T22:17:03.707982",
+    "current_trial_status": "Completed",
+    "participating_sites": [
+      "39492311",
+      "71815",
+      "170680"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "8927337",
+        "name": "Bhatia, Shailender",
+        "first_name": "Shailender",
+        "middle_name": null,
+        "last_name": "Bhatia",
+        "org_id": "39492311",
+        "org_name": null
+      },
+      {
+        "id": "349693",
+        "name": "Weber, Jeffrey S.",
+        "first_name": "Jeffrey",
+        "middle_name": "S.",
+        "last_name": "Weber",
+        "org_id": "71815",
+        "org_name": null
+      },
+      {
+        "id": "1569418",
+        "name": "Wolchok, Jedd David",
+        "first_name": "Jedd",
+        "middle_name": "David",
+        "last_name": "Wolchok",
+        "org_id": "170680",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT00920907",
+    "lead_organization_id": "CA184-087",
+    "va_associated": false,
+    "current_trial_status_date": "2013-12-24T00:00:00.000002",
+    "record_verification_date": "2014-05-01T00:00:00.000000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2010-04-01T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2009-08-01T00:00:00.000000",
+    "completion_date_type": "ACTUAL_COMPLETION_DATE",
+    "completion_date_value": "2012-10-01T00:00:00.000000",
+    "lead_organizations": {
+      "id": "11899250",
+      "name": "Bristol-Myers Squibb - Plainsboro"
+    },
+    "total_participating_sites": 3,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Cutaneous (Skin) Melanoma",
+          "code": "C3510",
+          "ancestor_ids": [
+            "C3224"
+          ],
+          "parent_ids": [
+            "C3224"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Stage IIIB Cutaneous (Skin) Melanoma",
+          "code": "C86051",
+          "ancestor_ids": [
+            "C3224",
+            "C3510"
+          ],
+          "parent_ids": [
+            "C3510"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IIIA Cutaneous (Skin) Melanoma",
+          "code": "C86049",
+          "ancestor_ids": [
+            "C3224",
+            "C3510"
+          ],
+          "parent_ids": [
+            "C3510"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IIIC Cutaneous (Skin) Melanoma",
+          "code": "C86053",
+          "ancestor_ids": [
+            "C3224",
+            "C3510"
+          ],
+          "parent_ids": [
+            "C3510"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IV Cutaneous (Skin) Melanoma",
+          "code": "C9096",
+          "ancestor_ids": [
+            "C3224",
+            "C3510"
+          ],
+          "parent_ids": [
+            "C3510"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Recurrent Melanoma",
+          "code": "C7087",
+          "ancestor_ids": [
+            "C3224"
+          ],
+          "parent_ids": [
+            "C3224"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Melanoma",
+          "code": "C3224",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C9305"
+          ],
+          "code": "C3510",
+          "name": "Cutaneous (Skin) Melanoma",
+          "parent_ids": [
+            "C2920",
+            "C7161",
+            "C3224"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3224",
+          "name": "Melanoma",
+          "parent_ids": [
+            "C7058",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C88415",
+            "C91231",
+            "C9305"
+          ],
+          "code": "C86051",
+          "name": "Stage IIIB Cutaneous (Skin) Melanoma",
+          "parent_ids": [
+            "C88415"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C3371",
+          "name": "Skin Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C131500",
+          "name": "Recurrent Primary Malignant Neoplasm",
+          "parent_ids": [
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C91231",
+            "C9305"
+          ],
+          "code": "C88415",
+          "name": "Stage III Cutaneous (Skin) Melanoma",
+          "parent_ids": [
+            "C91231"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C4741",
+            "C7058"
+          ],
+          "code": "C7161",
+          "name": "Skin Melanocytic Neoplasm",
+          "parent_ids": [
+            "C3372",
+            "C7058"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4813",
+          "name": "Recurrent Malignant Neoplasm",
+          "parent_ids": [
+            "C4798",
+            "C9305"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C131500",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7058",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7087",
+          "name": "Recurrent Melanoma",
+          "parent_ids": [
+            "C3224",
+            "C131500"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C9305"
+          ],
+          "code": "C90514",
+          "name": "Cutaneous Melanoma by AJCC v6 Stage",
+          "parent_ids": [
+            "C3510"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C88415",
+            "C91231",
+            "C9305"
+          ],
+          "code": "C86049",
+          "name": "Stage IIIA Cutaneous (Skin) Melanoma",
+          "parent_ids": [
+            "C88415"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3372",
+          "name": "Skin Tumor",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C4798",
+          "name": "Recurrent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C7058",
+          "name": "Melanocytic Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2920",
+          "name": "Malignant Skin Neoplasm",
+          "parent_ids": [
+            "C3372",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C88415",
+            "C91231",
+            "C9305"
+          ],
+          "code": "C86053",
+          "name": "Stage IIIC Cutaneous (Skin) Melanoma",
+          "parent_ids": [
+            "C88415"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3371"
+          ],
+          "code": "C3372",
+          "name": "Skin Tumor",
+          "parent_ids": [
+            "C3263",
+            "C3371"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C90514",
+            "C91231",
+            "C9305"
+          ],
+          "code": "C9096",
+          "name": "Stage IV Cutaneous (Skin) Melanoma",
+          "parent_ids": [
+            "C91231",
+            "C90514"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2920",
+            "C2991",
+            "C3224",
+            "C3262",
+            "C3263",
+            "C3371",
+            "C3372",
+            "C3510",
+            "C4741",
+            "C7058",
+            "C7062",
+            "C7161",
+            "C9305"
+          ],
+          "code": "C91231",
+          "name": "Cutaneous Melanoma by AJCC v7 Stage",
+          "parent_ids": [
+            "C3510"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

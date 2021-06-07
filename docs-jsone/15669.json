@@ -1,0 +1,58 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-9999-99004",
+  "_score": 1,
+  "_source": {
+    "datetimes": [
+      {
+        "type": "ANTICIPATED_START_DATE",
+        "value": "2003-11-27T14:43:20.438000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2015-09-14T13:32:09.259000"
+      },
+      {
+        "type": "ACTUAL_COMPLETION_DATE",
+        "value": "2010-01-20T07:36:01.054000"
+      }
+    ],
+    "interventional": true,
+    "nci_id": "NCI-9999-99004",
+    "phase": "I",
+    "primary_purpose": "TREATMENT",
+    "status_history": [
+      {
+        "message_datetime": "2012-05-01T00:00:00.000000",
+        "status": "Recruiting",
+        "status_datetime": "2012-05-01T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-07T15:56:30.817001",
+    "strap_updated_datetime": "2021-04-29T23:46:29.095782",
+    "study_source": "NATIONAL",
+    "test_data": true,
+    "title": "NCI-9999-99004 title",
+    "user_created_id": "BDD test",
+    "user_created_organization": "",
+    "version_no": "0fd0860ad641a29cd717562b4108a93d",
+    "strap_publication_date": "2021-04-29T23:46:29.095782",
+    "current_trial_status": "Recruiting",
+    "participating_sites": [],
+    "trial_type": "Interventional",
+    "va_associated": false,
+    "current_trial_status_date": "2012-05-01T00:00:00.000000",
+    "start_date_type": "ANTICIPATED_START_DATE",
+    "start_date_value": "2003-11-27T14:43:20.438000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2015-09-14T13:32:09.259000",
+    "completion_date_type": "ACTUAL_COMPLETION_DATE",
+    "completion_date_value": "2010-01-20T07:36:01.054000",
+    "total_participating_sites": 0,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": []
+  }
+}

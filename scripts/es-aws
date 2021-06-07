@@ -1,0 +1,1 @@
+python src/es.py --aws true --port 9200 "$@" # 2>err.jnk

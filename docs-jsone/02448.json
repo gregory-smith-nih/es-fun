@@ -1,0 +1,2871 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-7777-00044",
+  "_score": 1,
+  "_source": {
+    "alias": "NCI-7777-00044-ALIAS",
+    "anatomic_sites": [
+      "Stomach",
+      "Breast - Male"
+    ],
+    "bio_specimen_description": "NCI-7777-00044 bio specimen description",
+    "bio_specimen_retention": "SAMPLES_WITH_DNA",
+    "biomarkers": [
+      {
+        "assay_type": "Sequencing",
+        "cadsr_id": "3234588",
+        "evaluation_type": "Genetic Analysis, Somatic Variant, Other",
+        "evs_id": "C27032",
+        "name": "ALK (Anaplastic Lymphoma Kinase)",
+        "other_evaluation_type": "Translocation (Subprotocol F)",
+        "purpose": "Treatment Assignment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood, Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Immunohistochemistry (IHC)",
+        "cadsr_id": "3729542",
+        "evaluation_type": "Genetic Analysis",
+        "evs_id": "C105823",
+        "name": "BRAF V600 Mutation (BRAF NP_004324.2:p.V600 Mutation; BRAF NP_004324.2:p.Val600 Mutation; BRAF p.Val600 Mutation; BRAF p.V600 Mutation; Serine/Threonine-Protein Kinase B-raf Protein V600 Mutation; NP_004324.2:p.Val600 Mutation; NP_004324.2:p.V600 Mutation; Serine/Threonine-Protein Kinase B-raf Protein Val600 Mutation; Serine/Threonine-Protein Kinase B-raf Protein V600 Protein Variation)",
+        "purpose": "Eligibility Criterion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "5497868",
+        "evaluation_type": "Level/Quantity, Other",
+        "evs_id": "C129259",
+        "name": "Castration Levels of Testosterone",
+        "other_evaluation_type": "levels less than or equal to 50 ng/dl (less than or equal to 1.7 nmol/L)",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "ELISA",
+        "cadsr_id": "2578190",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C20451",
+        "name": "IL6 (BSF2; HSF; HGF; IL-6; Interleukin 6)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Plasma",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "2580427",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C17525",
+        "name": "KLK3 (Prostate-specific antigen; kallikrein 3; PSA; APS; kallikrein-related peptidase 3)",
+        "purpose": "Eligibility Criterion, Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "PCR",
+        "cadsr_id": "3216619",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C17757",
+        "name": "EGFR (Proto-Oncogene c-erbB-1; Receptor Tyrosine-Protein Kinase erbB-1; Epidermal Growth Factor Receptor; Epidermal Growth Factor Receptor (Erythroblastic Leukemia Viral (V-ERB-B) Oncogene Homolog, Avian); EGF Receptor: Epidermal Growth Factor Receptor; Urogastrone Receptor; HER-1; c-erbB-1; Epidermal Growth Factor Receptor Protein-Tyrosine Kinase; ERBB; HER1; erbB-1; ERBB1)",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Other",
+        "use": "Integrated"
+      }
+    ],
+    "changes_in_ctrp_ctgov": false,
+    "comments": "NCI-7777-00044 comments",
+    "consortia_trial_category": "INSTITUTIONAL",
+    "containers": [
+      {
+        "id": "c600004",
+        "principal_investigator": "p100060",
+        "program_codes": [
+          "888888001",
+          "888888003",
+          "888888002"
+        ],
+        "target_accrual": 384,
+        "trial_id": "c600004-NCI-7777-00044"
+      },
+      {
+        "id": "c600003",
+        "principal_investigator": "p100040",
+        "program_codes": [
+          "888888001"
+        ],
+        "target_accrual": 2003,
+        "trial_id": "c600003-NCI-7777-00044"
+      },
+      {
+        "id": "c600001",
+        "principal_investigator": "p100001",
+        "program_codes": [
+          "888888004",
+          "888888005"
+        ],
+        "target_accrual": 189,
+        "trial_id": "c600001-NCI-7777-00044"
+      }
+    ],
+    "ctro_override": true,
+    "ctro_override_comments": "NCI-7777-00044 ctro override comments",
+    "data_monitoring_committee_appointed": false,
+    "datetimes": [
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-10-18T02:53:13.000000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2019-05-02T14:34:57.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2019-05-04T14:34:57.000000"
+      },
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2019-05-07T14:34:57.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "NCI-7777-00044 description",
+    "designee_access_revoked": true,
+    "diseases": [
+      {
+        "display_name": "Stage IIC Colorectal Cancer AJCC v7",
+        "id": "C87815",
+        "is_lead_disease": false,
+        "name": "Stage IIC Colorectal (Colon or Rectal) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIC Colorectal Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Colorectal Carcinoma",
+                "code": "C2955"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIC Colorectal Cancer",
+          "Stage IIC Colorectal Cancer AJCC v7"
+        ],
+        "parents": [
+          "C89989"
+        ]
+      },
+      {
+        "display_name": "Primary Myelofibrosis",
+        "id": "C2862",
+        "is_lead_disease": true,
+        "name": "Primary Myelofibrosis",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Primary Myelofibrosis",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Myeloproliferative Neoplasm",
+                "code": "C4345"
+              },
+              {
+                "idx": 1,
+                "label": "Myeloid Neoplasm",
+                "code": "C9290"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "AMM",
+          "Agnogenic Myeloid Metaplasia",
+          "Agnogenic myeloid metaplasia",
+          "CIMF",
+          "Chronic Idiopathic Myelofibrosis",
+          "Chronic idiopathic myelofibrosis",
+          "Idiopathic Bone Marrow Fibrosis",
+          "Idiopathic Myelofibrosis",
+          "Myelosclerosis with Myeloid Metaplasia",
+          "Myelosclerosis with myeloid metaplasia",
+          "Primary myelofibrosis",
+          "agnogenic myeloid metaplasia",
+          "chronic idiopathic myelofibrosis",
+          "idiopathic myelofibrosis",
+          "myelosclerosis with myeloid metaplasia"
+        ],
+        "parents": [
+          "C3248",
+          "C4345"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C26801",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Intestinal Disorder",
+        "display_name": "Intestinal Disorder",
+        "preferred_name": "Intestinal Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2990"
+        ]
+      },
+      {
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Disorder",
+        "display_name": "Digestive System Disorder",
+        "preferred_name": "Digestive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2955",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Colorectal (Colon or Rectal) Cancer",
+        "display_name": "Colorectal Carcinoma",
+        "preferred_name": "Colorectal Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CRC",
+          "Cancer of Large Bowel",
+          "Cancer of Large Intestine",
+          "Cancer of the Large Bowel",
+          "Cancer of the Large Intestine",
+          "Carcinoma of Large Bowel",
+          "Carcinoma of Large Intestine",
+          "Carcinoma of the Large Bowel",
+          "Carcinoma of the Large Intestine",
+          "Colorectal Cancer",
+          "Colorectal Carcinoma",
+          "Colorectal cancer, NOS",
+          "Large Bowel Cancer",
+          "Large Bowel Carcinoma",
+          "Large Intestine Cancer",
+          "Large Intestine Carcinoma",
+          "colorectal cancer"
+        ],
+        "parents": [
+          "C96963",
+          "C4978"
+        ]
+      },
+      {
+        "id": "C91223",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Colorectal Cancer by AJCC v7 Stage",
+        "display_name": "Colorectal Cancer by AJCC v7 Stage",
+        "preferred_name": "Colorectal Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Colorectal Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C2955"
+        ]
+      },
+      {
+        "id": "C89989",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Colorectal (Colon or Rectal) Cancer",
+        "display_name": "Stage II Colorectal Cancer AJCC v7",
+        "preferred_name": "Stage II Colorectal Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage II Colorectal Cancer",
+          "Stage II Colorectal Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91223"
+        ]
+      },
+      {
+        "id": "C26323",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematologic and Lymphocytic Disorder",
+        "display_name": "Hematologic and Lymphocytic Disorder",
+        "preferred_name": "Hematologic and Lymphocytic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Disease",
+          "Blood Disorder",
+          "Hematologic Disorder",
+          "Hematological Disorder"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C35813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Tumor"
+        ],
+        "parents": [
+          "C35814",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C4978",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Colorectal Neoplasm",
+        "display_name": "Malignant Colorectal Neoplasm",
+        "preferred_name": "Malignant Colorectal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Colorectal Tumor",
+          "Malignant Large Bowel Neoplasm",
+          "Malignant Large Bowel Tumor",
+          "Malignant Large Intestine Neoplasm",
+          "Malignant Large Intestine Tumor",
+          "Malignant Neoplasm of Large Bowel",
+          "Malignant Neoplasm of Large Intestine",
+          "Malignant Neoplasm of the Large Bowel",
+          "Malignant Neoplasm of the Large Intestine",
+          "Malignant Tumor of Large Bowel",
+          "Malignant Tumor of Large Intestine",
+          "Malignant Tumor of the Large Bowel",
+          "Malignant Tumor of the Large Intestine"
+        ],
+        "parents": [
+          "C2956",
+          "C4572"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C4572",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Intestinal Neoplasm",
+        "display_name": "Malignant Intestinal Neoplasm",
+        "preferred_name": "Malignant Intestinal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bowel Cancer",
+          "Cancer of Intestine",
+          "Cancer of the Intestine",
+          "Intestinal Cancer",
+          "Intestinal Neoplasms, Malignant",
+          "Intestinal Tumors, Malignant",
+          "Malignant Intestinal Neoplasms",
+          "Malignant Intestinal Tumor",
+          "Malignant Intestinal Tumors",
+          "Malignant Intestine Neoplasm",
+          "Malignant Intestine Tumor",
+          "Malignant Neoplasm of Intestine",
+          "Malignant Neoplasm of the Intestine",
+          "Malignant Tumor of Intestine",
+          "Malignant Tumor of the Intestine"
+        ],
+        "parents": [
+          "C3141",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C35370",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Bone Marrow Neoplasm",
+        "display_name": "Bone Marrow Neoplasm",
+        "preferred_name": "Bone Marrow Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bone Marrow Tumor",
+          "Neoplasm of Bone Marrow"
+        ],
+        "parents": [
+          "C34433",
+          "C35813"
+        ]
+      },
+      {
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Neoplasm",
+        "display_name": "Digestive System Neoplasm",
+        "preferred_name": "Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "parents": [
+          "C2990",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C2956",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Colorectal Neoplasm",
+        "display_name": "Colorectal Neoplasm",
+        "preferred_name": "Colorectal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Colorectal Tumor",
+          "Large Bowel Neoplasm",
+          "Large Bowel Tumor",
+          "Large Intestinal Neoplasm",
+          "Large Intestine Neoplasm",
+          "Large Intestine Tumor",
+          "Neoplasm of Large Bowel",
+          "Neoplasm of the Large Bowel",
+          "Tumor of Large Bowel",
+          "Tumor of the Large Bowel"
+        ],
+        "parents": [
+          "C3141"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Carcinoma",
+        "display_name": "Digestive System Carcinoma",
+        "preferred_name": "Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C9290",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Myeloid Neoplasm",
+        "display_name": "Myeloid Neoplasm",
+        "preferred_name": "Myeloid Neoplasm",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Myeloid Malignancy",
+          "Myeloid Tumor"
+        ],
+        "parents": [
+          "C27134"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C35501",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Bone Marrow Neoplasm",
+        "display_name": "Malignant Bone Marrow Neoplasm",
+        "preferred_name": "Malignant Bone Marrow Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Bone Marrow Tumor",
+          "bone marrow cancer"
+        ],
+        "parents": [
+          "C35370",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3248",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Myelofibrosis",
+        "display_name": "Myelofibrosis",
+        "preferred_name": "Myelofibrosis",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "myelofibrosis"
+        ],
+        "parents": [
+          "C34433"
+        ]
+      },
+      {
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C34433",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Bone Marrow Disorder",
+        "display_name": "Bone Marrow Disorder",
+        "preferred_name": "Bone Marrow Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bone Marrow Disease"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C4345",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Chronic Myeloproliferative Disease",
+        "display_name": "Myeloproliferative Neoplasm",
+        "preferred_name": "Myeloproliferative Neoplasm",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "CMPD",
+          "Chronic Myeloproliferative Disorder",
+          "Chronic Myeloproliferative Disorders",
+          "Chronic Myeloproliferative Neoplasm",
+          "Chronic myeloproliferative disease, NOS",
+          "Chronic myeloproliferative disorder",
+          "MPD",
+          "MPN",
+          "Myeloproliferative Disease",
+          "Myeloproliferative Disorder",
+          "Myeloproliferative Neoplasm",
+          "Myeloproliferative Tumor",
+          "Myeloproliferative disease, NOS",
+          "Myeloproliferative neoplasm, NOS",
+          "myeloproliferative disorder"
+        ],
+        "parents": [
+          "C35501",
+          "C9290"
+        ]
+      },
+      {
+        "id": "C27134",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+          "Hematologic Cancer",
+          "Hematologic Malignancy",
+          "Hematologic Neoplasm",
+          "Hematological Neoplasm",
+          "Hematological Tumor",
+          "Hematopoietic Cancer",
+          "Hematopoietic Cell Tumor",
+          "Hematopoietic Neoplasm",
+          "Hematopoietic Neoplasms including Lymphomas",
+          "Hematopoietic Tumor",
+          "Hematopoietic and Lymphoid Neoplasms",
+          "Hematopoietic malignancy, NOS",
+          "Hematopoietic, Including Myeloma",
+          "Malignant Hematologic Neoplasm",
+          "Malignant Hematopoietic Neoplasm",
+          "hematologic cancer"
+        ],
+        "parents": [
+          "C26323",
+          "C35813",
+          "C4741"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C35814",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid System Disorder",
+        "display_name": "Hematopoietic and Lymphoid System Disorder",
+        "preferred_name": "Hematopoietic and Lymphoid System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3141",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Intestinal Neoplasm",
+        "display_name": "Intestinal Neoplasm",
+        "preferred_name": "Intestinal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Intestinal Neoplasms",
+          "Intestinal Tumor",
+          "Intestinal Tumors",
+          "Neoplasm of Intestines",
+          "Neoplasm of the Intestines",
+          "Tumor of Intestines",
+          "Tumor of the Intestines"
+        ],
+        "parents": [
+          "C3052",
+          "C26801"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      }
+    ],
+    "division_department_id": "CTEP",
+    "eligibility_criteria": [
+      {
+        "description": "Minimum age: 10 Years\nMaximum age: 99 Years",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": "SEX: MALE",
+        "inclusive": true,
+        "type": "SEX"
+      },
+      {
+        "description": "This trial accept healthy volunteers.",
+        "type": "ACCEPTS_HEALTHY_VOLUNTEERS"
+      },
+      {
+        "description": "Must require therapy based on any of the following criteria: \r\n* Massive or progressive splenomegaly and/or lymphadenopathy\r\n* Anemia (hemoglobin < 11 g/dL) or thrombocytopenia (platelet count < 100,000/uL)\r\n* Presence of weight loss > 10% over the preceding 6-month period \r\n* NCI grade 2 or 3 fatigue\r\n* Fevers > 100.5 F or night sweats for > 2 weeks without evidence of infection",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Bilirubin (sum of conjugated + unconjugated) =< 1.5 x upper limit of normal (ULN) for age",
+        "display_order": 10,
+        "inclusive": true
+      },
+      {
+        "description": "Adequate organ function",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Participants should not have taken valproic acid or another histone deacetylase inhibitor for at least 2 weeks prior to study enrollment",
+        "display_order": 37,
+        "inclusive": false
+      },
+      {
+        "description": "Receiving treatment for advanced lung cancer for over one month before enrollment; OR",
+        "display_order": 9,
+        "inclusive": false
+      },
+      {
+        "description": "Willing and able to comply with the protocol, including follow-up visits, examinations as well as having the ability to self-report pain and fatigue using a Patient-Reported Outcome (PRO) instrument",
+        "display_order": 19,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Inclusion Criteria:\n\n          1. Age 15.00 - 40.99 years\n\n          2. Severe sickle cell disease [Hemoglobin SS (Hb SS), Hemoglobin SC (Hb SC) or\n             Hemoglobin SBeta thalassemia (Hb Sβ) genotype] with at least 1 of the following\n             manifestations (a-e):\n\n               1. Clinically significant neurologic event (stroke) or any neurological deficit\n                  lasting > 24 hours;\n\n               2. History of two or more episodes of acute chest syndrome (ACS) in the 2-year\n                  period preceding enrollment despite the institution of supportive care measures\n                  (i.e. asthma therapy;\n\n               3. Three or more pain crises per year in the 2-year period preceding referral\n                  (required intravenous pain management in the outpatient or inpatient hospital\n                  setting)\n\n               4. Administration of regular RBC transfusion therapy, defined as receiving 8 or\n                  more transfusions per year for ≥ 1 year to prevent vaso-occlusive clinical\n                  complications (i.e. pain, stroke, and acute chest syndrome)\n\n               5. An echocardiographic finding of tricuspid valve regurgitant jet (TRJ) velocity ≥\n                  2.7 m/sec.\n\n          3. Adequate physical function as measured by all of the following:\n\n               1. Karnofsky/Lansky performance score > or equal to 60\n\n               2. Cardiac function: Left ventricular ejection fraction (LVEF) > 40%; or LV\n                  shortening fraction > 26% by cardiac echocardiogram or by Multi Gated\n                  Acquisition Scan (MUGA).\n\n               3. Pulmonary function: Pulse oximetry with a baseline O2 saturation of ≥ 85% and\n                  Diffusing capacity of the lung for carbon monoxide (DLCO) > 40% (corrected for\n                  hemoglobin)\n\n               4. Renal function: Serum creatinine ≤ 1.5 x the upper limit of normal for age as\n                  per local laboratory and 24 hour urine creatinine clearance >70 mL/min; or GFR >\n                  70 mL/min/1.73 m2 by radionuclide Glomerular Filtration Rate (GFR).\n\n               5. Hepatic function: Serum conjugated (direct) bilirubin < 2x upper limit of normal\n                  for age as per local laboratory; alanine aminotransferase (ALT) and aspartate\n                  aminotransferase (AST) < 5 times upper limit of normal as per local laboratory.\n                  Patients with hyperbilirubinemia as a consequence of hyperhemolysis, or who\n                  experience a sudden, profound change in the serum hemoglobin after a RBC\n                  transfusion are not excluded.\n\n        Exclusion Criteria:\n\n          1. HLA typing prior to referral (consultation with HCT physician). However, if a subject\n             has had HLA typing with accompanying documentation that relatives were not HLA typed\n             and that a search of the unrelated donor registry was not performed the subject will\n             be considered eligible. Documentation will be reviewed and adjudicated by the\n             Protocol Officer or his/her designee.\n\n          2. Uncontrolled bacterial, viral or fungal infection in the 6 weeks before enrollment.\n\n          3. Seropositivity for HIV.\n\n          4. Previous HCT.\n\n          5. Participation in a clinical trial in which the patient received an investigational\n             drug or device must be discontinued at enrollment.\n\n          6. A history of substance abuse as defined by version IV of the Diagnostic & Statistical\n             Manual of Mental Disorders (DSM IV).\n\n          7. Demonstrated lack of compliance with prior medical care (determined by referring\n             physician).\n\n          8. Pregnant or breast feeding females.\n\n          9. Inability to receive HCT due to alloimmunization, defined as the inability to receive\n             packed red blood cell (pRBC) transfusion therapy.\n\n         10. Unwillingness to use approved contraception method from time of biologic assignment\n             until discontinuation of all immunosuppressive medications if assignment at biologic\n             assignment would be to donor arm.\n\n        Additional Eligibility Criteria for Transplant after Biologic Assignment to the Donor Arm:\n\n        Participants assigned to the Donor Arm at the time of biologic assignment are subject to\n        additional transplant eligibility criteria as specified below. Additional, repeat clinical\n        assessments prior to transplant should be obtained in accordance with institutional\n        policies and standards of care in the interest of good clinical practice.\n\n          1. Participants who are receiving ≥8 packed red blood cell transfusions for ≥1 year or\n             have received ≥20 packed red blood cell transfusions (cumulative) will undergo liver\n             MRI for estimation of hepatic iron content. Liver biopsy is indicated for hepatic\n             iron content ≥7 mg Fe/gm liver dry we",
+        "display_order": 0,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": false,
+    "grants": [
+      {
+        "id": "UFUCA56656",
+        "nci_division_program": "NA"
+      },
+      {
+        "id": "P30CA51008",
+        "nci_division_program": "OD"
+      },
+      {
+        "id": "P30CA16056",
+        "nci_division_program": "OD"
+      },
+      {
+        "id": "XYRCA73420",
+        "nci_division_program": "OD"
+      },
+      {
+        "id": "UM1CA186716",
+        "nci_division_program": "CTEP"
+      }
+    ],
+    "groups": [
+      {
+        "description": "Patients receive aspirin PO QD for five years in the absence of disease progression or unacceptable toxicity.",
+        "interventions": [
+          {
+            "description": "Given PO",
+            "id": "C287",
+            "name": "Aspirin",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Aspergum",
+              "Ecotrin",
+              "Empirin",
+              "Entericin",
+              "Extren",
+              "Measurin"
+            ]
+          },
+          {
+            "description": "Correlative studies",
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Ancillary studies",
+            "id": "C15584",
+            "name": "Quality-of-Life Assessment",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "Quality of Life Assessment"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Nonnarcotic Analgesic",
+            "id": "C2198",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Cyclooxygenase Inhibitor",
+            "id": "C1323",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Agent Affecting Nervous System",
+            "id": "C78272",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Therapeutic Procedure",
+            "id": "C49236",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "TX",
+              "Therapeutic Interventions",
+              "Therapeutic Method",
+              "Therapeutic Technique",
+              "Therapy"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Analgesic and Antipyretic",
+            "id": "C2356",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Nonsteroidal Antiinflammatory Drug",
+            "id": "C257",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Supportive Care",
+            "id": "C15747",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Supportive Therapy",
+              "Symptom Management",
+              "Therapy, Supportive"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Analgesic Agent",
+            "id": "C241",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Arm I (aspirin)",
+        "type": "EXPERIMENTAL"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT777700044"
+      },
+      {
+        "type": "CTEP_ID",
+        "value": "CTEP777700044"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "LOID777700044"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "OTHER777700044"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-7777-00044"
+      }
+    ],
+    "interventional": false,
+    "keywords": [
+      "BDD",
+      "TEST",
+      "SEED DATA"
+    ],
+    "legacy_id": "3333300044",
+    "min_target_accrual": 5400,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-7777-00044",
+    "non_interventional_design": "CASE_ONLY",
+    "number_of_groups": 6,
+    "organizations": [
+      {
+        "address_line_1": "247 Castle Summit Pl.",
+        "city_municipality": "New Orleans",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:12.472527",
+        "ctep_id": "o100017_CTEP",
+        "emails": [
+          "o100017_0@yahoo.com",
+          "o100017_1@yahoo.com"
+        ],
+        "id": "o100017",
+        "name": "Forest Garden Cancer Care",
+        "phone_numbers": [
+          "100-017-9073",
+          "100-017-9042"
+        ],
+        "state_province_territory": "LA",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:12.472527",
+        "strap_created_datetime": "2020-05-01T20:33:13.584628",
+        "strap_updated_datetime": "2021-04-24T20:37:12.555207",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:12.555207",
+        "urls": [
+          "www.o100017_0.com",
+          "www.o100017_1.com",
+          "www.o100017_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "70116",
+        "strap_publication_date": "2021-04-24T20:37:12.555207",
+        "version_no": "035faecbfb0bb3015a2308acaa18b455",
+        "geo_coordinates": {
+          "lat": 29.968,
+          "lon": -90.065
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:14.143278",
+            "ctep_id": "p100066_CTEP",
+            "first_name": "Antonio",
+            "id": "p100066",
+            "last_name": "Garcia",
+            "middle_name": "Luke",
+            "strap_created_datetime": "2020-05-01T19:20:47.756404",
+            "strap_updated_datetime": "2021-04-24T20:37:14.457348",
+            "suffix": "IV",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:14.457348",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:14.457348",
+            "version_no": "75a6d33bd128fd45dedd0ef526d41d11",
+            "name": "Garcia, Antonio Luke",
+            "roles": [
+              {
+                "email": "o100017_0@yahoo.com",
+                "phone": "100-017-9049",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:55.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:55.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:55.000000"
+          }
+        ],
+        "name_with_id": "Forest Garden Cancer Care___id:o100017",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "8790 Valley Dr.",
+        "city_municipality": "Camden",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:36:59.387007",
+        "ctep_id": "o100018_CTEP",
+        "emails": [
+          "o100018_0@yahoo.com",
+          "o100018_1@yahoo.com",
+          "o100018_2@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-018-1056",
+          "100-018-1085",
+          "100-018-1012"
+        ],
+        "id": "o100018",
+        "name": "Hallmark Cancer Group",
+        "phone_numbers": [
+          "100-018-9070"
+        ],
+        "state_province_territory": "SC",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:36:59.387007",
+        "strap_created_datetime": "2020-05-01T20:32:56.916733",
+        "strap_updated_datetime": "2021-04-24T20:36:59.652118",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:36:59.652118",
+        "urls": [
+          "www.o100018_0.com",
+          "www.o100018_1.com",
+          "www.o100018_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "29020",
+        "strap_publication_date": "2021-04-24T20:36:59.652118",
+        "version_no": "025bfce051dca0cd2da0f77ec4bec965",
+        "geo_coordinates": {
+          "lat": 34.3199,
+          "lon": -80.6053
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:26.492148",
+            "ctep_id": "p100071_CTEP",
+            "first_name": "Alejandra",
+            "id": "p100071",
+            "last_name": "Blake",
+            "middle_name": "Angelica",
+            "strap_created_datetime": "2020-05-01T19:21:05.150360",
+            "strap_updated_datetime": "2021-04-24T20:37:26.584683",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:26.584683",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:26.584683",
+            "version_no": "74e6fb0fd0c6858b0d0a1fc1047af825",
+            "name": "Blake, Alejandra Angelica",
+            "roles": [
+              {
+                "email": "o100018_0@yahoo.com",
+                "phone": "100-018-9003",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:56.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:56.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:56.000000"
+          }
+        ],
+        "name_with_id": "Hallmark Cancer Group___id:o100018",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5727 Kelly Northshore Rd.",
+        "city_municipality": "Biloxi",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:36:58.589847",
+        "ctep_id": "o100022_CTEP",
+        "emails": [
+          "o100022_0@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-022-1024"
+        ],
+        "id": "o100022",
+        "name": "Kelly Drug Development Institute",
+        "phone_numbers": [
+          "100-022-9050",
+          "100-022-9034"
+        ],
+        "state_province_territory": "MS",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:36:58.589847",
+        "strap_created_datetime": "2020-05-01T20:16:24.788797",
+        "strap_updated_datetime": "2021-04-24T20:36:59.077275",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:36:59.077275",
+        "urls": [
+          "www.o100022_0.com",
+          "www.o100022_1.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "39531",
+        "strap_publication_date": "2021-04-24T20:36:59.077275",
+        "version_no": "b8373c56ca44e94feb3fe8b4313b77a4",
+        "geo_coordinates": {
+          "lat": 30.4026,
+          "lon": -88.9677
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:45.634685",
+            "ctep_id": "p100085_CTEP",
+            "first_name": "Brian",
+            "id": "p100085",
+            "last_name": "Ramirez",
+            "strap_created_datetime": "2020-05-01T19:23:04.513976",
+            "strap_updated_datetime": "2021-04-24T20:37:45.750928",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:45.750928",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:45.750928",
+            "version_no": "919124b78206c4e45ef5ef4970db8921",
+            "name": "Ramirez, Brian",
+            "roles": [
+              {
+                "email": "o100022_0@yahoo.com",
+                "phone": "100-022-9064",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:52.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:52.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:52.000000"
+          }
+        ],
+        "name_with_id": "Kelly Drug Development Institute___id:o100022",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "7269 Laguna Forest Pl.",
+        "address_line_2": "Suite 8207",
+        "city_municipality": "Boston",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:10.561176",
+        "ctep_id": "o100011_CTEP",
+        "emails": [
+          "o100011_0@yahoo.com",
+          "o100011_1@yahoo.com"
+        ],
+        "id": "o100011",
+        "name": "Ocean University",
+        "phone_numbers": [
+          "100-011-9084",
+          "100-011-9069"
+        ],
+        "state_province_territory": "MA",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:10.561176",
+        "strap_created_datetime": "2020-05-01T19:20:45.649415",
+        "strap_updated_datetime": "2021-04-24T20:37:10.639138",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:10.639138",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "2116",
+        "strap_publication_date": "2021-04-24T20:37:10.639138",
+        "version_no": "057000775cd4220e6090461a4b364795",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:28.758109",
+            "ctep_id": "p100041_CTEP",
+            "first_name": "Rodney",
+            "id": "p100041",
+            "last_name": "Ortiz",
+            "middle_name": "Edward",
+            "prefix": "Dr.",
+            "strap_created_datetime": "2020-05-01T19:22:36.112523",
+            "strap_updated_datetime": "2021-04-24T20:37:28.841871",
+            "suffix": "I",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:28.841871",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:28.841871",
+            "version_no": "8c9b7ea21892a861df31d1fb59dd61a7",
+            "name": "Ortiz, Rodney Edward",
+            "roles": [
+              {
+                "email": "o100011_0@yahoo.com",
+                "phone": "100-011-9001",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:53.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:53.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:53.000000"
+          }
+        ],
+        "name_with_id": "Ocean University___id:o100011",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5928 Summerfield Northshore Ln.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:01.066363",
+        "ctep_id": "o100003_CTEP",
+        "emails": [
+          "o100003_0@yahoo.com",
+          "o100003_1@yahoo.com",
+          "o100003_2@yahoo.com"
+        ],
+        "id": "o100003",
+        "name": "Shelby Drug Development Institute",
+        "phone_numbers": [
+          "100-003-9001"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:01.066363",
+        "strap_created_datetime": "2020-05-01T20:32:59.412437",
+        "strap_updated_datetime": "2021-04-24T20:37:01.143019",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:01.143019",
+        "urls": [
+          "www.o100003_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "1454",
+        "strap_publication_date": "2021-04-24T20:37:01.143019",
+        "version_no": "9a570653f4169f44407a0b920bcadffb",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:37.211674",
+            "ctep_id": "p100007_CTEP",
+            "first_name": "Andre",
+            "id": "p100007",
+            "last_name": "Joseph",
+            "strap_created_datetime": "2020-05-01T19:22:47.897978",
+            "strap_updated_datetime": "2021-04-24T20:37:37.314796",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:37.314796",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:37.314796",
+            "version_no": "395b9ef91b1f36b3b177dc531bb7af59",
+            "name": "Joseph, Andre",
+            "roles": [
+              {
+                "email": "o100003_0@yahoo.com",
+                "phone": "100-003-9042",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:55.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:55.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:55.000000"
+          }
+        ],
+        "name_with_id": "Shelby Drug Development Institute___id:o100003",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "745 Ocean Kelly Dr.",
+        "city_municipality": "Laurel",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:10.889719",
+        "ctep_id": "o100007_CTEP",
+        "emails": [
+          "o100007_0@yahoo.com",
+          "o100007_1@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-007-1041",
+          "100-007-1077",
+          "100-007-1030"
+        ],
+        "id": "o100007",
+        "name": "Shelby Therapeutics Corporation",
+        "phone_numbers": [
+          "100-007-9024",
+          "100-007-9084"
+        ],
+        "state_province_territory": "MT",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:10.889719",
+        "strap_created_datetime": "2020-05-01T20:33:11.578741",
+        "strap_updated_datetime": "2021-04-24T20:37:10.964891",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:10.964891",
+        "urls": [
+          "www.o100007_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "1634",
+        "strap_publication_date": "2021-04-24T20:37:10.964891",
+        "version_no": "1d905935c9118b22909a0a25e94b2575",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:38:04.030907",
+            "ctep_id": "p100024_CTEP",
+            "first_name": "Imani",
+            "id": "p100024",
+            "last_name": "Webster",
+            "middle_name": "Allie",
+            "strap_created_datetime": "2020-05-01T19:23:33.332437",
+            "strap_updated_datetime": "2021-04-24T20:38:04.208261",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:38:04.208261",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:38:04.208261",
+            "version_no": "5ceffffeb765337d492e323ae2492a77",
+            "name": "Webster, Imani Allie",
+            "roles": [
+              {
+                "email": "o100007_0@yahoo.com",
+                "phone": "100-007-9019",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:54.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:54.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:54.000000"
+          },
+          {
+            "local_sp_identifier": "00-C-0201",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2016-01-28T18:28:25.455000"
+          }
+        ],
+        "name_with_id": "Shelby Therapeutics Corporation___id:o100007",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "The maximum grade for each type of toxicity will be recorded for each patient, and frequency tables will be reviewed to determine toxicity patterns.",
+        "is_primary": true,
+        "is_safety_related": true,
+        "measure": "Maximum tolerable dose (MTD) of erlotinib hydrochloride, determined according to incidence of dose-limiting toxicity, graded using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 3.0",
+        "time_frame": "6 months",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Number of days from the day the subject is randomized to the date of the subject's death",
+        "is_primary": false,
+        "measure": "Overall survival (OS)",
+        "time_frame": "Measured up to 5 years after the last subject has enrolled in the study.",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Maximum Concentration (Cmax) After First Ramucirumab (IMC-1211B) Infusion",
+        "time_frame": "Cycle 1, Day 1, 1 hour post end of infusion (28-day cycles)",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "AEs attributable to treatment will be collected according the study calendar and tabulated for cumulative evaluation.",
+        "is_primary": false,
+        "is_safety_related": true,
+        "measure": "Adverse events (AEs) as assessed by Common Terminology Criteria for Adverse Events (CTCAE) version 4.0",
+        "time_frame": "Up to 30 days",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "created_datetime": "2021-04-24T20:38:04.030907",
+        "ctep_id": "p100024_CTEP",
+        "first_name": "Imani",
+        "id": "p100024",
+        "last_name": "Webster",
+        "middle_name": "Allie",
+        "strap_created_datetime": "2020-05-01T19:23:33.332437",
+        "strap_updated_datetime": "2021-04-24T20:38:04.208261",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:38:04.208261",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "strap_publication_date": "2021-04-24T20:38:04.208261",
+        "version_no": "5ceffffeb765337d492e323ae2492a77",
+        "name": "Webster, Imani Allie",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "ACTIVE",
+            "status_start_datetime": "2016-11-09T13:55:47.057000"
+          }
+        ]
+      }
+    ],
+    "phase": "I",
+    "pilot": false,
+    "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+    "primary_purpose_additional_qualifier": "ANCILLARY",
+    "probability_sample": false,
+    "proprietary_trial": false,
+    "public_title": "NCI-7777-00044 public title",
+    "scientific_description": "NCI-7777-00044 scientific description",
+    "section801_indicator": true,
+    "status_history": [
+      {
+        "message_datetime": "2019-05-03T14:34:57.000000",
+        "status": "Completed",
+        "status_datetime": "2019-05-03T14:34:57.000000"
+      },
+      {
+        "message_datetime": "2019-05-02T14:34:57.000000",
+        "status": "Active, not recruiting",
+        "status_datetime": "2019-05-02T14:34:57.000000"
+      },
+      {
+        "message_datetime": "2010-10-18T02:53:13.000000",
+        "status": "Recruiting",
+        "status_datetime": "2010-10-18T02:53:13.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-01T20:03:06.662811",
+    "strap_updated_datetime": "2021-04-24T21:11:07.895528",
+    "study_classification_code": "BIO_EQUIVALENCE",
+    "study_population_description": "NCI-7777-00044 study population description",
+    "study_source": "INSTITUTIONAL",
+    "study_subtype": "OBSERVATIONAL",
+    "test_data": true,
+    "time_perspective": "OTHER",
+    "time_perspective_other_text": "NCI-7777-00044 time perspective other text",
+    "title": "NCI-7777-00044 title",
+    "user_created_id": "Test Data Service",
+    "user_created_organization": "Testing Team",
+    "version_no": "3d97b5dcd0fa06c081f8c19a3df120e1",
+    "strap_publication_date": "2021-04-24T21:11:07.895528",
+    "current_trial_status": "Completed",
+    "participating_sites": [
+      "o100022",
+      "o100011",
+      "o100007",
+      "o100003",
+      "o100017",
+      "o100018"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "p100085",
+        "name": "Ramirez, Brian",
+        "first_name": "Brian",
+        "middle_name": null,
+        "last_name": "Ramirez",
+        "org_id": "o100022",
+        "org_name": null
+      },
+      {
+        "id": "p100041",
+        "name": "Ortiz, Rodney Edward",
+        "first_name": "Rodney",
+        "middle_name": "Edward",
+        "last_name": "Ortiz",
+        "org_id": "o100011",
+        "org_name": null
+      },
+      {
+        "id": "p100024",
+        "name": "Webster, Imani Allie",
+        "first_name": "Imani",
+        "middle_name": "Allie",
+        "last_name": "Webster",
+        "org_id": "o100007",
+        "org_name": null
+      },
+      {
+        "id": "p100007",
+        "name": "Joseph, Andre",
+        "first_name": "Andre",
+        "middle_name": null,
+        "last_name": "Joseph",
+        "org_id": "o100003",
+        "org_name": null
+      },
+      {
+        "id": "p100066",
+        "name": "Garcia, Antonio Luke",
+        "first_name": "Antonio",
+        "middle_name": "Luke",
+        "last_name": "Garcia",
+        "org_id": "o100017",
+        "org_name": null
+      },
+      {
+        "id": "p100071",
+        "name": "Blake, Alejandra Angelica",
+        "first_name": "Alejandra",
+        "middle_name": "Angelica",
+        "last_name": "Blake",
+        "org_id": "o100018",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Non-Interventional",
+    "nct_id": "NCT777700044",
+    "ctep_id": "CTEP777700044",
+    "lead_organization_id": "LOID777700044",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Imani",
+        "last_name": "Webster",
+        "middle_name": "Allie",
+        "name": "Webster, Imani Allie",
+        "prefix": null,
+        "id": "p100024"
+      }
+    ],
+    "current_trial_status_date": "2019-05-03T14:34:57.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-10-18T02:53:13.000000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2019-05-02T14:34:57.000000",
+    "record_verification_date": "2019-05-07T14:34:57.000000",
+    "lead_organizations": {
+      "id": "o100007",
+      "name": "Shelby Therapeutics Corporation"
+    },
+    "total_participating_sites": 6,
+    "total_open_participating_sites": 6,
+    "has_count_history": false,
+    "lead_diseases": [
+      {
+        "id": "C27134",
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C35813",
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Primary Myelofibrosis",
+          "code": "C2862",
+          "ancestor_ids": [
+            "C27134",
+            "C4345",
+            "C9290"
+          ],
+          "parent_ids": [
+            "C4345"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Colorectal (Colon or Rectal) Cancer",
+          "code": "C2955",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Stage IIC Colorectal (Colon or Rectal) Cancer",
+          "code": "C87815",
+          "ancestor_ids": [
+            "C2955"
+          ],
+          "parent_ids": [
+            "C2955"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Chronic Myeloproliferative Disease",
+          "code": "C4345",
+          "ancestor_ids": [
+            "C27134",
+            "C9290"
+          ],
+          "parent_ids": [
+            "C9290"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Myeloid Neoplasm",
+          "code": "C9290",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "code": "C27134",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2956",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263",
+            "C4572",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4978",
+          "name": "Malignant Colorectal Neoplasm",
+          "parent_ids": [
+            "C4572",
+            "C2956"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35813",
+            "C35814",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C35501",
+          "name": "Malignant Bone Marrow Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C35370"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3248",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4345",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C2862",
+          "name": "Primary Myelofibrosis",
+          "parent_ids": [
+            "C3248",
+            "C4345"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C34433",
+            "C35814"
+          ],
+          "code": "C3248",
+          "name": "Myelofibrosis",
+          "parent_ids": [
+            "C34433"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35814"
+          ],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C4345",
+          "name": "Chronic Myeloproliferative Disease",
+          "parent_ids": [
+            "C35501",
+            "C9290"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2916",
+            "C2956",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4572",
+            "C4741",
+            "C4890",
+            "C4978",
+            "C7062",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C2955",
+          "name": "Colorectal (Colon or Rectal) Cancer",
+          "parent_ids": [
+            "C4978",
+            "C96963"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4890",
+          "name": "Malignant Gastrointestinal Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C3709",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [
+            "C2990",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C2990",
+          "name": "Digestive System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C2956",
+          "name": "Colorectal Neoplasm",
+          "parent_ids": [
+            "C3141"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C96963",
+          "name": "Digestive System Carcinoma",
+          "parent_ids": [
+            "C4890",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2916",
+            "C2955",
+            "C2956",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4572",
+            "C4741",
+            "C4890",
+            "C4978",
+            "C7062",
+            "C91223",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C89989",
+          "name": "Stage II Colorectal (Colon or Rectal) Cancer",
+          "parent_ids": [
+            "C91223"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4572",
+          "name": "Malignant Intestinal Neoplasm",
+          "parent_ids": [
+            "C3141",
+            "C4890"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3141",
+          "name": "Intestinal Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C26801"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35813",
+            "C35814"
+          ],
+          "code": "C35370",
+          "name": "Bone Marrow Neoplasm",
+          "parent_ids": [
+            "C34433",
+            "C35813"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C27134",
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C26323",
+            "C4741",
+            "C35813"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C35814",
+          "name": "Hematopoietic and Lymphoid System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C26323",
+          "name": "Hematologic and Lymphocytic Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991"
+          ],
+          "code": "C26801",
+          "name": "Intestinal Disorder",
+          "parent_ids": [
+            "C2990"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C9290",
+          "name": "Myeloid Neoplasm",
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2916",
+            "C2955",
+            "C2956",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4572",
+            "C4741",
+            "C4890",
+            "C4978",
+            "C7062",
+            "C89989",
+            "C91223",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C87815",
+          "name": "Stage IIC Colorectal (Colon or Rectal) Cancer",
+          "parent_ids": [
+            "C89989"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26801",
+            "C27551",
+            "C2916",
+            "C2955",
+            "C2956",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3141",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4572",
+            "C4741",
+            "C4890",
+            "C4978",
+            "C7062",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C91223",
+          "name": "Colorectal Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C2955"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C34433",
+          "name": "Bone Marrow Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

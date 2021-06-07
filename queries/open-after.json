@@ -1,0 +1,21 @@
+{
+    "from": 0,
+    "size": 100,
+    "query": {
+        "nested": {
+            "path": "status_history",
+            "query": {
+                "bool": {
+                    "must": [
+                        { "range": { "status_history.status_datetime": { "gte": "2010-05-31" } } },
+                        {
+                            "match": {
+                                "status_history.status": "Recruiting"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

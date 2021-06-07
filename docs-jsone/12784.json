@@ -1,0 +1,3305 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2013-01458",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Multiple"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "biomarkers": [
+      {
+        "assay_type": "Immunohistochemistry (IHC)",
+        "cadsr_id": "3944687",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C111791",
+        "name": "PGP (Phosphoglycolate Phosphatase; PGPase)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated",
+        "inclusion_indicator": "TRIAL",
+        "eligibility_criterion": "exclusion",
+        "ctrp_display_name": "PGP Gene",
+        "preferred_name": "PGP Gene",
+        "definitions": [
+          "This gene may be involved in regulating oxygen transport."
+        ],
+        "synonyms": [
+          {
+            "name": "PGP Gene",
+            "type": "Display_Name"
+          },
+          {
+            "name": "PGP",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PGP",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "HGNC",
+            "code": "HGNC:8909"
+          },
+          {
+            "name": "PGP Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PGP Gene",
+            "termGroup": "DN",
+            "type": "FULL_SYN",
+            "source": "CTRP"
+          },
+          {
+            "name": "Phosphoglycolate Phosphatase Gene",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PGP Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C111792"
+        ],
+        "parents": [
+          "C26070"
+        ],
+        "roles": [
+          "C20612",
+          "C16702"
+        ],
+        "associations": [
+          "C142799",
+          "C142800",
+          "C142801",
+          "C116977"
+        ],
+        "cousins": [],
+        "type": [
+          "reference_gene",
+          "genetic_biomarker"
+        ],
+        "evs_name": "PGP Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C16612",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Gene",
+        "definitions": [
+          "A functional unit of heredity that occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of a protein or other product.  Comment Requested:  In interest of re-using existing standards, should the above definition of Gene be replaced by the following from the NLM -  The basic physical and functional unit of heredity. It is made up of DNA and act as instructions to make molecules called proteins.  [Source: http://ghr.nlm.nih.gov/handbook/basics/gene]   EXAMPLE(S): BRCA1 gene  OTHER NAME(S):  NOTE(S):",
+          "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.",
+          "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function. (NCI)",
+          "The functional and physical unit of heredity passed from parent to offspring. Genes are pieces of DNA, and most genes contain the information for making a specific protein."
+        ],
+        "synonyms": [
+          {
+            "name": "gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000045693"
+          },
+          {
+            "name": "GENE",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "CDISC"
+          },
+          {
+            "name": "Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "BRIDG 5.3"
+          },
+          {
+            "name": "Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Gene",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "caDSR"
+          },
+          {
+            "name": "Genes",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C54259",
+          "C20462",
+          "C19540",
+          "C20917",
+          "C25802",
+          "C21518",
+          "C21550",
+          "C25969",
+          "C19676",
+          "C21281",
+          "C29938",
+          "C28510",
+          "C21344",
+          "C25791",
+          "C25790",
+          "C54401",
+          "C21295",
+          "C16812",
+          "C26039",
+          "C80699",
+          "C38187",
+          "C20157",
+          "C25994",
+          "C26016",
+          "C20194",
+          "C20370",
+          "C20921",
+          "C20744",
+          "C20338",
+          "C54362",
+          "C21240"
+        ],
+        "parents": [],
+        "roles": [],
+        "associations": [
+          "C159503",
+          "C159501",
+          "C132317",
+          "C66830",
+          "C61410"
+        ],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C21281",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Enzyme Gene",
+        "definitions": [
+          "Enzyme Genes encode Enzymes, biological molecules (usually proteins) that possess catalytic activity. Catalytic RNA and catalytic DNA molecules have also been identified. (NCI)"
+        ],
+        "synonyms": [
+          {
+            "name": "Enzyme Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Enzyme_Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Enzyme Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C25804",
+          "C25941",
+          "C25943",
+          "C21282",
+          "C25939",
+          "C25870",
+          "C158414"
+        ],
+        "parents": [
+          "C16612"
+        ],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Enzyme Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C25952",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Esterase Gene",
+        "definitions": [
+          "Esterase Genes encode Esterases that catalyze hydrolysis of ester bonds to produce alcohol and acid reaction products. (NCI)"
+        ],
+        "synonyms": [
+          {
+            "name": "Esterase Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Esterase_Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Esterase Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C118545",
+          "C103930",
+          "C40134",
+          "C20717",
+          "C116034",
+          "C116037",
+          "C24300",
+          "C90040",
+          "C126525",
+          "C117091",
+          "C104209",
+          "C147046",
+          "C26564",
+          "C98120",
+          "C124101",
+          "C75604",
+          "C101555",
+          "C82869",
+          "C113269",
+          "C104614",
+          "C104624",
+          "C116615",
+          "C147867",
+          "C104587",
+          "C114924",
+          "C97894",
+          "C104739",
+          "C95572",
+          "C132037",
+          "C95467",
+          "C114556",
+          "C125489",
+          "C102808",
+          "C148359",
+          "C26070",
+          "C104971",
+          "C24678",
+          "C38588",
+          "C38591",
+          "C38593",
+          "C38595",
+          "C38597",
+          "C122064",
+          "C153056",
+          "C24725",
+          "C24682",
+          "C160883",
+          "C116272",
+          "C115067",
+          "C104821",
+          "C28655",
+          "C116047",
+          "C113555",
+          "C178162",
+          "C106277",
+          "C73440",
+          "C25953",
+          "C104723",
+          "C98203",
+          "C91282",
+          "C105019",
+          "C105022",
+          "C105029",
+          "C105035",
+          "C75584",
+          "C105088",
+          "C105094",
+          "C20559",
+          "C124932",
+          "C116085"
+        ],
+        "parents": [
+          "C25804"
+        ],
+        "roles": [
+          "C16702"
+        ],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Esterase Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C25804",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Hydrolase Gene",
+        "definitions": [
+          "A gene that encodes an enzyme capable of catalyzing the hydrolysis of chemical bonds."
+        ],
+        "synonyms": [
+          {
+            "name": "Hydrolase Family Gene",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Hydrolase Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Hydrolase_Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Hydrolase Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C91295",
+          "C103888",
+          "C103893",
+          "C103896",
+          "C26507",
+          "C30156",
+          "C173459",
+          "C157283",
+          "C104863",
+          "C101413",
+          "C26619",
+          "C17516",
+          "C116998",
+          "C117001",
+          "C95272",
+          "C68588",
+          "C103927",
+          "C103899",
+          "C103902",
+          "C114945",
+          "C97400",
+          "C54227",
+          "C38926",
+          "C97375",
+          "C84321",
+          "C79076",
+          "C120051",
+          "C53650",
+          "C116995",
+          "C102796",
+          "C113579",
+          "C118531",
+          "C26506",
+          "C25952",
+          "C177195",
+          "C18524",
+          "C121621",
+          "C104421",
+          "C104424",
+          "C107436",
+          "C20787",
+          "C25805",
+          "C148004",
+          "C26495",
+          "C104506",
+          "C104287",
+          "C26496",
+          "C26497",
+          "C26498",
+          "C24466",
+          "C26500",
+          "C102489",
+          "C113605",
+          "C102492",
+          "C26057",
+          "C24477",
+          "C91276",
+          "C115252",
+          "C178637",
+          "C178665",
+          "C97237",
+          "C102452",
+          "C116949",
+          "C150276",
+          "C106162",
+          "C113227",
+          "C94718",
+          "C104920",
+          "C104943",
+          "C113309",
+          "C101552",
+          "C126583",
+          "C49205",
+          "C175984",
+          "C132149",
+          "C102548",
+          "C26003",
+          "C106089",
+          "C20716",
+          "C80113",
+          "C101562",
+          "C95589",
+          "C102770",
+          "C150319",
+          "C26504",
+          "C101583",
+          "C142757",
+          "C118328",
+          "C106306",
+          "C106309"
+        ],
+        "parents": [
+          "C21281"
+        ],
+        "roles": [
+          "C16702"
+        ],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Hydrolase Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C26070",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Phosphatase Family Gene",
+        "definitions": [
+          "Phosphotransferase Genes encode Phosphotransferases (Phosphatases), a large group of enzymes subdivided according to acceptor group that transfer phosphate, diphosphate, nucleotidyl residues, and other phosphomoieties. Some phosphotransferases catalyze the conversion of a proenzyme to an active enzyme; others transfer phosphate groups to form triphosphates (e.g., ATP). (NCI)"
+        ],
+        "synonyms": [
+          {
+            "name": "Phosphatase Family Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Phosphatase_Family_Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Phosphatase Family Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C88195",
+          "C99181",
+          "C104230",
+          "C107487",
+          "C117100",
+          "C124943",
+          "C176506",
+          "C170411",
+          "C106327",
+          "C95111",
+          "C170414",
+          "C111791",
+          "C24688",
+          "C105941",
+          "C20731",
+          "C18256",
+          "C105037",
+          "C105043",
+          "C114737"
+        ],
+        "parents": [
+          "C25952"
+        ],
+        "roles": [
+          "C20612",
+          "C16702"
+        ],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Phosphatase Family Gene"
+      }
+    ],
+    "comments": "Removed MRK-16 and JSB-1 from the biomarker section because these are tools used to detect Pgp. -CN\r\nAlttitle: FPAC pilot",
+    "ctro_override": true,
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2015-06-10T21:00:38.793000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2015-05-18T13:17:15.997000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2016-01-18T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-01-11T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This pilot phase 0 trial studies the distribution of fluorine F 18 fluoropaclitaxel (FPAC) in solid tumors when used for positron emission tomography (PET)/computed tomography (CT) imaging in patients with breast, lung, kidney, or adrenal cancer. Diagnostic procedures, such as FPAC PET/CT, may help find breast, lung, kidney, or adrenal cancer and measure a patient’s response to treatment",
+    "diseases": [
+      {
+        "display_name": "Adrenal Gland Neoplasm",
+        "id": "C2859",
+        "is_lead_disease": false,
+        "name": "Adrenal Gland Neoplasm",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Adrenal Gland Neoplasm",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Neoplasm",
+                "code": "C3262"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adrenal Gland Tumor",
+          "Adrenal Neoplasm",
+          "Adrenal Neoplasms",
+          "Adrenal Tumor",
+          "Neoplasm of Adrenal Gland",
+          "Neoplasm of the Adrenal Gland",
+          "Tumor of Adrenal Gland",
+          "Tumor of the Adrenal Gland"
+        ],
+        "parents": [
+          "C26690",
+          "C3357"
+        ]
+      },
+      {
+        "display_name": "Lung Carcinoma",
+        "id": "C4878",
+        "is_lead_disease": false,
+        "name": "Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Lung Carcinoma",
+        "paths": null,
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Lung",
+          "Cancer of the Lung",
+          "Carcinoma of Lung",
+          "Carcinoma of the Lung",
+          "Lung Cancer (all types)",
+          "Lung Carcinoma",
+          "Lung cancer, NOS",
+          "lung cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C7377"
+        ]
+      },
+      {
+        "display_name": "Breast Carcinoma",
+        "id": "C4872",
+        "is_lead_disease": false,
+        "name": "Breast Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Breast Carcinoma",
+        "paths": null,
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Breast Carcinoma",
+          "Breast cancer, NOS",
+          "Cancer of Breast",
+          "Cancer of the Breast",
+          "Carcinoma of Breast",
+          "Carcinoma of the Breast",
+          "Mammary Carcinoma",
+          "breast cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C9335"
+        ]
+      },
+      {
+        "display_name": "Renal Cell Carcinoma",
+        "id": "C9385",
+        "is_lead_disease": false,
+        "name": "Renal Cell Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Renal Cell Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Kidney Carcinoma",
+                "code": "C9384"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adenocarcinoma of Kidney",
+          "Adenocarcinoma of the Kidney",
+          "CARCINOMA, RENAL CELL, MALIGNANT",
+          "Kidney Adenocarcinoma",
+          "RCC",
+          "Renal Cell Adenocarcinoma",
+          "Renal Cell Carcinoma",
+          "Renal Cell Carcinoma, Stage Unspecified",
+          "Renal cell adenocarcinoma",
+          "Renal cell carcinoma, NOS",
+          "Renal cell carcinoma, unclassified",
+          "renal cell adenocarcinoma",
+          "renal cell cancer",
+          "renal cell carcinoma"
+        ],
+        "parents": [
+          "C2852",
+          "C9384"
+        ]
+      },
+      {
+        "id": "C3198",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Disorder",
+        "display_name": "Lung Disorder",
+        "preferred_name": "Lung Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Lung",
+          "Lung Disorders",
+          "Pulmonary Disease",
+          "Pulmonary Diseases",
+          "Pulmonary Disorder",
+          "Pulmonary Disorders"
+        ],
+        "parents": [
+          "C26871",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C3150",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Kidney Tumor",
+        "display_name": "Kidney Neoplasm",
+        "preferred_name": "Kidney Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Kidney Neoplasm",
+          "Neoplasm of Kidney",
+          "Neoplasm of the Kidney",
+          "Renal Neoplasm",
+          "Renal Tumor",
+          "Renal Tumors",
+          "Tumor of Kidney",
+          "Tumor of the Kidney"
+        ],
+        "parents": [
+          "C3149",
+          "C7514"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3431",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Urinary System Neoplasm",
+        "display_name": "Urinary System Neoplasm",
+        "preferred_name": "Urinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Urinary System",
+          "Neoplasm of Urinary Tract",
+          "Neoplasm of the Urinary System",
+          "Neoplasm of the Urinary Tract",
+          "Tumor of Urinary System",
+          "Tumor of Urinary Tract",
+          "Tumor of the Urinary System",
+          "Tumor of the Urinary Tract",
+          "Urinary System Tumor",
+          "Urinary Tract Neoplasm",
+          "Urinary Tract Tumor"
+        ],
+        "parents": [
+          "C156482",
+          "C3430"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C2910",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Breast Neoplasm",
+        "display_name": "Breast Neoplasm",
+        "preferred_name": "Breast Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Breast Tumor",
+          "Neoplasm of Breast",
+          "Neoplasm of the Breast",
+          "Tumor of Breast",
+          "Tumor of the Breast"
+        ],
+        "parents": [
+          "C26709",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C26709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Breast Disorder",
+        "display_name": "Breast Disorder",
+        "preferred_name": "Breast Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Breast Disease",
+          "Breast Diseases"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C27667",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Retroperitoneal Disorder",
+        "display_name": "Retroperitoneal Disorder",
+        "preferred_name": "Retroperitoneal Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Retroperitoneal Disease"
+        ],
+        "parents": [
+          "C27664"
+        ]
+      },
+      {
+        "id": "C164141",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Carcinoma",
+        "display_name": "Genitourinary System Carcinoma",
+        "preferred_name": "Genitourinary System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2916",
+          "C156484"
+        ]
+      },
+      {
+        "id": "C9335",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Breast Neoplasm",
+        "display_name": "Malignant Breast Neoplasm",
+        "preferred_name": "Malignant Breast Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Breast Tumor",
+          "Malignant Neoplasm of Breast",
+          "Malignant Neoplasm of the Breast",
+          "Malignant Tumor of Breast",
+          "Malignant Tumor of the Breast"
+        ],
+        "parents": [
+          "C2910",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C27669",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory and Thoracic Disorder",
+        "display_name": "Respiratory and Thoracic Disorder",
+        "preferred_name": "Respiratory and Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory and Thoracic Disease",
+          "Respiratory, Thoracic, and Mediastinal Disease",
+          "Respiratory, Thoracic, and Mediastinal Disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C9384",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Kidney (including Renal Cell) Cancer",
+        "display_name": "Kidney Cancer",
+        "preferred_name": "Kidney Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Kidney Cancer",
+          "Kidney Carcinoma",
+          "Kidney cancer, NOS",
+          "Renal Cancer",
+          "Renal Carcinoma",
+          "kidney cancer"
+        ],
+        "parents": [
+          "C164141",
+          "C7548"
+        ]
+      },
+      {
+        "id": "C35742",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thoracic Disorder",
+        "display_name": "Thoracic Disorder",
+        "preferred_name": "Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Thoracic Disease"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C7377",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Lung Neoplasm",
+        "display_name": "Malignant Lung Neoplasm",
+        "preferred_name": "Malignant Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Lung Tumor",
+          "Malignant Neoplasm of Lung",
+          "Malignant Neoplasm of the Lung",
+          "Malignant Tumor of Lung",
+          "Malignant Tumor of the Lung"
+        ],
+        "parents": [
+          "C3200",
+          "C4571",
+          "C3576"
+        ]
+      },
+      {
+        "id": "C9297",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Urinary System Neoplasm",
+        "display_name": "Malignant Urinary System Neoplasm",
+        "preferred_name": "Malignant Urinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Urinary Tract Neoplasm",
+          "Urinary Tract Cancer",
+          "Urothelial tract/bladder cancer, NOS",
+          "Urothelial/bladder cancer, NOS"
+        ],
+        "parents": [
+          "C156484",
+          "C3431"
+        ]
+      },
+      {
+        "id": "C26690",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adrenal Gland Disorder",
+        "display_name": "Adrenal Gland Disorder",
+        "preferred_name": "Adrenal Gland Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adrenal Gland Disease",
+          "Adrenal Gland Diseases",
+          "Adrenal Gland Disorders"
+        ],
+        "parents": [
+          "C27667"
+        ]
+      },
+      {
+        "id": "C4571",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Respiratory System Neoplasm",
+        "display_name": "Malignant Respiratory System Neoplasm",
+        "preferred_name": "Malignant Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C9305",
+          "C3355"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3200",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Neoplasm",
+        "display_name": "Lung Neoplasm",
+        "preferred_name": "Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Neoplasms",
+          "Lung Tumor",
+          "Neoplasm of Lung",
+          "Neoplasm of the Lung",
+          "Tumor of Lung",
+          "Tumor of the Lung"
+        ],
+        "parents": [
+          "C3198",
+          "C3355",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C7514",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Kidney and Ureter Neoplasm",
+        "display_name": "Kidney and Ureter Neoplasm",
+        "preferred_name": "Kidney and Ureter Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Kidney and Ureter Tumor",
+          "Renal and Ureteral Neoplasm",
+          "Renal and Ureteral Tumor"
+        ],
+        "parents": [
+          "C3431"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C156482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Neoplasm",
+        "display_name": "Genitourinary System Neoplasm",
+        "preferred_name": "Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156660",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C3355",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory System Neoplasm",
+        "display_name": "Respiratory System Neoplasm",
+        "preferred_name": "Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C3263",
+          "C26871"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3149",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Kidney Disorder",
+        "display_name": "Kidney Disorder",
+        "preferred_name": "Kidney Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Kidney Disease",
+          "Kidney disease",
+          "Renal Disease",
+          "Renal Disorder",
+          "Renal Disorder, NOS"
+        ],
+        "parents": [
+          "C3430"
+        ]
+      },
+      {
+        "id": "C3576",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Thoracic Neoplasm",
+        "display_name": "Malignant Thoracic Neoplasm",
+        "preferred_name": "Malignant Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Thorax",
+          "Malignant Neoplasm of the Thorax",
+          "Malignant Thoracic Tumor",
+          "Malignant Tumor of Thorax",
+          "Malignant Tumor of the Thorax"
+        ],
+        "parents": [
+          "C9305",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27664",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Peritoneal and Retroperitoneal Disorder",
+        "display_name": "Peritoneal and Retroperitoneal Disorder",
+        "preferred_name": "Peritoneal and Retroperitoneal Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Peritoneal and Retroperitoneal Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adenocarcinoma",
+        "display_name": "Adenocarcinoma",
+        "preferred_name": "Adenocarcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C7132"
+        ]
+      },
+      {
+        "id": "C3430",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Urinary System Disorder",
+        "display_name": "Urinary System Disorder",
+        "preferred_name": "Urinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Urinary System",
+          "Urinary Tract Disease",
+          "Urinary Tract Disorder",
+          "Urologic Disorder",
+          "Urological Disorders",
+          "urinary tract disorder"
+        ],
+        "parents": [
+          "C156660"
+        ]
+      },
+      {
+        "id": "C26871",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory System Disorder",
+        "display_name": "Respiratory System Disorder",
+        "preferred_name": "Respiratory System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Respiratory System",
+          "Respiratory Disorder",
+          "Unspecified Respiratory Problem"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C156484",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Genitourinary System Neoplasm",
+        "display_name": "Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Malignant Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Genitourinary Cancer",
+          "Genitourinary System Cancer",
+          "Malignant Genitourinary Neoplasm"
+        ],
+        "parents": [
+          "C156482",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C156660",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Disorder",
+        "display_name": "Genitourinary System Disorder",
+        "preferred_name": "Genitourinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Urogenital Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3406",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thoracic Neoplasm",
+        "display_name": "Thoracic Neoplasm",
+        "preferred_name": "Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Thorax",
+          "Neoplasm of the Thorax",
+          "Thoracic Tumor",
+          "Tumor of Thorax",
+          "Tumor of the Thorax"
+        ],
+        "parents": [
+          "C3263",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C7548",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Kidney Neoplasm",
+        "display_name": "Malignant Kidney Neoplasm",
+        "preferred_name": "Malignant Kidney Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Kidney Tumor",
+          "Malignant Neoplasm of Kidney",
+          "Malignant Neoplasm of the Kidney",
+          "Malignant Renal Neoplasm",
+          "Malignant Renal Tumor",
+          "Malignant Tumor of Kidney",
+          "Malignant Tumor of the Kidney"
+        ],
+        "parents": [
+          "C3150",
+          "C9297"
+        ]
+      },
+      {
+        "id": "C3357",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Retroperitoneal Neoplasm",
+        "display_name": "Retroperitoneal Neoplasm",
+        "preferred_name": "Retroperitoneal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7337",
+          "C27667"
+        ]
+      },
+      {
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Glandular Cell Neoplasm",
+        "display_name": "Glandular Cell Neoplasm",
+        "preferred_name": "Glandular Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "parents": [
+          "C3709"
+        ]
+      },
+      {
+        "id": "C7337",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Peritoneal and Retroperitoneal Neoplasm",
+        "display_name": "Peritoneal and Retroperitoneal Neoplasm",
+        "preferred_name": "Peritoneal and Retroperitoneal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Peritoneal and Retroperitoneal Tumor"
+        ],
+        "parents": [
+          "C3263",
+          "C27664"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "10C0078_StudyApplication.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-01458/10C0078_StudyApplication.pdf",
+        "type": "OTHER"
+      },
+      {
+        "active": true,
+        "name": "10C0078_ProtocolTrackedChangeVersionG.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-01458/10C0078_ProtocolTrackedChangeVersionG.pdf",
+        "type": "PROTOCOL_HIGHLIGHTED_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "10C0078_ChangeMemoVersionG.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-01458/10C0078_ChangeMemoVersionG.pdf",
+        "type": "CHANGE_MEMO_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "DummyDocument.docx",
+        "s3_path": "ctrppa/registry_data/NCI-2013-01458/DummyDocument.docx",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "10C0078_ProtocolVersionG.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-01458/10C0078_ProtocolVersionG.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "TSR_NCI-2013-01458_2015-06-02-1524_AG.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2013-01458/TSR_NCI-2013-01458_2015-06-02-1524_AG.rtf",
+        "type": "TSR"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Leukocytes >= 3,000/mcL",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Platelets >= 100,000/mcL",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "Total bilirubin within =< 2.5 X institutional limits OR < 3.0 mg/dl in patients with Gilbert’s syndrome",
+        "display_order": 9,
+        "inclusive": true
+      },
+      {
+        "description": "Absolute neutrophil count >= 1,500/mcL",
+        "display_order": 7,
+        "inclusive": true
+      },
+      {
+        "description": "Aspartate aminotransferase (AST)(serum glutamic oxaloacetic transaminase [SGOT])/alanine aminotransferase (ALT)(serum glutamate pyruvate transaminase [SGPT]) =< 2.5 X institutional upper limit of normal (< 5 X ULN for patients with known hepatic metastases)",
+        "display_order": 10,
+        "inclusive": true
+      },
+      {
+        "description": "If female, the subject must be postmenopausal for a minimum of two years, be surgically sterile, or have a negative pregnancy test within the 24 hours prior to tracer injection",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects must have an Eastern Cooperative Oncology Group (ECOG) performance status =< 2 (Karnofsky >= 60%)",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects with or without a history of prior chemotherapy",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects must have a history of histologically or cytologically confirmed breast, lung, adrenal or renal cancer with a tumor, outside of the abdomen and pelvis, >= 1cm",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects with uncontrolled intercurrent illness or psychiatric illness/social situations that would limit compliance with study requirements",
+        "display_order": 17,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects who are pregnant or lactating or who suspect they might be pregnant; breastfeeding should be discontinued if the mother receives FPAC",
+        "display_order": 18,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects with a history of allergic reactions attributed to compounds of similar chemical or biologic composition to F-18 fluoropaclitaxel (i.e. Taxol)",
+        "display_order": 15,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects must NOT have had surgery near the target lesion =< 4 weeks prior to FPAC injection",
+        "display_order": 14,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects may not receive any other investigational agents 24 hours prior to or following FPAC injection",
+        "display_order": 12,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects with severe claustrophobia (not relieved by oral anxiolytics) or other condition that would make them unable to lie still for the duration of the study",
+        "display_order": 16,
+        "inclusive": false
+      },
+      {
+        "description": "Subjects must sign a written informed consent document and in accordance with institutional guidelines",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Subjects must NOT receive radiation therapy to the target lesion =< 8 weeks prior to FPAC injection",
+        "display_order": 13,
+        "inclusive": false
+      },
+      {
+        "description": "When applicable, a documented history of prior chemotherapy and radiation therapy and responses to those treatments must be available",
+        "display_order": 11,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "groups": [
+      {
+        "created_datetime": "2013-08-13T16:11:07.763000",
+        "description": "Patients receive fluorine F 18 fluoropaclitaxel IV over 10-20 seconds followed by PET/CT prior to beginning chemotherapy and after completion of therapy. Patients also undergo FDG PET/CT prior to beginning chemotherapy and after completion of therapy (or prior to surgery).",
+        "identifier": 121737103,
+        "interventions": [
+          {
+            "description": "Undergo 18F-FPAC PET/CT and 18F-FDG PET/CT",
+            "display_order": 2,
+            "id": "C17204",
+            "name": "Computed Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "CAT",
+              "CAT Scan",
+              "CT",
+              "Computerized Axial Tomography",
+              "Computerized Tomography"
+            ]
+          },
+          {
+            "description": "Undergo 18F-FPAC PET/CT and 18F-FDG PET/CT",
+            "display_order": 1,
+            "id": "C17007",
+            "name": "Positron Emission Tomography",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "Medical Imaging, Positron Emission Tomography",
+              "PET",
+              "PET Scan",
+              "Positron Emission Tomography Scan",
+              "Positron-Emission Tomography"
+            ]
+          },
+          {
+            "description": "Undergo 18F-FPAC PET/CT",
+            "display_order": 0,
+            "id": "C90580",
+            "name": "Fluorine F-18 Fluoropaclitaxel",
+            "type": "Radiation",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "18F-FPAC"
+            ]
+          },
+          {
+            "description": "Correlative studies",
+            "display_order": 4,
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Undergo 18F-FDG PET/CT",
+            "display_order": 3,
+            "id": "C964",
+            "name": "Fludeoxyglucose F-18",
+            "type": "Radiation",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": [
+              "18FDG",
+              "FDG",
+              "Fludeoxyglucose (18F)",
+              "Fludeoxyglucose F18",
+              "Fluorine-18 2-Fluoro-2-deoxy-D-Glucose",
+              "Fluorodeoxyglucose F18"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Agent",
+              "Drug",
+              "Drug Substance",
+              "Pharmaceutical Agent",
+              "Pharmaceuticals",
+              "Pharmacologic Agent",
+              "Pharmacological Substance"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Imaging Technique",
+            "id": "C17369",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Diagnostic Imaging Technique",
+              "Imaging",
+              "Imaging Procedures",
+              "Medical Imaging"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Radioconjugate",
+            "id": "C2124",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Radio Conjugates"
+            ]
+          },
+          {
+            "type": "Radiation",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Diagnostic Procedure",
+            "id": "C18020",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Diagnostic Method",
+              "Diagnostic Technique",
+              "Diagnostic Test"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Radiation",
+            "name": "Radiopharmaceutical Compound",
+            "id": "C1446",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Radioactive Pharmaceutical",
+              "Radiochemical",
+              "Radiopharmaceuticals"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Diagnostic Imaging",
+            "id": "C16502",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Diagnostic (18F-FPAC PET/CT)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2015-06-02T15:17:30.074000"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "CCR_ID",
+        "value": "10-C-0078"
+      },
+      {
+        "type": "NCT_ID",
+        "value": "NCT01086696"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "10-C-0078"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "100078"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "P09602"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2013-01458"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "legacy_id": "121068255",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999.0 Years",
+    "max_age_in_years": 999,
+    "min_age": "18.0 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 30,
+    "nci_grant_provided": false,
+    "nci_id": "NCI-2013-01458",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "16108126",
+        "ctep_id": "NCICCR",
+        "name": "NCI - Center for Cancer Research",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "31 Center Drive",
+        "address_line_2": "Building 31 Room 3A11",
+        "city_municipality": "Bethesda",
+        "state_province_territory": "MD",
+        "country": "United States",
+        "zipcode": "20892",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Developmental Therapeutics Branch",
+          "National Cancer Institute Metabolism Branch",
+          "NCI - Center for Cancer Research",
+          "NCI Lymphoid Malignancies Branch"
+        ],
+        "phone_numbers": [
+          "301-496-4345"
+        ],
+        "urls": [
+          "http://ccr.cancer.gov/about/Contact.aspx"
+        ],
+        "status_datetime": "2016-08-23T09:25:46.364000",
+        "strap_created_datetime": "2020-04-14T17:16:03.434882",
+        "strap_updated_datetime": "2021-04-07T23:16:55.811980",
+        "strap_publication_datetime": "2021-04-07T23:16:55.811980",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:55.811980",
+        "version_no": "4e40dbff935ba03bd5e1b3340ffc3e39",
+        "geo_coordinates": {
+          "lat": 39.0003,
+          "lon": -77.1056
+        },
+        "roles": [
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-21T10:50:48.627000"
+          },
+          {
+            "role": "RESPONSIBLE_PARTY_SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-21T10:50:52.602000"
+          },
+          {
+            "local_sp_identifier": "10-C-0078",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-21T10:50:45.812000"
+          },
+          {
+            "irb_approval_number": "07/09/2015",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "NCI - Center for Cancer Research",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2016-07-13T14:16:09.055000"
+          }
+        ],
+        "persons": [],
+        "name_with_id": "NCI - Center for Cancer Research___id:16108126",
+        "current_recruiting_status": "UNKNOWN"
+      },
+      {
+        "id": "124897",
+        "ctep_id": "MD004",
+        "name": "National Institutes of Health Clinical Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "10 Center Drive",
+        "city_municipality": "Bethesda",
+        "state_province_territory": "MD",
+        "country": "United States",
+        "zipcode": "20892",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Mark O Hatfield-Warren Grant Magnuson Clinical Center",
+          "National Institute of Health",
+          "National Institutes of Health",
+          "National Institutes of Health Clinical Center",
+          "NIH",
+          "NIH Director’s New Innovator Award",
+          "Warren Grant Magnusun Clinical Center"
+        ],
+        "phone_numbers": [
+          "800-411-1222"
+        ],
+        "status_datetime": "2015-12-18T07:47:16.514000",
+        "strap_created_datetime": "2020-04-14T17:16:02.581058",
+        "strap_updated_datetime": "2021-04-07T23:16:48.835000",
+        "strap_publication_datetime": "2021-04-07T23:16:48.835000",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:48.835000",
+        "version_no": "9402717095c71e749d841ae76cceb0d7",
+        "geo_coordinates": {
+          "lat": 39.0003,
+          "lon": -77.1056
+        },
+        "persons": [
+          {
+            "id": "2233678",
+            "ctep_id": "37009",
+            "prefix": "Dr.",
+            "first_name": "Karen",
+            "middle_name": "Ann",
+            "last_name": "Kurdziel",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:46:36.604946",
+            "strap_updated_datetime": "2021-04-07T23:16:52.185187",
+            "strap_publication_datetime": "2021-04-07T23:16:52.185187",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:16:52.185187",
+            "version_no": "17a1b012a39bff587b1a3ed3c1d587d6",
+            "name": "Kurdziel, Karen Ann",
+            "roles": [
+              {
+                "email": "kurdziek@mail.nih.gov",
+                "phone": "301-443-0622",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2013-08-13T12:43:37.707000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2013-08-13T12:43:17.467000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "CLOSED_TO_ACCRUAL",
+                "status_datetime": "2014-08-19T00:00:00.000002"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2010-01-11T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-21T10:41:21.011000"
+          }
+        ],
+        "name_with_id": "National Institutes of Health Clinical Center___id:124897",
+        "current_recruiting_status": "CLOSED_TO_ACCRUAL"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "If at any time 2 of the first 10 patients in each stratum have grade 3 or higher adverse events (AEs) attributable to FPAC, then the one-sided upper 90% confidence limit for the frequency of AEs grade 3 or higher will exceed 33%, which will be considered unacceptably high, and accrual on the study will be terminated.",
+        "is_safety_related": true,
+        "measure": "Adverse events attributable to the FPAC injection/imaging",
+        "time_frame": "30 days after treatment completion",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "The primary measure of FPAC tumor uptake in each stratum will be standard uptake variable (SUV) calculations at ~1 hour post injection. The analysis will be conducted with one-sided t-tests at the 0.01 significance level in order to correct for the multiple comparisons (two arms and two time points). All the tests depend on the distribution of tumor vs normal SUV differences being consistent with normality. If the data deviate from this assumption, Wilcoxon signed rank and rank sum tests will be used, with small losses in power anticipated.",
+        "is_safety_related": false,
+        "measure": "FPAC tumor uptake",
+        "time_frame": "At 1 hour post injection",
+        "type": "PRIMARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "2233678",
+        "ctep_id": "37009",
+        "prefix": "Dr.",
+        "first_name": "Karen",
+        "middle_name": "Ann",
+        "last_name": "Kurdziel",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:46:36.604946",
+        "strap_updated_datetime": "2021-04-07T23:16:52.185187",
+        "strap_publication_datetime": "2021-04-07T23:16:52.185187",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:52.185187",
+        "version_no": "17a1b012a39bff587b1a3ed3c1d587d6",
+        "name": "Kurdziel, Karen Ann",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-21T10:50:46.027000"
+          }
+        ]
+      }
+    ],
+    "phase": "Early Phase I",
+    "primary_purpose": "DIAGNOSTIC",
+    "proprietary_trial": false,
+    "public_title": "Distribution of Fluorine F 18 Fluoropaclitaxel in Solid Tumors When Used for PET/CT Imaging in Patients with Breast, Lung, Kidney, or Adrenal Cancer",
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "154376",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. Determine if the FPAC uptake in tumors is different than the uptake in normal background tissues.\r\nII. Determine safety of FPAC administration.\r\n\r\nSECONDARY OBJECTIVES:\r\nI. Compare FPAC uptake with FDG uptake in solid tumors.\r\nII. Make preliminary comparisons of FPAC uptake with treatment response and drug transporter expression when available.\r\n\r\nOUTLINE:\r\nPatients receive fluorine F 18 fluoropaclitaxel (FPAC) intravenously (IV) over 10-20 seconds followed by PET/CT prior to beginning chemotherapy and after completion of therapy. Patients also undergo fludeoxyglucose F 18 (FDG) PET/CT prior to beginning chemotherapy and after completion of therapy (or prior to surgery). \r\n\r\nAfter completion of study treatment, patients are followed up for 1 year.",
+    "section801_indicator": false,
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2014-08-19T00:00:00.000002",
+        "status": "Active, not recruiting",
+        "status_datetime": "2014-08-19T00:00:00.000002"
+      },
+      {
+        "comments": [
+          "CT Gov start date per CT Gov"
+        ],
+        "message_datetime": "2010-03-01T00:00:00.000001",
+        "status": "Recruiting",
+        "status_datetime": "2010-03-01T00:00:00.000001"
+      },
+      {
+        "comments": [
+          "IRB approval date per iRIS"
+        ],
+        "message_datetime": "2010-01-11T00:00:00.000000",
+        "status": "Not yet recruiting",
+        "status_datetime": "2010-01-11T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T20:07:43.606838",
+    "strap_publication_datetime": "2021-05-25T22:17:15.317175",
+    "strap_updated_datetime": "2021-05-25T22:17:15.317175",
+    "study_classification_code": "SAFETY_OR_EFFICACY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "154376",
+    "time_perspective": "UNKNOWN",
+    "title": "A Pilot Study of F-18 Paclitaxel (FPAC) PET for Evaluating Drug Delivery to Solid Tumors in Breast, Lung, Renal, and Adrenal Cancers",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "2213e7a967fcd1936fd0d2217c21d78c",
+    "strap_publication_date": "2021-05-25T22:17:15.317175",
+    "current_trial_status": "Active, not recruiting",
+    "participating_sites": [
+      "124897"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "2233678",
+        "name": "Kurdziel, Karen Ann",
+        "first_name": "Karen",
+        "middle_name": "Ann",
+        "last_name": "Kurdziel",
+        "org_id": "124897",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT01086696",
+    "ccr_id": "10-C-0078",
+    "lead_organization_id": "10-C-0078",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Karen",
+        "last_name": "Kurdziel",
+        "middle_name": "Ann",
+        "name": "Kurdziel, Karen Ann",
+        "prefix": "Dr.",
+        "id": "2233678"
+      }
+    ],
+    "current_trial_status_date": "2014-08-19T00:00:00.000002",
+    "record_verification_date": "2015-06-10T21:00:38.793000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2016-01-18T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-01-11T00:00:00.000000",
+    "lead_organizations": {
+      "id": "16108126",
+      "name": "NCI - Center for Cancer Research"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Other Neoplasm",
+          "code": "C3262",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Renal Cell Cancer",
+          "code": "C9385",
+          "ancestor_ids": [
+            "C9384"
+          ],
+          "parent_ids": [
+            "C9384"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Breast Cancer",
+          "code": "C4872",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Lung Cancer",
+          "code": "C4878",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Adrenal Gland Neoplasm",
+          "code": "C2859",
+          "ancestor_ids": [
+            "C3262"
+          ],
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Kidney (including Renal Cell) Cancer",
+          "code": "C9384",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3430",
+            "C3431"
+          ],
+          "code": "C7514",
+          "name": "Kidney and Ureter Neoplasm",
+          "parent_ids": [
+            "C3431"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2910",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9335",
+          "name": "Malignant Breast Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C2910"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C9305"
+          ],
+          "code": "C2852",
+          "name": "Adenocarcinoma",
+          "parent_ids": [
+            "C7132",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C2991"
+          ],
+          "code": "C27667",
+          "name": "Retroperitoneal Disorder",
+          "parent_ids": [
+            "C27664"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4571",
+          "name": "Malignant Respiratory System Neoplasm",
+          "parent_ids": [
+            "C3355",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991"
+          ],
+          "code": "C3430",
+          "name": "Urinary System Disorder",
+          "parent_ids": [
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26690",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C7337"
+          ],
+          "code": "C2859",
+          "name": "Adrenal Gland Neoplasm",
+          "parent_ids": [
+            "C26690",
+            "C3357"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27669",
+          "name": "Respiratory and Thoracic Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C4571",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7377",
+          "name": "Malignant Lung Neoplasm",
+          "parent_ids": [
+            "C3200",
+            "C4571",
+            "C3576"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C2910",
+          "name": "Breast Neoplasm",
+          "parent_ids": [
+            "C26709",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2910",
+          "name": "Breast Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C7132",
+          "name": "Glandular Cell Neoplasm",
+          "parent_ids": [
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C156484",
+          "name": "Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C4878",
+          "name": "Lung Cancer",
+          "parent_ids": [
+            "C7377",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C35742",
+          "name": "Thoracic Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C7337",
+          "name": "Peritoneal and Retroperitoneal Neoplasm",
+          "parent_ids": [
+            "C27664",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26709",
+            "C27551",
+            "C2910",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305",
+            "C9335"
+          ],
+          "code": "C4872",
+          "name": "Breast Cancer",
+          "parent_ids": [
+            "C9335",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35742"
+          ],
+          "code": "C3406",
+          "name": "Thoracic Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C35742"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3430"
+          ],
+          "code": "C3431",
+          "name": "Urinary System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C3430"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C26871",
+          "name": "Respiratory System Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3431",
+          "name": "Urinary System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27664",
+          "name": "Peritoneal and Retroperitoneal Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3149",
+            "C3150",
+            "C3262",
+            "C3263",
+            "C3430",
+            "C3431",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7514",
+            "C7548",
+            "C9297",
+            "C9305"
+          ],
+          "code": "C9384",
+          "name": "Kidney (including Renal Cell) Cancer",
+          "parent_ids": [
+            "C164141",
+            "C7548"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C35742"
+          ],
+          "code": "C3198",
+          "name": "Lung Disorder",
+          "parent_ids": [
+            "C26871",
+            "C35742"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742"
+          ],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [
+            "C3355",
+            "C3198",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3355",
+          "name": "Respiratory System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C26871"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C156660",
+          "name": "Genitourinary System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C26709",
+          "name": "Breast Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C35742",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3576",
+          "name": "Malignant Thoracic Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3149",
+            "C3150",
+            "C3262",
+            "C3263",
+            "C3430",
+            "C3431",
+            "C7062",
+            "C7514",
+            "C9297",
+            "C9305"
+          ],
+          "code": "C7548",
+          "name": "Malignant Kidney Neoplasm",
+          "parent_ids": [
+            "C9297",
+            "C3150"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3430",
+            "C3431",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9297",
+          "name": "Malignant Urinary System Neoplasm",
+          "parent_ids": [
+            "C3431",
+            "C156484"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C9305",
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3149",
+            "C3262",
+            "C3263",
+            "C3430",
+            "C3431",
+            "C7514"
+          ],
+          "code": "C3150",
+          "name": "Kidney Tumor",
+          "parent_ids": [
+            "C7514",
+            "C3149"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991"
+          ],
+          "code": "C26690",
+          "name": "Adrenal Gland Disorder",
+          "parent_ids": [
+            "C27667"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2991",
+            "C3149",
+            "C3150",
+            "C3262",
+            "C3263",
+            "C3430",
+            "C3431",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C7514",
+            "C7548",
+            "C9297",
+            "C9305",
+            "C9384"
+          ],
+          "code": "C9385",
+          "name": "Renal Cell Cancer",
+          "parent_ids": [
+            "C2852",
+            "C9384"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C164141",
+          "name": "Genitourinary System Carcinoma",
+          "parent_ids": [
+            "C156484",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7337"
+          ],
+          "code": "C3357",
+          "name": "Retroperitoneal Neoplasm",
+          "parent_ids": [
+            "C27667",
+            "C7337"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3430"
+          ],
+          "code": "C3149",
+          "name": "Kidney Disorder",
+          "parent_ids": [
+            "C3430"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C156482",
+          "name": "Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C156660"
+          ],
+          "type": []
+        }
+      ],
+      "biomarkers": [
+        {
+          "code": "C111791",
+          "name": "PGP Gene",
+          "ancestor_parent_ids": [
+            "C16612",
+            "C25952",
+            "C21281",
+            "C25804",
+            "C26070"
+          ],
+          "parent_ids": [
+            "C26070"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Gene or Genome"
+          ],
+          "type": [
+            "reference_gene",
+            "genetic_biomarker"
+          ]
+        },
+        {
+          "code": "C16612",
+          "name": "Gene",
+          "ancestor_parent_ids": [],
+          "parent_ids": [],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Gene or Genome"
+          ],
+          "type": []
+        },
+        {
+          "code": "C21281",
+          "name": "Enzyme Gene",
+          "ancestor_parent_ids": [
+            "C16612"
+          ],
+          "parent_ids": [
+            "C16612"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Gene or Genome"
+          ],
+          "type": []
+        },
+        {
+          "code": "C25952",
+          "name": "Esterase Gene",
+          "ancestor_parent_ids": [
+            "C21281",
+            "C16612",
+            "C25804"
+          ],
+          "parent_ids": [
+            "C25804"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Gene or Genome"
+          ],
+          "type": []
+        },
+        {
+          "code": "C25804",
+          "name": "Hydrolase Gene",
+          "ancestor_parent_ids": [
+            "C21281",
+            "C16612"
+          ],
+          "parent_ids": [
+            "C21281"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Gene or Genome"
+          ],
+          "type": []
+        },
+        {
+          "code": "C26070",
+          "name": "Phosphatase Family Gene",
+          "ancestor_parent_ids": [
+            "C25952",
+            "C21281",
+            "C16612",
+            "C25804"
+          ],
+          "parent_ids": [
+            "C25952"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Gene or Genome"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

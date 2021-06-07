@@ -1,0 +1,2124 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-7777-00045",
+  "_score": 1,
+  "_source": {
+    "alias": "NCI-7777-00045-ALIAS",
+    "anatomic_sites": [
+      "Rectum"
+    ],
+    "biomarkers": [
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3218966",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C18163",
+        "name": "KLK2 (hGK-1; Glandular Kallikrein-1; Tissue Kallikrein-2; Kallikrein-2; Kallikrein 2; Kallikrein-Related Peptidase 2; Glandular Kallikrein 2; hK2; Kallikrein 2, Prostatic; KLK2A2; Kallikrein, Prostatic; Kallikrein, Glandular; Prostatic Kallikrein 2)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Immunohistochemistry (IHC)",
+        "cadsr_id": "3009658",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C17675",
+        "name": "MKI67 (antigen identified by the monoclonal antibodies Ki-67 or MIB-1)",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3971525",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C112043",
+        "name": "Prostaglandin E2 (5-Heptenoic Acid, 7-(3-Hydroxy-2-(3-Hydroxy-1-Octenyl)-5-Oxocyclopentyl)- (8CI); Prosta-5,13-Dien-1-Oic Acid, 11,15-Dihydroxy-9-Oxo-, (5Z,11alpha,13E,15S)-; (5Z,11alpha,13E,15S)-11,15-Dihydroxy-9-Oxoprosta-5,13-Dien-1-Oic Acid; (5Z,13E,15S)-11alpha,15-Dihydroxy-9-Oxoprosta-5,13-Dien-1-Oic Acid; Prosta-5,13-Dien-1-Oic Acid, (5Z,11-Alpha,13E,15S)-11,15-Dihydroxy-9-Oxo-; (E,Z)-(1R,2R,3R)-7-(3-Hydroxy-2-((3S)-(3-Hydroxy-1-Octenyl))-5-Oxocyclopentyl)-5-Heptenoic Acid; (Z)-7-((1R,2R,3R)-3-Hydroxy-2-((S,E)-3-Hydroxyoct-1-Enyl)-5-Oxocyclopentyl)Hept-5-Enoic Acid; Prostaglandin E(2); (5Z,13E)-(15S)-11alpha,15-Dihydroxy-9-Oxoprosta-5,13-Dienoate; PGE(2); 7-(3-Hydroxy-2-(3-Hydroxy-1-Octenyl)-5-Oxocyclopentyl)-5-Heptenoic Acid; PGE2)",
+        "other_assay_type": "Enzyme immunoassay",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "2669812",
+        "evaluation_type": "Genetic Analysis",
+        "evs_id": "C17965",
+        "name": "BRCA1 (breast cancer 1, early onset; BRCC1; RNF53; PPP1R53)",
+        "other_assay_type": "Next Generation Sequencing",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Plasma",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "In Situ Hybridization",
+        "cadsr_id": "3636171",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C13285",
+        "name": "Chromosome X",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Unspecified",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "5497872",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C123611",
+        "name": "PSA Progression",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3704528",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C97139:C21051",
+        "name": "Epigenetic profile",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3219011",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C61032",
+        "name": "Total Cholesterol",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3704472",
+        "evaluation_type": "Level/Quantity, Subtyping",
+        "evs_id": "C16295:C97139",
+        "name": "Antibody profile",
+        "other_assay_type": "CyToF assay",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Unspecified",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Unspecified",
+        "evaluation_type": "Level/Quantity",
+        "name": "Catecholamine",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "PENDING",
+        "tissue_specimen_type": "Urine",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3260819",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C21362",
+        "name": "CD4",
+        "other_assay_type": "Immunophenotypic analysis",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood, Bone Marrow",
+        "use": "Integral"
+      }
+    ],
+    "changes_in_ctrp_ctgov": false,
+    "comments": "NCI-7777-00045 comments",
+    "consortia_trial_category": "INSTITUTIONAL",
+    "containers": [
+      {
+        "id": "c600002",
+        "principal_investigator": "p100017",
+        "program_codes": [
+          "888888002",
+          "888888001"
+        ],
+        "target_accrual": 2632,
+        "trial_id": "c600002-NCI-7777-00045"
+      },
+      {
+        "id": "c600003",
+        "principal_investigator": "p100029",
+        "program_codes": [
+          "888888002",
+          "888888003"
+        ],
+        "target_accrual": 1446,
+        "trial_id": "c600003-NCI-7777-00045"
+      },
+      {
+        "id": "c600001",
+        "principal_investigator": "p100008",
+        "program_codes": [
+          "888888002",
+          "888888003"
+        ],
+        "target_accrual": 755,
+        "trial_id": "c600001-NCI-7777-00045"
+      },
+      {
+        "id": "c600004",
+        "principal_investigator": "p100079",
+        "program_codes": [
+          "888888003",
+          "888888002",
+          "888888001"
+        ],
+        "target_accrual": 1272,
+        "trial_id": "c600004-NCI-7777-00045"
+      }
+    ],
+    "ctro_override": false,
+    "ctro_override_comments": "NCI-7777-00045 ctro override comments",
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-02-10T22:27:44.000000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2019-05-02T14:35:01.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2019-05-04T14:35:01.000000"
+      },
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2019-05-07T14:35:01.000000"
+      }
+    ],
+    "delayed_posting": true,
+    "description": "NCI-7777-00045 description",
+    "designee_access_revoked": true,
+    "diseases": [
+      {
+        "display_name": "Childhood Acute Lymphoblastic Leukemia in Remission",
+        "id": "C7938",
+        "is_lead_disease": true,
+        "name": "Acute Lymphoblastic Leukemia (ALL) in Remission",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Childhood Acute Lymphoblastic Leukemia in Remission",
+        "paths": null,
+        "type": [
+          "finding"
+        ],
+        "synonyms": [
+          "Childhood ALL in Remission",
+          "Childhood Acute Lymphoblastic Leukemia in Remission",
+          "Childhood Acute Lymphocytic Leukemia in Remission",
+          "Childhood Acute Lymphogenous Leukemia in Remission",
+          "Childhood Acute Lymphoid Leukemia in Remission",
+          "Childhood Precursor Lymphoblastic Leukemia in Remission",
+          "Pediatric ALL in Remission",
+          "Pediatric Acute Lymphoblastic Leukemia in Remission",
+          "Pediatric Acute Lymphocytic Leukemia in Remission",
+          "Pediatric Acute Lymphogenous Leukemia in Remission",
+          "Pediatric Acute Lymphoid Leukemia in Remission"
+        ],
+        "parents": [
+          "C3586",
+          "C9116"
+        ]
+      },
+      {
+        "display_name": "Stage II Gastric Cancer AJCC v7",
+        "id": "C89859",
+        "is_lead_disease": true,
+        "name": "Stage II Gastric (Stomach) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage II Gastric Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Gastric Carcinoma",
+                "code": "C4911"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage II Gastric Cancer",
+          "Stage II Gastric Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91222"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3367",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Finding",
+        "display_name": "Finding",
+        "preferred_name": "Finding",
+        "type": [],
+        "synonyms": [
+          "Observable Entity",
+          "finding"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C9331",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Gastric Neoplasm",
+        "display_name": "Malignant Gastric Neoplasm",
+        "preferred_name": "Malignant Gastric Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Gastric Tumor",
+          "Malignant Neoplasm of Stomach",
+          "Malignant Neoplasm of the Stomach",
+          "Malignant Tumor of Stomach",
+          "Malignant Tumor of the Stomach"
+        ],
+        "parents": [
+          "C3387",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C4911",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Gastric (Stomach) Cancer",
+        "display_name": "Gastric Carcinoma",
+        "preferred_name": "Gastric Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Stomach",
+          "Cancer of the Stomach",
+          "Carcinoma of Stomach",
+          "Carcinoma of the Stomach",
+          "Gastric Cancer",
+          "Gastric Carcinoma",
+          "Gastric cancer, NOS",
+          "Stomach Cancer",
+          "Stomach Carcinoma",
+          "gastric cancer",
+          "stomach cancer"
+        ],
+        "parents": [
+          "C96963",
+          "C9331"
+        ]
+      },
+      {
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C167435",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Leukemia Finding",
+        "display_name": "Leukemia Finding",
+        "preferred_name": "Leukemia Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C36289"
+        ]
+      },
+      {
+        "id": "C26886",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Stomach Disorder",
+        "display_name": "Stomach Disorder",
+        "preferred_name": "Stomach Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2990"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C36278",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Finding by Site or System",
+        "display_name": "Finding by Site or System",
+        "preferred_name": "Finding by Site or System",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C3367"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C4901",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lymphoid Leukemia in Remission",
+        "display_name": "Lymphoid Leukemia in Remission",
+        "preferred_name": "Lymphoid Leukemia in Remission",
+        "type": [],
+        "synonyms": [
+          "Lymphoid Leukemia (in Remission)"
+        ],
+        "parents": [
+          "C4896"
+        ]
+      },
+      {
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Carcinoma",
+        "display_name": "Digestive System Carcinoma",
+        "preferred_name": "Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3387",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Gastric Neoplasm",
+        "display_name": "Gastric Neoplasm",
+        "preferred_name": "Gastric Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastric Tumor",
+          "Neoplasm of Stomach",
+          "Neoplasm of the Stomach",
+          "Stomach Neoplasm",
+          "Stomach Tumor",
+          "Tumor of Stomach",
+          "Tumor of the Stomach"
+        ],
+        "parents": [
+          "C3052",
+          "C26886"
+        ]
+      },
+      {
+        "id": "C36289",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic System Finding",
+        "display_name": "Hematopoietic System Finding",
+        "preferred_name": "Hematopoietic System Finding",
+        "type": [],
+        "synonyms": [
+          "HEMATOPOIETIC SYSTEM",
+          "Hematological"
+        ],
+        "parents": [
+          "C36278"
+        ]
+      },
+      {
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Neoplasm",
+        "display_name": "Digestive System Neoplasm",
+        "preferred_name": "Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "parents": [
+          "C2990",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C91222",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Gastric Cancer by AJCC v7 Stage",
+        "display_name": "Gastric Cancer by AJCC v7 Stage",
+        "preferred_name": "Gastric Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Gastric Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C4911"
+        ]
+      },
+      {
+        "id": "C3586",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Acute Lymphoblastic Leukemia in Remission",
+        "display_name": "Acute Lymphoblastic Leukemia in Remission",
+        "preferred_name": "Acute Lymphoblastic Leukemia in Remission",
+        "type": [],
+        "synonyms": [
+          "ALL in Remission",
+          "Acute Lymphocytic Leukemia (in Remission)",
+          "Acute Lymphocytic Leukemia in Remission",
+          "Acute Lymphogenous Leukemia in Remission",
+          "Acute Lymphoid Leukemia in Remission",
+          "Precursor Lymphoblastic Leukemia in Remission"
+        ],
+        "parents": [
+          "C4897",
+          "C4901"
+        ]
+      },
+      {
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Disorder",
+        "display_name": "Digestive System Disorder",
+        "preferred_name": "Digestive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C4897",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Acute Leukemia in Remission",
+        "display_name": "Acute Leukemia in Remission",
+        "preferred_name": "Acute Leukemia in Remission",
+        "type": [],
+        "synonyms": [
+          "Acute Leukemia (in Remission)"
+        ],
+        "parents": [
+          "C4896"
+        ]
+      },
+      {
+        "id": "C9116",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Acute Leukemia in Remission",
+        "display_name": "Childhood Acute Leukemia in Remission",
+        "preferred_name": "Childhood Acute Leukemia in Remission",
+        "type": [],
+        "synonyms": [
+          "Childhood Acute Leukemia in Remission"
+        ],
+        "parents": [
+          "C4897"
+        ]
+      },
+      {
+        "id": "C4896",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Leukemia in Remission",
+        "display_name": "Leukemia in Remission",
+        "preferred_name": "Leukemia in Remission",
+        "type": [],
+        "synonyms": [
+          "Leukemia (in Remission)"
+        ],
+        "parents": [
+          "C167435"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      }
+    ],
+    "division_department_id": "CTEP",
+    "eligibility_criteria": [
+      {
+        "description": "Minimum age: 10 Years\nMaximum age: 60 Years",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": "SEX: FEMALE",
+        "inclusive": true,
+        "type": "SEX"
+      },
+      {
+        "description": "This trial does not accept healthy volunteers.",
+        "type": "ACCEPTS_HEALTHY_VOLUNTEERS"
+      },
+      {
+        "description": "Patients with prior grade 3 allergic or infusion reactions to docetaxel, cisplatin or cetuximab are not eligible; a history of well tolerated infusion reactions is NOT an exclusion",
+        "display_order": 13,
+        "inclusive": false
+      },
+      {
+        "description": "Male or nonpregnant female",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Participants with known evidence of active, non-infectious pneumonitis",
+        "display_order": 24,
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "U10CA27469",
+        "nci_division_program": "CTEP"
+      }
+    ],
+    "groups": [
+      {
+        "description": "THIS IS A DEFAULT.",
+        "id": "DEFAULT_ID",
+        "interventions": [
+          {
+            "description": "Given orally",
+            "id": "C84866",
+            "name": "Galeterone",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "DEFAULT"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT777700045"
+      },
+      {
+        "type": "CTEP_ID",
+        "value": "CTEP777700045"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "LOID777700045"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "OTHER777700045"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-7777-00045"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "keywords": [
+      "BDD",
+      "TEST",
+      "SEED DATA"
+    ],
+    "legacy_id": "3333300045",
+    "masking_roles": [
+      "CAREGIVER",
+      "SUBJECT"
+    ],
+    "min_target_accrual": 2950,
+    "nci_grant_provided": false,
+    "nci_id": "NCI-7777-00045",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "address_line_1": "1874 Overlook Kelly Ave.",
+        "city_municipality": "Killington",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:12.037713",
+        "ctep_id": "o100016_CTEP",
+        "emails": [
+          "o100016_0@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-016-1083",
+          "100-016-1085"
+        ],
+        "id": "o100016",
+        "name": "Bellevue Inc",
+        "phone_numbers": [
+          "100-016-9094",
+          "100-016-9043",
+          "100-016-9046"
+        ],
+        "state_province_territory": "VT",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:12.037713",
+        "strap_created_datetime": "2020-05-01T20:33:12.920864",
+        "strap_updated_datetime": "2021-04-24T20:37:12.164700",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:12.164700",
+        "urls": [
+          "www.o100016_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "5751",
+        "strap_publication_date": "2021-04-24T20:37:12.164700",
+        "version_no": "2924439c32e239c72b61001b67991dc1",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:31.652012",
+            "ctep_id": "p100061_CTEP",
+            "first_name": "Jimena",
+            "id": "p100061",
+            "last_name": "Russell",
+            "strap_created_datetime": "2020-05-01T19:22:40.481659",
+            "strap_updated_datetime": "2021-04-24T20:37:31.725110",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:31.725110",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:31.725110",
+            "version_no": "43183976468ffbabd1ea65be0aa7ad80",
+            "name": "Russell, Jimena",
+            "roles": [
+              {
+                "email": "o100016_0@yahoo.com",
+                "phone": "100-016-9005",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:35:01.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:35:01.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:35:01.000000"
+          },
+          {
+            "local_sp_identifier": "00-C-0201",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2016-01-28T18:28:25.455000"
+          }
+        ],
+        "name_with_id": "Bellevue Inc___id:o100016",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "9536 Green Juliet Ct.",
+        "city_municipality": "Chicago",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:06.650862",
+        "ctep_id": "o100009_CTEP",
+        "emails": [
+          "o100009_0@yahoo.com",
+          "o100009_1@yahoo.com"
+        ],
+        "id": "o100009",
+        "name": "Collins  Health System",
+        "phone_numbers": [
+          "100-009-9091",
+          "100-009-9085",
+          "100-009-9004"
+        ],
+        "state_province_territory": "IL",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:06.650862",
+        "strap_created_datetime": "2020-05-01T20:33:06.059307",
+        "strap_updated_datetime": "2021-04-24T20:37:06.733613",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:06.733613",
+        "urls": [
+          "www.o100009_0.com",
+          "www.o100009_1.com",
+          "www.o100009_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "60601",
+        "strap_publication_date": "2021-04-24T20:37:06.733613",
+        "version_no": "6c88b1067aab8c0fdba634f22023b08d",
+        "geo_coordinates": {
+          "lat": 41.8858,
+          "lon": -87.6229
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:38:06.574082",
+            "ctep_id": "p100032_CTEP",
+            "first_name": "Tony",
+            "id": "p100032",
+            "last_name": "Wallace",
+            "strap_created_datetime": "2020-05-01T19:23:36.374063",
+            "strap_updated_datetime": "2021-04-24T20:38:06.672880",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:38:06.672880",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:38:06.672880",
+            "version_no": "cb451a13c900a6e5532057683c5fa20c",
+            "name": "Wallace, Tony",
+            "roles": [
+              {
+                "email": "o100009_0@yahoo.com",
+                "phone": "100-009-9091",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:58.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:58.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:58.000000"
+          }
+        ],
+        "name_with_id": "Collins  Health System___id:o100009",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5604 Valley Pioneer Pl.",
+        "city_municipality": "Laurel",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:06.955096",
+        "ctep_id": "o100005_CTEP",
+        "emails": [
+          "o100005_0@yahoo.com",
+          "o100005_1@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-005-1026",
+          "100-005-1096",
+          "100-005-1077"
+        ],
+        "id": "o100005",
+        "name": "Collins  Oncology",
+        "phone_numbers": [
+          "100-005-9033"
+        ],
+        "state_province_territory": "MT",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:06.955096",
+        "strap_created_datetime": "2020-05-01T19:20:43.610220",
+        "strap_updated_datetime": "2021-04-24T20:37:07.037655",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:07.037655",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "59044",
+        "strap_publication_date": "2021-04-24T20:37:07.037655",
+        "version_no": "8b76ae61bf3c840714045534155210da",
+        "geo_coordinates": {
+          "lat": 45.5989,
+          "lon": -108.684
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:33.528279",
+            "ctep_id": "p100017_CTEP",
+            "first_name": "Skye",
+            "id": "p100017",
+            "last_name": "Rivas",
+            "middle_name": "Viviana",
+            "strap_created_datetime": "2020-05-01T19:22:42.747594",
+            "strap_updated_datetime": "2021-04-24T20:37:33.600186",
+            "suffix": "II",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:33.600186",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:33.600186",
+            "version_no": "72feeaeb7bd28256ff83dfc512f86bb7",
+            "name": "Rivas, Skye Viviana",
+            "roles": [
+              {
+                "email": "o100005_0@yahoo.com",
+                "phone": "100-005-9019",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:57.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:57.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:57.000000"
+          }
+        ],
+        "name_with_id": "Collins  Oncology___id:o100005",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "2980 Castle Rd.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:10.036000",
+        "ctep_id": "o100010_CTEP",
+        "emails": [
+          "o100010_0@yahoo.com",
+          "o100010_1@yahoo.com",
+          "o100010_2@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-010-1017",
+          "100-010-1074",
+          "100-010-1007"
+        ],
+        "id": "o100010",
+        "name": "Kelly Research Group",
+        "phone_numbers": [
+          "100-010-9083",
+          "100-010-9034"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:10.036000",
+        "strap_created_datetime": "2020-05-01T20:33:09.249207",
+        "strap_updated_datetime": "2021-04-24T20:37:10.131691",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:10.131691",
+        "urls": [
+          "www.o100010_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "853",
+        "strap_publication_date": "2021-04-24T20:37:10.131691",
+        "version_no": "907784cc23324d551ca6ced0e807b3d2",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:17.793324",
+            "ctep_id": "p100036_CTEP",
+            "first_name": "Leighton",
+            "id": "p100036",
+            "last_name": "Cummings",
+            "middle_name": "Emmalyn",
+            "strap_created_datetime": "2020-05-01T19:20:54.048261",
+            "strap_updated_datetime": "2021-04-24T20:37:17.869352",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:17.869352",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:17.869352",
+            "version_no": "05dcba63606bd9c9722e713df51f1e44",
+            "name": "Cummings, Leighton Emmalyn",
+            "roles": [
+              {
+                "email": "o100010_0@yahoo.com",
+                "phone": "100-010-9017",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:35:00.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:35:00.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:35:00.000000"
+          }
+        ],
+        "name_with_id": "Kelly Research Group___id:o100010",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5476 Bellevue Kelly Blvd.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:12.869491",
+        "ctep_id": "o100001_CTEP",
+        "emails": [
+          "o100001_0@yahoo.com",
+          "o100001_1@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-001-1013"
+        ],
+        "id": "o100001",
+        "name": "Ocean Repose Cancer Care",
+        "phone_numbers": [
+          "100-001-9064",
+          "100-001-9095",
+          "100-001-9041"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:12.869491",
+        "strap_created_datetime": "2020-05-01T19:20:46.976248",
+        "strap_updated_datetime": "2021-04-24T20:37:12.948145",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:12.948145",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "83254",
+        "strap_publication_date": "2021-04-24T20:37:12.948145",
+        "version_no": "8987e2e09d10fc1ad48b49dec7161d8d",
+        "geo_coordinates": {
+          "lat": 42.3329,
+          "lon": -111.2712
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:59.516361",
+            "ctep_id": "p100001_CTEP",
+            "first_name": "Seth",
+            "id": "p100001",
+            "last_name": "Becker",
+            "middle_name": "Jimmy",
+            "strap_created_datetime": "2020-05-01T19:23:23.137533",
+            "strap_updated_datetime": "2021-04-24T20:37:59.605276",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:59.605276",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:59.605276",
+            "version_no": "be675f424b6eeb1b6807a79d64cd560d",
+            "name": "Becker, Seth Jimmy",
+            "roles": [
+              {
+                "email": "o100001_0@yahoo.com",
+                "phone": "100-001-9097",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:59.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:59.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:59.000000"
+          }
+        ],
+        "name_with_id": "Ocean Repose Cancer Care___id:o100001",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "7269 Laguna Forest Pl.",
+        "address_line_2": "Suite 8207",
+        "city_municipality": "Boston",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:10.561176",
+        "ctep_id": "o100011_CTEP",
+        "emails": [
+          "o100011_0@yahoo.com",
+          "o100011_1@yahoo.com"
+        ],
+        "id": "o100011",
+        "name": "Ocean University",
+        "phone_numbers": [
+          "100-011-9084",
+          "100-011-9069"
+        ],
+        "state_province_territory": "MA",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:10.561176",
+        "strap_created_datetime": "2020-05-01T19:20:45.649415",
+        "strap_updated_datetime": "2021-04-24T20:37:10.639138",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:10.639138",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "2116",
+        "strap_publication_date": "2021-04-24T20:37:10.639138",
+        "version_no": "057000775cd4220e6090461a4b364795",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:29.056604",
+            "ctep_id": "p100039_CTEP",
+            "first_name": "Christopher",
+            "id": "p100039",
+            "last_name": "Fernandez",
+            "strap_created_datetime": "2020-05-01T19:22:36.808923",
+            "strap_updated_datetime": "2021-04-24T20:37:29.478780",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:29.478780",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:29.478780",
+            "version_no": "94e9cdf73402dd658f4ee62294169f48",
+            "name": "Fernandez, Christopher",
+            "roles": [
+              {
+                "email": "o100011_0@yahoo.com",
+                "phone": "100-011-9021",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:59.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:59.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:59.000000"
+          }
+        ],
+        "name_with_id": "Ocean University___id:o100011",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "3140 Summit Ct.",
+        "city_municipality": "Ashland",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:04.100633",
+        "ctep_id": "o100012_CTEP",
+        "emails": [
+          "o100012_0@yahoo.com",
+          "o100012_1@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-012-1029",
+          "100-012-1000",
+          "100-012-1080"
+        ],
+        "id": "o100012",
+        "name": "Shelby Cancer Care",
+        "phone_numbers": [
+          "100-012-9039",
+          "100-012-9074",
+          "100-012-9024"
+        ],
+        "state_province_territory": "NH",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:04.100633",
+        "strap_created_datetime": "2020-05-01T20:33:02.755609",
+        "strap_updated_datetime": "2021-04-24T20:37:04.442128",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:04.442128",
+        "urls": [
+          "www.o100012_0.com",
+          "www.o100012_1.com",
+          "www.o100012_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "3217",
+        "strap_publication_date": "2021-04-24T20:37:04.442128",
+        "version_no": "e9d3011e065bfca94e011b86002ee31a",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:55.176440",
+            "ctep_id": "p100046_CTEP",
+            "first_name": "Kassidy",
+            "id": "p100046",
+            "last_name": "Valencia",
+            "strap_created_datetime": "2020-05-01T19:23:17.668077",
+            "strap_updated_datetime": "2021-04-24T20:37:55.252490",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:55.252490",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:55.252490",
+            "version_no": "3cfc4372da2346181e6c3ef391f9f0f0",
+            "name": "Valencia, Kassidy",
+            "roles": [
+              {
+                "email": "o100012_0@yahoo.com",
+                "phone": "100-012-9079",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:57.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:57.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:57.000000"
+          }
+        ],
+        "name_with_id": "Shelby Cancer Care___id:o100012",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "Description of the clinical characteristics and evolution of disease burden in essential thrombocythemia (ET) and myelofibrosis (MF) patients",
+        "time_frame": "Approximately every 6 months through end of study, up to approximately 36 months",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "To assess objective tumor response in patients with advanced BRAF-mutated cancers treated with PLX8394. [Part 2]",
+        "time_frame": "1 year",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Event-free survival (EFS) was defined as the time between date of randomization and the date of disease progression/relapse, death, or start of a new anti-leukemic therapy.\nProgression was defined as a ≥ 50% increase from nadir in the SPD of any previously identified abnormal node and/or the appearance of any new lesion during or at the end of therapy.\nRelapse was defined as the appearance of any new lesion or increase by ≥ 50% in the size of previously involved sites and/or a ≥ 50% increase in greatest diameter of any previously identified node greater than 1 cm in its short axis or in the SP",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Event Free Survival",
+        "time_frame": "Randomization to Clinical cutoff: 07 March 2013 (Up to 43.2 months)",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "created_datetime": "2021-04-24T20:37:29.056604",
+        "ctep_id": "p100039_CTEP",
+        "first_name": "Christopher",
+        "id": "p100039",
+        "last_name": "Fernandez",
+        "strap_created_datetime": "2020-05-01T19:22:36.808923",
+        "strap_updated_datetime": "2021-04-24T20:37:29.478780",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:29.478780",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "strap_publication_date": "2021-04-24T20:37:29.478780",
+        "version_no": "94e9cdf73402dd658f4ee62294169f48",
+        "name": "Fernandez, Christopher",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "ACTIVE",
+            "status_start_datetime": "2016-11-09T13:55:47.057000"
+          }
+        ]
+      }
+    ],
+    "phase": "IV",
+    "pilot": true,
+    "primary_purpose": "SCREENING",
+    "proprietary_trial": true,
+    "public_title": "NCI-7777-00045 public title",
+    "randomized_trial": false,
+    "scientific_description": "NCI-7777-00045 scientific description",
+    "secondary_purpose": "ANCILLARY_CORRELATIVE",
+    "section801_indicator": true,
+    "status_history": [
+      {
+        "message_datetime": "2010-02-10T22:27:44.000000",
+        "status": "Recruiting",
+        "status_datetime": "2010-02-10T22:27:44.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-01T20:03:13.498424",
+    "strap_updated_datetime": "2021-04-24T21:11:14.327513",
+    "study_classification_code": "BIO_AVAILABILITY",
+    "study_source": "INSTITUTIONAL",
+    "study_subtype": "OBSERVATIONAL",
+    "test_data": true,
+    "title": "NCI-7777-00045 title",
+    "user_created_id": "Test Data Service",
+    "user_created_organization": "Testing Team",
+    "version_no": "9e7116f0b4947e6b343cf894d71e82a0",
+    "strap_publication_date": "2021-04-24T21:11:14.327513",
+    "current_trial_status": "Recruiting",
+    "participating_sites": [
+      "o100005",
+      "o100012",
+      "o100009",
+      "o100011",
+      "o100001",
+      "o100010",
+      "o100016"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "p100017",
+        "name": "Rivas, Skye Viviana",
+        "first_name": "Skye",
+        "middle_name": "Viviana",
+        "last_name": "Rivas",
+        "org_id": "o100005",
+        "org_name": null
+      },
+      {
+        "id": "p100046",
+        "name": "Valencia, Kassidy",
+        "first_name": "Kassidy",
+        "middle_name": null,
+        "last_name": "Valencia",
+        "org_id": "o100012",
+        "org_name": null
+      },
+      {
+        "id": "p100032",
+        "name": "Wallace, Tony",
+        "first_name": "Tony",
+        "middle_name": null,
+        "last_name": "Wallace",
+        "org_id": "o100009",
+        "org_name": null
+      },
+      {
+        "id": "p100039",
+        "name": "Fernandez, Christopher",
+        "first_name": "Christopher",
+        "middle_name": null,
+        "last_name": "Fernandez",
+        "org_id": "o100011",
+        "org_name": null
+      },
+      {
+        "id": "p100001",
+        "name": "Becker, Seth Jimmy",
+        "first_name": "Seth",
+        "middle_name": "Jimmy",
+        "last_name": "Becker",
+        "org_id": "o100001",
+        "org_name": null
+      },
+      {
+        "id": "p100036",
+        "name": "Cummings, Leighton Emmalyn",
+        "first_name": "Leighton",
+        "middle_name": "Emmalyn",
+        "last_name": "Cummings",
+        "org_id": "o100010",
+        "org_name": null
+      },
+      {
+        "id": "p100061",
+        "name": "Russell, Jimena",
+        "first_name": "Jimena",
+        "middle_name": null,
+        "last_name": "Russell",
+        "org_id": "o100016",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT777700045",
+    "ctep_id": "CTEP777700045",
+    "lead_organization_id": "LOID777700045",
+    "va_associated": true,
+    "principal_investigators": [
+      {
+        "first_name": "Christopher",
+        "last_name": "Fernandez",
+        "middle_name": null,
+        "name": "Fernandez, Christopher",
+        "prefix": null,
+        "id": "p100039"
+      }
+    ],
+    "current_trial_status_date": "2010-02-10T22:27:44.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-02-10T22:27:44.000000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2019-05-02T14:35:01.000000",
+    "record_verification_date": "2019-05-07T14:35:01.000000",
+    "lead_organizations": {
+      "id": "o100016",
+      "name": "Bellevue Inc"
+    },
+    "total_participating_sites": 7,
+    "total_open_participating_sites": 7,
+    "has_count_history": true,
+    "lead_diseases": [
+      {
+        "id": "C4911",
+        "name": "Gastric (Stomach) Cancer",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3052",
+        "name": "Digestive System Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Gastric (Stomach) Cancer",
+          "code": "C4911",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Stage II Gastric (Stomach) Cancer",
+          "code": "C89859",
+          "ancestor_ids": [
+            "C4911"
+          ],
+          "parent_ids": [
+            "C4911"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Acute Lymphoblastic Leukemia (ALL) in Remission",
+          "code": "C7938",
+          "ancestor_ids": [
+            "C4911",
+            "C89859"
+          ],
+          "parent_ids": [],
+          "type": [
+            "finding"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4890",
+          "name": "Malignant Gastrointestinal Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [
+            "C2990",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C2990",
+          "name": "Digestive System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C96963",
+          "name": "Digestive System Carcinoma",
+          "parent_ids": [
+            "C4890",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26886",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3387",
+          "name": "Gastric Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C26886"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26886",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3387",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C4911",
+            "C7062",
+            "C9305",
+            "C9331",
+            "C96963"
+          ],
+          "code": "C91222",
+          "name": "Gastric Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C4911"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991"
+          ],
+          "code": "C26886",
+          "name": "Stomach Disorder",
+          "parent_ids": [
+            "C2990"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26886",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3387",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9331",
+          "name": "Malignant Gastric Neoplasm",
+          "parent_ids": [
+            "C3387",
+            "C4890"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26886",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3387",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305",
+            "C9331",
+            "C96963"
+          ],
+          "code": "C4911",
+          "name": "Gastric (Stomach) Cancer",
+          "parent_ids": [
+            "C96963",
+            "C9331"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C3709",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26886",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3387",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C4911",
+            "C7062",
+            "C91222",
+            "C9305",
+            "C9331",
+            "C96963"
+          ],
+          "code": "C89859",
+          "name": "Stage II Gastric (Stomach) Cancer",
+          "parent_ids": [
+            "C91222"
+          ],
+          "type": [
+            "stage"
+          ]
+        }
+      ]
+    }
+  }
+}

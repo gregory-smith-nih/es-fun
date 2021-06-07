@@ -1,0 +1,2469 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-7777-00043",
+  "_score": 1,
+  "_source": {
+    "alias": "NCI-7777-00043-ALIAS",
+    "anatomic_sites": [
+      "Colon",
+      "Rectum"
+    ],
+    "bio_specimen_description": "NCI-7777-00043 bio specimen description",
+    "bio_specimen_retention": "SAMPLES_WITHOUT_DNA",
+    "biomarkers": [
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "4397702",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C116403",
+        "name": "Anti-Adenovirus Antibody (Adenovirus Antibody)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3704528",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C97139:C21051",
+        "name": "Epigenetic profile",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3971525",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C112043",
+        "name": "Prostaglandin E2 (5-Heptenoic Acid, 7-(3-Hydroxy-2-(3-Hydroxy-1-Octenyl)-5-Oxocyclopentyl)- (8CI); Prosta-5,13-Dien-1-Oic Acid, 11,15-Dihydroxy-9-Oxo-, (5Z,11alpha,13E,15S)-; (5Z,11alpha,13E,15S)-11,15-Dihydroxy-9-Oxoprosta-5,13-Dien-1-Oic Acid; (5Z,13E,15S)-11alpha,15-Dihydroxy-9-Oxoprosta-5,13-Dien-1-Oic Acid; Prosta-5,13-Dien-1-Oic Acid, (5Z,11-Alpha,13E,15S)-11,15-Dihydroxy-9-Oxo-; (E,Z)-(1R,2R,3R)-7-(3-Hydroxy-2-((3S)-(3-Hydroxy-1-Octenyl))-5-Oxocyclopentyl)-5-Heptenoic Acid; (Z)-7-((1R,2R,3R)-3-Hydroxy-2-((S,E)-3-Hydroxyoct-1-Enyl)-5-Oxocyclopentyl)Hept-5-Enoic Acid; Prostaglandin E(2); (5Z,13E)-(15S)-11alpha,15-Dihydroxy-9-Oxoprosta-5,13-Dienoate; PGE(2); 7-(3-Hydroxy-2-(3-Hydroxy-1-Octenyl)-5-Oxocyclopentyl)-5-Heptenoic Acid; PGE2)",
+        "other_assay_type": "Enzyme immunoassay",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "PCR",
+        "cadsr_id": "2579523",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C20450",
+        "name": "VEGF",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Other",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Immunohistochemistry (IHC), Flow Cytometry, Other",
+        "cadsr_id": "3370204",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C16509",
+        "name": "DNTT (TDT; Terminal deoxynucleotidyltransferase)",
+        "other_assay_type": "Immunofluorescence",
+        "purpose": "Eligibility Criterion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood, Tissue",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3261497",
+        "evaluation_type": "Level/Quantity, Phosphorylation",
+        "evs_id": "C18350",
+        "name": "AKT1 (RAC-ALPHA; RAC-Alpha Protein Kinase; PKB alpha; Proto-Oncogene c-Akt; PKB-ALPHA; RAC-Alpha Serine/Threonine Kinase; RAC-PK-Alpha; RAC; Protein Kinase B Alpha; C-AKT; PRKBA; PKB; Protein Kinase B; v-akt Murine Thymoma Viral Oncogene Homolog 1; AKT)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "PBMCs",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Sequencing",
+        "cadsr_id": "3600806",
+        "evaluation_type": "Genetic Analysis",
+        "evs_id": "C18477",
+        "name": "Gene Expression Profile (Transcriptome Profile; mRNA Profile)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3384663",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C38935",
+        "name": "CD7 (Tp40; LEU-9; CD7 antigen (p41); GP40; CD7 molecule; TP41)",
+        "other_assay_type": "Immunophenotypic analysis",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood, Bone Marrow",
+        "use": "Integral"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "2644709",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C12536",
+        "name": "NK cells (Natural Killer cells; killer cells; K cells)",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Unspecified",
+        "use": "Integrated"
+      }
+    ],
+    "changes_in_ctrp_ctgov": true,
+    "comments": "NCI-7777-00043 comments",
+    "consortia_trial_category": "INSTITUTIONAL",
+    "containers": [
+      {
+        "id": "c600004",
+        "principal_investigator": "p100094",
+        "program_codes": [
+          "888888003",
+          "888888001",
+          "888888002"
+        ],
+        "target_accrual": 502,
+        "trial_id": "c600004-NCI-7777-00043"
+      },
+      {
+        "id": "c600001",
+        "principal_investigator": "p100007",
+        "program_codes": [
+          "888888004",
+          "888888003",
+          "888888005"
+        ],
+        "target_accrual": 2127,
+        "trial_id": "c600001-NCI-7777-00043"
+      },
+      {
+        "id": "c600003",
+        "principal_investigator": "p100028",
+        "program_codes": [
+          "888888003",
+          "888888002"
+        ],
+        "target_accrual": 2774,
+        "trial_id": "c600003-NCI-7777-00043"
+      }
+    ],
+    "ctro_override": true,
+    "ctro_override_comments": "NCI-7777-00043 ctro override comments",
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-02-10T22:27:44.000000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2019-05-02T14:34:52.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2019-05-04T14:34:52.000000"
+      },
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2019-05-07T14:34:52.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "NCI-7777-00043 description",
+    "designee_access_revoked": true,
+    "diseases": [
+      {
+        "display_name": "Stage IIB Ovarian Germ Cell Tumor",
+        "id": "C6295",
+        "is_lead_disease": true,
+        "name": "Stage IIB Ovarian Germ Cell Tumor",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIB Ovarian Germ Cell Tumor AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Germ Cell Tumor",
+                "code": "C3708"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "FIGO Stage IIB Malignant Germ Cell Neoplasm of Ovary",
+          "FIGO Stage IIB Malignant Germ Cell Neoplasm of the Ovary",
+          "FIGO Stage IIB Malignant Germ Cell Tumor of Ovary",
+          "FIGO Stage IIB Malignant Germ Cell Tumor of the Ovary",
+          "FIGO Stage IIB Malignant Ovarian Germ Cell Neoplasm",
+          "FIGO Stage IIB Malignant Ovarian Germ Cell Tumor",
+          "Stage IIB Ovarian Germ Cell Tumor AJCC v6",
+          "Stage IIB Ovarian Germ Cell Tumor AJCC v6 and v7",
+          "Stage IIB Ovarian Germ Cell Tumor AJCC v7"
+        ],
+        "parents": [
+          "C8084"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C156484",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Genitourinary System Neoplasm",
+        "display_name": "Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Malignant Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Genitourinary Cancer",
+          "Genitourinary System Cancer",
+          "Malignant Genitourinary Neoplasm"
+        ],
+        "parents": [
+          "C156482",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C156482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Genitourinary System Neoplasm",
+        "display_name": "Genitourinary System Neoplasm",
+        "preferred_name": "Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156660",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3708",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Germ Cell Tumor",
+        "display_name": "Germ Cell Tumor",
+        "preferred_name": "Germ Cell Tumor",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Germ Cell Neoplasm",
+          "Germ Cell Neoplasms",
+          "Germ cell tumor, NOS",
+          "Neoplasm of Germ Cell",
+          "Neoplasm of the Germ Cell",
+          "Tumor of Germ Cell",
+          "Tumor of the Germ Cell",
+          "germ cell tumor"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C26841",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Ovarian Disorder",
+        "display_name": "Ovarian Disorder",
+        "preferred_name": "Ovarian Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Ovarian Disease"
+        ],
+        "parents": [
+          "C27020"
+        ]
+      },
+      {
+        "id": "C3053",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Female Reproductive System Neoplasm",
+        "display_name": "Female Reproductive System Neoplasm",
+        "preferred_name": "Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Tumor",
+          "Gynecologic Neoplasm",
+          "Gynecologic Tumor",
+          "Neoplasm of Female Reproductive System",
+          "Neoplasm of the Female Reproductive System",
+          "Tumor of Female Reproductive System",
+          "Tumor of the Female Reproductive System"
+        ],
+        "parents": [
+          "C27020",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C27020",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Female Reproductive System Disorder",
+        "display_name": "Female Reproductive System Disorder",
+        "preferred_name": "Female Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Disease",
+          "Gynecological Disorder"
+        ],
+        "parents": [
+          "C4875"
+        ]
+      },
+      {
+        "id": "C7431",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Ovarian Neoplasm",
+        "display_name": "Malignant Ovarian Neoplasm",
+        "preferred_name": "Malignant Ovarian Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer of Ovary",
+          "Cancer of the Ovary",
+          "Malignant Neoplasm of Ovary",
+          "Malignant Neoplasm of the Ovary",
+          "Malignant Ovarian Tumor",
+          "Malignant Tumor of Ovary",
+          "Malignant Tumor of the Ovary",
+          "Ovarian Cancer",
+          "Ovarian cancer, NOS",
+          "ovarian cancer"
+        ],
+        "parents": [
+          "C4913",
+          "C4984"
+        ]
+      },
+      {
+        "id": "C4514",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Ovarian Germ Cell Tumor",
+        "display_name": "Malignant Ovarian Germ Cell Tumor",
+        "preferred_name": "Malignant Ovarian Germ Cell Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Germ Cell Neoplasm of Ovary",
+          "Malignant Germ Cell Neoplasm of the Ovary",
+          "Malignant Germ Cell Tumor of Ovary",
+          "Malignant Germ Cell Tumor of the Ovary",
+          "Malignant Ovarian Germ Cell Neoplasm",
+          "Ovarian Germ Cell Cancer"
+        ],
+        "parents": [
+          "C4925",
+          "C7431",
+          "C3873"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C26786",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Gonadal Disorder",
+        "display_name": "Gonadal Disorder",
+        "preferred_name": "Gonadal Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Gonads",
+          "Gonadal Disorders",
+          "Gonadal Dysfunction"
+        ],
+        "parents": [
+          "C4875"
+        ]
+      },
+      {
+        "id": "C156660",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Genitourinary System Disorder",
+        "display_name": "Genitourinary System Disorder",
+        "preferred_name": "Genitourinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Urogenital Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C36076",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Reproductive System Neoplasm",
+        "display_name": "Malignant Reproductive System Neoplasm",
+        "preferred_name": "Malignant Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C4984",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Ovarian Tumor",
+        "display_name": "Ovarian Neoplasm",
+        "preferred_name": "Ovarian Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Ovary",
+          "Neoplasm of the Ovary",
+          "Ovarian Neoplasm",
+          "Ovarian Tumors",
+          "Tumor of Ovary",
+          "Tumor of the Ovary"
+        ],
+        "parents": [
+          "C3053",
+          "C26841"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3674",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Reproductive System Neoplasm",
+        "display_name": "Reproductive System Neoplasm",
+        "preferred_name": "Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Reproductive System",
+          "Neoplasm of the Reproductive System",
+          "Reproductive Neoplasm",
+          "Reproductive System Tumor",
+          "Reproductive Tumor",
+          "Tumor of Reproductive System",
+          "Tumor of the Reproductive System"
+        ],
+        "parents": [
+          "C156482",
+          "C4875"
+        ]
+      },
+      {
+        "id": "C4925",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Germ Cell Tumor",
+        "display_name": "Malignant Germ Cell Tumor",
+        "preferred_name": "Malignant Germ Cell Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Germ cell cancer, NOS",
+          "Malignant Germ Cell Neoplasm",
+          "Malignant Neoplasm of Germ Cell",
+          "Malignant Neoplasm of the Germ Cell",
+          "Malignant Tumor of Germ Cell",
+          "Malignant Tumor of the Germ Cell"
+        ],
+        "parents": [
+          "C3708",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3873",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Ovarian Germ Cell Tumor",
+        "display_name": "Ovarian Germ Cell Tumor",
+        "preferred_name": "Ovarian Germ Cell Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Germ Cell Neoplasm of Ovary",
+          "Germ Cell Neoplasm of the Ovary",
+          "Germ Cell Tumor of Ovary",
+          "Germ Cell Tumor of the Ovary",
+          "Ovarian Germ Cell Neoplasm",
+          "ovarian germ cell tumor"
+        ],
+        "parents": [
+          "C3708",
+          "C26786",
+          "C4984"
+        ]
+      },
+      {
+        "id": "C4913",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Female Reproductive System Neoplasm",
+        "display_name": "Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive Cancer",
+          "Female reprod. system cancer, NOS",
+          "Female reproductive system cancer, NOS",
+          "Gynecologic Cancer",
+          "Malignant Female Reproductive System Tumor",
+          "Malignant Gynecologic Neoplasm",
+          "Malignant Gynecologic Tumor",
+          "Malignant Neoplasm of Female Reproductive System",
+          "Malignant Neoplasm of the Female Reproductive System",
+          "Malignant Tumor of Female Reproductive System",
+          "Malignant Tumor of the Female Reproductive System",
+          "gynecologic cancer"
+        ],
+        "parents": [
+          "C3053",
+          "C36076"
+        ]
+      },
+      {
+        "id": "C4875",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Reproductive System Disorder",
+        "display_name": "Reproductive System Disorder",
+        "preferred_name": "Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Reproductive System",
+          "Genital Disorders",
+          "Reproductive System Disease"
+        ],
+        "parents": [
+          "C156660"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C8084",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Stage II Ovarian Germ Cell Tumor",
+        "display_name": "Stage II Ovarian Germ Cell Tumor",
+        "preferred_name": "Stage II Ovarian Germ Cell Tumor AJCC v6 and v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage II Malignant Germ Cell Neoplasm of Ovary",
+          "Stage II Malignant Germ Cell Neoplasm of the Ovary",
+          "Stage II Malignant Germ Cell Tumor of Ovary",
+          "Stage II Malignant Germ Cell Tumor of the Ovary",
+          "Stage II Malignant Ovarian Germ Cell Neoplasm",
+          "Stage II Malignant Ovarian Germ Cell Tumor",
+          "Stage II Ovarian Germ Cell Tumor AJCC v6",
+          "Stage II Ovarian Germ Cell Tumor AJCC v6 and v7",
+          "Stage II Ovarian Germ Cell Tumor AJCC v7",
+          "stage II ovarian germ cell tumor"
+        ],
+        "parents": [
+          "C4514"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      }
+    ],
+    "division_department_id": "DCP",
+    "eligibility_criteria": [
+      {
+        "description": "Minimum age: 20 Years\nMaximum age: 80 Years",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": "SEX: BOTH",
+        "inclusive": true,
+        "type": "SEX"
+      },
+      {
+        "description": "This trial accept healthy volunteers.",
+        "type": "ACCEPTS_HEALTHY_VOLUNTEERS"
+      },
+      {
+        "description": "Myocardial infarction or unstable angina within 12 months of the first date of bevacizumab therapy",
+        "display_order": 37,
+        "inclusive": false
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status =< 2",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "May have received prior radiation therapy or surgery; however, at least 21 days must have elapsed since completion of radiation therapy or surgery and patient must have recovered from all side effects at the time of registration",
+        "display_order": 21,
+        "inclusive": true
+      },
+      {
+        "description": "Diagnosis of osteoporosis",
+        "display_order": 5,
+        "inclusive": false
+      },
+      {
+        "description": "Had adequate cardiac function (left ventricular ejection fraction at least 40% by\n             multiple gated acquisition scan or ECG)",
+        "display_order": 6,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": true,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "P01CA066996",
+        "nci_division_program": "CTEP"
+      },
+      {
+        "id": "U10CA98543",
+        "nci_division_program": "CTEP"
+      },
+      {
+        "id": "XYRCA73420",
+        "nci_division_program": "OD"
+      },
+      {
+        "id": "UM1CA186644",
+        "nci_division_program": "CTEP"
+      },
+      {
+        "id": "U10CA180886",
+        "nci_division_program": "CTEP"
+      }
+    ],
+    "groups": [
+      {
+        "description": "Patients receive rituximab IV over 90 minutes on day -7 or -8 and on day 3, tacrolimus IV continuously or PO QD, sirolimus PO QD beginning on day -3 with taper, and anti-thymocyte globulin IV over 6 hours on days -3 to -1.",
+        "interventions": [
+          {
+            "description": "Given IV",
+            "id": "C278",
+            "name": "Anti-Thymocyte Globulin",
+            "type": "Biological/Vaccine",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": []
+          },
+          {
+            "description": "Given IV",
+            "id": "C1212",
+            "name": "Sirolimus",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Rapamune"
+            ]
+          },
+          {
+            "description": "Given IV or PO",
+            "id": "C1311",
+            "name": "Tacrolimus",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Hecoria",
+              "Prograf",
+              "Protopic"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C1702",
+            "name": "Rituximab",
+            "type": "Biological/Vaccine",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "MabThera",
+              "Rituxan",
+              "Truxima"
+            ]
+          },
+          {
+            "description": "Correlative studies",
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Macrolide Antibiotic",
+            "id": "C261",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "CD20-targeting Agent",
+            "id": "C164034",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antibiotic Therapy",
+            "id": "C258",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Antibiotic"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Biological Agent",
+            "id": "C129821",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Immunosuppressant",
+            "id": "C574",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Anti-Infective Agent",
+            "id": "C254",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Biological Agent",
+            "id": "C307",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Monoclonal Antibody Therapy",
+            "id": "C20401",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Monoclonal Antibody"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Protein Synthesis Inhibitor",
+            "id": "C784",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Serine/Threonine Kinase Inhibitor",
+            "id": "C61074",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Immunosuppressant",
+            "id": "C574",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "mTOR Inhibitor",
+            "id": "C2201",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Protein Kinase Inhibitor",
+            "id": "C1404",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Anti-CD20 Monoclonal Antibody",
+            "id": "C141215",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Antineoplastic Antibody",
+            "id": "C129822",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Calcineurin Inhibitor",
+            "id": "C146638",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Biological/Vaccine",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          }
+        ],
+        "name": "Supportive care (GVHD prophylaxis)",
+        "type": "EXPERIMENTAL"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT777700043"
+      },
+      {
+        "type": "CTEP_ID",
+        "value": "CTEP777700043"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "LOID777700043"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "OTHER777700043"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-7777-00043"
+      }
+    ],
+    "interventional": false,
+    "keywords": [
+      "BDD",
+      "TEST",
+      "SEED DATA"
+    ],
+    "legacy_id": "3333300043",
+    "min_target_accrual": 3700,
+    "nci_grant_provided": false,
+    "nci_id": "NCI-7777-00043",
+    "non_interventional_design": "FAMILY_BASED",
+    "number_of_groups": 4,
+    "organizations": [
+      {
+        "address_line_1": "1009 United Rd.",
+        "city_municipality": "Altavista",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:01.399754",
+        "ctep_id": "o100015_CTEP",
+        "emails": [
+          "o100015_0@yahoo.com"
+        ],
+        "id": "o100015",
+        "name": "Collins  Research Group",
+        "phone_numbers": [
+          "100-015-9016",
+          "100-015-9067",
+          "100-015-9079"
+        ],
+        "state_province_territory": "VA",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:01.399754",
+        "strap_created_datetime": "2020-05-01T20:33:00.058440",
+        "strap_updated_datetime": "2021-04-24T20:37:01.640034",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:01.640034",
+        "urls": [
+          "www.o100015_0.com",
+          "www.o100015_1.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "24517",
+        "strap_publication_date": "2021-04-24T20:37:01.640034",
+        "version_no": "f1ddf790845592204663a16dc0e077f7",
+        "geo_coordinates": {
+          "lat": 37.1291,
+          "lon": -79.2868
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:53.500069",
+            "ctep_id": "p100057_CTEP",
+            "first_name": "Sean",
+            "id": "p100057",
+            "last_name": "Mason",
+            "middle_name": "Nicholas",
+            "strap_created_datetime": "2020-05-01T19:23:14.905193",
+            "strap_updated_datetime": "2021-04-24T20:37:53.596602",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:53.596602",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:53.596602",
+            "version_no": "a12bedaf5e9d4839fa04027b33ffceab",
+            "name": "Mason, Sean Nicholas",
+            "roles": [
+              {
+                "email": "o100015_0@yahoo.com",
+                "phone": "100-015-9045",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:51.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:51.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:51.000000"
+          }
+        ],
+        "name_with_id": "Collins  Research Group___id:o100015",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "8790 Valley Dr.",
+        "city_municipality": "Camden",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:36:59.387007",
+        "ctep_id": "o100018_CTEP",
+        "emails": [
+          "o100018_0@yahoo.com",
+          "o100018_1@yahoo.com",
+          "o100018_2@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-018-1056",
+          "100-018-1085",
+          "100-018-1012"
+        ],
+        "id": "o100018",
+        "name": "Hallmark Cancer Group",
+        "phone_numbers": [
+          "100-018-9070"
+        ],
+        "state_province_territory": "SC",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:36:59.387007",
+        "strap_created_datetime": "2020-05-01T20:32:56.916733",
+        "strap_updated_datetime": "2021-04-24T20:36:59.652118",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:36:59.652118",
+        "urls": [
+          "www.o100018_0.com",
+          "www.o100018_1.com",
+          "www.o100018_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "29020",
+        "strap_publication_date": "2021-04-24T20:36:59.652118",
+        "version_no": "025bfce051dca0cd2da0f77ec4bec965",
+        "geo_coordinates": {
+          "lat": 34.3199,
+          "lon": -80.6053
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:26.839715",
+            "ctep_id": "p100072_CTEP",
+            "first_name": "Elle",
+            "id": "p100072",
+            "last_name": "Stone",
+            "strap_created_datetime": "2020-05-01T19:21:05.861323",
+            "strap_updated_datetime": "2021-04-24T20:37:26.924922",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:26.924922",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:26.924922",
+            "version_no": "c6665ae14453e679d7d8c80660ff6410",
+            "name": "Stone, Elle",
+            "roles": [
+              {
+                "email": "o100018_0@yahoo.com",
+                "phone": "100-018-9068",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:51.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:51.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:51.000000"
+          }
+        ],
+        "name_with_id": "Hallmark Cancer Group___id:o100018",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "3558 Pioneer Garden Ave.",
+        "address_line_2": "Suite 3102",
+        "city_municipality": "Honolulu",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:05.605647",
+        "ctep_id": "o100024_CTEP",
+        "emails": [
+          "o100024_0@yahoo.com"
+        ],
+        "id": "o100024",
+        "name": "Janette University",
+        "phone_numbers": [
+          "100-024-9007",
+          "100-024-9055"
+        ],
+        "state_province_territory": "HI",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:05.605647",
+        "strap_created_datetime": "2020-05-01T19:20:42.466527",
+        "strap_updated_datetime": "2021-04-24T20:37:05.679162",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:05.679162",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "96823",
+        "strap_publication_date": "2021-04-24T20:37:05.679162",
+        "version_no": "47422b4ecd64ae043a5ca15538f0f132",
+        "geo_coordinates": {
+          "lat": 21.3072,
+          "lon": -157.8465
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:50.813007",
+            "ctep_id": "p100094_CTEP",
+            "first_name": "Owen",
+            "id": "p100094",
+            "last_name": "Woods",
+            "prefix": "Dr.",
+            "strap_created_datetime": "2020-05-01T19:23:10.956933",
+            "strap_updated_datetime": "2021-04-24T20:37:50.907739",
+            "suffix": "Jr",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:50.907739",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:50.907739",
+            "version_no": "50565ad7b7b6d9992b66168b84d1ce79",
+            "name": "Woods, Owen",
+            "roles": [
+              {
+                "email": "o100024_0@yahoo.com",
+                "phone": "100-024-9071",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2015-08-02T22:22:58.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:49.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:49.000000"
+          },
+          {
+            "local_sp_identifier": "00-C-0201",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2016-01-28T18:28:25.455000"
+          }
+        ],
+        "name_with_id": "Janette University___id:o100024",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "2980 Castle Rd.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:10.036000",
+        "ctep_id": "o100010_CTEP",
+        "emails": [
+          "o100010_0@yahoo.com",
+          "o100010_1@yahoo.com",
+          "o100010_2@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-010-1017",
+          "100-010-1074",
+          "100-010-1007"
+        ],
+        "id": "o100010",
+        "name": "Kelly Research Group",
+        "phone_numbers": [
+          "100-010-9083",
+          "100-010-9034"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:10.036000",
+        "strap_created_datetime": "2020-05-01T20:33:09.249207",
+        "strap_updated_datetime": "2021-04-24T20:37:10.131691",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:10.131691",
+        "urls": [
+          "www.o100010_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "853",
+        "strap_publication_date": "2021-04-24T20:37:10.131691",
+        "version_no": "907784cc23324d551ca6ced0e807b3d2",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:18.122164",
+            "ctep_id": "p100035_CTEP",
+            "first_name": "Kylee",
+            "id": "p100035",
+            "last_name": "Turner",
+            "strap_created_datetime": "2020-05-01T19:20:54.862372",
+            "strap_updated_datetime": "2021-04-24T20:37:18.207094",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:18.207094",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:18.207094",
+            "version_no": "6fb81c672f6d93bd319dd175aba77ec2",
+            "name": "Turner, Kylee",
+            "roles": [
+              {
+                "email": "o100010_0@yahoo.com",
+                "phone": "100-010-9017",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:52.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:52.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:52.000000"
+          }
+        ],
+        "name_with_id": "Kelly Research Group___id:o100010",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "85 Kelly Tranquil Ave.",
+        "city_municipality": "Laurel",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:08.446094",
+        "ctep_id": "o100013_CTEP",
+        "emails": [
+          "o100013_0@yahoo.com",
+          "o100013_1@yahoo.com",
+          "o100013_2@yahoo.com"
+        ],
+        "id": "o100013",
+        "name": "Laguna Summit Cancer Group",
+        "phone_numbers": [
+          "100-013-9078",
+          "100-013-9071"
+        ],
+        "state_province_territory": "MT",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:08.446094",
+        "strap_created_datetime": "2020-05-01T19:20:44.573719",
+        "strap_updated_datetime": "2021-04-24T20:37:08.534914",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:08.534914",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "172",
+        "strap_publication_date": "2021-04-24T20:37:08.534914",
+        "version_no": "6379182a21616e8ffc65d62fafc637a6",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:43.804853",
+            "ctep_id": "p100049_CTEP",
+            "first_name": "Carter",
+            "id": "p100049",
+            "last_name": "Serrano",
+            "middle_name": "Daphne",
+            "strap_created_datetime": "2020-05-01T19:22:56.243266",
+            "strap_updated_datetime": "2021-04-24T20:37:43.883530",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:43.883530",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:43.883530",
+            "version_no": "cda44de8dd64375772590b16dd8178b0",
+            "name": "Serrano, Carter Daphne",
+            "roles": [
+              {
+                "email": "o100013_0@yahoo.com",
+                "phone": "100-013-9047",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2018-03-11T14:09:54.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:51.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:51.000000"
+          }
+        ],
+        "name_with_id": "Laguna Summit Cancer Group___id:o100013",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5928 Summerfield Northshore Ln.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:01.066363",
+        "ctep_id": "o100003_CTEP",
+        "emails": [
+          "o100003_0@yahoo.com",
+          "o100003_1@yahoo.com",
+          "o100003_2@yahoo.com"
+        ],
+        "id": "o100003",
+        "name": "Shelby Drug Development Institute",
+        "phone_numbers": [
+          "100-003-9001"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:01.066363",
+        "strap_created_datetime": "2020-05-01T20:32:59.412437",
+        "strap_updated_datetime": "2021-04-24T20:37:01.143019",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:01.143019",
+        "urls": [
+          "www.o100003_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "1454",
+        "strap_publication_date": "2021-04-24T20:37:01.143019",
+        "version_no": "9a570653f4169f44407a0b920bcadffb",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:39.252433",
+            "ctep_id": "p100008_CTEP",
+            "first_name": "Abby",
+            "id": "p100008",
+            "last_name": "Riley",
+            "middle_name": "Kathryn",
+            "prefix": "Dr.",
+            "strap_created_datetime": "2020-05-01T19:22:50.305404",
+            "strap_updated_datetime": "2021-04-24T20:37:39.335510",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:39.335510",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:39.335510",
+            "version_no": "f9711e3adf06afe25f40126fdc1604ee",
+            "name": "Riley, Abby Kathryn",
+            "roles": [
+              {
+                "email": "o100003_0@yahoo.com",
+                "phone": "100-003-9069",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:50.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:50.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:50.000000"
+          }
+        ],
+        "name_with_id": "Shelby Drug Development Institute___id:o100003",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "Interim monitoring for efficacy and futility will be performed. The study will also be monitored for futility using the method of Freidlin and Korn.",
+        "is_safety_related": false,
+        "measure": "EFS between modified ABFM backbone with or without bortezomib in all randomized patients",
+        "time_frame": "Up to 10 years",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Description of time to first disease-related intervention or first progression event during the period of observation (MF patients only)",
+        "time_frame": "Baseline to end of study, up to 36 months.",
+        "type": "SECONDARY"
+      },
+      {
+        "analysis_method": "Changes in these levels before and after therapy will be primarily explored graphically; however, significant changes in levels from baseline to months 1 and 4 will also be evaluated individually using a paired sample approach (t-test or Wilcoxon signed rank test).",
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Change in tumor-specific antibodies",
+        "time_frame": "Baseline and 4 months",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Percentage of Participants with CR, Determined by the IRC on the Basis of CT Scans Alone",
+        "time_frame": "Within 6 to 8 weeks after Day 1 of Cycle 6 (up to approximately 23 weeks) (1 cycle:21days)",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "created_datetime": "2021-04-24T20:37:53.855143",
+        "ctep_id": "p100058_CTEP",
+        "first_name": "April",
+        "id": "p100058",
+        "last_name": "Swanson",
+        "prefix": "Mrs.",
+        "strap_created_datetime": "2020-05-01T19:23:15.598466",
+        "strap_updated_datetime": "2021-04-24T20:37:53.945899",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:53.945899",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "strap_publication_date": "2021-04-24T20:37:53.945899",
+        "version_no": "6a84878e82e97a028f18c89a580eacfd",
+        "name": "Swanson, April",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "ACTIVE",
+            "status_start_datetime": "2016-11-09T13:55:47.057000"
+          }
+        ]
+      }
+    ],
+    "phase": "IV",
+    "pilot": false,
+    "primary_purpose": "BASIC_SCIENCE",
+    "primary_purpose_additional_qualifier": "OUTCOME",
+    "probability_sample": false,
+    "proprietary_trial": false,
+    "public_title": "NCI-7777-00043 public title",
+    "scientific_description": "NCI-7777-00043 scientific description",
+    "section801_indicator": false,
+    "status_history": [
+      {
+        "message_datetime": "2019-05-03T14:34:52.000000",
+        "status": "Completed",
+        "status_datetime": "2019-05-03T14:34:52.000000"
+      },
+      {
+        "message_datetime": "2019-05-02T14:34:52.000000",
+        "status": "Active, not recruiting",
+        "status_datetime": "2019-05-02T14:34:52.000000"
+      },
+      {
+        "message_datetime": "2010-02-10T22:27:44.000000",
+        "status": "Recruiting",
+        "status_datetime": "2010-02-10T22:27:44.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-01T20:03:03.136040",
+    "strap_updated_datetime": "2021-04-24T21:11:04.829060",
+    "study_classification_code": "UNKNOWN",
+    "study_population_description": "NCI-7777-00043 study population description",
+    "study_source": "INSTITUTIONAL",
+    "study_subtype": "ANCILLARY_CORRELATIVE",
+    "test_data": true,
+    "time_perspective": "OTHER",
+    "time_perspective_other_text": "NCI-7777-00043 time perspective other text",
+    "title": "NCI-7777-00043 title",
+    "user_created_id": "Test Data Service",
+    "user_created_organization": "Testing Team",
+    "version_no": "23b6a0b98ffeb56cdce00e9b482fcc83",
+    "strap_publication_date": "2021-04-24T21:11:04.829060",
+    "current_trial_status": "Completed",
+    "participating_sites": [
+      "o100024",
+      "o100003",
+      "o100013",
+      "o100018",
+      "o100015",
+      "o100010"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "p100094",
+        "name": "Woods, Owen",
+        "first_name": "Owen",
+        "middle_name": null,
+        "last_name": "Woods",
+        "org_id": "o100024",
+        "org_name": null
+      },
+      {
+        "id": "p100008",
+        "name": "Riley, Abby Kathryn",
+        "first_name": "Abby",
+        "middle_name": "Kathryn",
+        "last_name": "Riley",
+        "org_id": "o100003",
+        "org_name": null
+      },
+      {
+        "id": "p100049",
+        "name": "Serrano, Carter Daphne",
+        "first_name": "Carter",
+        "middle_name": "Daphne",
+        "last_name": "Serrano",
+        "org_id": "o100013",
+        "org_name": null
+      },
+      {
+        "id": "p100072",
+        "name": "Stone, Elle",
+        "first_name": "Elle",
+        "middle_name": null,
+        "last_name": "Stone",
+        "org_id": "o100018",
+        "org_name": null
+      },
+      {
+        "id": "p100057",
+        "name": "Mason, Sean Nicholas",
+        "first_name": "Sean",
+        "middle_name": "Nicholas",
+        "last_name": "Mason",
+        "org_id": "o100015",
+        "org_name": null
+      },
+      {
+        "id": "p100035",
+        "name": "Turner, Kylee",
+        "first_name": "Kylee",
+        "middle_name": null,
+        "last_name": "Turner",
+        "org_id": "o100010",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Non-Interventional",
+    "nct_id": "NCT777700043",
+    "ctep_id": "CTEP777700043",
+    "lead_organization_id": "LOID777700043",
+    "va_associated": true,
+    "principal_investigators": [
+      {
+        "first_name": "April",
+        "last_name": "Swanson",
+        "middle_name": null,
+        "name": "Swanson, April",
+        "prefix": "Mrs.",
+        "id": "p100058"
+      }
+    ],
+    "current_trial_status_date": "2019-05-03T14:34:52.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-02-10T22:27:44.000000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2019-05-02T14:34:52.000000",
+    "record_verification_date": "2019-05-07T14:34:52.000000",
+    "lead_organizations": {
+      "id": "o100024",
+      "name": "Janette University"
+    },
+    "total_participating_sites": 6,
+    "total_open_participating_sites": 6,
+    "has_count_history": false,
+    "lead_diseases": [
+      {
+        "id": "C3708",
+        "name": "Germ Cell Tumor",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C3053",
+        "name": "Female Reproductive System Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Stage IIB Ovarian Germ Cell Tumor",
+          "code": "C6295",
+          "ancestor_ids": [
+            "C3708"
+          ],
+          "parent_ids": [
+            "C3708"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Germ Cell Tumor",
+          "code": "C3708",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26786",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C3708",
+            "C4741",
+            "C4875",
+            "C4984"
+          ],
+          "code": "C3873",
+          "name": "Ovarian Germ Cell Tumor",
+          "parent_ids": [
+            "C4984",
+            "C3708",
+            "C26786"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3708",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4925",
+          "name": "Malignant Germ Cell Tumor",
+          "parent_ids": [
+            "C9305",
+            "C3708"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C156484",
+          "name": "Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C27020",
+          "name": "Female Reproductive System Disorder",
+          "parent_ids": [
+            "C4875"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26786",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3708",
+            "C3873",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C4925",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C4514",
+          "name": "Malignant Ovarian Germ Cell Tumor",
+          "parent_ids": [
+            "C7431",
+            "C3873",
+            "C4925"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7431",
+          "name": "Malignant Ovarian Neoplasm",
+          "parent_ids": [
+            "C4984",
+            "C4913"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C156660",
+          "name": "Genitourinary System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4913",
+          "name": "Malignant Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C36076",
+            "C3053"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C27020",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26786",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3708",
+            "C3873",
+            "C4514",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C4925",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C8084",
+          "name": "Stage II Ovarian Germ Cell Tumor",
+          "parent_ids": [
+            "C4514"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3708",
+          "name": "Germ Cell Tumor",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C26786",
+          "name": "Gonadal Disorder",
+          "parent_ids": [
+            "C4875"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991"
+          ],
+          "code": "C4875",
+          "name": "Reproductive System Disorder",
+          "parent_ids": [
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C4984",
+          "name": "Ovarian Tumor",
+          "parent_ids": [
+            "C26841",
+            "C3053"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26786",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3708",
+            "C3873",
+            "C4514",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C4925",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C8084",
+            "C9305"
+          ],
+          "code": "C6295",
+          "name": "Stage IIB Ovarian Germ Cell Tumor",
+          "parent_ids": [
+            "C8084"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C26841",
+          "name": "Ovarian Disorder",
+          "parent_ids": [
+            "C27020"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C36076",
+          "name": "Malignant Reproductive System Neoplasm",
+          "parent_ids": [
+            "C156484",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C4875"
+          ],
+          "code": "C3674",
+          "name": "Reproductive System Neoplasm",
+          "parent_ids": [
+            "C4875",
+            "C156482"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C156482",
+          "name": "Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

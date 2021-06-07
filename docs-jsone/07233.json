@@ -1,0 +1,1812 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-9999-99950",
+  "_score": 1,
+  "_source": {
+    "anatomic_sites": [
+      "Multiple",
+      "Lung"
+    ],
+    "biomarkers": [
+      {
+        "assay_type": "Multiplex Immunoassay",
+        "cadsr_id": "3259385",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C18368",
+        "name": "TNF (TNF A; DIF; Tumor Necrosis Factor Alpha; Tumor Necrosis Factor; Tumor Necrosis Factor-Alpha; TNFSF2; TNF-alpha; TNFalpha; Cachectin; TNFA; Tumor Necrosis Factor (TNF Superfamily, Member 2); Tumor necrosis factor ligand superfamily member 2; TNF-a)",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Blood",
+        "use": "Integrated"
+      }
+    ],
+    "datetimes": [
+      {
+        "type": "ANTICIPATED_START_DATE",
+        "value": "1980-01-25T16:22:45.688000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2006-10-13T09:30:33.504000"
+      },
+      {
+        "type": "ANTICIPATED_COMPLETION_DATE",
+        "value": "2003-05-17T12:33:51.381000"
+      }
+    ],
+    "description": "a brief summary of what the trial is",
+    "diseases": [
+      {
+        "display_name": "Adult Solid Tumor",
+        "id": "C8101",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": false,
+        "name": "Solid Tumor",
+        "preferred_name": "Adult Solid Neoplasm",
+        "status": "ACTIVE",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Solid Neoplasm",
+                "code": "C9292"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult Solid Neoplasm",
+          "Adult Solid Tumor"
+        ],
+        "parents": [
+          "C9292"
+        ]
+      },
+      {
+        "display_name": "Stage IIA Non-Small Cell Lung Carcinoma AJCC v7",
+        "id": "C5655",
+        "inclusion_indicator": "TRIAL",
+        "is_lead_disease": true,
+        "name": "Stage IIA Non-Small Cell Lung Cancer",
+        "preferred_name": "Stage IIA Lung Non-Small Cell Carcinoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIA Lung Non-Small Cell Carcinoma AJCC v7",
+          "Stage IIA Non-Oat Cell Carcinoma of Lung",
+          "Stage IIA Non-Oat Cell Carcinoma of the Lung",
+          "Stage IIA Non-Oat Cell Lung Carcinoma",
+          "Stage IIA Non-Small Cell Carcinoma of Lung",
+          "Stage IIA Non-Small Cell Carcinoma of the Lung",
+          "Stage IIA Non-Small Cell Lung Carcinoma",
+          "Stage IIA Non-Small Cell Lung Carcinoma AJCC v7",
+          "stage IIA non-small cell lung cancer"
+        ],
+        "parents": [
+          "C7777",
+          "C5644"
+        ]
+      },
+      {
+        "id": "C3406",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Thoracic Neoplasm",
+        "display_name": "Thoracic Neoplasm",
+        "preferred_name": "Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Thorax",
+          "Neoplasm of the Thorax",
+          "Thoracic Tumor",
+          "Tumor of Thorax",
+          "Tumor of the Thorax"
+        ],
+        "parents": [
+          "C3263",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C3200",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lung Neoplasm",
+        "display_name": "Lung Neoplasm",
+        "preferred_name": "Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Neoplasms",
+          "Lung Tumor",
+          "Neoplasm of Lung",
+          "Neoplasm of the Lung",
+          "Tumor of Lung",
+          "Tumor of the Lung"
+        ],
+        "parents": [
+          "C3198",
+          "C3355",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C91232",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lung Cancer by AJCC v7 Stage",
+        "display_name": "Lung Cancer by AJCC v7 Stage",
+        "preferred_name": "Lung Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Lung Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C4878"
+        ]
+      },
+      {
+        "id": "C9292",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Solid Tumor",
+        "display_name": "Solid Tumor",
+        "preferred_name": "Solid Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Solid Neoplasm",
+          "Solid Tumour",
+          "Solid tumor, NOS",
+          "solid tumor"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C88889",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Stage II Lung Cancer",
+        "display_name": "Stage II Lung Cancer AJCC v7",
+        "preferred_name": "Stage II Lung Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage II Lung Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91232"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27669",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Respiratory and Thoracic Disorder",
+        "display_name": "Respiratory and Thoracic Disorder",
+        "preferred_name": "Respiratory and Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory and Thoracic Disease",
+          "Respiratory, Thoracic, and Mediastinal Disease",
+          "Respiratory, Thoracic, and Mediastinal Disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2926",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Non-Small Cell Lung Cancer",
+        "display_name": "Non-Small Cell Lung Carcinoma",
+        "preferred_name": "Lung Non-Small Cell Carcinoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Non-Small Cell Carcinoma",
+          "NSCLC",
+          "NSCLC - Non-Small Cell Lung Cancer",
+          "Non Small Cell Lung Cancer NOS",
+          "Non-Small Cell Cancer of Lung",
+          "Non-Small Cell Cancer of the Lung",
+          "Non-Small Cell Carcinoma of Lung",
+          "Non-Small Cell Carcinoma of the Lung",
+          "Non-Small Cell Lung Carcinoma",
+          "Non-small cell lung cancer, NOS",
+          "non-small cell lung cancer"
+        ],
+        "parents": [
+          "C4878",
+          "C65151"
+        ]
+      },
+      {
+        "id": "C65151",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Non-Small Cell Carcinoma",
+        "display_name": "Non-Small Cell Carcinoma",
+        "preferred_name": "Non-Small Cell Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-small cell carcinoma"
+        ],
+        "parents": [
+          "C2916"
+        ]
+      },
+      {
+        "id": "C35742",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Thoracic Disorder",
+        "display_name": "Thoracic Disorder",
+        "preferred_name": "Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Thoracic Disease"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C4571",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Respiratory System Neoplasm",
+        "display_name": "Malignant Respiratory System Neoplasm",
+        "preferred_name": "Malignant Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C9305",
+          "C3355"
+        ]
+      },
+      {
+        "id": "C26871",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Respiratory System Disorder",
+        "display_name": "Respiratory System Disorder",
+        "preferred_name": "Respiratory System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Respiratory System",
+          "Respiratory Disorder",
+          "Unspecified Respiratory Problem"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C7377",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Lung Neoplasm",
+        "display_name": "Malignant Lung Neoplasm",
+        "preferred_name": "Malignant Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Lung Tumor",
+          "Malignant Neoplasm of Lung",
+          "Malignant Neoplasm of the Lung",
+          "Malignant Tumor of Lung",
+          "Malignant Tumor of the Lung"
+        ],
+        "parents": [
+          "C3200",
+          "C4571",
+          "C3576"
+        ]
+      },
+      {
+        "id": "C5644",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Stage IIA Lung Cancer",
+        "display_name": "Stage IIA Lung Cancer AJCC v7",
+        "preferred_name": "Stage IIA Lung Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIA Carcinoma of Lung",
+          "Stage IIA Carcinoma of the Lung",
+          "Stage IIA Lung Cancer AJCC v7",
+          "Stage IIA Lung Carcinoma"
+        ],
+        "parents": [
+          "C88889"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C7777",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Stage II Non-Small Cell Lung Cancer",
+        "display_name": "Stage II Non-Small Cell Lung Cancer AJCC v7",
+        "preferred_name": "Stage II Lung Non-Small Cell Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non -Small Cell Lung Cancer Stage II",
+          "Non Small Cell Lung Cancer Stage II",
+          "Stage II Lung Non-Small Cell Cancer AJCC v7",
+          "Stage II Non-Oat Cell Carcinoma of Lung",
+          "Stage II Non-Oat Cell Carcinoma of the Lung",
+          "Stage II Non-Oat Cell Lung Carcinoma",
+          "Stage II Non-Small Cell Carcinoma of Lung",
+          "Stage II Non-Small Cell Carcinoma of the Lung",
+          "Stage II Non-Small Cell Lung Cancer AJCC v7",
+          "Stage II Non-Small Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C136491",
+          "C88889"
+        ]
+      },
+      {
+        "id": "C4878",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lung Cancer",
+        "display_name": "Lung Carcinoma",
+        "preferred_name": "Lung Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Lung",
+          "Cancer of the Lung",
+          "Carcinoma of Lung",
+          "Carcinoma of the Lung",
+          "Lung Cancer (all types)",
+          "Lung Carcinoma",
+          "Lung cancer, NOS",
+          "lung cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C7377"
+        ]
+      },
+      {
+        "id": "C136491",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+        "display_name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+        "preferred_name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Lung Non-Small Cell Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C91232",
+          "C2926"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3355",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Respiratory System Neoplasm",
+        "display_name": "Respiratory System Neoplasm",
+        "preferred_name": "Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C3263",
+          "C26871"
+        ]
+      },
+      {
+        "id": "C3576",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Thoracic Neoplasm",
+        "display_name": "Malignant Thoracic Neoplasm",
+        "preferred_name": "Malignant Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Thorax",
+          "Malignant Neoplasm of the Thorax",
+          "Malignant Thoracic Tumor",
+          "Malignant Tumor of Thorax",
+          "Malignant Tumor of the Thorax"
+        ],
+        "parents": [
+          "C9305",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C3198",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lung Disorder",
+        "display_name": "Lung Disorder",
+        "preferred_name": "Lung Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Lung",
+          "Lung Disorders",
+          "Pulmonary Disease",
+          "Pulmonary Diseases",
+          "Pulmonary Disorder",
+          "Pulmonary Disorders"
+        ],
+        "parents": [
+          "C26871",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "GENDER: BOTH",
+        "inclusive": true,
+        "type": "GENDER"
+      },
+      {
+        "description": "Age: 20 - 100",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": " Due to the complexity of state and federal requirements governing the participation of prisoners in research, prisoner-patients shall not be approached for participation in the Registry.",
+        "inclusive": false,
+        "type": ""
+      }
+    ],
+    "expanded_access_trial": true,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "P00AB11123",
+        "nci_division_program": "ABC"
+      }
+    ],
+    "groups": [
+      {
+        "interventions": [],
+        "name": "Placeholder",
+        "type": "EXPERIMENTAL"
+      },
+      {
+        "description": "THIS IS A DEFAULT.",
+        "id": "DEFAULT_ID",
+        "interventions": [
+          {
+            "category": "agent",
+            "description": "Given intravenously",
+            "id": "C79840",
+            "inclusion_indicator": "TRIAL",
+            "name": "Elesclomol Sodium",
+            "synonyms": [],
+            "type": "Drug"
+          },
+          {
+            "type": "Drug",
+            "name": "Mitochondrial Targeting Antineoplastic Agent",
+            "id": "C177298",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "DEFAULT"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT00001234"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "TCREG-000-11-V2-3345"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "PARALLEL",
+    "irb_approval_req_indicator": true,
+    "min_target_accrual": 1000,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-9999-99950",
+    "organizations": [
+      {
+        "address_line_1": "3645 Southern Bayrock Street",
+        "address_line_2": "Suite 313",
+        "city_municipality": "Stonevale",
+        "country": "United States",
+        "ctep_id": "(TEST_ID)_CTEP",
+        "emails": [
+          "test@gmail.com"
+        ],
+        "fax_numbers": [
+          "123-456-7890"
+        ],
+        "id": "99950o",
+        "name": "Ullamcorper org",
+        "pa_id": "(TEST_ID)_PA",
+        "phone_numbers": [
+          "123-456-7890"
+        ],
+        "state_province_territory": "VA",
+        "status": "ACTIVE",
+        "strap_created_datetime": "2020-05-07T15:24:17.738806",
+        "strap_updated_datetime": "2021-04-29T23:45:15.688170",
+        "test_data": true,
+        "updated_datetime": "2021-04-29T23:45:15.688170",
+        "urls": [
+          "www.test.org"
+        ],
+        "user_created_id": "(TEST_ID)_user",
+        "user_created_organization": "0",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "zipcode": "93621",
+        "strap_publication_date": "2021-04-29T23:45:15.688170",
+        "version_no": "fecc65bd1d16db8069b6911c8da1516c",
+        "geo_coordinates": {
+          "lat": 36.7392,
+          "lon": -119.0508
+        },
+        "persons": [
+          {
+            "ctep_id": "(TEST_ID)_CTEP",
+            "first_name": "Rita",
+            "id": "99950p",
+            "last_name": "Ullamcorper",
+            "middle_name": "Blagun",
+            "pa_id": "(TEST_ID)_PA",
+            "prefix": "Dr.",
+            "status": "ACTIVE",
+            "strap_created_datetime": "2020-05-07T15:23:55.718891",
+            "strap_updated_datetime": "2021-04-29T23:44:35.553068",
+            "suffix": "I",
+            "test_data": true,
+            "updated_datetime": "2021-04-29T23:44:35.553068",
+            "user_created_id": "(TEST_ID)_user",
+            "user_created_organization": "0",
+            "strap_publication_date": "2021-04-29T23:44:35.553068",
+            "version_no": "8f6f49bffd7591bfd73ddcd181fc4f49",
+            "name": "Ullamcorper, Rita Blagun",
+            "roles": [
+              {
+                "email": "test@nih.gov",
+                "phone": "123-456-7890",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2015-12-23T15:10:57.356000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "{TEST_ID) comment",
+                "status": "ACTIVE",
+                "status_datetime": "2009-11-02T00:00:00.000000"
+              }
+            ],
+            "irb_approval_number": "05/12/2017",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "Siteman Cancer Center at Washington University",
+            "local_sp_identifier": "(TEST_ID)_LEAD",
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2016-12-21T09:11:28.226000"
+          }
+        ],
+        "name_with_id": "Ullamcorper org___id:99950o",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_primary": true,
+        "is_safety_related": true,
+        "measure": "To characterize the safety and tolerability of elesclomol sodium administered once weekly to subjects with solid tumors",
+        "time_frame": "Jan 2011",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "To test the effectiveness of the treatment",
+        "time_frame": "Dec 2010 - Feb 2011",
+        "type": "PRIMARY"
+      }
+    ],
+    "persons": [
+      {
+        "ctep_id": "(TEST_ID)_CTEP",
+        "first_name": "Rita",
+        "id": "99950p",
+        "last_name": "Ullamcorper",
+        "middle_name": "Blagun",
+        "pa_id": "(TEST_ID)_PA",
+        "prefix": "Dr.",
+        "status": "ACTIVE",
+        "strap_created_datetime": "2020-05-07T15:23:55.718891",
+        "strap_updated_datetime": "2021-04-29T23:44:35.553068",
+        "suffix": "I",
+        "test_data": true,
+        "updated_datetime": "2021-04-29T23:44:35.553068",
+        "user_created_id": "(TEST_ID)_user",
+        "user_created_organization": "0",
+        "strap_publication_date": "2021-04-29T23:44:35.553068",
+        "version_no": "8f6f49bffd7591bfd73ddcd181fc4f49",
+        "name": "Ullamcorper, Rita Blagun"
+      }
+    ],
+    "phase": "NA",
+    "pilot": true,
+    "primary_purpose": "TREATMENT",
+    "principal_investigators": [
+      {
+        "id": "1111111",
+        "name": "Dlanod Pmurt"
+      }
+    ],
+    "proprietary_trial": true,
+    "public_title": "Test trial ullamcorper",
+    "randomized_trial": true,
+    "scientific_description": "insert a detailed description here",
+    "status_history": [
+      {
+        "message_datetime": "2011-12-14T00:00:00.000001",
+        "status": "Suspended",
+        "status_datetime": "2011-12-14T00:00:00.000001"
+      }
+    ],
+    "strap_created_datetime": "2020-05-07T15:56:34.874984",
+    "strap_updated_datetime": "2021-04-29T23:46:32.050339",
+    "study_source": "INDUSTRIAL",
+    "study_subtype": "OBSERVATIONAL",
+    "test_data": true,
+    "title": "insert title with ullamcorper here",
+    "user_created_id": "A Service",
+    "user_created_organization": "Non-Affiliate",
+    "version_no": "e68af3b494a448961c37785348bddb36",
+    "strap_publication_date": "2021-04-29T23:46:32.050339",
+    "current_trial_status": "Suspended",
+    "participating_sites": [
+      "99950o"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "99950p",
+        "name": "Ullamcorper, Rita Blagun",
+        "first_name": "Rita",
+        "middle_name": "Blagun",
+        "last_name": "Ullamcorper",
+        "org_id": "99950o",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT00001234",
+    "lead_organization_id": "TCREG-000-11-V2-3345",
+    "va_associated": false,
+    "current_trial_status_date": "2011-12-14T00:00:00.000001",
+    "start_date_type": "ANTICIPATED_START_DATE",
+    "start_date_value": "1980-01-25T16:22:45.688000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2006-10-13T09:30:33.504000",
+    "completion_date_type": "ANTICIPATED_COMPLETION_DATE",
+    "completion_date_value": "2003-05-17T12:33:51.381000",
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 1,
+    "has_count_history": false,
+    "lead_diseases": [
+      {
+        "id": "C4878",
+        "name": "Lung Cancer",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3200",
+        "name": "Lung Neoplasm",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Solid Tumor",
+          "code": "C9292",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Stage IIA Non-Small Cell Lung Cancer",
+          "code": "C5655",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Non-Small Cell Lung Cancer",
+          "code": "C2926",
+          "ancestor_ids": [
+            "C4878"
+          ],
+          "parent_ids": [
+            "C4878"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Solid Tumor",
+          "code": "C8101",
+          "ancestor_ids": [
+            "C9292"
+          ],
+          "parent_ids": [
+            "C9292"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Lung Cancer",
+          "code": "C4878",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35742"
+          ],
+          "code": "C3406",
+          "name": "Thoracic Neoplasm",
+          "parent_ids": [
+            "C35742",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C65151",
+          "name": "Non-Small Cell Carcinoma",
+          "parent_ids": [
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C35742",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3576",
+          "name": "Malignant Thoracic Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C4571",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7377",
+          "name": "Malignant Lung Neoplasm",
+          "parent_ids": [
+            "C3576",
+            "C4571",
+            "C3200"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062",
+            "C9292"
+          ],
+          "code": "C8101",
+          "name": "Solid Tumor",
+          "parent_ids": [
+            "C9292"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9292",
+          "name": "Solid Tumor",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742"
+          ],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [
+            "C3406",
+            "C3198",
+            "C3355"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C2926",
+          "name": "Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C65151",
+            "C4878"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C26871",
+          "name": "Respiratory System Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C136491",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C5644",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C7777",
+            "C88889",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C5655",
+          "name": "Stage IIA Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C5644",
+            "C7777"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3355",
+          "name": "Respiratory System Neoplasm",
+          "parent_ids": [
+            "C26871",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C136491",
+          "name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C2926",
+            "C91232"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C136491",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C88889",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C7777",
+          "name": "Stage II Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C88889",
+            "C136491"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C35742",
+          "name": "Thoracic Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C88889",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C5644",
+          "name": "Stage IIA Lung Cancer",
+          "parent_ids": [
+            "C88889"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C91232",
+          "name": "Lung Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C4878"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C4878",
+          "name": "Lung Cancer",
+          "parent_ids": [
+            "C7377",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C35742"
+          ],
+          "code": "C3198",
+          "name": "Lung Disorder",
+          "parent_ids": [
+            "C35742",
+            "C26871"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C88889",
+          "name": "Stage II Lung Cancer",
+          "parent_ids": [
+            "C91232"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C9305",
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4571",
+          "name": "Malignant Respiratory System Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C3355"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27669",
+          "name": "Respiratory and Thoracic Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C9292",
+          "name": "Solid Tumor",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

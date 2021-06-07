@@ -1,0 +1,587 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2011-03614",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Multiple"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "comments": "Program code : Thoracic Oncology (SPK 09/03/2015)",
+    "ctro_override": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2015-08-18T17:49:21.145000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2011-11-18T15:27:10.970000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2012-04-29T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-04-29T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This clinical trial studies palonosetron hydrochloride in treating nausea and vomiting in terminally ill patients. Palonosetron hydrochloride may help lessen or prevent nausea and vomiting.",
+    "diseases": [
+      {
+        "display_name": "Nausea and Vomiting",
+        "id": "C3259",
+        "is_lead_disease": false,
+        "name": "Nausea and Vomiting",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Nausea and Vomiting",
+        "paths": null,
+        "type": [
+          "finding"
+        ],
+        "synonyms": [
+          "Nausea_or_vomiting",
+          "Vomiting and Nausea"
+        ],
+        "parents": [
+          "C3368"
+        ]
+      },
+      {
+        "id": "C100104",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Sign or Symptom",
+        "display_name": "Sign or Symptom",
+        "preferred_name": "Sign or Symptom",
+        "type": [],
+        "synonyms": [
+          "CLINICAL FINDING",
+          "CLINICAL SIGNS",
+          "Clinical Finding",
+          "Clinical Signs",
+          "Clinical Signs or Symptoms",
+          "DESC",
+          "Signs or Symptoms"
+        ],
+        "parents": [
+          "C3367"
+        ]
+      },
+      {
+        "id": "C36278",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Finding by Site or System",
+        "display_name": "Finding by Site or System",
+        "preferred_name": "Finding by Site or System",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C3367"
+        ]
+      },
+      {
+        "id": "C36279",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Finding",
+        "display_name": "Digestive System Finding",
+        "preferred_name": "Digestive System Finding",
+        "type": [],
+        "synonyms": [
+          "GASTROINTESTINAL SYSTEM",
+          "Gastrointestinal",
+          "Gastrointestinal System Finding"
+        ],
+        "parents": [
+          "C36278"
+        ]
+      },
+      {
+        "id": "C3367",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Finding",
+        "display_name": "Finding",
+        "preferred_name": "Finding",
+        "type": [],
+        "synonyms": [
+          "Observable Entity",
+          "finding"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C3368",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Signs and Symptoms",
+        "display_name": "Digestive System Signs and Symptoms",
+        "preferred_name": "Digestive System Signs and Symptoms",
+        "type": [],
+        "synonyms": [
+          "Gastrointestinal System Signs and Symptoms"
+        ],
+        "parents": [
+          "C36279",
+          "C100104"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "TSR_NCI-2011-03614_2013-03-14-1427_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2011-03614/TSR_NCI-2011-03614_2013-03-14-1427_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "UMCC_2008.048_protocol.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2011-03614/UMCC_2008.048_protocol.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "UMCC 2008.048_IRb Approval.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2011-03614/UMCC 2008.048_IRb Approval.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "UMCC 2008.048_consnet.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2011-03614/UMCC 2008.048_consnet.pdf",
+        "type": "INFORMED_CONSENT_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Assessment of possible causes of the nausea and vomiting should be done and recorded; if a reversible cause of the nausea is identified, that cause should be treated if possible; if the treatment relieves the nausea, then the patient is excluded from this study; possible reversible causes of nausea and vomiting that should be excluded are:\r\n* Medications that can be eliminated from the patient’s regimen\r\n* Anatomical bowel obstruction; patients who have a bowel obstruction that will not be relieved by surgery may be enrolled; this includes patients whose obstruction is technically unresectable, or who are medically too ill to endure a surgery, or who refuse surgical intervention for any reason\r\n* Other medical conditions such as benign positional vertigo, etc.",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Patient’s medications must be reviewed; any medications possibly causing nausea should be stopped if possible; for example, if an opiate is suspected of causing nausea, another opiate should be substituted; however, if this is not effective, or if a medication change cannot be made, then the patient would be eligible for this study",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Patients must have nausea and/or vomiting, not relieved with 1 or more antinausea medications; if the patient is treated with an anti-nausea medication, a minimum of 2 hours should pass to ensure that the medication is given a chance to be effective; if there is no relief after 2 hours, then the patient may be treated with palonosetron",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Patient should not have received chemotherapy for the past 28 days",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Patient must be able to understand and sign informed consent",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "Patient must have a terminal diagnosis, with estimated survival of 6 months or less",
+        "display_order": 1,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "grants": [
+      {
+        "id": "P30CA46592",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2011-12-08T11:49:39.483000",
+        "description": "Patients receive palonosetron hydrochloride IV. Patients still experiencing nausea or vomiting may receive up to 3 more doses given 24 hours apart.",
+        "identifier": 77245613,
+        "interventions": [
+          {
+            "description": "Given IV",
+            "id": "C47650",
+            "name": "Palonosetron Hydrochloride",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Aloxi"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Agent Affecting Nervous System",
+            "id": "C78272",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "5-HT3 Receptor Antagonist",
+            "id": "C94726",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Serotonin Antagonist",
+            "id": "C66885",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antiemetic Agent",
+            "id": "C267",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "Supportive care (palonosetron hydrochloride)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2013-03-14T13:35:18.353000"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT00982995"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "UMCC 2008.048"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2011-03614"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_organization_family": "University of Michigan Rogel Cancer Center",
+    "legacy_id": "77112191",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999.0 Years",
+    "max_age_in_years": 999,
+    "min_age": "18.0 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 35,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2011-03614",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "131413",
+        "ctep_id": "MI014",
+        "name": "University of Michigan Comprehensive Cancer Center",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "1500 East Medical Center Drive",
+        "city_municipality": "Ann Arbor",
+        "state_province_territory": "MI",
+        "country": "United States",
+        "zipcode": "48109",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Saint Joseph Hospital",
+          "University of Michigan",
+          "University of Michigan Comprehensive Cancer Center",
+          "University of Michigan University Hospital"
+        ],
+        "phone_numbers": [
+          "800-865-1125"
+        ],
+        "urls": [
+          "http://www.med.umich.edu/"
+        ],
+        "status_datetime": "2015-05-05T11:55:09.705000",
+        "strap_created_datetime": "2020-04-14T17:16:04.035422",
+        "strap_updated_datetime": "2021-04-07T23:31:55.615646",
+        "strap_publication_datetime": "2021-04-07T23:31:55.615646",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:31:55.615646",
+        "version_no": "9d3ec707676f9d1a30522dd84e4e434d",
+        "geo_coordinates": {
+          "lat": 42.2909,
+          "lon": -83.7144
+        },
+        "persons": [
+          {
+            "id": "1337648",
+            "ctep_id": "15501",
+            "prefix": "Dr.",
+            "first_name": "Susan",
+            "middle_name": "G.",
+            "last_name": "Urba",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:46:43.945310",
+            "strap_updated_datetime": "2021-04-07T23:32:18.577874",
+            "strap_publication_datetime": "2021-04-07T23:32:18.577874",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:32:18.577874",
+            "version_no": "1cc35521448c75a830c64c6440383dfa",
+            "name": "Urba, Susan G.",
+            "roles": [
+              {
+                "email": "surba@umich.edu",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2011-11-22T14:24:51.801000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2011-11-22T14:24:45.897000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "irb_approval_number": "00001996",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "University of Michigan",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2011-11-22T14:17:58.899000"
+          },
+          {
+            "accrual_statuses": [
+              {
+                "status": "ADMINISTRATIVELY_COMPLETE",
+                "status_datetime": "2013-05-22T00:00:00.000002"
+              },
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2010-04-29T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2015-08-18T17:49:21.170000"
+          },
+          {
+            "local_sp_identifier": "UMCC 2008.048",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2011-11-22T14:16:14.055000"
+          }
+        ],
+        "name_with_id": "University of Michigan Comprehensive Cancer Center___id:131413",
+        "current_recruiting_status": "ADMINISTRATIVELY_COMPLETE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "The response rates and corresponding 95% confidence intervals will be reported to indicate the estimates and their precision.",
+        "is_safety_related": false,
+        "measure": "Complete response (no vomiting and no need for nausea rescue medication) in terminally ill patients suffering from nausea and/or vomiting, treated with palonosetron hydrochloride",
+        "time_frame": "24 hours after treatment",
+        "type": "PRIMARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "1337648",
+        "ctep_id": "15501",
+        "prefix": "Dr.",
+        "first_name": "Susan",
+        "middle_name": "G.",
+        "last_name": "Urba",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:46:43.945310",
+        "strap_updated_datetime": "2021-04-07T23:32:18.577874",
+        "strap_publication_datetime": "2021-04-07T23:32:18.577874",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:32:18.577874",
+        "version_no": "1cc35521448c75a830c64c6440383dfa",
+        "name": "Urba, Susan G.",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2011-11-22T14:16:15.932000"
+          }
+        ]
+      }
+    ],
+    "phase": "II",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "proprietary_trial": false,
+    "public_title": "Palonosetron Hydrochloride in Treating Nausea and Vomiting in Terminally Ill Patients",
+    "resourcing": [
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "46592",
+        "summary_4_report": false
+      },
+      {
+        "active": true,
+        "organization_id": "131028",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. To determine the complete response (no vomiting and no need for nausea rescue medication) in terminally ill patients suffering from nausea and/or vomiting, treated with palonosetron (palonosetron hydrochloride).\r\n\r\nSECONDARY OBJECTIVES: \r\nI. To determine the partial response (relief of nausea and vomiting to the extent that the patient desires continued dosing with palonosetron,) in terminally ill patients suffering from nausea and/or vomiting, treated with palonosetron. \r\n\r\nOUTLINE:\r\nPatients receive palonosetron hydrochloride intravenously (IV). Patients still experiencing nausea or vomiting may receive up to 3 more doses given 24 hours apart. \r\n\r\nAfter completion of study treatment, patients are followed up at 30 days.",
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "comments": [
+          "loss funding"
+        ],
+        "message_datetime": "2013-05-22T00:00:00.000004",
+        "status": "Terminated",
+        "status_datetime": "2013-05-22T00:00:00.000004"
+      },
+      {
+        "message_datetime": "2013-05-22T00:00:00.000003",
+        "status": "Active, not recruiting",
+        "status_datetime": "2013-05-22T00:00:00.000003"
+      },
+      {
+        "message_datetime": "2010-04-29T00:00:00.000002",
+        "status": "Recruiting",
+        "status_datetime": "2010-04-29T00:00:00.000002"
+      },
+      {
+        "message_datetime": "2008-06-18T00:00:00.000000",
+        "status": "Not yet recruiting",
+        "status_datetime": "2008-06-18T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T18:25:05.316148",
+    "strap_publication_datetime": "2021-05-25T22:17:36.033352",
+    "strap_updated_datetime": "2021-05-25T22:17:36.033352",
+    "study_classification_code": "EFFICACY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "131413",
+    "time_perspective": "UNKNOWN",
+    "title": "Palonosetron for the Treatment of Nausea and Vomiting in Terminally Ill Patients",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "why_study_stopped": "loss funding",
+    "version_no": "e5510333be9f0566c540ffa2dd8791f0",
+    "strap_publication_date": "2021-05-25T22:17:36.033352",
+    "current_trial_status": "Terminated",
+    "participating_sites": [
+      "131413"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "1337648",
+        "name": "Urba, Susan G.",
+        "first_name": "Susan",
+        "middle_name": "G.",
+        "last_name": "Urba",
+        "org_id": "131413",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT00982995",
+    "lead_organization_id": "UMCC 2008.048",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Susan",
+        "last_name": "Urba",
+        "middle_name": "G.",
+        "name": "Urba, Susan G.",
+        "prefix": "Dr.",
+        "id": "1337648"
+      }
+    ],
+    "current_trial_status_date": "2013-05-22T00:00:00.000004",
+    "record_verification_date": "2015-08-18T17:49:21.145000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2012-04-29T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-04-29T00:00:00.000000",
+    "lead_organizations": {
+      "id": "131413",
+      "name": "University of Michigan Comprehensive Cancer Center"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Nausea and Vomiting",
+          "code": "C3259",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "finding"
+          ]
+        }
+      ],
+      "diseases2": []
+    }
+  }
+}

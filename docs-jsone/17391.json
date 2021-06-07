@@ -1,0 +1,2500 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2016-01974",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUBJECT",
+    "age_criteria": "Minimum age: 18.0 Years\nMaximum age: 999.0 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Other Endocrine System"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "biomarkers": [
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3421504",
+        "evaluation_type": "Level/Quantity, Other",
+        "evs_id": "C331",
+        "name": "Calcium",
+        "other_evaluation_type": "Levels greater than or equal to 10.9 mg/dL",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Serum",
+        "use": "Integral",
+        "inclusion_indicator": "TRIAL",
+        "eligibility_criterion": "inclusion",
+        "ctrp_display_name": "Calcium",
+        "preferred_name": "Calcium",
+        "definitions": [
+          "A mineral needed for healthy teeth, bones, and other body tissues. It is the most common mineral in the body. A deposit of calcium in body tissues, such as breast tissue, may be a sign of disease.",
+          "An element with atomic symbol Ca, atomic number 20, and atomic weight 40.08."
+        ],
+        "synonyms": [
+          {
+            "name": "Calcium",
+            "type": "Display_Name"
+          },
+          {
+            "name": "Ca",
+            "termGroup": "AB",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Calcium",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Calcium",
+            "termGroup": "DN",
+            "type": "FULL_SYN",
+            "source": "CTRP"
+          },
+          {
+            "name": "calcium",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000045632"
+          },
+          {
+            "name": "CALCIUM",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "FDA",
+            "code": "SY7Q814VUP",
+            "subSource": "UNII"
+          },
+          {
+            "name": "Calcium (NOS)",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "DCP",
+            "code": "30724"
+          },
+          {
+            "name": "Calcium",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Calcium",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Element, Ion, or Isotope"
+        ],
+        "children": [],
+        "parents": [
+          "C1940"
+        ],
+        "roles": [],
+        "associations": [
+          "C142799",
+          "C116977",
+          "C63923"
+        ],
+        "cousins": [],
+        "type": [
+          "reference_gene"
+        ],
+        "evs_name": "Calcium"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3521271",
+        "evaluation_type": "Level/Quantity, Other",
+        "evs_id": "C41027",
+        "name": "PTH (Parathormone; Parathyroid Hormone; Parathyrin; PTH1)",
+        "other_evaluation_type": "Preoperatively elevated beyond normal range or inappropriately high for associated calcium level",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Unspecified",
+        "use": "Integral",
+        "inclusion_indicator": "TRIAL",
+        "eligibility_criterion": "inclusion",
+        "ctrp_display_name": "Parathyroid Hormone",
+        "preferred_name": "Parathyroid Hormone",
+        "definitions": [
+          "A substance made by the parathyroid gland that helps the body store and use calcium. A higher-than-normal amount of parathormone causes high levels of calcium in the blood and may be a sign of disease.",
+          "Parathyroid hormone (115 aa, ~13 kDa) is encoded by the human PTH gene. This protein is involved in the modulation of calcium ion and phosphate concentration in the blood."
+        ],
+        "synonyms": [
+          {
+            "name": "Parathyroid Hormone",
+            "type": "Display_Name"
+          },
+          {
+            "name": "parathormone",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000403137"
+          },
+          {
+            "name": "Parathormone",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Parathyrin",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "parathyrin",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000403138"
+          },
+          {
+            "name": "Parathyroid Hormone",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Parathyroid Hormone",
+            "termGroup": "DN",
+            "type": "FULL_SYN",
+            "source": "CTRP"
+          },
+          {
+            "name": "parathyroid hormone",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000044339"
+          },
+          {
+            "name": "Parathyroid Hormone 1",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Prepro-PTH",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Preproparathyroid Hormone",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PTH",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Parathyroid_Hormone",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Parathyroid Hormone",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Amino Acid, Peptide, or Protein",
+          "Hormone"
+        ],
+        "children": [],
+        "parents": [
+          "C1746"
+        ],
+        "roles": [
+          "C16395",
+          "C25994",
+          "C41025"
+        ],
+        "associations": [
+          "C142799",
+          "C142800",
+          "C116977"
+        ],
+        "cousins": [
+          "C25994",
+          "C41025"
+        ],
+        "type": [
+          "reference_gene",
+          "genetic_biomarker"
+        ],
+        "evs_name": "Parathyroid Hormone"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C17021",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Protein",
+        "definitions": [
+          "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.",
+          "A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies.",
+          "A representation of an organic macromolecule in public resources (e.g., UniProt or NCBI RefSeq) composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons.  Comment Requested:  In interest of re-using existing standards, should the above definition of Protein be replaced by the following from the NLM -- :  A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies. [Source: http://ghr.nlm.nih.gov/glossary=protein]  EXAMPLE(S): A protein record from UniProt Knowledgebase: http://www.uniprot.org/uniprot/P38398   OTHER NAME(S):  NOTE(S):"
+        ],
+        "synonyms": [
+          {
+            "name": "Protein",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "caDSR"
+          },
+          {
+            "name": "protein",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000046092"
+          },
+          {
+            "name": "Protein",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "BRIDG 5.3"
+          },
+          {
+            "name": "Protein",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Protein",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "GDC"
+          },
+          {
+            "name": "Protein (NOS)",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "DCP",
+            "code": "31102"
+          },
+          {
+            "name": "Proteins",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Protein",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Protein",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Amino Acid, Peptide, or Protein"
+        ],
+        "children": [
+          "C54674",
+          "C20184",
+          "C20130",
+          "C20027",
+          "C20030",
+          "C20032",
+          "C20028"
+        ],
+        "parents": [
+          "C26548"
+        ],
+        "roles": [],
+        "associations": [
+          "C159503",
+          "C159501",
+          "C157711",
+          "C159115",
+          "C177537",
+          "C177557"
+        ],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Protein"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C1940",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Element",
+        "definitions": [
+          "A basic part of a whole. In chemistry, refers to a simple substance that cannot be broken down into smaller parts or changed into another substance. The basic part of an element is an atom, which contains protons, neutrons, and electrons. All atoms of an element have the same number of protons. Examples of elements are hydrogen, carbon, oxygen, nitrogen, and calcium.",
+          "A substance whose atoms all have the same atomic number, that cannot be divided into simpler substances, and that singly or in combination constitute all matter."
+        ],
+        "synonyms": [
+          {
+            "name": "Element",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "element",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000613508"
+          },
+          {
+            "name": "Element_or_Isotope",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Element",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Element, Ion, or Isotope"
+        ],
+        "children": [
+          "C95187",
+          "C28131",
+          "C61475",
+          "C61481",
+          "C331",
+          "C63798",
+          "C28140",
+          "C95185",
+          "C85242",
+          "C47933",
+          "C61800",
+          "C637",
+          "C61863",
+          "C722",
+          "C47934",
+          "C765",
+          "C465",
+          "C825",
+          "C84589",
+          "C830",
+          "C95192",
+          "C896",
+          "C63731",
+          "C85247"
+        ],
+        "parents": [
+          "C579"
+        ],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Element"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C25994",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Peptide Hormone Gene",
+        "definitions": [
+          "Peptide Hormone Genes encode Peptide Hormones, typically synthesized as larger precursor molecules from which are derived smaller active proteins that function as hormonal signals secreted by one tissue or organ and have physiological effects on other tissues or organs."
+        ],
+        "synonyms": [
+          {
+            "name": "Peptide Hormone Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Peptide_Hormone_Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Peptide Hormone Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C94784",
+          "C113264",
+          "C115166",
+          "C38185",
+          "C21311",
+          "C21312",
+          "C106488",
+          "C137984",
+          "C104096",
+          "C131341",
+          "C24248",
+          "C38189",
+          "C128851",
+          "C129840",
+          "C39297",
+          "C21200",
+          "C38190",
+          "C28577",
+          "C24358",
+          "C147998",
+          "C148347",
+          "C94666",
+          "C24422",
+          "C38320",
+          "C104427",
+          "C104430",
+          "C38491",
+          "C38493",
+          "C126515",
+          "C20223",
+          "C112879",
+          "C24514",
+          "C24515",
+          "C95047",
+          "C139912",
+          "C24635",
+          "C139907",
+          "C88520",
+          "C39649",
+          "C38178",
+          "C129909",
+          "C39655",
+          "C41025",
+          "C104810",
+          "C113641",
+          "C148310",
+          "C24826",
+          "C24836",
+          "C24837",
+          "C39666",
+          "C39668",
+          "C21411"
+        ],
+        "parents": [
+          "C16612"
+        ],
+        "roles": [
+          "C16395"
+        ],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Peptide Hormone Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C1746",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Peptide Hormone",
+        "definitions": [
+          "Small proteins that function as hormonal signals, synthesized and secreted by one tissue or organ with physiological effects on other tissues or organs."
+        ],
+        "synonyms": [
+          {
+            "name": "Peptide Hormone",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Peptide_Hormone",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Peptide Hormone",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Amino Acid, Peptide, or Protein",
+          "Hormone"
+        ],
+        "children": [
+          "C94786",
+          "C113266",
+          "C115169",
+          "C131343",
+          "C136722",
+          "C137986",
+          "C104098",
+          "C104429",
+          "C136376",
+          "C128853",
+          "C17479",
+          "C16436",
+          "C39673",
+          "C1285",
+          "C26151",
+          "C148000",
+          "C104399",
+          "C148349",
+          "C104432",
+          "C94668",
+          "C136748",
+          "C129842",
+          "C113249",
+          "C126517",
+          "C2183",
+          "C113516",
+          "C112881",
+          "C46081",
+          "C33975",
+          "C139914",
+          "C139909",
+          "C113693",
+          "C41027",
+          "C104812",
+          "C752",
+          "C114795",
+          "C129911",
+          "C113643",
+          "C148312",
+          "C30004",
+          "C30005",
+          "C2284",
+          "C2304",
+          "C882",
+          "C136789"
+        ],
+        "parents": [
+          "C20027"
+        ],
+        "roles": [
+          "C16395",
+          "C25994"
+        ],
+        "associations": [],
+        "cousins": [
+          "C25994"
+        ],
+        "type": [],
+        "evs_name": "Peptide Hormone"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C16612",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Gene",
+        "definitions": [
+          "A functional unit of heredity that occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of a protein or other product.  Comment Requested:  In interest of re-using existing standards, should the above definition of Gene be replaced by the following from the NLM -  The basic physical and functional unit of heredity. It is made up of DNA and act as instructions to make molecules called proteins.  [Source: http://ghr.nlm.nih.gov/handbook/basics/gene]   EXAMPLE(S): BRCA1 gene  OTHER NAME(S):  NOTE(S):",
+          "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.",
+          "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function. (NCI)",
+          "The functional and physical unit of heredity passed from parent to offspring. Genes are pieces of DNA, and most genes contain the information for making a specific protein."
+        ],
+        "synonyms": [
+          {
+            "name": "gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI-GLOSS",
+            "code": "CDR0000045693"
+          },
+          {
+            "name": "GENE",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "CDISC"
+          },
+          {
+            "name": "Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "BRIDG 5.3"
+          },
+          {
+            "name": "Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Gene",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "caDSR"
+          },
+          {
+            "name": "Genes",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C54259",
+          "C20462",
+          "C19540",
+          "C20917",
+          "C25802",
+          "C21518",
+          "C21550",
+          "C25969",
+          "C19676",
+          "C21281",
+          "C29938",
+          "C28510",
+          "C21344",
+          "C25791",
+          "C25790",
+          "C54401",
+          "C21295",
+          "C16812",
+          "C26039",
+          "C80699",
+          "C38187",
+          "C20157",
+          "C25994",
+          "C26016",
+          "C20194",
+          "C20370",
+          "C20921",
+          "C20744",
+          "C20338",
+          "C54362",
+          "C21240"
+        ],
+        "parents": [],
+        "roles": [],
+        "associations": [
+          "C159503",
+          "C159501",
+          "C132317",
+          "C66830",
+          "C61410"
+        ],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C41025",
+        "ctrp_display_name": "PTH Gene",
+        "preferred_name": "PTH Gene",
+        "definitions": [
+          "This gene plays a role in blood calcium regulation. Defects in the gene are associated with familial isolated hypoparathyroidism."
+        ],
+        "synonyms": [
+          {
+            "name": "PTH Gene",
+            "type": "Display_Name"
+          },
+          {
+            "name": "Parathyroid Hormone Gene",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PTH",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PTH",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "HGNC",
+            "code": "HGNC:9606"
+          },
+          {
+            "name": "PTH Gene",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "PTH Gene",
+            "termGroup": "DN",
+            "type": "FULL_SYN",
+            "source": "CTRP"
+          },
+          {
+            "name": "PTH_Gene",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "PTH Gene",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Gene or Genome"
+        ],
+        "children": [
+          "C52426"
+        ],
+        "parents": [
+          "C25994"
+        ],
+        "roles": [
+          "C16395"
+        ],
+        "associations": [
+          "C142799",
+          "C142800",
+          "C142801",
+          "C116977"
+        ],
+        "cousins": [
+          "C81964",
+          "C99368",
+          "C74784",
+          "C74789",
+          "C81965",
+          "C81966",
+          "C103451"
+        ],
+        "type": [
+          "reference_gene",
+          "genetic_biomarker"
+        ],
+        "evs_name": "PTH Gene"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C579",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Inorganic Chemical",
+        "definitions": [
+          "A broad class of substances, principally from mineral sources of non-biological origin, encompassing all those that do not include carbon and its derivatives as their principal elements."
+        ],
+        "synonyms": [
+          {
+            "name": "Inorganic Chemical",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Inorganic_Chemical",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Inorganic Chemical",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Classification",
+          "Inorganic Chemical"
+        ],
+        "children": [
+          "C73434",
+          "C87427",
+          "C65288",
+          "C172619",
+          "C87466",
+          "C91099",
+          "C464",
+          "C1940",
+          "C512",
+          "C67342",
+          "C597",
+          "C83935",
+          "C656",
+          "C822",
+          "C45499",
+          "C66694"
+        ],
+        "parents": [
+          "C1913"
+        ],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Inorganic Chemical"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C1913",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Drug or Chemical by Structure",
+        "definitions": [
+          "Substances that are grouped or classified by chemical composition."
+        ],
+        "synonyms": [
+          {
+            "name": "Drug or Chemical by Structure",
+            "termGroup": "HD",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Drugs_and_Chemicals_Structural_Classification",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Drug or Chemical by Structure",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Classification"
+        ],
+        "children": [
+          "C579",
+          "C63845",
+          "C62364",
+          "C62308",
+          "C718",
+          "C48803"
+        ],
+        "parents": [
+          "C1908"
+        ],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Drug or Chemical by Structure"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C26548",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Gene Product",
+        "definitions": [
+          "A protein, RNA or a complex that contains proteins and/or RNA."
+        ],
+        "synonyms": [
+          {
+            "name": "Gene Product",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Genome Encoded Entity",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Gene_Product",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Gene Product",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Classification"
+        ],
+        "children": [
+          "C28454",
+          "C813",
+          "C111298",
+          "C28566",
+          "C21176",
+          "C17021",
+          "C26549"
+        ],
+        "parents": [],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Gene Product"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C20027",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Protein, Organized by Function",
+        "definitions": [
+          "Organizing term for the Proteins tree"
+        ],
+        "synonyms": [
+          {
+            "name": "Protein, Organized by Function",
+            "termGroup": "HD",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Proteins [By Function]",
+            "termGroup": "SY",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Protein_Organized_by_Function",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Protein, Organized by Function",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Classification"
+        ],
+        "children": [
+          "C17764",
+          "C21523",
+          "C20464",
+          "C21170",
+          "C16554",
+          "C20424",
+          "C16725",
+          "C17728",
+          "C54671",
+          "C21140",
+          "C686",
+          "C16934",
+          "C1746",
+          "C18466",
+          "C18515",
+          "C29736",
+          "C18073",
+          "C38576",
+          "C20982",
+          "C54672"
+        ],
+        "parents": [
+          "C17021"
+        ],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Protein, Organized by Function"
+      },
+      {
+        "inclusion_indicator": "TREE",
+        "eligibility_criterion": "exclusion",
+        "evs_id": "C1908",
+        "ctrp_display_name": "UNKNOWN",
+        "preferred_name": "Drug, Food, Chemical or Biomedical Material",
+        "definitions": [
+          "An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health."
+        ],
+        "synonyms": [
+          {
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "termGroup": "PT",
+            "type": "FULL_SYN",
+            "source": "NCI"
+          },
+          {
+            "name": "Drugs_and_Chemicals",
+            "type": "Legacy Concept Name"
+          },
+          {
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "type": "Preferred_Name"
+          }
+        ],
+        "semantic_types": [
+          "Classification"
+        ],
+        "children": [
+          "C16338",
+          "C1932",
+          "C1505",
+          "C1913",
+          "C1949",
+          "C45678",
+          "C577",
+          "C66892",
+          "C1909",
+          "C1899",
+          "C1816"
+        ],
+        "parents": [],
+        "roles": [],
+        "associations": [],
+        "cousins": [],
+        "type": [],
+        "evs_name": "Drug, Food, Chemical or Biomedical Material"
+      }
+    ],
+    "containers": [
+      {
+        "id": "16721656",
+        "program_codes": [
+          "238432976"
+        ]
+      }
+    ],
+    "ctro_override": false,
+    "data_monitoring_committee_appointed": true,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2017-06-24T21:01:46.819000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2017-06-10T10:47:52.816000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2019-02-04T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2016-05-12T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This clinical trial studies the omission of intact parathyroid hormone testing during surgery in treating patients with primary hyperparathyroidism. Omission of intact parathyroid hormone testing during parathyroid gland removal may help patients with primary hyperparathyroidism to decrease their time under anesthesia, and decrease the overall time and cost of surgery.",
+    "diseases": [
+      {
+        "display_name": "Primary Hyperparathyroidism",
+        "id": "C48280",
+        "is_lead_disease": false,
+        "name": "Primary Hyperparathyroidism",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Primary Hyperparathyroidism",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Disease or Disorder",
+                "code": "C2991"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C48259"
+        ]
+      },
+      {
+        "display_name": "Parathyroid Gland Adenoma",
+        "id": "C3916",
+        "is_lead_disease": false,
+        "name": "Parathyroid Gland Adenoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Parathyroid Gland Adenoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Neoplasm",
+                "code": "C3262"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adenoma of Parathyroid",
+          "Adenoma of the Parathyroid Gland",
+          "Parathyroid Adenoma"
+        ],
+        "parents": [
+          "C2855",
+          "C3313"
+        ]
+      },
+      {
+        "id": "C27571",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Head and Neck Disorder",
+        "display_name": "Head and Neck Disorder",
+        "preferred_name": "Head and Neck Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C48259",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hyperparathyroidism",
+        "display_name": "Hyperparathyroidism",
+        "preferred_name": "Hyperparathyroidism",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "hyperparathyroidism"
+        ],
+        "parents": [
+          "C3009",
+          "C26844"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C27648",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neck Disorder",
+        "display_name": "Neck Disorder",
+        "preferred_name": "Neck Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neck Disease"
+        ],
+        "parents": [
+          "C27571"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3009",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endocrine System Disorder",
+        "display_name": "Endocrine System Disorder",
+        "preferred_name": "Endocrine System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Endocrine System",
+          "Endocrine Disease",
+          "Endocrine Disorder",
+          "Endocrinopathy",
+          "Thyroid or other glandular disorders"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3077",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Head and Neck Neoplasm",
+        "display_name": "Head and Neck Neoplasm",
+        "preferred_name": "Head and Neck Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Head and Neck Neoplasm (Excluding Central Nervous System)",
+          "Head and Neck Tumor",
+          "Neoplasm of Head and Neck",
+          "Neoplasm of the Head and Neck",
+          "Tumor of Head and Neck",
+          "Tumor of the Head and Neck"
+        ],
+        "parents": [
+          "C27571",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C2855",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adenoma",
+        "display_name": "Adenoma",
+        "preferred_name": "Adenoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOMA, BENIGN",
+          "Adenoma, NOS",
+          "adenoma"
+        ],
+        "parents": [
+          "C3709"
+        ]
+      },
+      {
+        "id": "C26844",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Parathyroid Gland Disorder",
+        "display_name": "Parathyroid Gland Disorder",
+        "preferred_name": "Parathyroid Gland Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Parathyroid Gland Disease",
+          "Parathyroid Gland Diseases",
+          "Parathyroid Gland Disorders"
+        ],
+        "parents": [
+          "C27648"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C3313",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Parathyroid Gland Neoplasm",
+        "display_name": "Parathyroid Gland Neoplasm",
+        "preferred_name": "Parathyroid Gland Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Parathyroid",
+          "Neoplasm of Parathyroid Gland",
+          "Neoplasm of the Parathyroid",
+          "Neoplasm of the Parathyroid Gland",
+          "Parathyroid Gland Tumor",
+          "Parathyroid Neoplasm",
+          "Parathyroid Tumor",
+          "Tumor of Parathyroid",
+          "Tumor of Parathyroid Gland",
+          "Tumor of the Parathyroid",
+          "Tumor of the Parathyroid Gland"
+        ],
+        "parents": [
+          "C3260",
+          "C26844"
+        ]
+      },
+      {
+        "id": "C3260",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neck Neoplasm",
+        "display_name": "Neck Neoplasm",
+        "preferred_name": "Neck Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neck Neoplasms (Including All Pharyngeal Related Neoplasms)",
+          "Neck Tumor",
+          "Neoplasm of Neck",
+          "Neoplasm of the Neck",
+          "Tumor of Neck",
+          "Tumor of the Neck"
+        ],
+        "parents": [
+          "C3077",
+          "C27648"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": false,
+        "name": "Protocol 201309108 5 17 17.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01974/Protocol 201309108 5 17 17.pdf",
+        "type": "OTHER"
+      },
+      {
+        "active": true,
+        "name": "TSR_NCI-2016-01974_2017-06-16-1456_A2.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01974/TSR_NCI-2016-01974_2017-06-16-1456_A2.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "I 274915 PROT AMD2 SOC 111416.doc",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01974/I 274915 PROT AMD2 SOC 111416.doc",
+        "type": "CHANGE_MEMO_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "I 274915 PROT AMD2 CLN 111416.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01974/I 274915 PROT AMD2 CLN 111416.pdf",
+        "type": "PROTOCOL_DOCUMENT"
+      },
+      {
+        "active": true,
+        "name": "i 274915 irb app.pdf",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01974/i 274915 irb app.pdf",
+        "type": "IRB_APPROVAL_DOCUMENT"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "4D CT positive for multiple gland disease",
+        "display_order": 8,
+        "inclusive": false
+      },
+      {
+        "description": "Patient has recurrent hyperparathyroidism",
+        "display_order": 7,
+        "inclusive": false
+      },
+      {
+        "description": "Preoperative parathyroid hormone (PTH) elevated beyond normal range or inappropriately high for associated calcium level",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Patient has no history of prior neck surgery or radiation",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Preoperative serum calcium levels >= 10.9 mg/dL",
+        "display_order": 2,
+        "inclusive": true
+      },
+      {
+        "description": "Patient has inability to tolerate 4D CT scan (for example; contrast intravenous (IV) allergy, claustrophobia, renal disease)",
+        "display_order": 9,
+        "inclusive": false
+      },
+      {
+        "description": "Unwilling or unable to follow protocol requirements",
+        "display_order": 12,
+        "inclusive": false
+      },
+      {
+        "description": "Any condition which in the investigator’s opinion deems the subject an unsuitable candidate to undergo observational study (may also include preoperative testing results including electrocardiography [EKG], chest x-ray, or pulmonary function tests that preclude a wide excision in the operating room)",
+        "display_order": 13,
+        "inclusive": false
+      },
+      {
+        "description": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+        "display_order": 10,
+        "inclusive": false
+      },
+      {
+        "description": "Pregnant or nursing female subjects; may be determined in the preoperative evaluation",
+        "display_order": 11,
+        "inclusive": false
+      },
+      {
+        "description": "Positive 4 dimensional computed tomography (4D CT) for single gland (adenoma) primary hyperparathyroidism",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "Have an Eastern Cooperative Oncology Group (ECOG) performance status of =< 2",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "Subject or legal representative must understand the investigational nature of this study and sign an Independent Ethics Committee/Institutional Review Board approved written informed consent form prior to receiving any study related procedure",
+        "display_order": 6,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": false,
+    "grants": [
+      {
+        "id": "P30CA16056",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "created_datetime": "2016-12-21T10:06:51.038000",
+        "description": "Patients undergo standard minimally invasive parathyroidectomy without PTH testing during surgery.",
+        "identifier": 282560601,
+        "interventions": [
+          {
+            "description": "Undergo parathyroidectomy",
+            "display_order": 0,
+            "id": "C51593",
+            "name": "Parathyroidectomy",
+            "type": "Procedure/Surgery",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "description": "Correlative studies",
+            "display_order": 1,
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Surgical Procedure by Site or System",
+            "id": "C49163",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Head and Neck Surgery",
+            "id": "C15454",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Surgical Procedure",
+            "id": "C15329",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Operation",
+              "Surgery",
+              "Surgical Interventions",
+              "Surgical Procedures"
+            ]
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Procedure/Surgery",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Supportive Care (parathyroidectomy)",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2016-12-21T13:29:41.286000"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT03011736"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "I 274915"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2016-01974"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "lead_organization_family": "Roswell Park Cancer Institute",
+    "legacy_id": "281398359",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999.0 Years",
+    "max_age_in_years": 999,
+    "min_age": "18.0 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 60,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-2016-01974",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "173939",
+        "ctep_id": "NY158",
+        "name": "Roswell Park Cancer Institute",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "665 Elm Street",
+        "city_municipality": "Buffalo",
+        "state_province_territory": "NY",
+        "country": "United States",
+        "zipcode": "14263",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "phone_numbers": [
+          "877-275-7724"
+        ],
+        "urls": [
+          "http://www.roswellpark.org/"
+        ],
+        "status_datetime": "2010-08-02T19:31:10.333000",
+        "strap_created_datetime": "2020-04-14T17:16:04.638855",
+        "strap_updated_datetime": "2021-04-07T23:16:58.489146",
+        "strap_publication_datetime": "2021-04-07T23:16:58.489146",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:58.489146",
+        "version_no": "ceaef4e70b175f17a7bbb98ca3eb0f5e",
+        "geo_coordinates": {
+          "lat": 42.8868,
+          "lon": -78.8765
+        },
+        "persons": [
+          {
+            "id": "46346608",
+            "ctep_id": "56987",
+            "prefix": "Dr.",
+            "first_name": "Moshim",
+            "last_name": "Kukar",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:31:06.479729",
+            "strap_updated_datetime": "2021-04-07T23:47:15.209110",
+            "strap_publication_datetime": "2021-04-07T23:47:15.209110",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:47:15.209110",
+            "version_no": "8ec68fbf57d69060e771550fc01a862b",
+            "name": "Kukar, Moshim",
+            "roles": [
+              {
+                "email": "moshim.kukar@roswellpark.org",
+                "phone": "716-845-8972",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2016-12-16T12:08:05.254000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2016-12-16T12:07:06.764000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "role": "RESPONSIBLE_PARTY_SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2017-06-12T09:19:16.220000"
+          },
+          {
+            "irb_approval_number": "01/05/2017",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "Roswell Park Cancer Institute",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2017-04-03T08:59:46.950000"
+          },
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2016-05-12T00:00:00.000002"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2016-02-04T00:00:00.000001"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2016-12-16T12:09:21.452000"
+          },
+          {
+            "local_sp_identifier": "I 274915",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2017-06-12T09:19:15.817000"
+          },
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2017-06-12T09:19:16.046000"
+          }
+        ],
+        "name_with_id": "Roswell Park Cancer Institute___id:173939",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "Will be evaluated using a binomial exact test. A 95% confidence interval about pi will be obtained.",
+        "measure": "Cure of primary hyperparathyroidism following surgery with intraoperative parathyroid hormone (PTH) omission",
+        "time_frame": "At 2 weeks",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Will include savings from operating room time and PTH lab values.",
+        "measure": "Post-operative cost analysis",
+        "time_frame": "At 2 weeks",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "46346608",
+        "ctep_id": "56987",
+        "prefix": "Dr.",
+        "first_name": "Moshim",
+        "last_name": "Kukar",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:31:06.479729",
+        "strap_updated_datetime": "2021-04-07T23:47:15.209110",
+        "strap_publication_datetime": "2021-04-07T23:47:15.209110",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:47:15.209110",
+        "version_no": "8ec68fbf57d69060e771550fc01a862b",
+        "name": "Kukar, Moshim",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2017-06-12T09:19:15.974000"
+          }
+        ]
+      }
+    ],
+    "phase": "I",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "proprietary_trial": false,
+    "public_title": "Omission of Intact Parathyroid Hormone Testing during Surgery in Treating Patients with Primary Hyperparathyroidism",
+    "resourcing": [
+      {
+        "active": true,
+        "funding_mechanism": "P30",
+        "nci_division_program": "OD",
+        "nih_institute": "CA",
+        "serial_number": "16056",
+        "summary_4_report": false
+      },
+      {
+        "active": true,
+        "organization_id": "173939",
+        "summary_4_report": true,
+        "type": "INSTITUTIONAL"
+      }
+    ],
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. Determine the non-inferiority of omission of parathyroid hormone (PTH) in patients who meet the biochemical and radiological criteria compared to current standard of care (i.e. use of intraoperative parathyroid hormone testing).\r\n\r\nSECONDARY OBJECTIVES:\r\nI. Cost-analysis to determine savings of omission of intraoperative PTH testing.\r\n\r\nOUTLINE:\r\nPatients undergo standard minimally invasive parathyroidectomy without PTH testing during surgery.\r\n\r\nAfter completion of study, patients are followed up at 2 weeks and up to 6 months thereafter.",
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2016-05-12T00:00:00.000001",
+        "status": "Recruiting",
+        "status_datetime": "2016-05-12T00:00:00.000001"
+      },
+      {
+        "message_datetime": "2016-02-04T00:00:00.000000",
+        "status": "Not yet recruiting",
+        "status_datetime": "2016-02-04T00:00:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T22:21:07.084723",
+    "strap_publication_datetime": "2021-05-25T22:17:20.937420",
+    "strap_updated_datetime": "2021-05-25T22:17:20.937420",
+    "study_classification_code": "EFFICACY",
+    "study_source": "INSTITUTIONAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "173939",
+    "time_perspective": "UNKNOWN",
+    "title": "Single-Arm, Non-inferiority Study of Omission of Intraoperative Intact Parathyroid Hormone (PTH) during Minimally Invasive Parathyroidectomy for Primary Hyperparathyroidism",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "fb33b7a6cce082c0ebab62575b8d2f83",
+    "strap_publication_date": "2021-05-25T22:17:20.937420",
+    "current_trial_status": "Recruiting",
+    "participating_sites": [
+      "173939"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "46346608",
+        "name": "Kukar, Moshim",
+        "first_name": "Moshim",
+        "middle_name": null,
+        "last_name": "Kukar",
+        "org_id": "173939",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT03011736",
+    "lead_organization_id": "I 274915",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Moshim",
+        "last_name": "Kukar",
+        "middle_name": null,
+        "name": "Kukar, Moshim",
+        "prefix": "Dr.",
+        "id": "46346608"
+      }
+    ],
+    "current_trial_status_date": "2016-05-12T00:00:00.000001",
+    "record_verification_date": "2017-06-24T21:01:46.819000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2019-02-04T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2016-05-12T00:00:00.000000",
+    "lead_organizations": {
+      "id": "173939",
+      "name": "Roswell Park Cancer Institute"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 1,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Other Neoplasm",
+          "code": "C3262",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Primary Hyperparathyroidism",
+          "code": "C48280",
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Parathyroid Gland Adenoma",
+          "code": "C3916",
+          "ancestor_ids": [
+            "C3262"
+          ],
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Other Disease",
+          "code": "C2991",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C26844",
+            "C27551",
+            "C27571",
+            "C27648",
+            "C2991",
+            "C3009",
+            "C48259"
+          ],
+          "code": "C48280",
+          "name": "Primary Hyperparathyroidism",
+          "parent_ids": [
+            "C48259"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26844",
+            "C27551",
+            "C27571",
+            "C27648",
+            "C2991",
+            "C3077",
+            "C3260",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3313",
+          "name": "Parathyroid Gland Neoplasm",
+          "parent_ids": [
+            "C3260",
+            "C26844"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27571",
+            "C27648",
+            "C2991"
+          ],
+          "code": "C26844",
+          "name": "Parathyroid Gland Disorder",
+          "parent_ids": [
+            "C27648"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26844",
+            "C27551",
+            "C27571",
+            "C27648",
+            "C2991",
+            "C3009"
+          ],
+          "code": "C48259",
+          "name": "Hyperparathyroidism",
+          "parent_ids": [
+            "C26844",
+            "C3009"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3077",
+          "name": "Head and Neck Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27571",
+            "C27648",
+            "C2991",
+            "C3077",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3260",
+          "name": "Neck Neoplasm",
+          "parent_ids": [
+            "C27648",
+            "C3077"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C3009",
+          "name": "Endocrine System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C2855",
+          "name": "Adenoma",
+          "parent_ids": [
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27571",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3077",
+          "name": "Head and Neck Neoplasm",
+          "parent_ids": [
+            "C27571",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27571",
+            "C2991"
+          ],
+          "code": "C27648",
+          "name": "Neck Disorder",
+          "parent_ids": [
+            "C27571"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26844",
+            "C27551",
+            "C27571",
+            "C27648",
+            "C2855",
+            "C2991",
+            "C3077",
+            "C3260",
+            "C3262",
+            "C3263",
+            "C3313",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C3916",
+          "name": "Parathyroid Gland Adenoma",
+          "parent_ids": [
+            "C3313",
+            "C2855"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27571",
+          "name": "Head and Neck Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        }
+      ],
+      "biomarkers": [
+        {
+          "code": "C331",
+          "name": "Calcium",
+          "ancestor_parent_ids": [
+            "C579",
+            "C1913",
+            "C1940",
+            "C1908"
+          ],
+          "parent_ids": [
+            "C1940"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "inclusion",
+          "semantic_types": [
+            "Element, Ion, or Isotope"
+          ],
+          "type": [
+            "reference_gene"
+          ]
+        },
+        {
+          "code": "C41027",
+          "name": "Parathyroid Hormone",
+          "ancestor_parent_ids": [
+            "C20027",
+            "C26548",
+            "C1746",
+            "C17021"
+          ],
+          "parent_ids": [
+            "C1746"
+          ],
+          "ancestor_cousin_ids": [
+            "C25994",
+            "C16612",
+            "C41025"
+          ],
+          "cousin_ids": [
+            "C25994",
+            "C41025"
+          ],
+          "eligibility_criterion": "inclusion",
+          "semantic_types": [
+            "Amino Acid, Peptide, or Protein",
+            "Hormone"
+          ],
+          "type": [
+            "reference_gene",
+            "genetic_biomarker"
+          ]
+        },
+        {
+          "code": "C17021",
+          "name": "Protein",
+          "ancestor_parent_ids": [
+            "C26548"
+          ],
+          "parent_ids": [
+            "C26548"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Amino Acid, Peptide, or Protein"
+          ],
+          "type": []
+        },
+        {
+          "code": "C1940",
+          "name": "Element",
+          "ancestor_parent_ids": [
+            "C579",
+            "C1913",
+            "C1908"
+          ],
+          "parent_ids": [
+            "C579"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Element, Ion, or Isotope"
+          ],
+          "type": []
+        },
+        {
+          "code": "C1746",
+          "name": "Peptide Hormone",
+          "ancestor_parent_ids": [
+            "C20027",
+            "C26548",
+            "C17021"
+          ],
+          "parent_ids": [
+            "C20027"
+          ],
+          "ancestor_cousin_ids": [
+            "C25994",
+            "C16612"
+          ],
+          "cousin_ids": [
+            "C25994"
+          ],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Amino Acid, Peptide, or Protein",
+            "Hormone"
+          ],
+          "type": []
+        },
+        {
+          "code": "C579",
+          "name": "Inorganic Chemical",
+          "ancestor_parent_ids": [
+            "C1913",
+            "C1908"
+          ],
+          "parent_ids": [
+            "C1913"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Classification",
+            "Inorganic Chemical"
+          ],
+          "type": []
+        },
+        {
+          "code": "C1913",
+          "name": "Drug or Chemical by Structure",
+          "ancestor_parent_ids": [
+            "C1908"
+          ],
+          "parent_ids": [
+            "C1908"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Classification"
+          ],
+          "type": []
+        },
+        {
+          "code": "C26548",
+          "name": "Gene Product",
+          "ancestor_parent_ids": [],
+          "parent_ids": [],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Classification"
+          ],
+          "type": []
+        },
+        {
+          "code": "C20027",
+          "name": "Protein, Organized by Function",
+          "ancestor_parent_ids": [
+            "C26548",
+            "C17021"
+          ],
+          "parent_ids": [
+            "C17021"
+          ],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Classification"
+          ],
+          "type": []
+        },
+        {
+          "code": "C1908",
+          "name": "Drug, Food, Chemical or Biomedical Material",
+          "ancestor_parent_ids": [],
+          "parent_ids": [],
+          "ancestor_cousin_ids": [],
+          "cousin_ids": [],
+          "eligibility_criterion": "exclusion",
+          "semantic_types": [
+            "Classification"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

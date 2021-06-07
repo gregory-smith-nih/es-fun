@@ -1,0 +1,7 @@
+{
+    "query": {
+        "match": {
+          "_index": "trials_05242021"
+       }
+    }
+  }

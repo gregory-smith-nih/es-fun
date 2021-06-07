@@ -1,0 +1,1 @@
+python src/es.py --aws false --port 9210 "$@" #2>err-local.jnk

@@ -1,0 +1,1745 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-7777-00042",
+  "_score": 1,
+  "_source": {
+    "alias": "NCI-7777-00042-ALIAS",
+    "anatomic_sites": [
+      "Liver"
+    ],
+    "bio_specimen_description": "NCI-7777-00042 bio specimen description",
+    "bio_specimen_retention": "SAMPLES_WITHOUT_DNA",
+    "biomarkers": [
+      {
+        "assay_type": "PCR",
+        "cadsr_id": "3636139",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C13218",
+        "name": "Chromosome 22",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Unspecified",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Unspecified",
+        "cadsr_id": "3009658",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C17675",
+        "name": "MKI67 (antigen identified by the monoclonal antibodies Ki-67 or MIB-1)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "PBMCs",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3218881",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C14156:C25390",
+        "name": "Apoptotic index (AI)",
+        "other_assay_type": "TUNEL",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      }
+    ],
+    "changes_in_ctrp_ctgov": false,
+    "comments": "NCI-7777-00042 comments",
+    "consortia_trial_category": "NATIONAL",
+    "containers": [
+      {
+        "id": "c600001",
+        "principal_investigator": "p100007",
+        "program_codes": [
+          "888888002"
+        ],
+        "target_accrual": 884,
+        "trial_id": "c600001-NCI-7777-00042"
+      },
+      {
+        "id": "c600004",
+        "principal_investigator": "p100073",
+        "program_codes": [
+          "888888001",
+          "888888003"
+        ],
+        "target_accrual": 1311,
+        "trial_id": "c600004-NCI-7777-00042"
+      },
+      {
+        "id": "c600002",
+        "principal_investigator": "p100022",
+        "program_codes": [
+          "888888001",
+          "888888002"
+        ],
+        "target_accrual": 2434,
+        "trial_id": "c600002-NCI-7777-00042"
+      }
+    ],
+    "ctro_override": false,
+    "ctro_override_comments": "NCI-7777-00042 ctro override comments",
+    "data_monitoring_committee_appointed": false,
+    "datetimes": [
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-04-08T02:57:37.000000"
+      },
+      {
+        "type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+        "value": "2019-05-02T14:34:49.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2019-05-04T14:34:49.000000"
+      },
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2019-05-07T14:34:49.000000"
+      }
+    ],
+    "delayed_posting": true,
+    "description": "NCI-7777-00042 description",
+    "designee_access_revoked": true,
+    "diseases": [
+      {
+        "display_name": "Stage I Soft Tissue Sarcoma AJCC v7",
+        "id": "C6537",
+        "is_lead_disease": true,
+        "name": "Stage I Soft Tissue Sarcoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage I Soft Tissue Sarcoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Soft Tissue Sarcoma",
+                "code": "C9306"
+              },
+              {
+                "idx": 1,
+                "label": "Sarcoma",
+                "code": "C9118"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage I Sarcoma of Soft Tissue",
+          "Stage I Sarcoma of the Soft Tissue",
+          "Stage I Soft Tissue Sarcoma AJCC v7",
+          "stage I soft tissue sarcoma"
+        ],
+        "parents": [
+          "C136707"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C9306",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Soft Tissue Sarcoma",
+        "display_name": "Soft Tissue Sarcoma",
+        "preferred_name": "Soft Tissue Sarcoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Connective Tissue Sarcoma",
+          "Non-Rhabdo. soft tissue sarcoma",
+          "Non-Rhabdomyosarcoma soft tissue sarcoma, NOS",
+          "Sarcoma of Soft Tissue",
+          "Sarcoma of the Soft Tissue",
+          "Soft tissue sarcoma",
+          "soft tissue sarcoma"
+        ],
+        "parents": [
+          "C4867",
+          "C9118"
+        ]
+      },
+      {
+        "id": "C4867",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Soft Tissue Neoplasm",
+        "display_name": "Malignant Soft Tissue Neoplasm",
+        "preferred_name": "Malignant Soft Tissue Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Soft Tissue",
+          "Malignant Neoplasm of the Soft Tissue",
+          "Malignant Soft Tissue Tumor",
+          "Malignant Tumor of Soft Tissue",
+          "Malignant Tumor of the Soft Tissue",
+          "Soft tissue tumor, malignant"
+        ],
+        "parents": [
+          "C9305",
+          "C3377"
+        ]
+      },
+      {
+        "id": "C3810",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Connective and Soft Tissue Neoplasm",
+        "display_name": "Connective and Soft Tissue Neoplasm",
+        "preferred_name": "Connective and Soft Tissue Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Connective and Soft Tissue Tumor",
+          "Musculoskeletal and Soft Tissue Neoplasm",
+          "Musculoskeletal and Soft Tissue Tumor",
+          "Neoplasm of Skeletal and Soft Tissue",
+          "Neoplasm of Soft Tissue and Bone",
+          "Neoplasm of Soft Tissue and Skeleton",
+          "Skeletal and Soft Tissue Neoplasm",
+          "Skeletal and Soft Tissue Tumor",
+          "Soft Tissue and Bone Neoplasm",
+          "Soft Tissue and Bone Tumor",
+          "Tumor of Skeletal and Soft Tissue",
+          "Tumor of Soft Tissue and Bone",
+          "Tumor of Soft Tissue and Skeleton"
+        ],
+        "parents": [
+          "C27574",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C136707",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Soft Tissue Sarcoma by AJCC v7 Stage",
+        "display_name": "Soft Tissue Sarcoma by AJCC v7 Stage",
+        "preferred_name": "Soft Tissue Sarcoma by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9306"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C9118",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Sarcoma",
+        "display_name": "Sarcoma",
+        "preferred_name": "Sarcoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Mesenchymal Tumor, Malignant",
+          "Mesenchymal tumor, malignant",
+          "SAR",
+          "SARCOMA, MALIGNANT",
+          "Sarcoma of Soft Tissue and Bone",
+          "Sarcoma of the Soft Tissue and Bone",
+          "Sarcoma, NOS",
+          "Sarcoma, Not Otherwise Specified",
+          "sarcoma"
+        ],
+        "parents": [
+          "C3810",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C27574",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Connective and Soft Tissue Disorder",
+        "display_name": "Connective and Soft Tissue Disorder",
+        "preferred_name": "Connective and Soft Tissue Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Connective and Soft Tissue Disease",
+          "Connective and Soft Tissue Diseases"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3377",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Soft Tissue Tumor",
+        "display_name": "Soft Tissue Neoplasm",
+        "preferred_name": "Soft Tissue Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Soft Tissue",
+          "Neoplasm of the Soft Tissue",
+          "Soft Tissue Neoplasm",
+          "Soft Tissue Tumors",
+          "Soft tissue neoplasm, NOS",
+          "Tumor of Soft Tissue",
+          "Tumor of the Soft Tissue"
+        ],
+        "parents": [
+          "C3810",
+          "C27042"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C27042",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Soft Tissue Disorder",
+        "display_name": "Soft Tissue Disorder",
+        "preferred_name": "Soft Tissue Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Soft Tissue Disease",
+          "Soft Tissue Diseases",
+          "Soft Tissue Disorders"
+        ],
+        "parents": [
+          "C27574"
+        ]
+      }
+    ],
+    "division_department_id": "CTEP",
+    "eligibility_criteria": [
+      {
+        "description": "Minimum age: 5 Years\nMaximum age: 40 Years",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": "SEX: MALE",
+        "inclusive": true,
+        "type": "SEX"
+      },
+      {
+        "description": "This trial accept healthy volunteers.",
+        "type": "ACCEPTS_HEALTHY_VOLUNTEERS"
+      },
+      {
+        "description": "COHORT B: Patients must fulfill all of the General Inclusion Criteria",
+        "display_order": 28,
+        "inclusive": true
+      },
+      {
+        "description": "Patients with cervix cancer who have received any previous radiation or chemotherapy",
+        "display_order": 17,
+        "inclusive": false
+      },
+      {
+        "description": "Known to be seropositive for HIV",
+        "display_order": 21,
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "UM1CA186689",
+        "nci_division_program": "CTEP"
+      },
+      {
+        "id": "P30CA91842",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "description": "Patients receive brentuximab vedotin IV over 30 minutes on day 1 and lenalidomide PO QD on days 1-21 (except dose level 2 days 1-14). Treatment repeats every 21 days for up to 16 courses in the absence of disease progression or unacceptable toxicity.\r\n\r\nPatients with a CR, PR, or SD at the completion of 16 courses may continue to receive treatment with brentuximab vedotin and lenalidomide at the discretion of the treating physician.",
+        "interventions": [
+          {
+            "description": "Given PO",
+            "id": "C2668",
+            "name": "Lenalidomide",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Revlimid"
+            ]
+          },
+          {
+            "description": "Given IV",
+            "id": "C66944",
+            "name": "Brentuximab Vedotin",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Adcetris"
+            ]
+          },
+          {
+            "description": "Correlative studies",
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Anti-CD30 Antibody-drug Conjugate",
+            "id": "C158973",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "CD30-targeting Agent",
+            "id": "C164005",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Immunomodulating Agent",
+            "id": "C129820",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Immunomodulatory Imide Drug",
+            "id": "C157388",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Ring Compound",
+            "id": "C1933",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Antibody-Drug Conjugate",
+            "id": "C129823",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Aromatic Compounds",
+            "id": "C1915",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Biological Agent",
+            "id": "C307",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Angiogenesis Inhibitor",
+            "id": "C1742",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Biological Agent",
+            "id": "C129821",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Organic Chemical",
+            "id": "C718",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Drug or Chemical by Structure",
+            "id": "C1913",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Immunotherapy",
+            "id": "C308",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": [
+              "Immunotherapeutic Agent"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Immunoconjugate",
+            "id": "C1512",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Indole Compound",
+            "id": "C54677",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Targeted Therapy Agent",
+            "id": "C163758",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Treatment (brentuximab vedotin, lenalidomide)",
+        "type": "EXPERIMENTAL"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT777700042"
+      },
+      {
+        "type": "CTEP_ID",
+        "value": "CTEP777700042"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "LOID777700042"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "OTHER777700042"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-7777-00042"
+      }
+    ],
+    "interventional": false,
+    "keywords": [
+      "BDD",
+      "TEST",
+      "SEED DATA"
+    ],
+    "legacy_id": "3333300042",
+    "min_target_accrual": 2150,
+    "nci_grant_provided": false,
+    "nci_id": "NCI-7777-00042",
+    "non_interventional_design": "ECOLOGIC_OR_COMMUNITY_STUDIES",
+    "number_of_groups": 4,
+    "organizations": [
+      {
+        "address_line_1": "8149 Overlook Ct.",
+        "city_municipality": "St. Louis",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:09.272808",
+        "ctep_id": "o100006_CTEP",
+        "emails": [
+          "o100006_0@yahoo.com",
+          "o100006_1@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-006-1032",
+          "100-006-1015",
+          "100-006-1089"
+        ],
+        "id": "o100006",
+        "name": "Garden Research Group",
+        "phone_numbers": [
+          "100-006-9072",
+          "100-006-9089"
+        ],
+        "state_province_territory": "MO",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:09.272808",
+        "strap_created_datetime": "2020-05-01T20:33:08.403703",
+        "strap_updated_datetime": "2021-04-24T20:37:09.353434",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:09.353434",
+        "urls": [
+          "www.o100006_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "63133",
+        "strap_publication_date": "2021-04-24T20:37:09.353434",
+        "version_no": "f7096df0f143f507cbdb4852795e5acf",
+        "geo_coordinates": {
+          "lat": 38.6807,
+          "lon": -90.3068
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:38:01.976492",
+            "ctep_id": "p100019_CTEP",
+            "first_name": "Jesse",
+            "id": "p100019",
+            "last_name": "Lucas",
+            "middle_name": "Cole",
+            "strap_created_datetime": "2020-05-01T19:23:29.668151",
+            "strap_updated_datetime": "2021-04-24T20:38:02.066067",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:38:02.066067",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:38:02.066067",
+            "version_no": "f83e4d02f1b962946862bc930059916a",
+            "name": "Lucas, Jesse Cole",
+            "roles": [
+              {
+                "email": "o100006_0@yahoo.com",
+                "phone": "100-006-9044",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:47.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:47.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:47.000000"
+          }
+        ],
+        "name_with_id": "Garden Research Group___id:o100006",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "8790 Valley Dr.",
+        "city_municipality": "Camden",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:36:59.387007",
+        "ctep_id": "o100018_CTEP",
+        "emails": [
+          "o100018_0@yahoo.com",
+          "o100018_1@yahoo.com",
+          "o100018_2@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-018-1056",
+          "100-018-1085",
+          "100-018-1012"
+        ],
+        "id": "o100018",
+        "name": "Hallmark Cancer Group",
+        "phone_numbers": [
+          "100-018-9070"
+        ],
+        "state_province_territory": "SC",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:36:59.387007",
+        "strap_created_datetime": "2020-05-01T20:32:56.916733",
+        "strap_updated_datetime": "2021-04-24T20:36:59.652118",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:36:59.652118",
+        "urls": [
+          "www.o100018_0.com",
+          "www.o100018_1.com",
+          "www.o100018_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "29020",
+        "strap_publication_date": "2021-04-24T20:36:59.652118",
+        "version_no": "025bfce051dca0cd2da0f77ec4bec965",
+        "geo_coordinates": {
+          "lat": 34.3199,
+          "lon": -80.6053
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:26.072768",
+            "ctep_id": "p100070_CTEP",
+            "first_name": "Jazlyn",
+            "id": "p100070",
+            "last_name": "Bell",
+            "middle_name": "Ryan",
+            "strap_created_datetime": "2020-05-01T19:21:04.456746",
+            "strap_updated_datetime": "2021-04-24T20:37:26.303636",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:26.303636",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:26.303636",
+            "version_no": "e14d2ba985d5fb13fb88c04e509656ac",
+            "name": "Bell, Jazlyn Ryan",
+            "roles": [
+              {
+                "email": "o100018_0@yahoo.com",
+                "phone": "100-018-9097",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:46.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:46.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:46.000000"
+          }
+        ],
+        "name_with_id": "Hallmark Cancer Group___id:o100018",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "9933 Janette Ave.",
+        "city_municipality": "Little Rock",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:05.234888",
+        "ctep_id": "o100004_CTEP",
+        "emails": [
+          "o100004_0@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-004-1006",
+          "100-004-1045",
+          "100-004-1064"
+        ],
+        "id": "o100004",
+        "name": "Hallmark Forest Health System",
+        "phone_numbers": [
+          "100-004-9066",
+          "100-004-9027"
+        ],
+        "state_province_territory": "AR",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:05.234888",
+        "strap_created_datetime": "2020-05-01T20:33:03.419572",
+        "strap_updated_datetime": "2021-04-24T20:37:05.347447",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:05.347447",
+        "urls": [
+          "www.o100004_0.com",
+          "www.o100004_1.com",
+          "www.o100004_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "72216",
+        "strap_publication_date": "2021-04-24T20:37:05.347447",
+        "version_no": "f30ab9d7301bcfeef4defca9148453dd",
+        "geo_coordinates": {
+          "lat": 34.8257,
+          "lon": -92.216
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:42.298725",
+            "ctep_id": "p100012_CTEP",
+            "first_name": "Matthew",
+            "id": "p100012",
+            "last_name": "Page",
+            "strap_created_datetime": "2020-05-01T19:22:53.903353",
+            "strap_updated_datetime": "2021-04-24T20:37:42.398270",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:42.398270",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:42.398270",
+            "version_no": "bc52ace67fbf1840c524a9b8ac934121",
+            "name": "Page, Matthew",
+            "roles": [
+              {
+                "email": "o100004_0@yahoo.com",
+                "phone": "100-004-9073",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:49.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:49.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:49.000000"
+          },
+          {
+            "local_sp_identifier": "00-C-0201",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2016-01-28T18:28:25.455000"
+          }
+        ],
+        "name_with_id": "Hallmark Forest Health System___id:o100004",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5928 Summerfield Northshore Ln.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:01.066363",
+        "ctep_id": "o100003_CTEP",
+        "emails": [
+          "o100003_0@yahoo.com",
+          "o100003_1@yahoo.com",
+          "o100003_2@yahoo.com"
+        ],
+        "id": "o100003",
+        "name": "Shelby Drug Development Institute",
+        "phone_numbers": [
+          "100-003-9001"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:01.066363",
+        "strap_created_datetime": "2020-05-01T20:32:59.412437",
+        "strap_updated_datetime": "2021-04-24T20:37:01.143019",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:01.143019",
+        "urls": [
+          "www.o100003_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "1454",
+        "strap_publication_date": "2021-04-24T20:37:01.143019",
+        "version_no": "9a570653f4169f44407a0b920bcadffb",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:39.252433",
+            "ctep_id": "p100008_CTEP",
+            "first_name": "Abby",
+            "id": "p100008",
+            "last_name": "Riley",
+            "middle_name": "Kathryn",
+            "prefix": "Dr.",
+            "strap_created_datetime": "2020-05-01T19:22:50.305404",
+            "strap_updated_datetime": "2021-04-24T20:37:39.335510",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:39.335510",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:39.335510",
+            "version_no": "f9711e3adf06afe25f40126fdc1604ee",
+            "name": "Riley, Abby Kathryn",
+            "roles": [
+              {
+                "email": "o100003_0@yahoo.com",
+                "phone": "100-003-9039",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:46.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:46.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:46.000000"
+          }
+        ],
+        "name_with_id": "Shelby Drug Development Institute___id:o100003",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "3123 Tranquil Ave.",
+        "city_municipality": "Huntsville",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:11.248417",
+        "ctep_id": "o100020_CTEP",
+        "emails": [
+          "o100020_0@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-020-1018",
+          "100-020-1068",
+          "100-020-1042"
+        ],
+        "id": "o100020",
+        "name": "Wallace Castle Cancer Care",
+        "phone_numbers": [
+          "100-020-9071",
+          "100-020-9050"
+        ],
+        "state_province_territory": "AL",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:11.248417",
+        "strap_created_datetime": "2020-05-01T20:33:12.266683",
+        "strap_updated_datetime": "2021-04-24T20:37:11.328934",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:11.328934",
+        "urls": [
+          "www.o100020_0.com",
+          "www.o100020_1.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "35804",
+        "strap_publication_date": "2021-04-24T20:37:11.328934",
+        "version_no": "e40b381209129d8f755673ed1f7829b5",
+        "geo_coordinates": {
+          "lat": 34.7281,
+          "lon": -86.5852
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:23.401076",
+            "ctep_id": "p100079_CTEP",
+            "first_name": "Myla",
+            "id": "p100079",
+            "last_name": "Jackson",
+            "middle_name": "Alondra",
+            "prefix": "Mrs.",
+            "strap_created_datetime": "2020-05-01T19:21:02.964934",
+            "strap_updated_datetime": "2021-04-24T20:37:23.487959",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:23.487959",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:23.487959",
+            "version_no": "6ed04ec666dca7073b7bfcff93d7db98",
+            "name": "Jackson, Myla Alondra",
+            "roles": [
+              {
+                "email": "o100020_0@yahoo.com",
+                "phone": "100-020-9089",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:48.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:48.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:48.000000"
+          }
+        ],
+        "name_with_id": "Wallace Castle Cancer Care___id:o100020",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "Examined using Kaplan-Meier curves. The main effect size will be quantified by the hazard ratio and 95% confidence interval. Multivariate regression will also be used to examine whether there is an interaction between oxaliplatin + capecitabine and bevacizumab.",
+        "is_safety_related": false,
+        "measure": "Overall survival",
+        "time_frame": "Up to 7 years",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Overall survival",
+        "time_frame": "Up to 10 years",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Overall survival",
+        "time_frame": "Up to 10 years",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "created_datetime": "2021-04-24T20:37:26.492148",
+        "ctep_id": "p100071_CTEP",
+        "first_name": "Alejandra",
+        "id": "p100071",
+        "last_name": "Blake",
+        "middle_name": "Angelica",
+        "strap_created_datetime": "2020-05-01T19:21:05.150360",
+        "strap_updated_datetime": "2021-04-24T20:37:26.584683",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:26.584683",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "strap_publication_date": "2021-04-24T20:37:26.584683",
+        "version_no": "74e6fb0fd0c6858b0d0a1fc1047af825",
+        "name": "Blake, Alejandra Angelica",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "ACTIVE",
+            "status_start_datetime": "2016-11-09T13:55:47.057000"
+          }
+        ]
+      }
+    ],
+    "phase": "II",
+    "pilot": false,
+    "primary_purpose": "SCREENING",
+    "primary_purpose_additional_qualifier": "OBSERVATIONAL",
+    "probability_sample": false,
+    "proprietary_trial": true,
+    "public_title": "NCI-7777-00042 public title",
+    "scientific_description": "NCI-7777-00042 scientific description",
+    "section801_indicator": false,
+    "status_history": [
+      {
+        "message_datetime": "2019-05-03T14:34:49.000000",
+        "status": "Completed",
+        "status_datetime": "2019-05-03T14:34:49.000000"
+      },
+      {
+        "message_datetime": "2019-05-02T14:34:49.000000",
+        "status": "Active, not recruiting",
+        "status_datetime": "2019-05-02T14:34:49.000000"
+      },
+      {
+        "message_datetime": "2010-04-08T02:57:37.000000",
+        "status": "Recruiting",
+        "status_datetime": "2010-04-08T02:57:37.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-01T20:02:50.899586",
+    "strap_updated_datetime": "2021-04-24T21:10:53.450885",
+    "study_classification_code": "PHARMACOKINETICS_OR_DYNAMICS",
+    "study_population_description": "NCI-7777-00042 study population description",
+    "study_source": "NATIONAL",
+    "study_subtype": "ANCILLARY_CORRELATIVE",
+    "test_data": true,
+    "time_perspective": "UNKNOWN",
+    "title": "NCI-7777-00042 title",
+    "user_created_id": "Test Data Service",
+    "user_created_organization": "Testing Team",
+    "version_no": "73a50531d36d40f8c146c0302e17acdd",
+    "strap_publication_date": "2021-04-24T21:10:53.450885",
+    "current_trial_status": "Completed",
+    "participating_sites": [
+      "o100003",
+      "o100018",
+      "o100006",
+      "o100020",
+      "o100004"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "p100008",
+        "name": "Riley, Abby Kathryn",
+        "first_name": "Abby",
+        "middle_name": "Kathryn",
+        "last_name": "Riley",
+        "org_id": "o100003",
+        "org_name": null
+      },
+      {
+        "id": "p100070",
+        "name": "Bell, Jazlyn Ryan",
+        "first_name": "Jazlyn",
+        "middle_name": "Ryan",
+        "last_name": "Bell",
+        "org_id": "o100018",
+        "org_name": null
+      },
+      {
+        "id": "p100019",
+        "name": "Lucas, Jesse Cole",
+        "first_name": "Jesse",
+        "middle_name": "Cole",
+        "last_name": "Lucas",
+        "org_id": "o100006",
+        "org_name": null
+      },
+      {
+        "id": "p100079",
+        "name": "Jackson, Myla Alondra",
+        "first_name": "Myla",
+        "middle_name": "Alondra",
+        "last_name": "Jackson",
+        "org_id": "o100020",
+        "org_name": null
+      },
+      {
+        "id": "p100012",
+        "name": "Page, Matthew",
+        "first_name": "Matthew",
+        "middle_name": null,
+        "last_name": "Page",
+        "org_id": "o100004",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Non-Interventional",
+    "nct_id": "NCT777700042",
+    "ctep_id": "CTEP777700042",
+    "lead_organization_id": "LOID777700042",
+    "va_associated": true,
+    "principal_investigators": [
+      {
+        "first_name": "Alejandra",
+        "last_name": "Blake",
+        "middle_name": "Angelica",
+        "name": "Blake, Alejandra Angelica",
+        "prefix": null,
+        "id": "p100071"
+      }
+    ],
+    "current_trial_status_date": "2019-05-03T14:34:49.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-04-08T02:57:37.000000",
+    "primary_completion_date_type": "ACTUAL_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2019-05-02T14:34:49.000000",
+    "record_verification_date": "2019-05-07T14:34:49.000000",
+    "lead_organizations": {
+      "id": "o100004",
+      "name": "Hallmark Forest Health System"
+    },
+    "total_participating_sites": 5,
+    "total_open_participating_sites": 5,
+    "has_count_history": false,
+    "lead_diseases": [
+      {
+        "id": "C9118",
+        "name": "Sarcoma",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      },
+      {
+        "id": "C3810",
+        "name": "Connective and Soft Tissue Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Stage I Soft Tissue Sarcoma",
+          "code": "C6537",
+          "ancestor_ids": [
+            "C9118",
+            "C9306"
+          ],
+          "parent_ids": [
+            "C9306"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Soft Tissue Sarcoma",
+          "code": "C9306",
+          "ancestor_ids": [
+            "C9118"
+          ],
+          "parent_ids": [
+            "C9118"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Sarcoma",
+          "code": "C9118",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3810",
+          "name": "Connective and Soft Tissue Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3810",
+          "name": "Connective and Soft Tissue Neoplasm",
+          "parent_ids": [
+            "C27574",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27042",
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3377",
+            "C3810",
+            "C4867",
+            "C7062",
+            "C9118",
+            "C9305",
+            "C9306"
+          ],
+          "code": "C136707",
+          "name": "Soft Tissue Sarcoma by AJCC v7 Stage",
+          "parent_ids": [
+            "C9306"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C136707",
+            "C27042",
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3377",
+            "C3810",
+            "C4867",
+            "C7062",
+            "C9118",
+            "C9305",
+            "C9306"
+          ],
+          "code": "C6537",
+          "name": "Stage I Soft Tissue Sarcoma",
+          "parent_ids": [
+            "C136707"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3810",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9118",
+          "name": "Sarcoma",
+          "parent_ids": [
+            "C9305",
+            "C3810"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27042",
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3377",
+            "C3810",
+            "C4867",
+            "C7062",
+            "C9118",
+            "C9305"
+          ],
+          "code": "C9306",
+          "name": "Soft Tissue Sarcoma",
+          "parent_ids": [
+            "C9118",
+            "C4867"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27574",
+          "name": "Connective and Soft Tissue Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27042",
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3810"
+          ],
+          "code": "C3377",
+          "name": "Soft Tissue Tumor",
+          "parent_ids": [
+            "C27042",
+            "C3810"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27574",
+            "C2991"
+          ],
+          "code": "C27042",
+          "name": "Soft Tissue Disorder",
+          "parent_ids": [
+            "C27574"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27042",
+            "C27551",
+            "C27574",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3377",
+            "C3810",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4867",
+          "name": "Malignant Soft Tissue Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C3377"
+          ],
+          "type": []
+        }
+      ]
+    }
+  }
+}

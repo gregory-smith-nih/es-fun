@@ -1,0 +1,6076 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-2016-01889",
+  "_score": 1,
+  "_source": {
+    "accrual_type": "SUMMARY",
+    "age_criteria": "Minimum age: 18 Years\nMaximum age: 999 Years",
+    "age_is_inclusive": true,
+    "anatomic_sites": [
+      "Multiple"
+    ],
+    "bio_specimen_retention": "UNKNOWN",
+    "biomarkers": [
+      {
+        "assay_type": "Unspecified",
+        "evaluation_type": "Genetic Analysis",
+        "name": "EGFR T790M Gene Mutation Negative",
+        "purpose": "Eligibility Criterion - Inclusion",
+        "status": "PENDING",
+        "tissue_specimen_type": "Unspecified",
+        "use": "Integral"
+      }
+    ],
+    "ctro_override": false,
+    "data_monitoring_committee_appointed": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2017-04-01T00:00:00.000000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2016-12-01T14:08:19.001000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2018-06-01T00:00:00.000000"
+      },
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2015-06-01T00:00:00.000000"
+      },
+      {
+        "type": "ANTICIPATED_COMPLETION_DATE",
+        "value": "2019-07-01T00:00:00.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "The study is designed to explore the potential of the epigenetic agent RRx-001 to sensitize\n      small cell and non-small cell lung cancer, ovarian cancer and high grade neuroendocrine\n      tumor patients who previously responded and now have failed a platinum based doublet to the\n      previously effective therapy.",
+    "diseases": [
+      {
+        "display_name": "Stage IIIA Ovarian Cancer AJCC v6 and v7",
+        "id": "C6258",
+        "is_lead_disease": false,
+        "name": "Stage IIIA Ovarian Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIA Ovarian Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ovarian Carcinoma",
+                "code": "C4908"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "AJCC Stage IIIA Ovarian Cancer",
+          "FIGO Stage IIIA Cancer of Ovary",
+          "FIGO Stage IIIA Cancer of the Ovary",
+          "FIGO Stage IIIA Carcinoma of Ovary",
+          "FIGO Stage IIIA Carcinoma of the Ovary",
+          "FIGO Stage IIIA Ovarian Cancer",
+          "FIGO Stage IIIA Ovarian Carcinoma",
+          "Ovarian Cancer Stage IIIA",
+          "Stage IIIA Ovarian Cancer AJCC v6",
+          "Stage IIIA Ovarian Cancer AJCC v6 and v7",
+          "Stage IIIA Ovarian Cancer AJCC v7",
+          "Stage IIIA Ovarian Epithelial Cancer"
+        ],
+        "parents": [
+          "C7831"
+        ]
+      },
+      {
+        "display_name": "Stage IIIA Non-Small Cell Lung Cancer AJCC v7",
+        "id": "C9102",
+        "is_lead_disease": false,
+        "name": "Stage IIIA Non-Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIA Lung Non-Small Cell Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non Small Cell Lung Cancer Stage IIIA",
+          "Non Small Cell Lung Cancer, Stage IIIA",
+          "Stage IIIA Lung Non-Small Cell Cancer AJCC v7",
+          "Stage IIIA NSCLC",
+          "Stage IIIA Non-Oat Cell Carcinoma of Lung",
+          "Stage IIIA Non-Oat Cell Carcinoma of the Lung",
+          "Stage IIIA Non-Oat Cell Lung Carcinoma",
+          "Stage IIIA Non-Small Cell Carcinoma of Lung",
+          "Stage IIIA Non-Small Cell Carcinoma of the Lung",
+          "Stage IIIA Non-Small Cell Lung Cancer AJCC v7",
+          "Stage IIIA Non-Small Cell Lung Carcinoma",
+          "stage IIIA non-small cell lung cancer"
+        ],
+        "parents": [
+          "C7778",
+          "C5646"
+        ]
+      },
+      {
+        "display_name": "Stage III Small Cell Lung Carcinoma AJCC v7",
+        "id": "C6679",
+        "is_lead_disease": false,
+        "name": "Stage III Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage III Lung Small Cell Carcinoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Small Cell Carcinoma",
+                "code": "C4917"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Stage III Lung Small Cell Carcinoma AJCC v7",
+          "Stage III Small Cell Carcinoma of Lung",
+          "Stage III Small Cell Carcinoma of the Lung",
+          "Stage III Small Cell Lung Carcinoma",
+          "Stage III Small Cell Lung Carcinoma AJCC v7"
+        ],
+        "parents": [
+          "C136496",
+          "C88890"
+        ]
+      },
+      {
+        "display_name": "Recurrent Ovarian Carcinoma",
+        "id": "C7833",
+        "is_lead_disease": false,
+        "name": "Recurrent Ovarian Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Ovarian Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ovarian Carcinoma",
+                "code": "C4908"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Carcinoma of Ovary",
+          "Recurrent Carcinoma of the Ovary",
+          "Recurrent Epithelial Cancer of Ovary",
+          "Recurrent Epithelial Cancer of the Ovary",
+          "Recurrent Ovarian Carcinoma",
+          "Recurrent Ovarian Epithelial Cancer",
+          "Relapsed Carcinoma of Ovary",
+          "Relapsed Carcinoma of the Ovary",
+          "Relapsed Epithelial Cancer of Ovary",
+          "Relapsed Epithelial Cancer of the Ovary",
+          "Relapsed Ovarian Carcinoma",
+          "Relapsed Ovarian Epithelial Cancer"
+        ],
+        "parents": [
+          "C4908",
+          "C7620"
+        ]
+      },
+      {
+        "display_name": "Stage III Non-Small Cell Lung Cancer AJCC v7",
+        "id": "C7778",
+        "is_lead_disease": false,
+        "name": "Stage III Non-Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage III Lung Non-Small Cell Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage III Lung Non-Small Cell Cancer AJCC v7",
+          "Stage III NSCLC",
+          "Stage III Non-Oat Cell Carcinoma of Lung",
+          "Stage III Non-Oat Cell Carcinoma of the Lung",
+          "Stage III Non-Oat Cell Lung Carcinoma",
+          "Stage III Non-Small Cell Carcinoma of Lung",
+          "Stage III Non-Small Cell Carcinoma of the Lung",
+          "Stage III Non-Small Cell Lung Cancer AJCC v7",
+          "Stage III Non-Small Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C136491",
+          "C88890"
+        ]
+      },
+      {
+        "display_name": "Stage III Ovarian Cancer AJCC v6 and v7",
+        "id": "C7831",
+        "is_lead_disease": false,
+        "name": "Stage III Ovarian Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage III Ovarian Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ovarian Carcinoma",
+                "code": "C4908"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "AJCC Stage III Ovarian Cancer",
+          "FIGO Stage III Cancer of Ovary",
+          "FIGO Stage III Cancer of the Ovary",
+          "FIGO Stage III Carcinoma of Ovary",
+          "FIGO Stage III Carcinoma of the Ovary",
+          "FIGO Stage III Ovarian Cancer",
+          "FIGO Stage III Ovarian Carcinoma",
+          "Ovarian Cancer Stage III",
+          "Stage III Ovarian Cancer AJCC v6",
+          "Stage III Ovarian Cancer AJCC v6 and v7",
+          "Stage III Ovarian Cancer AJCC v7",
+          "Stage III Ovarian Carcinoma",
+          "Stage III Ovarian Epithelial Cancer",
+          "stage III ovarian epithelial cancer"
+        ],
+        "parents": [
+          "C128106"
+        ]
+      },
+      {
+        "display_name": "Stage IIIB Non-Small Cell Lung Cancer AJCC v7",
+        "id": "C9103",
+        "is_lead_disease": false,
+        "name": "Stage IIIB Non-Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIB Lung Non-Small Cell Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non Small Cell Lung Cancer Stage IIIB",
+          "Non Small Cell Lung Cancer, Stage IIIB",
+          "Stage IIIB Lung Non-Small Cell Cancer AJCC v7",
+          "Stage IIIB NSCLC",
+          "Stage IIIB Non-Oat Cell Carcinoma of Lung",
+          "Stage IIIB Non-Oat Cell Carcinoma of the Lung",
+          "Stage IIIB Non-Oat Cell Lung Carcinoma",
+          "Stage IIIB Non-Small Cell Carcinoma of Lung",
+          "Stage IIIB Non-Small Cell Carcinoma of the Lung",
+          "Stage IIIB Non-Small Cell Lung Cancer AJCC v7",
+          "Stage IIIB Non-Small Cell Lung Carcinoma",
+          "stage IIIB non-small cell lung cancer"
+        ],
+        "parents": [
+          "C7778",
+          "C5647"
+        ]
+      },
+      {
+        "display_name": "Neuroendocrine Carcinoma",
+        "id": "C3773",
+        "is_lead_disease": false,
+        "name": "Neuroendocrine Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Neuroendocrine Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Neuroendocrine Neoplasm",
+                "code": "C3809"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "NEC",
+          "Neuroendocrine Carcinoma",
+          "Neuroendocrine cancer, NOS",
+          "Neuroendocrine carcinoma, NOS"
+        ],
+        "parents": [
+          "C2916",
+          "C3575",
+          "C3809"
+        ]
+      },
+      {
+        "display_name": "Recurrent Non-Small Cell Lung Carcinoma",
+        "id": "C7783",
+        "is_lead_disease": false,
+        "name": "Recurrent Non-Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Lung Non-Small Cell Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non Small Cell Lung Cancer Recurrent",
+          "Non Small Cell Lung Cancer, Recurrent",
+          "Recurrent Lung Non-Small Cell Carcinoma",
+          "Recurrent NSCLC",
+          "Recurrent Non-Small Cell Cancer of Lung",
+          "Recurrent Non-Small Cell Cancer of the Lung",
+          "Recurrent Non-Small Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C2926",
+          "C8953"
+        ]
+      },
+      {
+        "display_name": "Stage IV Ovarian Cancer AJCC v6 and v7",
+        "id": "C7832",
+        "is_lead_disease": false,
+        "name": "Stage IV Ovarian Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IV Ovarian Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ovarian Carcinoma",
+                "code": "C4908"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "AJCC Stage IV Ovarian Cancer",
+          "FIGO Stage IV Cancer of Ovary",
+          "FIGO Stage IV Cancer of the Ovary",
+          "FIGO Stage IV Carcinoma of Ovary",
+          "FIGO Stage IV Carcinoma of the Ovary",
+          "FIGO Stage IV Ovarian Cancer",
+          "FIGO Stage IV Ovarian Carcinoma",
+          "Ovarian Cancer Stage IV",
+          "Stage IV Ovarian Cancer AJCC v6",
+          "Stage IV Ovarian Cancer AJCC v6 and v7",
+          "Stage IV Ovarian Cancer AJCC v7",
+          "Stage IV Ovarian Carcinoma",
+          "Stage IV Ovarian Epithelial Cancer",
+          "stage IV ovarian epithelial cancer"
+        ],
+        "parents": [
+          "C128106",
+          "C128081"
+        ]
+      },
+      {
+        "display_name": "Stage IV Non-Small Cell Lung Cancer AJCC v7",
+        "id": "C4012",
+        "is_lead_disease": false,
+        "name": "Stage IV Non-Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IV Lung Non-Small Cell Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IV Lung Non-Small Cell Cancer AJCC v7",
+          "Stage IV NSCLC",
+          "Stage IV Non-Oat Cell Carcinoma of Lung",
+          "Stage IV Non-Oat Cell Carcinoma of the Lung",
+          "Stage IV Non-Oat Cell Lung Carcinoma",
+          "Stage IV Non-Small Cell Carcinoma of Lung",
+          "Stage IV Non-Small Cell Carcinoma of the Lung",
+          "Stage IV Non-Small Cell Lung Cancer AJCC v7",
+          "Stage IV Non-Small Cell Lung Carcinoma",
+          "stage IV non-small cell lung cancer"
+        ],
+        "parents": [
+          "C136491",
+          "C88891"
+        ]
+      },
+      {
+        "display_name": "Recurrent Small Cell Lung Carcinoma",
+        "id": "C9050",
+        "is_lead_disease": false,
+        "name": "Recurrent Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Lung Small Cell Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Small Cell Carcinoma",
+                "code": "C4917"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Recurrent Lung Small Cell Carcinoma",
+          "Recurrent Small Cell Carcinoma of Lung",
+          "Recurrent Small Cell Carcinoma of the Lung",
+          "Recurrent Small Cell Lung Carcinoma",
+          "Relapsed Small Cell Carcinoma of Lung",
+          "Relapsed Small Cell Carcinoma of the Lung",
+          "Relapsed Small Cell Lung Cancer",
+          "Relapsed Small Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C4917",
+          "C8953",
+          "C176711",
+          "C165253"
+        ]
+      },
+      {
+        "display_name": "Stage IV Small Cell Lung Carcinoma AJCC v7",
+        "id": "C6682",
+        "is_lead_disease": false,
+        "name": "Stage IV Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IV Lung Small Cell Carcinoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Small Cell Carcinoma",
+                "code": "C4917"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Stage IV Lung Small Cell Carcinoma AJCC v7",
+          "Stage IV Small Cell Carcinoma of Lung",
+          "Stage IV Small Cell Carcinoma of the Lung",
+          "Stage IV Small Cell Lung Carcinoma",
+          "Stage IV Small Cell Lung Carcinoma AJCC v7"
+        ],
+        "parents": [
+          "C9049",
+          "C136496",
+          "C88891"
+        ]
+      },
+      {
+        "display_name": "Stage IIIB Small Cell Lung Carcinoma AJCC v7",
+        "id": "C6681",
+        "is_lead_disease": false,
+        "name": "Stage IIIB Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIB Lung Small Cell Carcinoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Small Cell Carcinoma",
+                "code": "C4917"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Stage IIIB Lung Small Cell Carcinoma AJCC v7",
+          "Stage IIIB Small Cell Carcinoma of Lung",
+          "Stage IIIB Small Cell Carcinoma of the Lung",
+          "Stage IIIB Small Cell Lung Carcinoma",
+          "Stage IIIB Small Cell Lung Carcinoma AJCC v7"
+        ],
+        "parents": [
+          "C6679",
+          "C5647"
+        ]
+      },
+      {
+        "display_name": "EGFR T790M Mutation Negative",
+        "id": "C131326",
+        "is_lead_disease": false,
+        "name": "EGFR T790M Mutation Negative",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "EGFR T790M Mutation Negative",
+        "paths": null,
+        "type": [
+          "biomarker"
+        ],
+        "synonyms": [
+          "EGFR NP_005219.2:p.T790M Negative",
+          "EGFR NP_005219.2:p.Thr790Met Negative",
+          "EGFR Thr790Met Mutation Negative",
+          "EGFR p.T790M Mutation Negative",
+          "Epidermal Growth Factor Receptor T790M Negative",
+          "Proto-Oncogene c-ErbB-1 T790M Negative",
+          "Receptor Tyrosine-Protein Kinase erbB-1 T790M Negative"
+        ],
+        "parents": [
+          "C165233"
+        ]
+      },
+      {
+        "display_name": "Stage IIIA Small Cell Lung Carcinoma AJCC v7",
+        "id": "C6680",
+        "is_lead_disease": false,
+        "name": "Stage IIIA Small Cell Lung Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIA Lung Small Cell Carcinoma AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Small Cell Carcinoma",
+                "code": "C4917"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Stage IIIA Lung Small Cell Carcinoma AJCC v7",
+          "Stage IIIA Small Cell Carcinoma of Lung",
+          "Stage IIIA Small Cell Carcinoma of the Lung",
+          "Stage IIIA Small Cell Lung Carcinoma",
+          "Stage IIIA Small Cell Lung Carcinoma AJCC v7"
+        ],
+        "parents": [
+          "C7853",
+          "C6679",
+          "C5646"
+        ]
+      },
+      {
+        "display_name": "EGFR-TKI Resistant Mutation",
+        "id": "C96862",
+        "is_lead_disease": false,
+        "name": "EGFR-TKI Resistant Mutation",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "EGFR-TKI Resistant Mutation",
+        "paths": null,
+        "type": [
+          "biomarker"
+        ],
+        "synonyms": [
+          "EGFR Mutation Resulting in Tyrosine Kinase Inhibitor Resistance",
+          "EGFR Tyrosine Kinase Inhibitor Resistant Mutation"
+        ],
+        "parents": [
+          "C98357"
+        ]
+      },
+      {
+        "display_name": "Stage IIIB Ovarian Cancer AJCC v6 and v7",
+        "id": "C6259",
+        "is_lead_disease": false,
+        "name": "Stage IIIB Ovarian Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIIB Ovarian Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Ovarian Carcinoma",
+                "code": "C4908"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "AJCC Stage IIIB Ovarian Cancer",
+          "FIGO Stage IIIB Cancer of Ovary",
+          "FIGO Stage IIIB Cancer of the Ovary",
+          "FIGO Stage IIIB Carcinoma of Ovary",
+          "FIGO Stage IIIB Carcinoma of the Ovary",
+          "FIGO Stage IIIB Ovarian Cancer",
+          "FIGO Stage IIIB Ovarian Carcinoma",
+          "Ovarian Cancer Stage IIIB",
+          "Stage IIIB Ovarian Cancer AJCC v6",
+          "Stage IIIB Ovarian Cancer AJCC v6 and v7",
+          "Stage IIIB Ovarian Cancer AJCC v7",
+          "Stage IIIB Ovarian Epithelial Cancer"
+        ],
+        "parents": [
+          "C7831"
+        ]
+      },
+      {
+        "id": "C7431",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Ovarian Neoplasm",
+        "display_name": "Malignant Ovarian Neoplasm",
+        "preferred_name": "Malignant Ovarian Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer of Ovary",
+          "Cancer of the Ovary",
+          "Malignant Neoplasm of Ovary",
+          "Malignant Neoplasm of the Ovary",
+          "Malignant Ovarian Tumor",
+          "Malignant Tumor of Ovary",
+          "Malignant Tumor of the Ovary",
+          "Ovarian Cancer",
+          "Ovarian cancer, NOS",
+          "ovarian cancer"
+        ],
+        "parents": [
+          "C4913",
+          "C4984"
+        ]
+      },
+      {
+        "id": "C7831",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage III Ovarian Cancer",
+        "display_name": "Stage III Ovarian Cancer AJCC v6 and v7",
+        "preferred_name": "Stage III Ovarian Cancer AJCC v6 and v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "AJCC Stage III Ovarian Cancer",
+          "FIGO Stage III Cancer of Ovary",
+          "FIGO Stage III Cancer of the Ovary",
+          "FIGO Stage III Carcinoma of Ovary",
+          "FIGO Stage III Carcinoma of the Ovary",
+          "FIGO Stage III Ovarian Cancer",
+          "FIGO Stage III Ovarian Carcinoma",
+          "Ovarian Cancer Stage III",
+          "Stage III Ovarian Cancer AJCC v6",
+          "Stage III Ovarian Cancer AJCC v6 and v7",
+          "Stage III Ovarian Cancer AJCC v7",
+          "Stage III Ovarian Carcinoma",
+          "Stage III Ovarian Epithelial Cancer",
+          "stage III ovarian epithelial cancer"
+        ],
+        "parents": [
+          "C128106"
+        ]
+      },
+      {
+        "id": "C165233",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Expression Negative",
+        "display_name": "Expression Negative",
+        "preferred_name": "Expression Negative",
+        "type": [],
+        "synonyms": [
+          "Absent",
+          "LOST",
+          "Loss of Expression",
+          "Negative",
+          "Not Expressed"
+        ],
+        "parents": [
+          "C35681"
+        ]
+      },
+      {
+        "id": "C3773",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neuroendocrine Cancer",
+        "display_name": "Neuroendocrine Carcinoma",
+        "preferred_name": "Neuroendocrine Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "NEC",
+          "Neuroendocrine Carcinoma",
+          "Neuroendocrine cancer, NOS",
+          "Neuroendocrine carcinoma, NOS"
+        ],
+        "parents": [
+          "C2916",
+          "C3575",
+          "C3809"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C4875",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Reproductive System Disorder",
+        "display_name": "Reproductive System Disorder",
+        "preferred_name": "Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Reproductive System",
+          "Genital Disorders",
+          "Reproductive System Disease"
+        ],
+        "parents": [
+          "C156660"
+        ]
+      },
+      {
+        "id": "C156660",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Disorder",
+        "display_name": "Genitourinary System Disorder",
+        "preferred_name": "Genitourinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Urogenital Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3674",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Reproductive System Neoplasm",
+        "display_name": "Reproductive System Neoplasm",
+        "preferred_name": "Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Reproductive System",
+          "Neoplasm of the Reproductive System",
+          "Reproductive Neoplasm",
+          "Reproductive System Tumor",
+          "Reproductive Tumor",
+          "Tumor of Reproductive System",
+          "Tumor of the Reproductive System"
+        ],
+        "parents": [
+          "C156482",
+          "C4875"
+        ]
+      },
+      {
+        "id": "C3809",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neuroendocrine Tumor",
+        "display_name": "Neuroendocrine Tumor",
+        "preferred_name": "Neuroendocrine Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "NEN",
+          "Neuroendocrine Neoplasm",
+          "neuroendocrine tumor"
+        ],
+        "parents": [
+          "C3010"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C4381",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Epithelial Tumor",
+        "display_name": "Ovarian Epithelial Tumor",
+        "preferred_name": "Ovarian Epithelial Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasm of Ovary",
+          "Epithelial Neoplasm of the Ovary",
+          "Epithelial Tumor of Ovary",
+          "Epithelial Tumor of the Ovary",
+          "Ovarian Surface Epithelial-Stromal Tumor",
+          "Ovarian Surface-Epithelial Stromal Neoplasm"
+        ],
+        "parents": [
+          "C3709",
+          "C4984"
+        ]
+      },
+      {
+        "id": "C2926",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Small Cell Lung Cancer",
+        "display_name": "Non-Small Cell Lung Carcinoma",
+        "preferred_name": "Lung Non-Small Cell Carcinoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Non-Small Cell Carcinoma",
+          "NSCLC",
+          "NSCLC - Non-Small Cell Lung Cancer",
+          "Non Small Cell Lung Cancer NOS",
+          "Non-Small Cell Cancer of Lung",
+          "Non-Small Cell Cancer of the Lung",
+          "Non-Small Cell Carcinoma of Lung",
+          "Non-Small Cell Carcinoma of the Lung",
+          "Non-Small Cell Lung Carcinoma",
+          "Non-small cell lung cancer, NOS",
+          "non-small cell lung cancer"
+        ],
+        "parents": [
+          "C4878",
+          "C65151"
+        ]
+      },
+      {
+        "id": "C88891",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Lung Cancer",
+        "display_name": "Stage IV Lung Cancer AJCC v7",
+        "preferred_name": "Stage IV Lung Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IV Lung Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91232"
+        ]
+      },
+      {
+        "id": "C176711",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lung Neuroendocrine Neoplasm",
+        "display_name": "Recurrent Lung Neuroendocrine Neoplasm",
+        "preferred_name": "Recurrent Lung Neuroendocrine Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C5670",
+          "C157130"
+        ]
+      },
+      {
+        "id": "C97927",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gene Variant",
+        "display_name": "Gene Variant",
+        "preferred_name": "Gene Variant",
+        "type": [],
+        "synonyms": [
+          "GENETIC_SEQ",
+          "Gene Mutant",
+          "Gene Mutation",
+          "Gene Variation",
+          "alternative"
+        ],
+        "parents": [
+          "C36391"
+        ]
+      },
+      {
+        "id": "C4813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Neoplasm",
+        "display_name": "Recurrent Malignant Neoplasm",
+        "preferred_name": "Recurrent Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrence",
+          "Recurrent Cancer",
+          "Recurrent Malignant Tumor",
+          "recurrence",
+          "recurrent cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C9049",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Extensive Stage Small Cell Lung Cancer",
+        "display_name": "Extensive Stage Small Cell Lung Carcinoma",
+        "preferred_name": "Extensive Stage Lung Small Cell Carcinoma",
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Extensive Disease Small Cell Lung Cancer",
+          "Extensive Disease Small Cell Lung Carcinoma",
+          "Extensive Stage Lung Small Cell Carcinoma",
+          "Extensive Stage Oat Cell Carcinoma of Lung",
+          "Extensive Stage Oat Cell Carcinoma of the Lung",
+          "Extensive Stage Oat Cell Lung Carcinoma",
+          "Extensive Stage SCLC",
+          "Extensive Stage Small Cell Carcinoma of Lung",
+          "Extensive Stage Small Cell Carcinoma of the Lung",
+          "Extensive Stage Small Cell Lung Carcinoma",
+          "Small Cell Lung Cancer, Extensive Stage",
+          "extensive-stage small cell lung cancer"
+        ],
+        "parents": [
+          "C4917"
+        ]
+      },
+      {
+        "id": "C35681",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Negative Test Result",
+        "display_name": "Negative Test Result",
+        "preferred_name": "Negative Test Result",
+        "type": [],
+        "synonyms": [
+          "Negative",
+          "negative test result"
+        ],
+        "parents": [
+          "C77140"
+        ]
+      },
+      {
+        "id": "C156482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Neoplasm",
+        "display_name": "Genitourinary System Neoplasm",
+        "preferred_name": "Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156660",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C27669",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory and Thoracic Disorder",
+        "display_name": "Respiratory and Thoracic Disorder",
+        "preferred_name": "Respiratory and Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory and Thoracic Disease",
+          "Respiratory, Thoracic, and Mediastinal Disease",
+          "Respiratory, Thoracic, and Mediastinal Disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C136491",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+        "display_name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+        "preferred_name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Lung Non-Small Cell Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C91232",
+          "C2926"
+        ]
+      },
+      {
+        "id": "C141240",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Receptor Tyrosine Kinase Gene Mutation",
+        "display_name": "Receptor Tyrosine Kinase Gene Mutation",
+        "preferred_name": "Receptor Tyrosine Kinase Gene Mutation",
+        "type": [
+          "biomarker"
+        ],
+        "synonyms": [
+          "RTK Family Gene Mutation",
+          "RTK Family Mutation",
+          "RTK Gene Mutation",
+          "Receptor Tyrosine Kinase Family Gene Mutation",
+          "Tyrosine Kinase Receptor Family Mutation",
+          "Tyrosine Kinase Receptor Gene Mutation",
+          "Tyrosine Kinase Receptor Mutation"
+        ],
+        "parents": [
+          "C36327"
+        ]
+      },
+      {
+        "id": "C4913",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Female Reproductive System Neoplasm",
+        "display_name": "Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive Cancer",
+          "Female reprod. system cancer, NOS",
+          "Female reproductive system cancer, NOS",
+          "Gynecologic Cancer",
+          "Malignant Female Reproductive System Tumor",
+          "Malignant Gynecologic Neoplasm",
+          "Malignant Gynecologic Tumor",
+          "Malignant Neoplasm of Female Reproductive System",
+          "Malignant Neoplasm of the Female Reproductive System",
+          "Malignant Tumor of Female Reproductive System",
+          "Malignant Tumor of the Female Reproductive System",
+          "gynecologic cancer"
+        ],
+        "parents": [
+          "C3053",
+          "C36076"
+        ]
+      },
+      {
+        "id": "C177724",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Genitourinary System Neoplasm",
+        "display_name": "Recurrent Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Recurrent Malignant Genitourinary System Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C3053",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Female Reproductive System Neoplasm",
+        "display_name": "Female Reproductive System Neoplasm",
+        "preferred_name": "Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Tumor",
+          "Gynecologic Neoplasm",
+          "Gynecologic Tumor",
+          "Neoplasm of Female Reproductive System",
+          "Neoplasm of the Female Reproductive System",
+          "Tumor of Female Reproductive System",
+          "Tumor of the Female Reproductive System"
+        ],
+        "parents": [
+          "C27020",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C3915",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Small Cell Carcinoma",
+        "display_name": "Small Cell Carcinoma",
+        "preferred_name": "Small Cell Neuroendocrine Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Oat Cell Cancer",
+          "Oat Cell Carcinoma",
+          "Oat cell carcinoma",
+          "Small Cell Cancer",
+          "Small Cell NEC",
+          "Small Cell Neuroendocrine Carcinoma",
+          "Small cell carcinoma, NOS",
+          "Small cell neuroendocrine carcinoma",
+          "oat cell cancer"
+        ],
+        "parents": [
+          "C3773"
+        ]
+      },
+      {
+        "id": "C5646",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IIIA Lung Cancer",
+        "display_name": "Stage IIIA Lung Cancer AJCC v7",
+        "preferred_name": "Stage IIIA Lung Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIIA Carcinoma of Lung",
+          "Stage IIIA Carcinoma of the Lung",
+          "Stage IIIA Lung Cancer AJCC v7",
+          "Stage IIIA Lung Carcinoma"
+        ],
+        "parents": [
+          "C88890"
+        ]
+      },
+      {
+        "id": "C4878",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Cancer",
+        "display_name": "Lung Carcinoma",
+        "preferred_name": "Lung Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Lung",
+          "Cancer of the Lung",
+          "Carcinoma of Lung",
+          "Carcinoma of the Lung",
+          "Lung Cancer (all types)",
+          "Lung Carcinoma",
+          "Lung cancer, NOS",
+          "lung cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C7377"
+        ]
+      },
+      {
+        "id": "C3010",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endocrine Neoplasm",
+        "display_name": "Endocrine Neoplasm",
+        "preferred_name": "Endocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endocrine System Neoplasm",
+          "Endocrine System Tumor",
+          "Endocrine Tumor"
+        ],
+        "parents": [
+          "C3009",
+          "C3709",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype",
+          "biomarker"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3198",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Disorder",
+        "display_name": "Lung Disorder",
+        "preferred_name": "Lung Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Lung",
+          "Lung Disorders",
+          "Pulmonary Disease",
+          "Pulmonary Diseases",
+          "Pulmonary Disorder",
+          "Pulmonary Disorders"
+        ],
+        "parents": [
+          "C26871",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C3575",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Endocrine Neoplasm",
+        "display_name": "Malignant Endocrine Neoplasm",
+        "preferred_name": "Malignant Endocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endocrine Neoplasm, Malignant",
+          "Endocrine cancer, NOS",
+          "Malignant Endocrine Gland Neoplasm",
+          "Malignant Endocrine Gland Tumor",
+          "Malignant Endocrine Tumor",
+          "Malignant Neoplasm of Endocrine Gland",
+          "Malignant Neoplasm of the Endocrine Gland",
+          "Malignant Tumor of Endocrine Gland",
+          "Malignant Tumor of the Endocrine Gland",
+          "endocrine cancer"
+        ],
+        "parents": [
+          "C3010",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3355",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory System Neoplasm",
+        "display_name": "Respiratory System Neoplasm",
+        "preferred_name": "Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C3263",
+          "C26871"
+        ]
+      },
+      {
+        "id": "C5647",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IIIB Lung Cancer",
+        "display_name": "Stage IIIB Lung Cancer AJCC v7",
+        "preferred_name": "Stage IIIB Lung Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIIB Carcinoma of Lung",
+          "Stage IIIB Carcinoma of the Lung",
+          "Stage IIIB Lung Cancer AJCC v7",
+          "Stage IIIB Lung Carcinoma"
+        ],
+        "parents": [
+          "C88890"
+        ]
+      },
+      {
+        "id": "C27020",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Female Reproductive System Disorder",
+        "display_name": "Female Reproductive System Disorder",
+        "preferred_name": "Female Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Disease",
+          "Gynecological Disorder"
+        ],
+        "parents": [
+          "C4875"
+        ]
+      },
+      {
+        "id": "C36327",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gene Abnormality",
+        "display_name": "Gene Abnormality",
+        "preferred_name": "Gene Abnormality",
+        "type": [],
+        "synonyms": [],
+        "parents": [
+          "C36391"
+        ]
+      },
+      {
+        "id": "C40026",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Ovarian Epithelial Tumor",
+        "display_name": "Malignant Ovarian Epithelial Tumor",
+        "preferred_name": "Malignant Ovarian Epithelial Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Ovarian Surface Epithelial-Stromal Neoplasm",
+          "Malignant Ovarian Surface Epithelial-Stromal Tumor",
+          "Ovarian stromal cancer"
+        ],
+        "parents": [
+          "C7431",
+          "C4381"
+        ]
+      },
+      {
+        "id": "C26871",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory System Disorder",
+        "display_name": "Respiratory System Disorder",
+        "preferred_name": "Respiratory System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Respiratory System",
+          "Respiratory Disorder",
+          "Unspecified Respiratory Problem"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C128081",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Cancer by FIGO Stage",
+        "display_name": "Ovarian Cancer by FIGO Stage",
+        "preferred_name": "Ovarian Cancer by FIGO Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ovarian Carcinoma by FIGO Stage 2014"
+        ],
+        "parents": [
+          "C4908"
+        ]
+      },
+      {
+        "id": "C4984",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Tumor",
+        "display_name": "Ovarian Neoplasm",
+        "preferred_name": "Ovarian Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Ovary",
+          "Neoplasm of the Ovary",
+          "Ovarian Neoplasm",
+          "Ovarian Tumors",
+          "Tumor of Ovary",
+          "Tumor of the Ovary"
+        ],
+        "parents": [
+          "C3053",
+          "C26841"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3910",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Molecular Abnormality",
+        "display_name": "Molecular Abnormality",
+        "preferred_name": "Molecular Abnormality",
+        "type": [],
+        "synonyms": [
+          "Chromosomal, Gene, or Protein Abnormality",
+          "Cytogenetic or Molecular Genetic Abnormality",
+          "Genetic Abnormality",
+          "MOLECULAR_ABNORMALITY",
+          "Molecular Alteration"
+        ],
+        "parents": []
+      },
+      {
+        "id": "C4798",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neoplasm",
+        "display_name": "Recurrent Neoplasm",
+        "preferred_name": "Recurrent Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Neoplasm Recurrence",
+          "Recurrence",
+          "Recurrent",
+          "Recurrent Tumor",
+          "recurrence"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C97926",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Molecular Sequence Variation",
+        "display_name": "Molecular Sequence Variation",
+        "preferred_name": "Molecular Sequence Variation",
+        "type": [],
+        "synonyms": [
+          "VARIANT_TYPE",
+          "molecular consequence",
+          "molecular_consequence"
+        ],
+        "parents": [
+          "C3910"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C7377",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Lung Neoplasm",
+        "display_name": "Malignant Lung Neoplasm",
+        "preferred_name": "Malignant Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Lung Tumor",
+          "Malignant Neoplasm of Lung",
+          "Malignant Neoplasm of the Lung",
+          "Malignant Tumor of Lung",
+          "Malignant Tumor of the Lung"
+        ],
+        "parents": [
+          "C3200",
+          "C4571",
+          "C3576"
+        ]
+      },
+      {
+        "id": "C7778",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage III Non-Small Cell Lung Cancer",
+        "display_name": "Stage III Non-Small Cell Lung Cancer AJCC v7",
+        "preferred_name": "Stage III Lung Non-Small Cell Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage III Lung Non-Small Cell Cancer AJCC v7",
+          "Stage III NSCLC",
+          "Stage III Non-Oat Cell Carcinoma of Lung",
+          "Stage III Non-Oat Cell Carcinoma of the Lung",
+          "Stage III Non-Oat Cell Lung Carcinoma",
+          "Stage III Non-Small Cell Carcinoma of Lung",
+          "Stage III Non-Small Cell Carcinoma of the Lung",
+          "Stage III Non-Small Cell Lung Cancer AJCC v7",
+          "Stage III Non-Small Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C136491",
+          "C88890"
+        ]
+      },
+      {
+        "id": "C3576",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Thoracic Neoplasm",
+        "display_name": "Malignant Thoracic Neoplasm",
+        "preferred_name": "Malignant Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Thorax",
+          "Malignant Neoplasm of the Thorax",
+          "Malignant Thoracic Tumor",
+          "Malignant Tumor of Thorax",
+          "Malignant Tumor of the Thorax"
+        ],
+        "parents": [
+          "C9305",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C173385",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neuroendocrine Carcinoma, Excluding Head and Neck",
+        "display_name": "Neuroendocrine Carcinoma, Excluding Head and Neck",
+        "preferred_name": "Neuroendocrine Carcinoma, Excluding Head and Neck",
+        "type": [
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3773"
+        ]
+      },
+      {
+        "id": "C35742",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thoracic Disorder",
+        "display_name": "Thoracic Disorder",
+        "preferred_name": "Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Thoracic Disease"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C36391",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Molecular Genetic Variation",
+        "display_name": "Molecular Genetic Variation",
+        "preferred_name": "Molecular Genetic Variation",
+        "type": [],
+        "synonyms": [
+          "Anomaly",
+          "DNA Sequence Variation",
+          "Genetic Abnormality",
+          "Genetic Alteration",
+          "Genetic Anomaly",
+          "Molecular Abnormality",
+          "Molecular Anomaly",
+          "Molecular Genetic Abnormality",
+          "Molecular Genetic Anomaly"
+        ],
+        "parents": [
+          "C97926"
+        ]
+      },
+      {
+        "id": "C8953",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lung Cancer",
+        "display_name": "Recurrent Lung Carcinoma",
+        "preferred_name": "Recurrent Lung Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Lung Carcinoma",
+          "Recurrent Unspecified Carcinoma of Lung",
+          "Recurrent Unspecified Carcinoma of the Lung",
+          "Recurrent Unspecified Lung Carcinoma",
+          "Relapsed Unspecified Carcinoma of Lung",
+          "Relapsed Unspecified Carcinoma of the Lung",
+          "Relapsed Unspecified Lung Carcinoma"
+        ],
+        "parents": [
+          "C4878",
+          "C7619"
+        ]
+      },
+      {
+        "id": "C128106",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Cancer by AJCC v6 and v7 Stage",
+        "display_name": "Ovarian Cancer by AJCC v6 and v7 Stage",
+        "preferred_name": "Ovarian Cancer by AJCC v6 and v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ovarian Carcinoma by AJCC v6 and v7 Stage"
+        ],
+        "parents": [
+          "C4908"
+        ]
+      },
+      {
+        "id": "C7853",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Limited Stage Small Cell Lung Cancer",
+        "display_name": "Limited Stage Small Cell Lung Carcinoma",
+        "preferred_name": "Limited Stage Lung Small Cell Carcinoma",
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Limited Stage Lung Small Cell Carcinoma",
+          "Limited Stage Small Cell Carcinoma of Lung",
+          "Limited Stage Small Cell Carcinoma of the Lung",
+          "Limited Stage Small Cell Lung Carcinoma",
+          "limited-stage small cell lung cancer"
+        ],
+        "parents": [
+          "C4917"
+        ]
+      },
+      {
+        "id": "C165253",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neuroendocrine Carcinoma",
+        "display_name": "Recurrent Neuroendocrine Carcinoma",
+        "preferred_name": "Recurrent Neuroendocrine Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3773",
+          "C7619",
+          "C150540",
+          "C157130"
+        ]
+      },
+      {
+        "id": "C88890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage III Lung Cancer",
+        "display_name": "Stage III Lung Cancer AJCC v7",
+        "preferred_name": "Stage III Lung Cancer AJCC v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage III Lung Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91232"
+        ]
+      },
+      {
+        "id": "C3406",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thoracic Neoplasm",
+        "display_name": "Thoracic Neoplasm",
+        "preferred_name": "Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Thorax",
+          "Neoplasm of the Thorax",
+          "Thoracic Tumor",
+          "Tumor of Thorax",
+          "Tumor of the Thorax"
+        ],
+        "parents": [
+          "C3263",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C6679",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage III Small Cell Lung Cancer",
+        "display_name": "Stage III Small Cell Lung Carcinoma AJCC v7",
+        "preferred_name": "Stage III Lung Small Cell Carcinoma AJCC v7",
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Stage III Lung Small Cell Carcinoma AJCC v7",
+          "Stage III Small Cell Carcinoma of Lung",
+          "Stage III Small Cell Carcinoma of the Lung",
+          "Stage III Small Cell Lung Carcinoma",
+          "Stage III Small Cell Lung Carcinoma AJCC v7"
+        ],
+        "parents": [
+          "C136496",
+          "C88890"
+        ]
+      },
+      {
+        "id": "C77140",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Clinical Test Result",
+        "display_name": "Clinical Test Result",
+        "preferred_name": "Clinical Test Result",
+        "type": [],
+        "synonyms": [
+          "Diagnostic Test Result",
+          "Test Result"
+        ],
+        "parents": [
+          "C3367"
+        ]
+      },
+      {
+        "id": "C3367",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Finding",
+        "display_name": "Finding",
+        "preferred_name": "Finding",
+        "type": [],
+        "synonyms": [
+          "Observable Entity",
+          "finding"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C36076",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Reproductive System Neoplasm",
+        "display_name": "Malignant Reproductive System Neoplasm",
+        "preferred_name": "Malignant Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C7620",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Female Reproductive System Carcinoma",
+        "display_name": "Recurrent Female Reproductive System Carcinoma",
+        "preferred_name": "Recurrent Female Reproductive System Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Female Reproductive System Cancer"
+        ],
+        "parents": [
+          "C7619",
+          "C150526"
+        ]
+      },
+      {
+        "id": "C4908",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Cancer",
+        "display_name": "Ovarian Epithelial Cancer",
+        "preferred_name": "Ovarian Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Carcinoma of Ovary",
+          "Carcinoma of the Ovary",
+          "Epithelial Ovarian Cancer",
+          "Ovarian Carcinoma",
+          "Ovarian Epithelial Cancer",
+          "Ovarian epithelial cancer",
+          "epithelial ovarian cancer",
+          "ovarian epithelial cancer"
+        ],
+        "parents": [
+          "C164141",
+          "C40026"
+        ]
+      },
+      {
+        "id": "C45569",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Neuroendocrine Carcinoma",
+        "display_name": "Lung Neuroendocrine Carcinoma",
+        "preferred_name": "Lung Neuroendocrine Carcinoma",
+        "type": [
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [
+          "High Grade Lung Neuroendocrine Neoplasm"
+        ],
+        "parents": [
+          "C4878",
+          "C5670",
+          "C173385"
+        ]
+      },
+      {
+        "id": "C3200",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Neoplasm",
+        "display_name": "Lung Neoplasm",
+        "preferred_name": "Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Neoplasms",
+          "Lung Tumor",
+          "Neoplasm of Lung",
+          "Neoplasm of the Lung",
+          "Tumor of Lung",
+          "Tumor of the Lung"
+        ],
+        "parents": [
+          "C3198",
+          "C3355",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C136496",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Small Cell Carcinoma by AJCC v7 Stage",
+        "display_name": "Lung Small Cell Carcinoma by AJCC v7 Stage",
+        "preferred_name": "Lung Small Cell Carcinoma by AJCC v7 Stage",
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Small Cell Lung Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C91232",
+          "C4917"
+        ]
+      },
+      {
+        "id": "C156484",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Genitourinary System Neoplasm",
+        "display_name": "Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Malignant Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Genitourinary Cancer",
+          "Genitourinary System Cancer",
+          "Malignant Genitourinary Neoplasm"
+        ],
+        "parents": [
+          "C156482",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C157130",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neuroendocrine Neoplasm",
+        "display_name": "Recurrent Neuroendocrine Neoplasm",
+        "preferred_name": "Recurrent Neuroendocrine Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3809",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C26841",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Disorder",
+        "display_name": "Ovarian Disorder",
+        "preferred_name": "Ovarian Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Ovarian Disease"
+        ],
+        "parents": [
+          "C27020"
+        ]
+      },
+      {
+        "id": "C4571",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Respiratory System Neoplasm",
+        "display_name": "Malignant Respiratory System Neoplasm",
+        "preferred_name": "Malignant Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C9305",
+          "C3355"
+        ]
+      },
+      {
+        "id": "C91232",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Cancer by AJCC v7 Stage",
+        "display_name": "Lung Cancer by AJCC v7 Stage",
+        "preferred_name": "Lung Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Lung Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C4878"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C164141",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Carcinoma",
+        "display_name": "Genitourinary System Carcinoma",
+        "preferred_name": "Genitourinary System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2916",
+          "C156484"
+        ]
+      },
+      {
+        "id": "C5670",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Neuroendocrine Neoplasm",
+        "display_name": "Lung Neuroendocrine Neoplasm",
+        "preferred_name": "Lung Neuroendocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neuroendocrine Neoplasm of Lung",
+          "Neuroendocrine Neoplasm of the Lung",
+          "Pulmonary Neuroendocrine Neoplasm"
+        ],
+        "parents": [
+          "C3200",
+          "C3809"
+        ]
+      },
+      {
+        "id": "C7619",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Carcinoma",
+        "display_name": "Recurrent Carcinoma",
+        "preferred_name": "Recurrent Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Cancer",
+          "Relapsed Cancer",
+          "Relapsed Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C3009",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endocrine System Disorder",
+        "display_name": "Endocrine System Disorder",
+        "preferred_name": "Endocrine System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Endocrine System",
+          "Endocrine Disease",
+          "Endocrine Disorder",
+          "Endocrinopathy",
+          "Thyroid or other glandular disorders"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C4917",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Small Cell Lung Cancer",
+        "display_name": "Small Cell Lung Carcinoma",
+        "preferred_name": "Lung Small Cell Carcinoma",
+        "type": [
+          "grade",
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Oat Cell Carcinoma",
+          "Lung Small Cell Carcinoma",
+          "Lung Small Cell Neuroendocrine Carcinoma",
+          "Oat Cell Carcinoma of Lung",
+          "Oat Cell Carcinoma of the Lung",
+          "Oat Cell Lung Carcinoma",
+          "SCLC",
+          "Small Cell Carcinoma of Lung",
+          "Small Cell Carcinoma of the Lung",
+          "Small Cell Lung Carcinoma",
+          "Small Cell Neuroendocrine Carcinoma of Lung",
+          "Small Cell Neuroendocrine Carcinoma of the Lung",
+          "Small cell lung cancer",
+          "small cell lung cancer"
+        ],
+        "parents": [
+          "C45569",
+          "C3915"
+        ]
+      },
+      {
+        "id": "C98357",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "EGFR Gene Mutation",
+        "display_name": "EGFR Gene Mutation",
+        "preferred_name": "EGFR Gene Mutation",
+        "type": [
+          "biomarker"
+        ],
+        "synonyms": [
+          "EGFR Mutation",
+          "ERBB Gene Mutation",
+          "ERBB1 Gene Mutation",
+          "Epidermal Growth Factor Receptor Gene Mutation",
+          "HER1 Gene Mutation"
+        ],
+        "parents": [
+          "C97927",
+          "C141240"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C65151",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Small Cell Carcinoma",
+        "display_name": "Non-Small Cell Carcinoma",
+        "preferred_name": "Non-Small Cell Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-small cell carcinoma"
+        ],
+        "parents": [
+          "C2916"
+        ]
+      },
+      {
+        "id": "C150540",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Endocrine Neoplasm",
+        "display_name": "Recurrent Malignant Endocrine Neoplasm",
+        "preferred_name": "Recurrent Malignant Endocrine Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3575",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C150526",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Female Reproductive System Neoplasm",
+        "display_name": "Recurrent Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Recurrent Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C4913",
+          "C177724"
+        ]
+      }
+    ],
+    "division_department_id": "UNKNOWN",
+    "documents": [
+      {
+        "active": true,
+        "name": "TSR_NCI-2016-01889_2016-12-09-1444_O.rtf",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01889/TSR_NCI-2016-01889_2016-12-09-1444_O.rtf",
+        "type": "TSR"
+      },
+      {
+        "active": true,
+        "name": "NCT02489903.xml",
+        "s3_path": "ctrppa/registry_data/NCI-2016-01889/NCT02489903.xml",
+        "type": "OTHER"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "History of an allergic reaction to previous received platinum-doublet, or history of\n             having to discontinue previous exposed chemotherapy secondary to a toxicity to\n             previous chemotherapy. Known severe hypersensitivity to etoposide, nab-paclitaxel,\n             pemetrexed, cisplatin, or carboplatin",
+        "display_order": 10,
+        "inclusive": false
+      },
+      {
+        "description": "Prior chemoembolization, radiofrequency ablation, or radiation is allowed as long as\n             the patient has measurable disease and the disease that is being measured is at least\n             12 weeks out from palliative therapy",
+        "display_order": 5,
+        "inclusive": true
+      },
+      {
+        "description": "History of needing to permanently discontinue prior platinum doublet-based regimen\n             for reasons other than progression (i.e. toxicity)",
+        "display_order": 8,
+        "inclusive": false
+      },
+      {
+        "description": "Severe and/or uncontrolled medical disease (i.e., uncontrolled diabetes, congestive\n             heart failure, myocardial infarction within 6 months of study, chronic renal disease,\n             chronic pulmonary disease or active uncontrolled infection)",
+        "display_order": 11,
+        "inclusive": false
+      },
+      {
+        "description": "Symptomatic central nervous system metastasis",
+        "display_order": 7,
+        "inclusive": false
+      },
+      {
+        "description": "Women of child-bearing potential and men with partners of child-bearing potential\n             must agree to use adequate contraception (hormonal or barrier method of birth\n             control; abstinence) prior to study entry, for the duration of study participation,\n             and for 90 days following completion of therapy.",
+        "display_order": 6,
+        "inclusive": true
+      },
+      {
+        "description": "ECOG performance status 0-2",
+        "display_order": 3,
+        "inclusive": true
+      },
+      {
+        "description": "Must have previously received a platinum or platinum doublet based regimen for\n             advanced/metastatic disease or have platinum refractory disease defined as relapse\n             within 6 months.",
+        "display_order": 1,
+        "inclusive": true
+      },
+      {
+        "description": "History of more than 3 prior rounds platinum doublet based regimens.",
+        "display_order": 9,
+        "inclusive": false
+      },
+      {
+        "description": "Adequate organ and marrow function both prior to administration of RRx-001 and prior\n             to administration of platinum doublet based regimen",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Must have histologically or cytologically confirmed advanced or metastatic\n             Resistant/Refractory Small Cell Lung Cancer (SCLC), EGFR TKI Resistant EGFR+ T790M\n             Negative Non-Small Cell Lung Cancer (NSCLC), Resistant/Refractory Epithelial Ovarian\n             Cancer (EOC) or High-Grade Neuroendocrine Carcinoma (HGNEC)",
+        "display_order": 0,
+        "inclusive": true
+      },
+      {
+        "description": "Life expectancy of ≥ 12 weeks",
+        "display_order": 2,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "groups": [
+      {
+        "created_datetime": "2017-04-05T03:32:09.677000",
+        "description": "Patients will receive RRx-001 until progression or intolerable toxicity followed by cisplatin/carboplatin plus albumin (nab-paclitaxel or Abraxane)",
+        "identifier": 299678708,
+        "name": "Non Small Cell Lung Cancer",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2017-04-05T03:32:09.677000",
+        "interventions": []
+      },
+      {
+        "created_datetime": "2017-04-05T03:32:09.657000",
+        "description": "Patients will receive RRx-001 until progression or intolerable toxicity followed by cisplatin/carboplatin plus etoposide",
+        "identifier": 299678700,
+        "name": "Small Cell Lung Cancer",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2017-04-05T03:32:09.657000",
+        "interventions": []
+      },
+      {
+        "created_datetime": "2017-04-05T03:32:09.695000",
+        "description": "Patients will receive RRx-001 until progression or intolerable toxicity followed by cisplatin/carboplatin plus etoposide",
+        "identifier": 299678716,
+        "name": "Neuroendocrine tumors",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2017-04-05T03:32:09.695000",
+        "interventions": []
+      },
+      {
+        "created_datetime": "2017-04-05T03:32:09.714000",
+        "description": "Patients will receive RRx-001 until progression or intolerable toxicity followed by carboplatin/paclitaxel.",
+        "identifier": 299678724,
+        "name": "Ovarian epithelial cancer",
+        "type": "EXPERIMENTAL",
+        "updated_datetime": "2017-04-05T03:32:09.714000",
+        "interventions": []
+      },
+      {
+        "description": "THIS IS A DEFAULT.",
+        "id": "DEFAULT_ID",
+        "identifier": 99999999999,
+        "interventions": [
+          {
+            "id": "C1282",
+            "name": "Carboplatin",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Blastocarb",
+              "Carboplat",
+              "Carbosin",
+              "Carbosol",
+              "Carbotec",
+              "Displata",
+              "Ercar",
+              "Nealorin",
+              "Novoplatinum",
+              "Paraplatin AQ",
+              "Paraplatine",
+              "Platinwas",
+              "Ribocarbo"
+            ]
+          },
+          {
+            "id": "C376",
+            "name": "Cisplatin",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Abiplatin",
+              "Blastolem",
+              "Briplatin",
+              "Cisplatyl",
+              "Citoplatino",
+              "Citosin",
+              "Lederplatin",
+              "Metaplatin",
+              "Neoplatin",
+              "Placis",
+              "Plastistil",
+              "Platamine",
+              "Platiblastin",
+              "Platiblastin-S",
+              "Platinex",
+              "Platinol",
+              "Platinol- AQ",
+              "Platinol-AQ",
+              "Platinol-AQ VHA Plus",
+              "Platiran",
+              "Platistin",
+              "Platosin"
+            ]
+          },
+          {
+            "description": "Correlative studies",
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "id": "C491",
+            "name": "Etoposide",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Lastet"
+            ]
+          },
+          {
+            "id": "C1411",
+            "name": "Paclitaxel",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Anzatax",
+              "Asotax",
+              "Bristaxol",
+              "Praxel",
+              "Taxol Konzentrat"
+            ]
+          },
+          {
+            "id": "C97130",
+            "name": "Radiosensitizer RRx-001",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": []
+          },
+          {
+            "id": "C2688",
+            "name": "Nab-paclitaxel",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Abraxane"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Enzyme Inhibitor",
+            "id": "C129825",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Taxane Compound",
+            "id": "C1490",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Lipid",
+            "id": "C616",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antimitotic Agent",
+            "id": "C273",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Paclitaxel Preparation",
+            "id": "C61078",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Radiosensitizing Agent",
+            "id": "C798",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Protein Inhibitor",
+            "id": "C129824",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Alkylating Agent",
+            "id": "C1590",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Hydrocarbon",
+            "id": "C552",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Organic Chemical",
+            "id": "C718",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug or Chemical by Structure",
+            "id": "C1913",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Tubulin Binding Agent",
+            "id": "C25974",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Terpene Compound",
+            "id": "C860",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Epipodophyllotoxin Compound",
+            "id": "C1331",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Enzyme Inhibitor",
+            "id": "C471",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Taxane-Pocket Binding Agent",
+            "id": "C67437",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Natural Product",
+            "id": "C1907",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Plant Product",
+            "id": "C1931",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase Inhibitor",
+            "id": "C1748",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Platinum Compound",
+            "id": "C1450",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Adduct Forming Agent",
+            "id": "C2163",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "DNA Binding Agent",
+            "id": "C2842",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Signal Transduction Inhibitor",
+            "id": "C2189",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Topoisomerase-II Inhibitor",
+            "id": "C1968",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "DEFAULT"
+      }
+    ],
+    "healthy_volunteer_description": "This trial does not accept healthy volunteers.",
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT02489903"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "RRx001-211-01"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-2016-01889"
+      }
+    ],
+    "interventional": true,
+    "interventional_design": "PARALLEL",
+    "keywords": [
+      "Epigenetics",
+      "resensitization",
+      "Platinum doublets",
+      "lung cancer",
+      "Ovarian epithelial cancer"
+    ],
+    "legacy_id": "279307420",
+    "links": [
+      {
+        "description": "This is google.com",
+        "display_order": 0,
+        "url": "https://www.google.com"
+      },
+      {
+        "description": "This is also google.com",
+        "display_order": 1,
+        "url": "https://www.google.com/"
+      }
+    ],
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "max_age": "999 Years",
+    "max_age_in_years": 999,
+    "min_age": "18 Years",
+    "min_age_in_years": 18,
+    "min_target_accrual": 90,
+    "nci_id": "NCI-2016-01889",
+    "non_interventional_design": "UNKNOWN",
+    "number_of_intervention_groups": 4,
+    "organizations": [
+      {
+        "id": "38709412",
+        "ctep_id": "EPCRX",
+        "name": "EpicentRx, Inc.",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "800 West El Camino Real",
+        "address_line_2": "Suite 180",
+        "city_municipality": "Mountain View",
+        "state_province_territory": "CA",
+        "country": "United States",
+        "zipcode": "94040",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "EpicentRx, Inc."
+        ],
+        "emails": [
+          "info@epicentrx.com"
+        ],
+        "phone_numbers": [
+          "650-943-2426"
+        ],
+        "urls": [
+          "http://www.epicentrx.com/"
+        ],
+        "status_datetime": "2015-06-08T13:58:14.055000",
+        "strap_created_datetime": "2020-04-14T17:16:29.414644",
+        "strap_updated_datetime": "2021-04-07T23:17:22.323520",
+        "strap_publication_datetime": "2021-04-07T23:17:22.323520",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:22.323520",
+        "version_no": "e799a903e13e9c401c57b51d525fec27",
+        "geo_coordinates": {
+          "lat": 37.3801,
+          "lon": -122.0865
+        },
+        "roles": [
+          {
+            "local_sp_identifier": "RRx001-211-01",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2017-04-05T03:32:08.739000"
+          },
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2017-04-05T03:32:08.859000"
+          }
+        ],
+        "persons": [],
+        "name_with_id": "EpicentRx, Inc.___id:38709412",
+        "current_recruiting_status": "UNKNOWN"
+      },
+      {
+        "id": "143971",
+        "ctep_id": "MO111",
+        "name": "Siteman Cancer Center at Washington University",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "4921 Parkview Place",
+        "city_municipality": "Saint Louis",
+        "state_province_territory": "MO",
+        "country": "United States",
+        "zipcode": "63110",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Barnard Cancer Center",
+          "Specialists in Oncology Hematology PC",
+          "University Hematology Oncology Incorporated"
+        ],
+        "phone_numbers": [
+          "314-747-7236"
+        ],
+        "urls": [
+          "http://www.siteman.wustl.edu/"
+        ],
+        "status_datetime": "2012-03-29T13:33:34.984000",
+        "strap_created_datetime": "2020-04-14T17:15:59.003611",
+        "strap_updated_datetime": "2021-04-07T23:16:53.216280",
+        "strap_publication_datetime": "2021-04-07T23:16:53.216280",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:16:53.216280",
+        "version_no": "023ad33275664b6be4980a536e86e733",
+        "geo_coordinates": {
+          "lat": 38.6267,
+          "lon": -90.267
+        },
+        "persons": [
+          {
+            "id": "10502683",
+            "ctep_id": "38205",
+            "prefix": "Dr.",
+            "first_name": "Daniel",
+            "last_name": "Morgensztern",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:15:51.616295",
+            "strap_updated_datetime": "2021-04-07T23:47:58.569357",
+            "strap_publication_datetime": "2021-04-07T23:47:58.569357",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:47:58.569357",
+            "version_no": "670d01b461320b07ea1ce0746ff7dabc",
+            "name": "Morgensztern, Daniel",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2017-01-04T16:16:09.726000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2016-12-23T00:00:00.000003"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2016-10-31T00:00:00.000002"
+              },
+              {
+                "status": "IN_REVIEW",
+                "status_datetime": "2016-09-28T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "201610038",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2017-01-04T16:16:08.583000"
+          }
+        ],
+        "name_with_id": "Siteman Cancer Center at Washington University___id:143971",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "id": "40496",
+        "ctep_id": "CA141",
+        "name": "Stanford Cancer Institute",
+        "status": "ACTIVE",
+        "va_organization": false,
+        "address_line_1": "875 Blake Wilbur Drive",
+        "city_municipality": "Palo Alto",
+        "state_province_territory": "CA",
+        "country": "United States",
+        "zipcode": "94304",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Stanford Cancer Center",
+          "Stanford University Hospitals and Clinics",
+          "Stanford University Medical Center"
+        ],
+        "emails": [
+          "ccto-office@stanford.edu"
+        ],
+        "phone_numbers": [
+          "650-498-7061"
+        ],
+        "status_datetime": "2016-08-10T10:34:09.444000",
+        "strap_created_datetime": "2020-04-14T17:16:28.213731",
+        "strap_updated_datetime": "2021-04-07T23:17:16.185642",
+        "strap_publication_datetime": "2021-04-07T23:17:16.185642",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:16.185642",
+        "version_no": "27a607b90fff607bd28bcd1c801dac01",
+        "geo_coordinates": {
+          "lat": 37.4059,
+          "lon": -122.1462
+        },
+        "persons": [
+          {
+            "id": "39738866",
+            "ctep_id": "55523",
+            "prefix": "Dr.",
+            "first_name": "Sukhmani",
+            "middle_name": "Kaur",
+            "last_name": "Padda",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:46:30.447006",
+            "strap_updated_datetime": "2021-04-07T23:17:35.644758",
+            "strap_publication_datetime": "2021-04-07T23:17:35.644758",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:17:35.644758",
+            "version_no": "07098e9cc0270aee51ebf7d232d156be",
+            "name": "Padda, Sukhmani Kaur",
+            "roles": [
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2017-04-19T15:10:44.646000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "status": "ACTIVE",
+                "status_datetime": "2017-04-17T00:00:00.000002"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2016-10-18T00:00:00.000001"
+              }
+            ],
+            "local_sp_identifier": "LUN0084",
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2017-04-19T15:10:43.799000"
+          }
+        ],
+        "name_with_id": "Stanford Cancer Institute___id:40496",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_primary": true,
+        "measure": "Overall Survival",
+        "time_frame": "2 years",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Overall Response Rate (ORR)",
+        "time_frame": "12 weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Disease Control Rate (DCR)",
+        "time_frame": "12weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Progression Free Survival (PFS)",
+        "time_frame": "12 weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Number of Participants with Adverse Events as a Measure of Safety and Tolerability of platinum doublet therapy post RRx-001",
+        "time_frame": "12 weeks",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": false,
+        "measure": "Changes in the level of serum biomarkers will be calculated and treatment samples will be compared to baseline samples using one-sample tests (e.g., paired t test or Wilcoxon signed rank test).",
+        "time_frame": "12 weeks",
+        "type": "SECONDARY"
+      }
+    ],
+    "phase": "II",
+    "primary_purpose": "TREATMENT",
+    "proprietary_trial": true,
+    "public_title": "RRx-001 in Small, Non-small Cell Lung Cancer, Ovarian Cancer and Neuroendocrine Tumors Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+    "randomized_trial": false,
+    "resourcing": [
+      {
+        "active": true,
+        "organization_id": "38709412",
+        "summary_4_report": true,
+        "type": "INDUSTRIAL"
+      }
+    ],
+    "scientific_description": "This is an open label, four-arm, three stage, pilot study for co-administration of RRx-001\n      with autologous blood once weekly until progression followed by reintroduction of\n      platinum-based doublet therapy.\n\n      The study is designed to explore the potential of the epigenetic agent RRx-001 to sensitize\n      patients who previously responded and now have failed a platinum based doublet.\n\n      In the first stage of the study three (3) subjects with SCLC, NSCLC, ovarian cancer and\n      HGNEC in each arm will receive RRx-001 until progression or intolerable toxicity at which\n      point a platinum doublet therapy will be introduced or reintroduced. The first three\n      patients will enrolled for safety and assessment for unacceptable toxicity. Each cohort will\n      initially enroll 3 patients to assess for safety. If one of the 3 patients enrolled has an\n      unexpected Adverse Events, then this combination would be considered unacceptable and the\n      cohort would be stopped. If no unexpected AE occur then additional patients will be\n      enrolled, a total of 10 patients per cohort. Each cohort will undergo a temporary pause\n      after 10 patients are enrolled to assess safety and efficacy. If greater than 1/3 of\n      patients (4 patients) have unexpected AE, then this cohort will be stopped for unacceptable\n      toxicities. If at the completion enrollment of 10 subjects, at least 1 will need to have\n      stable disease or better. If any arm has 1/10 subjects that has stable disease or better,\n      then additional patients would be enrolled in this arm. Total patients that can be enrolled\n      are 31 patients with NSCLC, 26 patients with SCLC, 26 patients with High Grade\n      Neuroendocrine and 26 with Ovarian Cancer.",
+    "sex_criteria": "ALL",
+    "sex_is_inclusive": true,
+    "status_history": [
+      {
+        "message_datetime": "2016-12-01T14:08:18.758000",
+        "status": "Recruiting",
+        "status_datetime": "2016-12-01T14:08:18.758000"
+      }
+    ],
+    "strap_created_datetime": "2020-04-14T20:52:33.042066",
+    "strap_publication_datetime": "2021-05-25T22:16:55.249296",
+    "strap_updated_datetime": "2021-05-25T22:16:55.249296",
+    "study_classification_code": "UNKNOWN",
+    "study_source": "INDUSTRIAL",
+    "study_type": "INTERVENTIONAL",
+    "submitting_organization_id": "3830539",
+    "time_perspective": "UNKNOWN",
+    "title": "A Phase II Study of RRx-001 in Platinum Refractory/Resistant Small Cell Lung Cancer, EGFR TKI Resistant EGFR+ T790M Negative Non-Small Cell Lung Cancer, High Grade Neuroendocrine Tumors and Resistant/Refractory Ovarian Cancer Prior to Re-administration of Platinum Based Doublet Regimens (QUADRUPLE THREAT)",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "user_updated_id": "Migration Service",
+    "user_updated_organization": "Non-Affiliate",
+    "version_no": "9cbe35d10ce85f74dd59ed983b946400",
+    "strap_publication_date": "2021-05-25T22:16:55.249296",
+    "current_trial_status": "Recruiting",
+    "participating_sites": [
+      "143971",
+      "40496"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "10502683",
+        "name": "Morgensztern, Daniel",
+        "first_name": "Daniel",
+        "middle_name": null,
+        "last_name": "Morgensztern",
+        "org_id": "143971",
+        "org_name": null
+      },
+      {
+        "id": "39738866",
+        "name": "Padda, Sukhmani Kaur",
+        "first_name": "Sukhmani",
+        "middle_name": "Kaur",
+        "last_name": "Padda",
+        "org_id": "40496",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Interventional",
+    "nct_id": "NCT02489903",
+    "lead_organization_id": "RRx001-211-01",
+    "va_associated": false,
+    "current_trial_status_date": "2016-12-01T14:08:18.758000",
+    "record_verification_date": "2017-04-01T00:00:00.000000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2018-06-01T00:00:00.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2015-06-01T00:00:00.000000",
+    "completion_date_type": "ANTICIPATED_COMPLETION_DATE",
+    "completion_date_value": "2019-07-01T00:00:00.000000",
+    "lead_organizations": {
+      "id": "38709412",
+      "name": "EpicentRx, Inc."
+    },
+    "total_participating_sites": 2,
+    "total_open_participating_sites": 2,
+    "has_count_history": false,
+    "lead_diseases": [],
+    "lead_diseases2": [],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "EGFR-TKI Resistant Mutation",
+          "code": "C96862",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "biomarker"
+          ]
+        },
+        {
+          "name": "Recurrent Non-Small Cell Lung Cancer",
+          "code": "C7783",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage III Small Cell Lung Cancer",
+          "code": "C6679",
+          "ancestor_ids": [
+            "C4878",
+            "C4917"
+          ],
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Neuroendocrine Tumor",
+          "code": "C3809",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Stage IIIB Small Cell Lung Cancer",
+          "code": "C6681",
+          "ancestor_ids": [
+            "C4878",
+            "C4917"
+          ],
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Stage III Ovarian Cancer",
+          "code": "C7831",
+          "ancestor_ids": [
+            "C4908"
+          ],
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IV Non-Small Cell Lung Cancer",
+          "code": "C4012",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IV Ovarian Cancer",
+          "code": "C7832",
+          "ancestor_ids": [
+            "C4908"
+          ],
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IIIB Non-Small Cell Lung Cancer",
+          "code": "C9103",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Neuroendocrine Cancer",
+          "code": "C3773",
+          "ancestor_ids": [
+            "C3809"
+          ],
+          "parent_ids": [
+            "C3809"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Stage IIIB Ovarian Cancer",
+          "code": "C6259",
+          "ancestor_ids": [
+            "C4908"
+          ],
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Lung Cancer",
+          "code": "C4878",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Recurrent Small Cell Lung Cancer",
+          "code": "C9050",
+          "ancestor_ids": [
+            "C4878",
+            "C4917"
+          ],
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Small Cell Lung Cancer",
+          "code": "C4917",
+          "ancestor_ids": [
+            "C4878"
+          ],
+          "parent_ids": [
+            "C4878"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Stage III Non-Small Cell Lung Cancer",
+          "code": "C7778",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Ovarian Cancer",
+          "code": "C4908",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Recurrent Ovarian Cancer",
+          "code": "C7833",
+          "ancestor_ids": [
+            "C4908"
+          ],
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IIIA Small Cell Lung Cancer",
+          "code": "C6680",
+          "ancestor_ids": [
+            "C4878",
+            "C4917"
+          ],
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "EGFR T790M Mutation Negative",
+          "code": "C131326",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "biomarker"
+          ]
+        },
+        {
+          "name": "Non-Small Cell Lung Cancer",
+          "code": "C2926",
+          "ancestor_ids": [
+            "C4878"
+          ],
+          "parent_ids": [
+            "C4878"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Stage IIIA Non-Small Cell Lung Cancer",
+          "code": "C9102",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IV Small Cell Lung Cancer",
+          "code": "C6682",
+          "ancestor_ids": [
+            "C4878",
+            "C4917"
+          ],
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Stage IIIA Ovarian Cancer",
+          "code": "C6258",
+          "ancestor_ids": [
+            "C4908"
+          ],
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C40026",
+          "name": "Malignant Ovarian Epithelial Tumor",
+          "parent_ids": [
+            "C7431",
+            "C4381"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7431",
+          "name": "Malignant Ovarian Neoplasm",
+          "parent_ids": [
+            "C4913",
+            "C4984"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C88890",
+          "name": "Stage III Lung Cancer",
+          "parent_ids": [
+            "C91232"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7619",
+          "name": "Recurrent Carcinoma",
+          "parent_ids": [
+            "C2916",
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3575",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C173385",
+          "name": "Neuroendocrine Carcinoma, Excluding Head and Neck",
+          "parent_ids": [
+            "C3773"
+          ],
+          "type": [
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C136496",
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C88891",
+            "C9049",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C6682",
+          "name": "Stage IV Small Cell Lung Cancer",
+          "parent_ids": [
+            "C9049",
+            "C88891",
+            "C136496"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C136491",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C7778",
+          "name": "Stage III Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C136491",
+            "C88890"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3010",
+          "name": "Endocrine Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C156660",
+          "name": "Genitourinary System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C157130",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3709",
+            "C3809",
+            "C4741",
+            "C4798",
+            "C5670",
+            "C7062"
+          ],
+          "code": "C176711",
+          "name": "Recurrent Lung Neuroendocrine Neoplasm",
+          "parent_ids": [
+            "C157130",
+            "C5670"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C35742",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3576",
+          "name": "Malignant Thoracic Neoplasm",
+          "parent_ids": [
+            "C3406",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C4984",
+          "name": "Ovarian Tumor",
+          "parent_ids": [
+            "C26841",
+            "C3053"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C136491",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C88891",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C4012",
+          "name": "Stage IV Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C88891",
+            "C136491"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35742"
+          ],
+          "code": "C3406",
+          "name": "Thoracic Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C35742"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C35742",
+          "name": "Thoracic Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3575",
+            "C3709",
+            "C3809",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3773",
+          "name": "Neuroendocrine Cancer",
+          "parent_ids": [
+            "C3575",
+            "C2916",
+            "C3809"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C156484",
+          "name": "Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C136496",
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5647",
+            "C5670",
+            "C6679",
+            "C7062",
+            "C7377",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C6681",
+          "name": "Stage IIIB Small Cell Lung Cancer",
+          "parent_ids": [
+            "C5647",
+            "C6679"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C65151",
+          "name": "Non-Small Cell Carcinoma",
+          "parent_ids": [
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C4875"
+          ],
+          "code": "C3674",
+          "name": "Reproductive System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C4875"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C27020",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C156482",
+          "name": "Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156660",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C4878",
+          "name": "Lung Cancer",
+          "parent_ids": [
+            "C7377",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742"
+          ],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [
+            "C3198",
+            "C3355",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991"
+          ],
+          "code": "C4875",
+          "name": "Reproductive System Disorder",
+          "parent_ids": [
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C2926",
+          "name": "Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C4878",
+            "C65151"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C4571",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7377",
+          "name": "Malignant Lung Neoplasm",
+          "parent_ids": [
+            "C4571",
+            "C3576",
+            "C3200"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C26871",
+          "name": "Respiratory System Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C128081",
+          "name": "Ovarian Cancer by FIGO Stage",
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3575",
+            "C3709",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C150540",
+          "name": "Recurrent Malignant Endocrine Neoplasm",
+          "parent_ids": [
+            "C3575",
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4813",
+          "name": "Recurrent Malignant Neoplasm",
+          "parent_ids": [
+            "C4798",
+            "C9305"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3355",
+          "name": "Respiratory System Neoplasm",
+          "parent_ids": [
+            "C26871",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C91232",
+          "name": "Lung Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C4878"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C3709",
+            "C4741",
+            "C4875",
+            "C4984"
+          ],
+          "code": "C4381",
+          "name": "Ovarian Epithelial Tumor",
+          "parent_ids": [
+            "C4984",
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C136496",
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C6679",
+          "name": "Stage III Small Cell Lung Cancer",
+          "parent_ids": [
+            "C136496",
+            "C88890"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4913",
+          "name": "Malignant Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C3053",
+            "C36076"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150526",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C177724",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4875",
+            "C4913",
+            "C7062",
+            "C7619",
+            "C9305"
+          ],
+          "code": "C7620",
+          "name": "Recurrent Female Reproductive System Carcinoma",
+          "parent_ids": [
+            "C7619",
+            "C150526"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C27020",
+          "name": "Female Reproductive System Disorder",
+          "parent_ids": [
+            "C4875"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C136496",
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5646",
+            "C5670",
+            "C6679",
+            "C7062",
+            "C7377",
+            "C7853",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C6680",
+          "name": "Stage IIIA Small Cell Lung Cancer",
+          "parent_ids": [
+            "C7853",
+            "C5646",
+            "C6679"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C7619",
+            "C8953",
+            "C9305"
+          ],
+          "code": "C7783",
+          "name": "Recurrent Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C2926",
+            "C8953"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27669",
+          "name": "Respiratory and Thoracic Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3709",
+            "C3809",
+            "C4741"
+          ],
+          "code": "C5670",
+          "name": "Lung Neuroendocrine Neoplasm",
+          "parent_ids": [
+            "C3200",
+            "C3809"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C7853",
+          "name": "Limited Stage Small Cell Lung Cancer",
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C164141",
+          "name": "Genitourinary System Carcinoma",
+          "parent_ids": [
+            "C2916",
+            "C156484"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C26841",
+          "name": "Ovarian Disorder",
+          "parent_ids": [
+            "C27020"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C5647",
+          "name": "Stage IIIB Lung Cancer",
+          "parent_ids": [
+            "C88890"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C3009",
+          "name": "Endocrine System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C128106",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C7831",
+            "C9305"
+          ],
+          "code": "C6258",
+          "name": "Stage IIIA Ovarian Cancer",
+          "parent_ids": [
+            "C7831"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C136491",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C5646",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C7778",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C9102",
+          "name": "Stage IIIA Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C7778",
+            "C5646"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C45569",
+          "name": "Lung Neuroendocrine Carcinoma",
+          "parent_ids": [
+            "C173385",
+            "C4878",
+            "C5670"
+          ],
+          "type": [
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C4798",
+          "name": "Recurrent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C88891",
+          "name": "Stage IV Lung Cancer",
+          "parent_ids": [
+            "C91232"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3575",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3915",
+          "name": "Small Cell Carcinoma",
+          "parent_ids": [
+            "C3773"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C128106",
+          "name": "Ovarian Cancer by AJCC v6 and v7 Stage",
+          "parent_ids": [
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C177724",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4798",
+            "C4813",
+            "C4875",
+            "C4913",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C150526",
+          "name": "Recurrent Malignant Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C4913",
+            "C177724"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C3010",
+          "name": "Endocrine Neoplasm",
+          "parent_ids": [
+            "C3009",
+            "C3709",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C136491",
+          "name": "Lung Non-Small Cell Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C91232",
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C128081",
+            "C128106",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C7832",
+          "name": "Stage IV Ovarian Cancer",
+          "parent_ids": [
+            "C128081",
+            "C128106"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3575",
+          "name": "Malignant Endocrine Neoplasm",
+          "parent_ids": [
+            "C3010",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C3809",
+            "C4741",
+            "C4798",
+            "C7062"
+          ],
+          "code": "C157130",
+          "name": "Recurrent Neuroendocrine Neoplasm",
+          "parent_ids": [
+            "C4798",
+            "C3809"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4571",
+          "name": "Malignant Respiratory System Neoplasm",
+          "parent_ids": [
+            "C3355",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C128106",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C7831",
+            "C9305"
+          ],
+          "code": "C6259",
+          "name": "Stage IIIB Ovarian Cancer",
+          "parent_ids": [
+            "C7831"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C136496",
+          "name": "Lung Small Cell Carcinoma by AJCC v7 Stage",
+          "parent_ids": [
+            "C4917",
+            "C91232"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C5646",
+          "name": "Stage IIIA Lung Cancer",
+          "parent_ids": [
+            "C88890"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C35742"
+          ],
+          "code": "C3198",
+          "name": "Lung Disorder",
+          "parent_ids": [
+            "C26871",
+            "C35742"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C136491",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C5647",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C7778",
+            "C88890",
+            "C91232",
+            "C9305"
+          ],
+          "code": "C9103",
+          "name": "Stage IIIB Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C5647",
+            "C7778"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C150540",
+            "C157130",
+            "C165253",
+            "C173385",
+            "C176711",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4878",
+            "C4917",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C7619",
+            "C8953",
+            "C9305"
+          ],
+          "code": "C9050",
+          "name": "Recurrent Small Cell Lung Cancer",
+          "parent_ids": [
+            "C4917",
+            "C176711",
+            "C165253",
+            "C8953"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C177724",
+          "name": "Recurrent Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156484",
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C3809",
+          "name": "Neuroendocrine Tumor",
+          "parent_ids": [
+            "C3010"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C3709",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C128106",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C7831",
+          "name": "Stage III Ovarian Cancer",
+          "parent_ids": [
+            "C128106"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C7619",
+            "C9305"
+          ],
+          "code": "C8953",
+          "name": "Recurrent Lung Cancer",
+          "parent_ids": [
+            "C4878",
+            "C7619"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C36076",
+          "name": "Malignant Reproductive System Neoplasm",
+          "parent_ids": [
+            "C156484",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C4917",
+          "name": "Small Cell Lung Cancer",
+          "parent_ids": [
+            "C3915",
+            "C45569"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C173385",
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3575",
+            "C3576",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C3915",
+            "C45569",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C4917",
+            "C5670",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C9049",
+          "name": "Extensive Stage Small Cell Lung Cancer",
+          "parent_ids": [
+            "C4917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C150526",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C177724",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4875",
+            "C4908",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C7619",
+            "C7620",
+            "C9305"
+          ],
+          "code": "C7833",
+          "name": "Recurrent Ovarian Cancer",
+          "parent_ids": [
+            "C7620",
+            "C4908"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C150540",
+            "C157130",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3575",
+            "C3709",
+            "C3773",
+            "C3809",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7619",
+            "C9305"
+          ],
+          "code": "C165253",
+          "name": "Recurrent Neuroendocrine Carcinoma",
+          "parent_ids": [
+            "C157130",
+            "C7619",
+            "C3773",
+            "C150540"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C40026",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C4908",
+          "name": "Ovarian Cancer",
+          "parent_ids": [
+            "C164141",
+            "C40026"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        }
+      ],
+      "biomarkers": []
+    }
+  }
+}

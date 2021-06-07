@@ -1,0 +1,7106 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-9999-99000",
+  "_score": 1,
+  "_source": {
+    "anatomic_sites": [
+      "Corpus Uteri"
+    ],
+    "bio_specimen_description": "Tissue",
+    "bio_specimen_retention": "SAMPLES_WITH_DNA",
+    "biomarkers": [
+      {
+        "assay_type": "Sequencing",
+        "cadsr_id": "3684542",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C20560",
+        "name": "ATR (FCTCS; Ataxia Telangiectasia and Rad3 Related Protein; SCKL; Protein Kinase ATR; Ataxia Telangiectasia and Rad3-Related Protein; SCKL1; FRP1; MEC1; Rad3 Related Protein; FRAP-Related Protein-1; FRAP-Related Protein 1; Ataxia-Telangiectasia and Rad3-Related; Serine/Threonine-Protein Kinase ATR)",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Other",
+        "cadsr_id": "3384664",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C36318",
+        "name": "Microsatellite Instability (MSI)",
+        "other_assay_type": "MSI typing",
+        "purpose": "Research",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integral"
+      }
+    ],
+    "ctro_override": false,
+    "datetimes": [
+      {
+        "type": "RECORD_VERIFICATION_DATE",
+        "value": "2013-01-24T21:04:48.796000"
+      },
+      {
+        "type": "STATUS_DATE",
+        "value": "2011-08-20T13:30:38.018000"
+      },
+      {
+        "type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+        "value": "2100-01-01T00:00:08.000000"
+      },
+      {
+        "type": "ANTICIPATED_START_DATE",
+        "value": "2100-01-01T00:00:08.000000"
+      }
+    ],
+    "delayed_posting": false,
+    "description": "This research study is studying prognostic biomarkers in tissue samples from patients with endometrial cancer. Studying samples of tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in DNA and identify biomarkers related to cancer.",
+    "diseases": [
+      {
+        "display_name": "Stage III Uterine Corpus Cancer AJCC v7",
+        "id": "C89635",
+        "is_lead_disease": true,
+        "name": "Stage III Uterine (including Endometrial) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage III Uterine Corpus Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Uterine Corpus Cancer",
+                "code": "C61574"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage III Uterine Corpus Cancer",
+          "Stage III Uterine Corpus Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91218"
+        ]
+      },
+      {
+        "display_name": "Stage IV Uterine Corpus Cancer AJCC v7",
+        "id": "C89636",
+        "is_lead_disease": false,
+        "name": "Stage IV Uterine (including Endometrial) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IV Uterine Corpus Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Uterine Corpus Cancer",
+                "code": "C61574"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IV Uterine Corpus Cancer",
+          "Stage IV Uterine Corpus Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91218"
+        ]
+      },
+      {
+        "display_name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma",
+        "id": "C37869",
+        "is_lead_disease": true,
+        "name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 1,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classical Hodgkin Lymphoma",
+          "B-cell lymphoma, unclassifiable, with features intermediate between diffuse large B-cell lymphoma and classical Hodgkin lymphoma",
+          "Gray Zone Lymphoma",
+          "Hodgkin-Like Anaplastic Large Cell Lymphoma",
+          "Large B-Cell Lymphoma with Hodgkin Features"
+        ],
+        "parents": [
+          "C3208"
+        ]
+      },
+      {
+        "display_name": "Stage II Uterine Corpus Cancer AJCC v7",
+        "id": "C89634",
+        "is_lead_disease": true,
+        "name": "Stage II Uterine (including Endometrial) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage II Uterine Corpus Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Uterine Corpus Cancer",
+                "code": "C61574"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage II Uterine Corpus Cancer",
+          "Stage II Uterine Corpus Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91218"
+        ]
+      },
+      {
+        "display_name": "Stage I Uterine Corpus Cancer AJCC v7",
+        "id": "C89633",
+        "is_lead_disease": true,
+        "name": "Stage I Uterine (including Endometrial) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage I Uterine Corpus Cancer AJCC v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Uterine Corpus Cancer",
+                "code": "C61574"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage I Uterine Corpus Cancer",
+          "Stage I Uterine Corpus Cancer AJCC v7"
+        ],
+        "parents": [
+          "C91218"
+        ]
+      },
+      {
+        "display_name": "Recurrent Uterine Corpus Carcinoma",
+        "id": "C9072",
+        "is_lead_disease": true,
+        "name": "Recurrent Uterine (Including Endometrial) Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Recurrent Uterine Corpus Cancer",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Uterine Corpus Cancer",
+                "code": "C61574"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Corpus Uteri Cancer",
+          "Recurrent Uterine Corpus Cancer",
+          "Recurrent Uterine Corpus Carcinoma"
+        ],
+        "parents": [
+          "C150526",
+          "C61574"
+        ]
+      },
+      {
+        "display_name": "Endometrial Adenocarcinoma",
+        "id": "C7359",
+        "is_lead_disease": false,
+        "name": "Endometrial Adenocarcinoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Endometrial Adenocarcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Uterine Corpus Cancer",
+                "code": "C61574"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOCARCINOMA, ENDOMETRIAL, MALIGNANT",
+          "Adenocarcinoma of Endometrium",
+          "Adenocarcinoma of the Endometrium",
+          "Endometrial Adenocarcinoma, Not Otherwise Specified"
+        ],
+        "parents": [
+          "C2852",
+          "C7558"
+        ]
+      },
+      {
+        "display_name": "Chronic Myelomonocytic Leukemia",
+        "id": "C3178",
+        "is_lead_disease": false,
+        "name": "Chronic Myelomonocytic Leukemia (CMML)",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Chronic Myelomonocytic Leukemia",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Myeloid Neoplasm",
+                "code": "C9290"
+              },
+              {
+                "idx": 1,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "CMML",
+          "Chronic Myelomonocytic Leukemia",
+          "Chronic myelomonocytic leukemia",
+          "chronic myelomonocytic leukemia"
+        ],
+        "parents": [
+          "C27262"
+        ]
+      },
+      {
+        "display_name": "Myelodysplastic Syndrome with Excess Blasts-1",
+        "id": "C7167",
+        "is_lead_disease": false,
+        "name": "Myelodysplastic Syndrome with Excess Blasts-1",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Myelodysplastic Syndrome with Excess Blasts-1",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Myelodysplastic Syndrome",
+                "code": "C3247"
+              },
+              {
+                "idx": 1,
+                "label": "Myeloid Neoplasm",
+                "code": "C9290"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "MDS-EB-1",
+          "RAEB I",
+          "RAEB-1",
+          "RAEB-I"
+        ],
+        "parents": [
+          "C7506"
+        ]
+      },
+      {
+        "id": "C8841",
+        "is_lead_disease": false,
+        "name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Non-Hodgkin Lymphoma",
+                "code": "C3211"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "B-Cell Lymphoma Recurrent",
+          "Recurrent B-Cell Lymphoma",
+          "Recurrent B-Cell Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C3457",
+          "C9251"
+        ]
+      },
+      {
+        "id": "C3575",
+        "is_lead_disease": false,
+        "name": "Malignant Endocrine Neoplasm",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Malignant Endocrine Neoplasm",
+        "preferred_name": "Malignant Endocrine Neoplasm",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Neoplasm",
+                "code": "C3262"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endocrine Neoplasm, Malignant",
+          "Endocrine cancer, NOS",
+          "Malignant Endocrine Gland Neoplasm",
+          "Malignant Endocrine Gland Tumor",
+          "Malignant Endocrine Tumor",
+          "Malignant Neoplasm of Endocrine Gland",
+          "Malignant Neoplasm of the Endocrine Gland",
+          "Malignant Tumor of Endocrine Gland",
+          "Malignant Tumor of the Endocrine Gland",
+          "endocrine cancer"
+        ],
+        "parents": [
+          "C3010",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C9325",
+        "is_lead_disease": true,
+        "name": "Adrenal Cortex Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Adrenal Cortex Carcinoma",
+        "preferred_name": "Adrenal Cortex Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Retroperitoneal Carcinoma",
+                "code": "C7352"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Adenocarcinoma, Adrenocortical, Malignant",
+          "Adrenal Cortex Adenocarcinoma",
+          "Adrenal Cortex Carcinoma",
+          "Adrenal Cortical Adenocarcinoma",
+          "Adrenal Cortical Carcinoma",
+          "Adrenal cortical adenocarcinoma",
+          "Adrenal cortical carcinoma",
+          "Adrenocortical Carcinoma",
+          "Adrenocortical carcinoma",
+          "Adrenocortical carcinoma, NOS",
+          "CARCINOMA, ADRENOCORTICAL, MALIGNANT",
+          "Carcinoma of Adrenal Cortex",
+          "Carcinoma of the Adrenal Cortex",
+          "Cortical Cell Carcinoma",
+          "adrenocortical cancer",
+          "adrenocortical carcinoma",
+          "cancer of the adrenal cortex"
+        ],
+        "parents": [
+          "C2852",
+          "C7201",
+          "C9327",
+          "C3575",
+          "C7352"
+        ]
+      },
+      {
+        "id": "C6887",
+        "is_lead_disease": false,
+        "name": "Thymoma Type B1",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Thymoma Type B1",
+        "preferred_name": "Thymoma Type B1",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Thymoma",
+                "code": "C3411"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphocyte-Predominant Thymoma",
+          "Lymphocyte-Rich Thymoma",
+          "Organoid Thymoma",
+          "Predominantly Cortical Thymoma",
+          "Thymoma, type B1, NOS"
+        ],
+        "parents": [
+          "C7114"
+        ]
+      },
+      {
+        "id": "C7997",
+        "is_lead_disease": false,
+        "name": "Thymoma Type B3",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Thymoma Type B3",
+        "preferred_name": "Thymoma Type B3",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Thymoma",
+                "code": "C3411"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Atypical Thymoma",
+          "Epithelial Malignant Thymoma",
+          "Epithelial Thymoma",
+          "Malignant Thymoma Type B3",
+          "Squamoid Thymoma",
+          "Thymoma, atypical, NOS",
+          "Thymoma, atypical, malignant",
+          "Thymoma, epithelial, NOS",
+          "Thymoma, epithelial, malignant",
+          "Thymoma, type B3, NOS",
+          "Thymoma, type B3, malignant",
+          "Well Differentiated Thymic Carcinoma",
+          "Well differentiated thymic carcinoma",
+          "Well-Differentiated Thymic Carcinoma"
+        ],
+        "parents": [
+          "C7612",
+          "C7114"
+        ]
+      },
+      {
+        "id": "C8753",
+        "is_lead_disease": false,
+        "name": "Recurrent Lung Large Cell Carcinoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Recurrent Lung Large Cell Carcinoma",
+        "preferred_name": "Recurrent Lung Large Cell Carcinoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Lung Non-Small Cell Carcinoma",
+                "code": "C2926"
+              },
+              {
+                "idx": 1,
+                "label": "Lung Carcinoma",
+                "code": "C4878"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Large Cell Carcinoma of Lung",
+          "Recurrent Large Cell Carcinoma of the Lung",
+          "Recurrent Large Cell Lung Carcinoma",
+          "Relapsed Large Cell Carcinoma of Lung",
+          "Relapsed Large Cell Carcinoma of the Lung",
+          "Relapsed Large Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C4450",
+          "C7783"
+        ]
+      },
+      {
+        "id": "C115033",
+        "is_lead_disease": false,
+        "name": "Masaoka Stage II",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "display_name": "Masaoka Stage II",
+        "preferred_name": "Masaoka-Koga Stage II",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Thymoma",
+                "code": "C3411"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Masaoka-Koga Stage II"
+        ],
+        "parents": [
+          "C112006"
+        ]
+      },
+      {
+        "id": "C3200",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Neoplasm",
+        "display_name": "Lung Neoplasm",
+        "preferred_name": "Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Neoplasms",
+          "Lung Tumor",
+          "Neoplasm of Lung",
+          "Neoplasm of the Lung",
+          "Tumor of Lung",
+          "Tumor of the Lung"
+        ],
+        "parents": [
+          "C3198",
+          "C3355",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C26907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Uterine Disorder",
+        "display_name": "Uterine Disorder",
+        "preferred_name": "Uterine Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Uterine Disease"
+        ],
+        "parents": [
+          "C27020"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3010",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Endocrine Neoplasm",
+        "display_name": "Endocrine Neoplasm",
+        "preferred_name": "Endocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endocrine System Neoplasm",
+          "Endocrine System Tumor",
+          "Endocrine Tumor"
+        ],
+        "parents": [
+          "C3009",
+          "C3709",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C27020",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Female Reproductive System Disorder",
+        "display_name": "Female Reproductive System Disorder",
+        "preferred_name": "Female Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Disease",
+          "Gynecological Disorder"
+        ],
+        "parents": [
+          "C4875"
+        ]
+      },
+      {
+        "id": "C3009",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endocrine System Disorder",
+        "display_name": "Endocrine System Disorder",
+        "preferred_name": "Endocrine System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Endocrine System",
+          "Endocrine Disease",
+          "Endocrine Disorder",
+          "Endocrinopathy",
+          "Thyroid or other glandular disorders"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C27907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Neoplasm",
+        "display_name": "B-Cell Neoplasm",
+        "preferred_name": "B-Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Lymphocytic Neoplasm"
+        ],
+        "parents": [
+          "C7065"
+        ]
+      },
+      {
+        "id": "C134157",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lymphoma",
+        "display_name": "Recurrent Lymphoma",
+        "preferred_name": "Recurrent Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3208",
+          "C172133"
+        ]
+      },
+      {
+        "id": "C156482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Genitourinary System Neoplasm",
+        "display_name": "Genitourinary System Neoplasm",
+        "preferred_name": "Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156660",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C4813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Recurrent Malignant Neoplasm",
+        "display_name": "Recurrent Malignant Neoplasm",
+        "preferred_name": "Recurrent Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrence",
+          "Recurrent Cancer",
+          "Recurrent Malignant Tumor",
+          "recurrence",
+          "recurrent cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C3552",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Uterine Neoplasm",
+        "display_name": "Malignant Uterine Neoplasm",
+        "preferred_name": "Malignant Uterine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer of Uterus",
+          "Cancer of the Uterus",
+          "Malignant Neoplasm of Uterus",
+          "Malignant Neoplasm of the Uterus",
+          "Malignant Tumor of Uterus",
+          "Malignant Tumor of the Uterus",
+          "Malignant Uterine Tumor",
+          "Uterine Cancer",
+          "Uterine cancer, NOS",
+          "uterine cancer"
+        ],
+        "parents": [
+          "C4913",
+          "C3435"
+        ]
+      },
+      {
+        "id": "C3435",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Uterine Neoplasm",
+        "display_name": "Uterine Neoplasm",
+        "preferred_name": "Uterine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Uterus",
+          "Neoplasm of the Uterus",
+          "Tumor of Uterus",
+          "Tumor of the Uterus",
+          "Uterine Neoplasms",
+          "Uterine Tumor"
+        ],
+        "parents": [
+          "C3053",
+          "C26907"
+        ]
+      },
+      {
+        "id": "C7506",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Myelodysplastic Syndrome with Excess Blasts",
+        "display_name": "Myelodysplastic Syndrome with Excess Blasts",
+        "preferred_name": "Myelodysplastic Syndrome with Excess Blasts",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "MDS-EB",
+          "RAEB",
+          "Refractory Anemia with Excess Blasts",
+          "Refractory Anemia with an Excess of Blasts",
+          "Refractory anemia with excess blasts"
+        ],
+        "parents": [
+          "C3247"
+        ]
+      },
+      {
+        "id": "C4813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Neoplasm",
+        "display_name": "Recurrent Malignant Neoplasm",
+        "preferred_name": "Recurrent Malignant Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrence",
+          "Recurrent Cancer",
+          "Recurrent Malignant Tumor",
+          "recurrence",
+          "recurrent cancer"
+        ],
+        "parents": [
+          "C9305",
+          "C4798"
+        ]
+      },
+      {
+        "id": "C4798",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Neoplasm",
+        "display_name": "Recurrent Neoplasm",
+        "preferred_name": "Recurrent Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Neoplasm Recurrence",
+          "Recurrence",
+          "Recurrent",
+          "Recurrent Tumor",
+          "recurrence"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C7114",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thymoma Type B",
+        "display_name": "Thymoma Type B",
+        "preferred_name": "Thymoma Type B",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Dendritic Cell Thymoma",
+          "Epithelioid Thymoma",
+          "Plump Cell Thymoma"
+        ],
+        "parents": [
+          "C3411"
+        ]
+      },
+      {
+        "id": "C26690",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Adrenal Gland Disorder",
+        "display_name": "Adrenal Gland Disorder",
+        "preferred_name": "Adrenal Gland Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adrenal Gland Disease",
+          "Adrenal Gland Diseases",
+          "Adrenal Gland Disorders"
+        ],
+        "parents": [
+          "C27667"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27134",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+          "Hematologic Cancer",
+          "Hematologic Malignancy",
+          "Hematologic Neoplasm",
+          "Hematological Neoplasm",
+          "Hematological Tumor",
+          "Hematopoietic Cancer",
+          "Hematopoietic Cell Tumor",
+          "Hematopoietic Neoplasm",
+          "Hematopoietic Neoplasms including Lymphomas",
+          "Hematopoietic Tumor",
+          "Hematopoietic and Lymphoid Neoplasms",
+          "Hematopoietic malignancy, NOS",
+          "Hematopoietic, Including Myeloma",
+          "Malignant Hematologic Neoplasm",
+          "Malignant Hematopoietic Neoplasm",
+          "hematologic cancer"
+        ],
+        "parents": [
+          "C26323",
+          "C35813",
+          "C4741"
+        ]
+      },
+      {
+        "id": "C3198",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Disorder",
+        "display_name": "Lung Disorder",
+        "preferred_name": "Lung Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Lung",
+          "Lung Disorders",
+          "Pulmonary Disease",
+          "Pulmonary Diseases",
+          "Pulmonary Disorder",
+          "Pulmonary Disorders"
+        ],
+        "parents": [
+          "C26871",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C3012",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endometrial Neoplasm",
+        "display_name": "Endometrial Neoplasm",
+        "preferred_name": "Endometrial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endometrial Tumor",
+          "Endometrium Neoplasm",
+          "Endometrium Tumor",
+          "Neoplasm of Endometrium",
+          "Neoplasm of the Endometrium",
+          "Tumor of Endometrium",
+          "Tumor of the Endometrium"
+        ],
+        "parents": [
+          "C3504",
+          "C6300"
+        ]
+      },
+      {
+        "id": "C7065",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphocytic Neoplasm",
+        "display_name": "Lymphocytic Neoplasm",
+        "preferred_name": "Lymphocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphocytic Tumor",
+          "Lymphocytic and Plasma Cell Neoplasm",
+          "Lymphocytic and Plasma Cell Tumor",
+          "Lymphocytic and Plasma Cell Tumour",
+          "Lymphocytic and Plasmacytic Neoplasm",
+          "Lymphoid Neoplasm",
+          "Lymphoid Tumor",
+          "Lymphoid and Plasma Cell Tumor",
+          "Lymphoid and Plasma Cell Tumour",
+          "Lymphoid and Plasmacytic Neoplasm",
+          "Lymphoid and Plasmacytic Tumor",
+          "Lymphoid and Plasmacytic Tumour"
+        ],
+        "parents": [
+          "C27134",
+          "C9308"
+        ]
+      },
+      {
+        "id": "C3537",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Retroperitoneal Neoplasm",
+        "display_name": "Malignant Retroperitoneal Neoplasm",
+        "preferred_name": "Malignant Retroperitoneal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156711",
+          "C3357"
+        ]
+      },
+      {
+        "id": "C3208",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoma",
+        "display_name": "Lymphoma",
+        "preferred_name": "Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "LYMPHOMA, MALIGNANT",
+          "Lymphoma (Hodgkin and Non-Hodgkin)",
+          "Lymphoma (Hodgkin's and Non-Hodgkin's)",
+          "Lymphoma, NOS",
+          "Lymphomatous",
+          "Malignant Lymphoma",
+          "lymphoma"
+        ],
+        "parents": [
+          "C7065",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C6300",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Uterine Corpus Neoplasm",
+        "display_name": "Uterine Corpus Neoplasm",
+        "preferred_name": "Uterine Corpus Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Corpus Uteri Neoplasm",
+          "Corpus Uteri Tumor",
+          "Neoplasm of Body of Uterus",
+          "Neoplasm of Corpus Uteri",
+          "Neoplasm of Uterine Body",
+          "Neoplasm of Uterine Corpus",
+          "Neoplasm of the Body of Uterus",
+          "Neoplasm of the Corpus Uteri",
+          "Neoplasm of the Uterine Body",
+          "Neoplasm of the Uterine Corpus",
+          "Tumor of Corpus Uteri",
+          "Tumor of Uterine Body",
+          "Tumor of Uterine Corpus",
+          "Tumor of the Corpus Uteri",
+          "Tumor of the Uterine Body",
+          "Tumor of the Uterine Corpus",
+          "Uterine Body Neoplasm",
+          "Uterine Body Tumor",
+          "Uterine Corpus Tumor"
+        ],
+        "parents": [
+          "C3435"
+        ]
+      },
+      {
+        "id": "C3211",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma",
+        "display_name": "Non-Hodgkin Lymphoma",
+        "preferred_name": "Non-Hodgkin Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "NHL",
+          "NHL, NOS",
+          "Non-Hodgkin lymphoma, NOS",
+          "Non-Hodgkin's Lymphoma",
+          "Non-Hodgkin's Lymphoma (NHL)",
+          "non-Hodgkin lymphoma"
+        ],
+        "parents": [
+          "C3208"
+        ]
+      },
+      {
+        "id": "C3556",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Uterine Corpus Neoplasm",
+        "display_name": "Malignant Uterine Corpus Neoplasm",
+        "preferred_name": "Malignant Uterine Corpus Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Corpus Uteri Neoplasm",
+          "Malignant Corpus Uteri Tumor",
+          "Malignant Neoplasm of Uterine Body",
+          "Malignant Neoplasm of the Uterine Body",
+          "Malignant Tumor of Uterine Body",
+          "Malignant Tumor of the Uterine Body",
+          "Malignant Uterine Body Neoplasm",
+          "Malignant Uterine Body Tumor",
+          "Malignant Uterine Corpus Tumor"
+        ],
+        "parents": [
+          "C3552",
+          "C6300"
+        ]
+      },
+      {
+        "id": "C7352",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Retroperitoneal Cancer",
+        "display_name": "Retroperitoneal Carcinoma",
+        "preferred_name": "Retroperitoneal Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Carcinoma of Retroperitoneum",
+          "Carcinoma of the Retroperitoneum",
+          "Retroperitoneal Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C3537"
+        ]
+      },
+      {
+        "id": "C26962",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thymus Disorder",
+        "display_name": "Thymus Disorder",
+        "preferred_name": "Thymus Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C35742"
+        ]
+      },
+      {
+        "id": "C2858",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Adrenal Cortex Neoplasm",
+        "display_name": "Adrenal Cortex Neoplasm",
+        "preferred_name": "Adrenal Cortex Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adrenal Cortex Tumor",
+          "Adrenocortical Neoplasm",
+          "Adrenocortical Tumor"
+        ],
+        "parents": [
+          "C2859"
+        ]
+      },
+      {
+        "id": "C156482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Neoplasm",
+        "display_name": "Genitourinary System Neoplasm",
+        "preferred_name": "Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156660",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adenocarcinoma",
+        "display_name": "Adenocarcinoma",
+        "preferred_name": "Adenocarcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C7132"
+        ]
+      },
+      {
+        "id": "C2926",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Small Cell Lung Cancer",
+        "display_name": "Non-Small Cell Lung Carcinoma",
+        "preferred_name": "Lung Non-Small Cell Carcinoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Lung Non-Small Cell Carcinoma",
+          "NSCLC",
+          "NSCLC - Non-Small Cell Lung Cancer",
+          "Non Small Cell Lung Cancer NOS",
+          "Non-Small Cell Cancer of Lung",
+          "Non-Small Cell Cancer of the Lung",
+          "Non-Small Cell Carcinoma of Lung",
+          "Non-Small Cell Carcinoma of the Lung",
+          "Non-Small Cell Lung Carcinoma",
+          "Non-small cell lung cancer, NOS",
+          "non-small cell lung cancer"
+        ],
+        "parents": [
+          "C4878",
+          "C65151"
+        ]
+      },
+      {
+        "id": "C156484",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Genitourinary System Neoplasm",
+        "display_name": "Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Malignant Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Genitourinary Cancer",
+          "Genitourinary System Cancer",
+          "Malignant Genitourinary Neoplasm"
+        ],
+        "parents": [
+          "C156482",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3355",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory System Neoplasm",
+        "display_name": "Respiratory System Neoplasm",
+        "preferred_name": "Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C3263",
+          "C26871"
+        ]
+      },
+      {
+        "id": "C26323",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematologic and Lymphocytic Disorder",
+        "display_name": "Hematologic and Lymphocytic Disorder",
+        "preferred_name": "Hematologic and Lymphocytic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Disease",
+          "Blood Disorder",
+          "Hematologic Disorder",
+          "Hematological Disorder"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Glandular Cell Neoplasm",
+        "display_name": "Glandular Cell Neoplasm",
+        "preferred_name": "Glandular Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "parents": [
+          "C3709"
+        ]
+      },
+      {
+        "id": "C9251",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Non-Hodgkin Lymphoma",
+        "display_name": "Recurrent Non-Hodgkin Lymphoma",
+        "preferred_name": "Recurrent Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non-Hodgkin's Lymphoma Relapsed",
+          "Recurrent Non-Hodgkin's Lymphoma",
+          "Relapsed Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C3211",
+          "C134157"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C35813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Tumor"
+        ],
+        "parents": [
+          "C35814",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C34433",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Bone Marrow Disorder",
+        "display_name": "Bone Marrow Disorder",
+        "preferred_name": "Bone Marrow Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bone Marrow Disease"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C4878",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lung Cancer",
+        "display_name": "Lung Carcinoma",
+        "preferred_name": "Lung Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Lung",
+          "Cancer of the Lung",
+          "Carcinoma of Lung",
+          "Carcinoma of the Lung",
+          "Lung Cancer (all types)",
+          "Lung Carcinoma",
+          "Lung cancer, NOS",
+          "lung cancer"
+        ],
+        "parents": [
+          "C2916",
+          "C7377"
+        ]
+      },
+      {
+        "id": "C112006",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thymoma by Masaoka-Koga Stage",
+        "display_name": "Thymoma by Masaoka-Koga Stage",
+        "preferred_name": "Thymoma by Masaoka-Koga Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Masaoka Staging",
+          "Masaoka Staging System",
+          "Masaoka Staging System for Thymoma",
+          "Masaoka-Koga Staging System for Thymoma"
+        ],
+        "parents": [
+          "C3411"
+        ]
+      },
+      {
+        "id": "C7377",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Lung Neoplasm",
+        "display_name": "Malignant Lung Neoplasm",
+        "preferred_name": "Malignant Lung Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Lung Tumor",
+          "Malignant Neoplasm of Lung",
+          "Malignant Neoplasm of the Lung",
+          "Malignant Tumor of Lung",
+          "Malignant Tumor of the Lung"
+        ],
+        "parents": [
+          "C3200",
+          "C4571",
+          "C3576"
+        ]
+      },
+      {
+        "id": "C4962",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Thymus Neoplasm",
+        "display_name": "Malignant Thymus Neoplasm",
+        "preferred_name": "Malignant Thymus Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer of Thymus",
+          "Cancer of the Thymus",
+          "Malignant Neoplasm of Thymus",
+          "Malignant Neoplasm of the Thymus",
+          "Malignant Thymus Tumor",
+          "Malignant Tumor of Thymus",
+          "Malignant Tumor of the Thymus",
+          "Thymus Cancer"
+        ],
+        "parents": [
+          "C3576",
+          "C3412"
+        ]
+      },
+      {
+        "id": "C3457",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Non Hodgkin's Lymphoma",
+          "B-Cell Non-Hodgkin's Lymphoma",
+          "B-cell lymphoma",
+          "Lymphomas Non-Hodgkin's B-Cell",
+          "Non-Hodgkin's B-Cell Lymphoma",
+          "Non-Hodgkin's Lymphoma B-Cell"
+        ],
+        "parents": [
+          "C27907",
+          "C3211"
+        ]
+      },
+      {
+        "id": "C26871",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory System Disorder",
+        "display_name": "Respiratory System Disorder",
+        "preferred_name": "Respiratory System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Respiratory System",
+          "Respiratory Disorder",
+          "Unspecified Respiratory Problem"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C27020",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Female Reproductive System Disorder",
+        "display_name": "Female Reproductive System Disorder",
+        "preferred_name": "Female Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Disease",
+          "Gynecological Disorder"
+        ],
+        "parents": [
+          "C4875"
+        ]
+      },
+      {
+        "id": "C177724",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Recurrent Malignant Genitourinary System Neoplasm",
+        "display_name": "Recurrent Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Recurrent Malignant Genitourinary System Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C27262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Myelodysplastic/Myeloproliferative Disease",
+        "display_name": "Myelodysplastic/Myeloproliferative Disease",
+        "preferred_name": "Myelodysplastic/Myeloproliferative Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "MDS-MPD",
+          "MDS/MPD",
+          "MDS/MPN",
+          "MPD-MDS",
+          "MPD/MDS",
+          "Myelodysplastic/Myeloproliferative Diseases",
+          "Myelodysplastic/Myeloproliferative Disorder",
+          "Myelodysplastic/Myeloproliferative Disorders",
+          "Myelodysplastic/Myeloproliferative Neoplasm",
+          "Myeloproliferative/Myelodysplastic Disorders",
+          "Myeloproliferative/Myelodysplastic Syndromes"
+        ],
+        "parents": [
+          "C35501",
+          "C9290"
+        ]
+      },
+      {
+        "id": "C3576",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Thoracic Neoplasm",
+        "display_name": "Malignant Thoracic Neoplasm",
+        "preferred_name": "Malignant Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Thorax",
+          "Malignant Neoplasm of the Thorax",
+          "Malignant Thoracic Tumor",
+          "Malignant Tumor of Thorax",
+          "Malignant Tumor of the Thorax"
+        ],
+        "parents": [
+          "C9305",
+          "C3406"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C7783",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Non-Small Cell Lung Cancer",
+        "display_name": "Recurrent Non-Small Cell Lung Carcinoma",
+        "preferred_name": "Recurrent Lung Non-Small Cell Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non Small Cell Lung Cancer Recurrent",
+          "Non Small Cell Lung Cancer, Recurrent",
+          "Recurrent Lung Non-Small Cell Carcinoma",
+          "Recurrent NSCLC",
+          "Recurrent Non-Small Cell Cancer of Lung",
+          "Recurrent Non-Small Cell Cancer of the Lung",
+          "Recurrent Non-Small Cell Lung Carcinoma"
+        ],
+        "parents": [
+          "C2926",
+          "C8953"
+        ]
+      },
+      {
+        "id": "C156484",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Genitourinary System Neoplasm",
+        "display_name": "Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Malignant Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Genitourinary Cancer",
+          "Genitourinary System Cancer",
+          "Malignant Genitourinary Neoplasm"
+        ],
+        "parents": [
+          "C156482",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C91218",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Uterine Corpus Cancer by AJCC v7 Stage",
+        "display_name": "Uterine Corpus Cancer by AJCC v7 Stage",
+        "preferred_name": "Uterine Corpus Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C61574"
+        ]
+      },
+      {
+        "id": "C9327",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Adrenal Cortex Neoplasm",
+        "display_name": "Malignant Adrenal Cortex Neoplasm",
+        "preferred_name": "Malignant Adrenal Cortex Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adrenal cortical tumor, malignant",
+          "Malignant Adrenal Cortex Tumor",
+          "Malignant Adrenocortical Neoplasm",
+          "Malignant Adrenocortical Tumor",
+          "Malignant Neoplasm of Adrenal Cortex",
+          "Malignant Neoplasm of the Adrenal Cortex",
+          "Malignant Tumor of Adrenal Cortex",
+          "Malignant Tumor of the Adrenal Cortex"
+        ],
+        "parents": [
+          "C2858",
+          "C9338"
+        ]
+      },
+      {
+        "id": "C3575",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Endocrine Neoplasm",
+        "display_name": "Malignant Endocrine Neoplasm",
+        "preferred_name": "Malignant Endocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endocrine Neoplasm, Malignant",
+          "Endocrine cancer, NOS",
+          "Malignant Endocrine Gland Neoplasm",
+          "Malignant Endocrine Gland Tumor",
+          "Malignant Endocrine Tumor",
+          "Malignant Neoplasm of Endocrine Gland",
+          "Malignant Neoplasm of the Endocrine Gland",
+          "Malignant Tumor of Endocrine Gland",
+          "Malignant Tumor of the Endocrine Gland",
+          "endocrine cancer"
+        ],
+        "parents": [
+          "C3010",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3674",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Reproductive System Neoplasm",
+        "display_name": "Reproductive System Neoplasm",
+        "preferred_name": "Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Reproductive System",
+          "Neoplasm of the Reproductive System",
+          "Reproductive Neoplasm",
+          "Reproductive System Tumor",
+          "Reproductive Tumor",
+          "Tumor of Reproductive System",
+          "Tumor of the Reproductive System"
+        ],
+        "parents": [
+          "C156482",
+          "C4875"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C27134",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+          "Hematologic Cancer",
+          "Hematologic Malignancy",
+          "Hematologic Neoplasm",
+          "Hematological Neoplasm",
+          "Hematological Tumor",
+          "Hematopoietic Cancer",
+          "Hematopoietic Cell Tumor",
+          "Hematopoietic Neoplasm",
+          "Hematopoietic Neoplasms including Lymphomas",
+          "Hematopoietic Tumor",
+          "Hematopoietic and Lymphoid Neoplasms",
+          "Hematopoietic malignancy, NOS",
+          "Hematopoietic, Including Myeloma",
+          "Malignant Hematologic Neoplasm",
+          "Malignant Hematopoietic Neoplasm",
+          "hematologic cancer"
+        ],
+        "parents": [
+          "C26323",
+          "C35813",
+          "C4741"
+        ]
+      },
+      {
+        "id": "C4913",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Female Reproductive System Neoplasm",
+        "display_name": "Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive Cancer",
+          "Female reprod. system cancer, NOS",
+          "Female reproductive system cancer, NOS",
+          "Gynecologic Cancer",
+          "Malignant Female Reproductive System Tumor",
+          "Malignant Gynecologic Neoplasm",
+          "Malignant Gynecologic Tumor",
+          "Malignant Neoplasm of Female Reproductive System",
+          "Malignant Neoplasm of the Female Reproductive System",
+          "Malignant Tumor of Female Reproductive System",
+          "Malignant Tumor of the Female Reproductive System",
+          "gynecologic cancer"
+        ],
+        "parents": [
+          "C3053",
+          "C36076"
+        ]
+      },
+      {
+        "id": "C4875",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Reproductive System Disorder",
+        "display_name": "Reproductive System Disorder",
+        "preferred_name": "Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Reproductive System",
+          "Genital Disorders",
+          "Reproductive System Disease"
+        ],
+        "parents": [
+          "C156660"
+        ]
+      },
+      {
+        "id": "C4450",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Large Cell Lung Cancer",
+        "display_name": "Large Cell Lung Carcinoma",
+        "preferred_name": "Lung Large Cell Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Anaplastic Lung Carcinoma",
+          "Large Cell Carcinoma of Lung",
+          "Large Cell Carcinoma of the Lung",
+          "Large Cell Lung Carcinoma",
+          "Large Cell Undifferentiated Lung Carcinoma",
+          "Lung Large Cell Carcinoma"
+        ],
+        "parents": [
+          "C3780",
+          "C2926"
+        ]
+      },
+      {
+        "id": "C35814",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid System Disorder",
+        "display_name": "Hematopoietic and Lymphoid System Disorder",
+        "preferred_name": "Hematopoietic and Lymphoid System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C27815",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Endometrial Neoplasm",
+        "display_name": "Malignant Endometrial Neoplasm",
+        "preferred_name": "Malignant Endometrial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3012",
+          "C3556"
+        ]
+      },
+      {
+        "id": "C7065",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lymphocytic Neoplasm",
+        "display_name": "Lymphocytic Neoplasm",
+        "preferred_name": "Lymphocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphocytic Tumor",
+          "Lymphocytic and Plasma Cell Neoplasm",
+          "Lymphocytic and Plasma Cell Tumor",
+          "Lymphocytic and Plasma Cell Tumour",
+          "Lymphocytic and Plasmacytic Neoplasm",
+          "Lymphoid Neoplasm",
+          "Lymphoid Tumor",
+          "Lymphoid and Plasma Cell Tumor",
+          "Lymphoid and Plasma Cell Tumour",
+          "Lymphoid and Plasmacytic Neoplasm",
+          "Lymphoid and Plasmacytic Tumor",
+          "Lymphoid and Plasmacytic Tumour"
+        ],
+        "parents": [
+          "C27134",
+          "C9308"
+        ]
+      },
+      {
+        "id": "C3780",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Large Cell Carcinoma",
+        "display_name": "Large Cell Carcinoma",
+        "preferred_name": "Large Cell Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Carcinoma, Large Cell",
+          "large cell carcinoma"
+        ],
+        "parents": [
+          "C2916"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C3009",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Endocrine System Disorder",
+        "display_name": "Endocrine System Disorder",
+        "preferred_name": "Endocrine System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Endocrine System",
+          "Endocrine Disease",
+          "Endocrine Disorder",
+          "Endocrinopathy",
+          "Thyroid or other glandular disorders"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C9308",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoproliferative Disorder",
+        "display_name": "Lymphoproliferative Disorder",
+        "preferred_name": "Lymphoproliferative Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphoproliferative disease, NOS",
+          "Lymphoproliferative disorder, NOS",
+          "lymphoproliferative disorder"
+        ],
+        "parents": [
+          "C26323"
+        ]
+      },
+      {
+        "id": "C36076",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Reproductive System Neoplasm",
+        "display_name": "Malignant Reproductive System Neoplasm",
+        "preferred_name": "Malignant Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C9308",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lymphoproliferative Disorder",
+        "display_name": "Lymphoproliferative Disorder",
+        "preferred_name": "Lymphoproliferative Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphoproliferative disease, NOS",
+          "Lymphoproliferative disorder, NOS",
+          "lymphoproliferative disorder"
+        ],
+        "parents": [
+          "C26323"
+        ]
+      },
+      {
+        "id": "C54705",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Cancer-Related Syndrome",
+        "display_name": "Neoplastic Syndrome",
+        "preferred_name": "Neoplastic Syndrome",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplastic Syndrome",
+          "Tumor Syndrome"
+        ],
+        "parents": [
+          "C28193"
+        ]
+      },
+      {
+        "id": "C3208",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lymphoma",
+        "display_name": "Lymphoma",
+        "preferred_name": "Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "LYMPHOMA, MALIGNANT",
+          "Lymphoma (Hodgkin and Non-Hodgkin)",
+          "Lymphoma (Hodgkin's and Non-Hodgkin's)",
+          "Lymphoma, NOS",
+          "Lymphomatous",
+          "Malignant Lymphoma",
+          "lymphoma"
+        ],
+        "parents": [
+          "C7065",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C26907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Uterine Disorder",
+        "display_name": "Uterine Disorder",
+        "preferred_name": "Uterine Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Uterine Disease"
+        ],
+        "parents": [
+          "C27020"
+        ]
+      },
+      {
+        "id": "C3411",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thymoma",
+        "display_name": "Thymoma",
+        "preferred_name": "Thymoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Thymoma, NOS",
+          "thymoma"
+        ],
+        "parents": [
+          "C6450"
+        ]
+      },
+      {
+        "id": "C35813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Tumor"
+        ],
+        "parents": [
+          "C35814",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C7201",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Infrequent Neoplasm",
+        "display_name": "Infrequent Neoplasm",
+        "preferred_name": "Infrequent Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Infrequent Tumor"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C156711",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Peritoneal and Retroperitoneal Neoplasm",
+        "display_name": "Malignant Peritoneal and Retroperitoneal Neoplasm",
+        "preferred_name": "Malignant Peritoneal and Retroperitoneal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9305",
+          "C7337"
+        ]
+      },
+      {
+        "id": "C8953",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lung Cancer",
+        "display_name": "Recurrent Lung Carcinoma",
+        "preferred_name": "Recurrent Lung Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Lung Carcinoma",
+          "Recurrent Unspecified Carcinoma of Lung",
+          "Recurrent Unspecified Carcinoma of the Lung",
+          "Recurrent Unspecified Lung Carcinoma",
+          "Relapsed Unspecified Carcinoma of Lung",
+          "Relapsed Unspecified Carcinoma of the Lung",
+          "Relapsed Unspecified Lung Carcinoma"
+        ],
+        "parents": [
+          "C4878",
+          "C7619"
+        ]
+      },
+      {
+        "id": "C3053",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Female Reproductive System Neoplasm",
+        "display_name": "Female Reproductive System Neoplasm",
+        "preferred_name": "Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Tumor",
+          "Gynecologic Neoplasm",
+          "Gynecologic Tumor",
+          "Neoplasm of Female Reproductive System",
+          "Neoplasm of the Female Reproductive System",
+          "Tumor of Female Reproductive System",
+          "Tumor of the Female Reproductive System"
+        ],
+        "parents": [
+          "C27020",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C61574",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Uterine (Including Endometrial) Cancer",
+        "display_name": "Uterine Corpus Cancer",
+        "preferred_name": "Uterine Corpus Cancer",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of the Corpus Uteri",
+          "Corpus Uteri Cancer",
+          "Uterine Corpus Cancer"
+        ],
+        "parents": [
+          "C3556"
+        ]
+      },
+      {
+        "id": "C27667",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Retroperitoneal Disorder",
+        "display_name": "Retroperitoneal Disorder",
+        "preferred_name": "Retroperitoneal Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Retroperitoneal Disease"
+        ],
+        "parents": [
+          "C27664"
+        ]
+      },
+      {
+        "id": "C164141",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Carcinoma",
+        "display_name": "Genitourinary System Carcinoma",
+        "preferred_name": "Genitourinary System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2916",
+          "C156484"
+        ]
+      },
+      {
+        "id": "C26323",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematologic and Lymphocytic Disorder",
+        "display_name": "Hematologic and Lymphocytic Disorder",
+        "preferred_name": "Hematologic and Lymphocytic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Disease",
+          "Blood Disorder",
+          "Hematologic Disorder",
+          "Hematological Disorder"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C172133",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Malignant Lymphoid Neoplasm",
+        "display_name": "Recurrent Malignant Lymphoid Neoplasm",
+        "preferred_name": "Recurrent Malignant Lymphoid Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7065",
+          "C27358",
+          "C147861"
+        ]
+      },
+      {
+        "id": "C3412",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thymus Neoplasm",
+        "display_name": "Thymus Neoplasm",
+        "preferred_name": "Thymus Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Thymus",
+          "Neoplasm of the Thymus",
+          "Thymic Neoplasm",
+          "Thymic Tumor",
+          "Thymus Tumor",
+          "Tumor of Thymus",
+          "Tumor of the Thymus"
+        ],
+        "parents": [
+          "C3406",
+          "C26962"
+        ]
+      },
+      {
+        "id": "C156660",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Genitourinary System Disorder",
+        "display_name": "Genitourinary System Disorder",
+        "preferred_name": "Genitourinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Urogenital Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3406",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thoracic Neoplasm",
+        "display_name": "Thoracic Neoplasm",
+        "preferred_name": "Thoracic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Thorax",
+          "Neoplasm of the Thorax",
+          "Thoracic Tumor",
+          "Tumor of Thorax",
+          "Tumor of the Thorax"
+        ],
+        "parents": [
+          "C3263",
+          "C35742"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3504",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endometrial Disorder",
+        "display_name": "Endometrial Disorder",
+        "preferred_name": "Endometrial Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "endometrial disorder"
+        ],
+        "parents": [
+          "C26907"
+        ]
+      },
+      {
+        "id": "C4798",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Recurrent Neoplasm",
+        "display_name": "Recurrent Neoplasm",
+        "preferred_name": "Recurrent Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Neoplasm Recurrence",
+          "Recurrence",
+          "Recurrent",
+          "Recurrent Tumor",
+          "recurrence"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C3552",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Uterine Neoplasm",
+        "display_name": "Malignant Uterine Neoplasm",
+        "preferred_name": "Malignant Uterine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer of Uterus",
+          "Cancer of the Uterus",
+          "Malignant Neoplasm of Uterus",
+          "Malignant Neoplasm of the Uterus",
+          "Malignant Tumor of Uterus",
+          "Malignant Tumor of the Uterus",
+          "Malignant Uterine Tumor",
+          "Uterine Cancer",
+          "Uterine cancer, NOS",
+          "uterine cancer"
+        ],
+        "parents": [
+          "C4913",
+          "C3435"
+        ]
+      },
+      {
+        "id": "C4875",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Reproductive System Disorder",
+        "display_name": "Reproductive System Disorder",
+        "preferred_name": "Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Reproductive System",
+          "Genital Disorders",
+          "Reproductive System Disease"
+        ],
+        "parents": [
+          "C156660"
+        ]
+      },
+      {
+        "id": "C156660",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Disorder",
+        "display_name": "Genitourinary System Disorder",
+        "preferred_name": "Genitourinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Urogenital Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3010",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endocrine Neoplasm",
+        "display_name": "Endocrine Neoplasm",
+        "preferred_name": "Endocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Endocrine System Neoplasm",
+          "Endocrine System Tumor",
+          "Endocrine Tumor"
+        ],
+        "parents": [
+          "C3009",
+          "C3709",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C27669",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Respiratory and Thoracic Disorder",
+        "display_name": "Respiratory and Thoracic Disorder",
+        "preferred_name": "Respiratory and Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Respiratory and Thoracic Disease",
+          "Respiratory, Thoracic, and Mediastinal Disease",
+          "Respiratory, Thoracic, and Mediastinal Disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C7612",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Thymoma",
+        "display_name": "Malignant Thymoma",
+        "preferred_name": "Malignant Thymoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "THYMOMA, MALIGNANT"
+        ],
+        "parents": [
+          "C4962",
+          "C3411"
+        ]
+      },
+      {
+        "id": "C147861",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Lymphoproliferative Disorder",
+        "display_name": "Recurrent Lymphoproliferative Disorder",
+        "preferred_name": "Recurrent Lymphoproliferative Disorder",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C9308"
+        ]
+      },
+      {
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Adenocarcinoma",
+        "display_name": "Adenocarcinoma",
+        "preferred_name": "Adenocarcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C7132"
+        ]
+      },
+      {
+        "id": "C3556",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Uterine Corpus Neoplasm",
+        "display_name": "Malignant Uterine Corpus Neoplasm",
+        "preferred_name": "Malignant Uterine Corpus Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Corpus Uteri Neoplasm",
+          "Malignant Corpus Uteri Tumor",
+          "Malignant Neoplasm of Uterine Body",
+          "Malignant Neoplasm of the Uterine Body",
+          "Malignant Tumor of Uterine Body",
+          "Malignant Tumor of the Uterine Body",
+          "Malignant Uterine Body Neoplasm",
+          "Malignant Uterine Body Tumor",
+          "Malignant Uterine Corpus Tumor"
+        ],
+        "parents": [
+          "C3552",
+          "C6300"
+        ]
+      },
+      {
+        "id": "C35370",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Bone Marrow Neoplasm",
+        "display_name": "Bone Marrow Neoplasm",
+        "preferred_name": "Bone Marrow Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Bone Marrow Tumor",
+          "Neoplasm of Bone Marrow"
+        ],
+        "parents": [
+          "C34433",
+          "C35813"
+        ]
+      },
+      {
+        "id": "C65151",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Small Cell Carcinoma",
+        "display_name": "Non-Small Cell Carcinoma",
+        "preferred_name": "Non-Small Cell Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-small cell carcinoma"
+        ],
+        "parents": [
+          "C2916"
+        ]
+      },
+      {
+        "id": "C4571",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Respiratory System Neoplasm",
+        "display_name": "Malignant Respiratory System Neoplasm",
+        "preferred_name": "Malignant Respiratory System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Respiratory Tract Neoplasm"
+        ],
+        "parents": [
+          "C9305",
+          "C3355"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C9338",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Adrenal Gland Neoplasm",
+        "display_name": "Malignant Adrenal Gland Neoplasm",
+        "preferred_name": "Malignant Adrenal Gland Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Adrenal Gland Tumor",
+          "Malignant Adrenal Neoplasm",
+          "Malignant Adrenal Tumor",
+          "Malignant Neoplasm of Adrenal Gland",
+          "Malignant Neoplasm of the Adrenal Gland",
+          "Malignant Tumor of Adrenal Gland",
+          "Malignant Tumor of the Adrenal Gland",
+          "adrenal cancer"
+        ],
+        "parents": [
+          "C2859",
+          "C3537"
+        ]
+      },
+      {
+        "id": "C91218",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Uterine Corpus Cancer by AJCC v7 Stage",
+        "display_name": "Uterine Corpus Cancer by AJCC v7 Stage",
+        "preferred_name": "Uterine Corpus Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C61574"
+        ]
+      },
+      {
+        "id": "C2859",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Adrenal Gland Neoplasm",
+        "display_name": "Adrenal Gland Neoplasm",
+        "preferred_name": "Adrenal Gland Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adrenal Gland Tumor",
+          "Adrenal Neoplasm",
+          "Adrenal Neoplasms",
+          "Adrenal Tumor",
+          "Neoplasm of Adrenal Gland",
+          "Neoplasm of the Adrenal Gland",
+          "Tumor of Adrenal Gland",
+          "Tumor of the Adrenal Gland"
+        ],
+        "parents": [
+          "C26690",
+          "C3357"
+        ]
+      },
+      {
+        "id": "C7337",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Peritoneal and Retroperitoneal Neoplasm",
+        "display_name": "Peritoneal and Retroperitoneal Neoplasm",
+        "preferred_name": "Peritoneal and Retroperitoneal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Peritoneal and Retroperitoneal Tumor"
+        ],
+        "parents": [
+          "C3263",
+          "C27664"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C7619",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Carcinoma",
+        "display_name": "Recurrent Carcinoma",
+        "preferred_name": "Recurrent Carcinoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Cancer",
+          "Relapsed Cancer",
+          "Relapsed Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C27358",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Recurrent Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Recurrent Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Recurrent Hematologic Malignancy",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Recurrent Hematologic Cancer",
+          "Recurrent Hematologic Malignancy",
+          "Relapsed Hematologic Cancer",
+          "Relapsed Hematologic Malignancy"
+        ],
+        "parents": [
+          "C27134",
+          "C4813"
+        ]
+      },
+      {
+        "id": "C27664",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Peritoneal and Retroperitoneal Disorder",
+        "display_name": "Peritoneal and Retroperitoneal Disorder",
+        "preferred_name": "Peritoneal and Retroperitoneal Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Peritoneal and Retroperitoneal Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3435",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Uterine Neoplasm",
+        "display_name": "Uterine Neoplasm",
+        "preferred_name": "Uterine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Uterus",
+          "Neoplasm of the Uterus",
+          "Tumor of Uterus",
+          "Tumor of the Uterus",
+          "Uterine Neoplasms",
+          "Uterine Tumor"
+        ],
+        "parents": [
+          "C3053",
+          "C26907"
+        ]
+      },
+      {
+        "id": "C35742",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thoracic Disorder",
+        "display_name": "Thoracic Disorder",
+        "preferred_name": "Thoracic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Thoracic Disease"
+        ],
+        "parents": [
+          "C27669"
+        ]
+      },
+      {
+        "id": "C28193",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Syndrome",
+        "display_name": "Syndrome",
+        "preferred_name": "Syndrome",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "syndrome"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C150526",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Recurrent Malignant Female Reproductive System Neoplasm",
+        "display_name": "Recurrent Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Recurrent Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C4913",
+          "C177724"
+        ]
+      },
+      {
+        "id": "C6300",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Uterine Corpus Neoplasm",
+        "display_name": "Uterine Corpus Neoplasm",
+        "preferred_name": "Uterine Corpus Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Corpus Uteri Neoplasm",
+          "Corpus Uteri Tumor",
+          "Neoplasm of Body of Uterus",
+          "Neoplasm of Corpus Uteri",
+          "Neoplasm of Uterine Body",
+          "Neoplasm of Uterine Corpus",
+          "Neoplasm of the Body of Uterus",
+          "Neoplasm of the Corpus Uteri",
+          "Neoplasm of the Uterine Body",
+          "Neoplasm of the Uterine Corpus",
+          "Tumor of Corpus Uteri",
+          "Tumor of Uterine Body",
+          "Tumor of Uterine Corpus",
+          "Tumor of the Corpus Uteri",
+          "Tumor of the Uterine Body",
+          "Tumor of the Uterine Corpus",
+          "Uterine Body Neoplasm",
+          "Uterine Body Tumor",
+          "Uterine Corpus Tumor"
+        ],
+        "parents": [
+          "C3435"
+        ]
+      },
+      {
+        "id": "C36076",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Reproductive System Neoplasm",
+        "display_name": "Malignant Reproductive System Neoplasm",
+        "preferred_name": "Malignant Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C61574",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Uterine (Including Endometrial) Cancer",
+        "display_name": "Uterine Corpus Cancer",
+        "preferred_name": "Uterine Corpus Cancer",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of the Corpus Uteri",
+          "Corpus Uteri Cancer",
+          "Uterine Corpus Cancer"
+        ],
+        "parents": [
+          "C3556"
+        ]
+      },
+      {
+        "id": "C6450",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Thymus Epithelial Tumor",
+        "display_name": "Thymus Epithelial Neoplasm",
+        "preferred_name": "Thymic Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasm of Thymus",
+          "Epithelial Neoplasm of the Thymus",
+          "Epithelial Tumor of Thymus",
+          "Epithelial Tumor of the Thymus",
+          "Thymic Epithelial Neoplasm",
+          "Thymic Epithelial Tumor",
+          "Thymic Epithelium Neoplasm",
+          "Thymus Epithelial Neoplasm"
+        ],
+        "parents": [
+          "C3709",
+          "C3412"
+        ]
+      },
+      {
+        "id": "C35501",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Bone Marrow Neoplasm",
+        "display_name": "Malignant Bone Marrow Neoplasm",
+        "preferred_name": "Malignant Bone Marrow Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Bone Marrow Tumor",
+          "bone marrow cancer"
+        ],
+        "parents": [
+          "C35370",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C35814",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Disorder",
+        "display_name": "Hematopoietic and Lymphoid System Disorder",
+        "preferred_name": "Hematopoietic and Lymphoid System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C3247",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Myelodysplastic Syndrome",
+        "display_name": "Myelodysplastic Syndrome",
+        "preferred_name": "Myelodysplastic Syndrome",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Dysmyelopoietic Syndrome",
+          "Hematopoeitic - Myelodysplastic Syndrome (MDS)",
+          "MDS",
+          "Myelodysplasia",
+          "Myelodysplastic Neoplasm",
+          "Myelodysplastic Syndrome/Neoplasm",
+          "Myelodysplastic Syndromes",
+          "Myelodysplastic syndrome",
+          "Myelodysplastic syndrome, NOS",
+          "Oligoblastic Leukemia",
+          "Preleukemia",
+          "Smoldering Leukemia",
+          "myelodysplasia",
+          "myelodysplastic syndromes",
+          "preleukemia",
+          "smoldering leukemia"
+        ],
+        "parents": [
+          "C35501",
+          "C9290",
+          "C54705"
+        ]
+      },
+      {
+        "id": "C3357",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Retroperitoneal Neoplasm",
+        "display_name": "Retroperitoneal Neoplasm",
+        "preferred_name": "Retroperitoneal Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7337",
+          "C27667"
+        ]
+      },
+      {
+        "id": "C9290",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Myeloid Neoplasm",
+        "display_name": "Myeloid Neoplasm",
+        "preferred_name": "Myeloid Neoplasm",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "Myeloid Malignancy",
+          "Myeloid Tumor"
+        ],
+        "parents": [
+          "C27134"
+        ]
+      },
+      {
+        "id": "C4913",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Female Reproductive System Neoplasm",
+        "display_name": "Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive Cancer",
+          "Female reprod. system cancer, NOS",
+          "Female reproductive system cancer, NOS",
+          "Gynecologic Cancer",
+          "Malignant Female Reproductive System Tumor",
+          "Malignant Gynecologic Neoplasm",
+          "Malignant Gynecologic Tumor",
+          "Malignant Neoplasm of Female Reproductive System",
+          "Malignant Neoplasm of the Female Reproductive System",
+          "Malignant Tumor of Female Reproductive System",
+          "Malignant Tumor of the Female Reproductive System",
+          "gynecologic cancer"
+        ],
+        "parents": [
+          "C3053",
+          "C36076"
+        ]
+      },
+      {
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Glandular Cell Neoplasm",
+        "display_name": "Glandular Cell Neoplasm",
+        "preferred_name": "Glandular Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "parents": [
+          "C3709"
+        ]
+      },
+      {
+        "id": "C3674",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Reproductive System Neoplasm",
+        "display_name": "Reproductive System Neoplasm",
+        "preferred_name": "Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Reproductive System",
+          "Neoplasm of the Reproductive System",
+          "Reproductive Neoplasm",
+          "Reproductive System Tumor",
+          "Reproductive Tumor",
+          "Tumor of Reproductive System",
+          "Tumor of the Reproductive System"
+        ],
+        "parents": [
+          "C156482",
+          "C4875"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3053",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Female Reproductive System Neoplasm",
+        "display_name": "Female Reproductive System Neoplasm",
+        "preferred_name": "Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Tumor",
+          "Gynecologic Neoplasm",
+          "Gynecologic Tumor",
+          "Neoplasm of Female Reproductive System",
+          "Neoplasm of the Female Reproductive System",
+          "Tumor of Female Reproductive System",
+          "Tumor of the Female Reproductive System"
+        ],
+        "parents": [
+          "C27020",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C7558",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Endometrial Cancer",
+        "display_name": "Endometrial Carcinoma",
+        "preferred_name": "Endometrial Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CARCINOMA, ENDOMETRIAL, MALIGNANT",
+          "Carcinoma of Endometrium",
+          "Carcinoma of the Endometrium",
+          "Endometrial Carcinoma",
+          "UCEC",
+          "Uterine Corpus Endomential Carcinoma",
+          "endometrial cancer"
+        ],
+        "parents": [
+          "C164141",
+          "C27815",
+          "C61574"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      }
+    ],
+    "division_department_id": "CTEP",
+    "eligibility_criteria": [
+      {
+        "description": "This trial does not accept healthy volunteers.",
+        "type": "ACCEPTS_HEALTHY_VOLUNTEERS"
+      },
+      {
+        "description": "GENDER: FEMALE",
+        "inclusive": true,
+        "type": "GENDER"
+      },
+      {
+        "description": "Minimum age: 0.0 Years\nMaximum age: 999.0 Years",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": "Patients with endometrioid endometrial cancer",
+        "type": "STUDY_POPULATION_DESCRIPTION"
+      },
+      {
+        "description": "Non-probability sample",
+        "type": "SAMPLING_METHOD"
+      },
+      {
+        "description": "Women who were eligible and evaluable for the GOG-0210 molecular staging protocol in women with endometrial cancer            \r\n* Women who were registered during the unrestricted enrollment period (through 9/23/07) will automatically qualify\r\n* Women who were registered during the restricted enrollment period (after 9/23/07) will only be considered if needed",
+        "inclusive": true
+      },
+      {
+        "description": "Women who had histologically confirmed endometrioid endometrial adenocarcinoma regardless of stage or grade",
+        "inclusive": true
+      },
+      {
+        "description": "Women who have defective DNA mismatch repair and are microsatellite instability positive (MSI+ and MSI-low)",
+        "inclusive": true
+      },
+      {
+        "description": "Women who consented to allow their specimens and clinical data to be used for future cancer research",
+        "inclusive": false
+      },
+      {
+        "description": "Women who have sufficient high-quality genomic DNA from tumor available for mutation analysis of ATR",
+        "inclusive": false
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": false,
+    "grants": [
+      {
+        "id": "U10CA27469",
+        "nci_division_program": "CTEP"
+      }
+    ],
+    "groups": [
+      {
+        "description": "DNA extracted from previously collected tumor samples is analyzed to validate the clinicopathologic associations and prognostic significance of ATR mutation.",
+        "interventions": [
+          {
+            "description": "Correlative studies",
+            "id": "C64263",
+            "name": "Laboratory Biomarker Analysis",
+            "type": "Other",
+            "inclusion_indicator": "TRIAL",
+            "category": "other",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Mixed Category Laboratory Procedure",
+            "id": "C74957",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Activity",
+            "id": "C43431",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Laboratory Procedure",
+            "id": "C25294",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Lab Test",
+              "Lab Tests",
+              "Laboratory Test",
+              "Test",
+              "Tests"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Intervention or Procedure",
+            "id": "C25218",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": [
+              "Intervention",
+              "Intervention Strategies",
+              "Procedure"
+            ]
+          },
+          {
+            "type": "Other",
+            "name": "Clinical or Research Activity",
+            "id": "C16203",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          },
+          {
+            "type": "Other",
+            "name": "Biomarker Analysis",
+            "id": "C63333",
+            "inclusion_indicator": "TREE",
+            "category": "none",
+            "synonyms": []
+          }
+        ],
+        "name": "Basic science (DNA analysis)",
+        "type": "EXPERIMENTAL"
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT01208467"
+      },
+      {
+        "type": "CTEP_ID",
+        "value": "99000CTEP"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "99000LEADORGID"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-9999-99000"
+      }
+    ],
+    "interventional": false,
+    "interventional_design": "SINGLE_GROUP",
+    "irb_approval_req_indicator": true,
+    "legacy_id": "749957292352",
+    "masking_roles": [
+      "NO_MASKING"
+    ],
+    "min_target_accrual": 2824,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-9999-99000",
+    "non_interventional_design": "CASE_ONLY",
+    "number_of_groups": 1,
+    "number_of_intervention_groups": 1,
+    "organizations": [
+      {
+        "id": "88642",
+        "ctep_id": "GOG",
+        "name": "Gynecologic Oncology Group",
+        "status": "INACTIVE",
+        "va_organization": false,
+        "address_line_1": "1600 John F Kennedy Boulevard",
+        "address_line_2": "Four Penn Center Suite 1020",
+        "city_municipality": "Philadelphia",
+        "state_province_territory": "PA",
+        "country": "United States",
+        "zipcode": "19103",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "aliases": [
+          "Gynecologic Oncology Group",
+          "Gynecologic Oncology Group (GOG)",
+          "Gynecologic Oncology Group (GOG) Research Base"
+        ],
+        "phone_numbers": [
+          "215-854-0770"
+        ],
+        "fax_numbers": [
+          "215-854-0716"
+        ],
+        "urls": [
+          "http://www.gog.org/"
+        ],
+        "status_datetime": "2016-06-03T14:04:50.944000",
+        "strap_created_datetime": "2020-04-14T17:16:40.542143",
+        "strap_updated_datetime": "2021-04-07T23:17:29.320155",
+        "strap_publication_datetime": "2021-04-07T23:17:29.320155",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:17:29.320155",
+        "version_no": "24df9c1af1df92ea5961666a5b95ec27",
+        "geo_coordinates": {
+          "lat": 39.9534,
+          "lon": -75.1738
+        },
+        "persons": [
+          {
+            "id": "2581899",
+            "ctep_id": "39262",
+            "prefix": "Dr.",
+            "first_name": "Israel",
+            "last_name": "Zighelboim",
+            "user_created_id": "Migration Service",
+            "user_created_organization": "Non-Affiliate",
+            "strap_created_datetime": "2020-04-14T17:16:03.479091",
+            "strap_updated_datetime": "2021-04-07T23:47:42.066100",
+            "strap_publication_datetime": "2021-04-07T23:47:42.066100",
+            "user_updated_id": "Migration Service",
+            "user_updated_organization": "Non-Affiliate",
+            "strap_publication_date": "2021-04-07T23:47:42.066100",
+            "version_no": "33a93fff1e5230d39bab2d1de0522a7a",
+            "name": "Zighelboim, Israel",
+            "roles": [
+              {
+                "email": "zighelboimi@wudosis.wustl.edu",
+                "phone": "314-362-1730",
+                "role": "PRIMARY_CONTACT",
+                "status": "PENDING",
+                "status_start_datetime": "2013-04-01T12:04:42.339000"
+              },
+              {
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "PENDING",
+                "status_start_datetime": "2013-04-01T12:04:05.659000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "local_sp_identifier": "GOG-8017",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-26T15:14:28.859000"
+          },
+          {
+            "role": "RESPONSIBLE_PARTY_SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-26T15:14:29.770000"
+          },
+          {
+            "role": "SPONSOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-26T15:14:29.420000"
+          },
+          {
+            "irb_approval_number": "09/15/2010",
+            "irb_approval_status": "SUBMITTED_APPROVED",
+            "irb_organizational_affiliation": "Gynecologic Oncology Group",
+            "role": "STUDY_OVERSIGHT_COMMITTEE",
+            "status": "PENDING",
+            "status_start_datetime": "2013-04-01T11:58:08.756000"
+          },
+          {
+            "accrual_statuses": [
+              {
+                "comment": "Added by script PO-8870 which closed participating sites because the trial was closed",
+                "status": "CLOSED_TO_ACCRUAL_AND_INTERVENTION",
+                "status_datetime": "2010-09-15T00:00:00.000000"
+              },
+              {
+                "status": "APPROVED",
+                "status_datetime": "2010-09-15T00:00:00.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "PENDING",
+            "status_start_datetime": "2013-04-01T12:02:41.338000"
+          }
+        ],
+        "name_with_id": "Gynecologic Oncology Group___id:88642",
+        "current_recruiting_status": "CLOSED_TO_ACCRUAL_AND_INTERVENTION"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "Microsatellite instability (MSI)",
+        "time_frame": "1 month",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Parametric and non-parametric statistical tests will be performed to evaluate the association between ATR mutation status and demographic and clinical data. Product-limit estimates according to Kaplan-Meier method will be calculated and difference between survival according to ATR mutation status will be assessed using a two sided log rank test. The predictive ability of the final model will be assessed using a concordance index (C-statistic).",
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "ATR mutation status",
+        "time_frame": "1 month",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Will explore whether knowledge-based planning (KBP) can improve IG-IMRT plans compared to plans that would have been delivered without KBP, estimate the resulting toxicity reduction using normal tissue complication probability (NTCP) models, and determine whether KBP should be a requirement for future IG-IMRT protocols",
+        "measure": "Type of intensity modulated radiation therapy (IG-IMRT)",
+        "time_frame": "Up to 5 years",
+        "type": "OTHER_PRE_SPECIFIED"
+      },
+      {
+        "is_primary": false,
+        "is_safety_related": false,
+        "measure": "Overall survival",
+        "time_frame": "Up to 10 years",
+        "type": "SECONDARY"
+      },
+      {
+        "is_primary": true,
+        "is_safety_related": false,
+        "measure": "Incidence second of primary lung tumors",
+        "time_frame": "Up to 10 years",
+        "type": "PRIMARY"
+      },
+      {
+        "is_primary": true,
+        "is_safety_related": true,
+        "measure": "Frequency and severity of toxicity incidents assessed by Common Terminology Criteria version 2.0",
+        "time_frame": "Up to 10 years",
+        "type": "PRIMARY"
+      }
+    ],
+    "persons": [
+      {
+        "id": "2581899",
+        "ctep_id": "39262",
+        "prefix": "Dr.",
+        "first_name": "Israel",
+        "last_name": "Zighelboim",
+        "user_created_id": "Migration Service",
+        "user_created_organization": "Non-Affiliate",
+        "strap_created_datetime": "2020-04-14T17:16:03.479091",
+        "strap_updated_datetime": "2021-04-07T23:47:42.066100",
+        "strap_publication_datetime": "2021-04-07T23:47:42.066100",
+        "user_updated_id": "Migration Service",
+        "user_updated_organization": "Non-Affiliate",
+        "strap_publication_date": "2021-04-07T23:47:42.066100",
+        "version_no": "33a93fff1e5230d39bab2d1de0522a7a",
+        "name": "Zighelboim, Israel",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "PENDING",
+            "status_start_datetime": "2015-05-26T15:14:29.316000"
+          }
+        ]
+      }
+    ],
+    "phase": "NA",
+    "primary_purpose": "OTHER",
+    "primary_purpose_additional_qualifier": "OTHER",
+    "primary_purpose_other_purpose": "Ancillary-Correlative",
+    "proprietary_trial": false,
+    "public_title": "Prognostic Biomarkers in Patients With Endometrial Cancer",
+    "scientific_description": "PRIMARY OBJECTIVES:\r\nI. To validate the clinicopathologic associations and prognostic significance of ATR mutation in endometrioid endometrial cancer cases with defective DNA mismatch repair.\r\n\r\nOUTLINE: This is a multicenter study. \r\n\r\nDNA extracted from previously collected tumor samples is analyzed to validate the clinicopathologic associations and prognostic significance of ATR mutation.",
+    "section801_indicator": false,
+    "status_history": [
+      {
+        "message_datetime": "2010-07-01T00:08:00.000000",
+        "status": "Not yet recruiting",
+        "status_datetime": "2010-07-01T00:08:00.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-07T15:56:22.058852",
+    "strap_updated_datetime": "2021-04-29T23:46:24.631048",
+    "study_classification_code": "EFFICACY",
+    "study_source": "NATIONAL",
+    "study_subtype": "ANCILLARY_CORRELATIVE",
+    "test_data": true,
+    "time_perspective": "RETROSPECTIVE",
+    "title": "NCI-9999-99000 Title",
+    "user_created_id": "Migration Service",
+    "user_created_organization": "Non-Affiliate",
+    "version_no": "41b471b90e1f14c536be3529873ec4ad",
+    "strap_publication_date": "2021-04-29T23:46:24.631048",
+    "current_trial_status": "Not yet recruiting",
+    "participating_sites": [
+      "88642"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "2581899",
+        "name": "Zighelboim, Israel",
+        "first_name": "Israel",
+        "middle_name": null,
+        "last_name": "Zighelboim",
+        "org_id": "88642",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Non-Interventional",
+    "nct_id": "NCT01208467",
+    "ctep_id": "99000CTEP",
+    "lead_organization_id": "99000LEADORGID",
+    "va_associated": false,
+    "principal_investigators": [
+      {
+        "first_name": "Israel",
+        "last_name": "Zighelboim",
+        "middle_name": null,
+        "name": "Zighelboim, Israel",
+        "prefix": "Dr.",
+        "id": "2581899"
+      }
+    ],
+    "current_trial_status_date": "2010-07-01T00:08:00.000000",
+    "record_verification_date": "2013-01-24T21:04:48.796000",
+    "primary_completion_date_type": "ANTICIPATED_PRIMARY_COMPLETION_DATE",
+    "primary_completion_date_value": "2100-01-01T00:00:08.000000",
+    "start_date_type": "ANTICIPATED_START_DATE",
+    "start_date_value": "2100-01-01T00:00:08.000000",
+    "lead_organizations": {
+      "id": "88642",
+      "name": "Gynecologic Oncology Group"
+    },
+    "total_participating_sites": 1,
+    "total_open_participating_sites": 0,
+    "has_count_history": false,
+    "lead_diseases": [
+      {
+        "id": "C61574",
+        "name": "Uterine (Including Endometrial) Cancer",
+        "type": "maintype"
+      },
+      {
+        "id": "C7352",
+        "name": "Retroperitoneal Cancer",
+        "type": "maintype"
+      },
+      {
+        "id": "C27134",
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C35813",
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3208",
+        "name": "Lymphoma",
+        "type": "maintype"
+      },
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      },
+      {
+        "id": "C3010",
+        "name": "Endocrine Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3053",
+        "name": "Female Reproductive System Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Non-Small Cell Lung Cancer",
+          "code": "C2926",
+          "ancestor_ids": [
+            "C4878"
+          ],
+          "parent_ids": [
+            "C4878"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Myeloid Neoplasm",
+          "code": "C9290",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Malignant Endocrine Neoplasm",
+          "code": "C3575",
+          "ancestor_ids": [
+            "C3262"
+          ],
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Thymoma Type B3",
+          "code": "C7997",
+          "ancestor_ids": [
+            "C3411"
+          ],
+          "parent_ids": [
+            "C3411"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Adrenal Cortex Cancer",
+          "code": "C9325",
+          "ancestor_ids": [
+            "C7352"
+          ],
+          "parent_ids": [
+            "C7352"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Myelodysplastic Syndrome with Excess Blasts-1",
+          "code": "C7167",
+          "ancestor_ids": [
+            "C27134",
+            "C3247",
+            "C9290"
+          ],
+          "parent_ids": [
+            "C3247"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "code": "C27134",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Uterine (Including Endometrial) Cancer",
+          "code": "C61574",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+          "code": "C8841",
+          "ancestor_ids": [
+            "C27134",
+            "C3208",
+            "C3211"
+          ],
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Recurrent Lung Large Cell Carcinoma",
+          "code": "C8753",
+          "ancestor_ids": [
+            "C2926",
+            "C4878"
+          ],
+          "parent_ids": [
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage II Uterine (including Endometrial) Cancer",
+          "code": "C89634",
+          "ancestor_ids": [
+            "C61574"
+          ],
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Thymoma Type B1",
+          "code": "C6887",
+          "ancestor_ids": [
+            "C3411"
+          ],
+          "parent_ids": [
+            "C3411"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Recurrent Uterine (Including Endometrial) Cancer",
+          "code": "C9072",
+          "ancestor_ids": [
+            "C61574"
+          ],
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage I Uterine (including Endometrial) Cancer",
+          "code": "C89633",
+          "ancestor_ids": [
+            "C61574"
+          ],
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Chronic Myelomonocytic Leukemia (CMML)",
+          "code": "C3178",
+          "ancestor_ids": [
+            "C27134",
+            "C9290"
+          ],
+          "parent_ids": [
+            "C9290"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma",
+          "code": "C37869",
+          "ancestor_ids": [
+            "C27134",
+            "C3208"
+          ],
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Lung Cancer",
+          "code": "C4878",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Stage III Uterine (including Endometrial) Cancer",
+          "code": "C89635",
+          "ancestor_ids": [
+            "C61574"
+          ],
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IV Uterine (including Endometrial) Cancer",
+          "code": "C89636",
+          "ancestor_ids": [
+            "C61574"
+          ],
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Myelodysplastic Syndrome",
+          "code": "C3247",
+          "ancestor_ids": [
+            "C27134",
+            "C9290"
+          ],
+          "parent_ids": [
+            "C9290"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Thymoma",
+          "code": "C3411",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Masaoka Stage II",
+          "code": "C115033",
+          "ancestor_ids": [
+            "C3411"
+          ],
+          "parent_ids": [
+            "C3411"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Non-Hodgkin Lymphoma",
+          "code": "C3211",
+          "ancestor_ids": [
+            "C27134",
+            "C3208"
+          ],
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Lymphoma",
+          "code": "C3208",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Endometrial Adenocarcinoma",
+          "code": "C7359",
+          "ancestor_ids": [
+            "C61574"
+          ],
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Other Neoplasm",
+          "code": "C3262",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Retroperitoneal Cancer",
+          "code": "C7352",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742"
+          ],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [
+            "C3198",
+            "C3355",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C156484",
+          "name": "Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C35814",
+            "C9308"
+          ],
+          "code": "C147861",
+          "name": "Recurrent Lymphoproliferative Disorder",
+          "parent_ids": [
+            "C9308"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C27020",
+          "name": "Female Reproductive System Disorder",
+          "parent_ids": [
+            "C4875"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C156660",
+          "name": "Genitourinary System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C3504",
+          "name": "Endometrial Disorder",
+          "parent_ids": [
+            "C26907"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C9308"
+          ],
+          "code": "C7065",
+          "name": "Lymphocytic Neoplasm",
+          "parent_ids": [
+            "C9308",
+            "C27134"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C28193",
+            "C2991",
+            "C3247",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C54705",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C7506",
+          "name": "Myelodysplastic Syndrome with Excess Blasts",
+          "parent_ids": [
+            "C3247"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991"
+          ],
+          "code": "C4875",
+          "name": "Reproductive System Disorder",
+          "parent_ids": [
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C27815",
+            "C2916",
+            "C2991",
+            "C3012",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3504",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7558",
+          "name": "Endometrial Cancer",
+          "parent_ids": [
+            "C27815",
+            "C164141",
+            "C61574"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3211",
+          "name": "Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3411",
+            "C3412",
+            "C35742",
+            "C3709",
+            "C4741",
+            "C6450"
+          ],
+          "code": "C112006",
+          "name": "Thymoma by Masaoka-Koga Stage",
+          "parent_ids": [
+            "C3411"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C6300",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C61574",
+          "name": "Uterine (Including Endometrial) Cancer",
+          "parent_ids": [
+            "C3556"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3412",
+            "C35742",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C6450",
+          "name": "Thymus Epithelial Tumor",
+          "parent_ids": [
+            "C3709",
+            "C3412"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C9290",
+          "name": "Myeloid Neoplasm",
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C28193",
+            "C2991",
+            "C3247",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C54705",
+            "C7062",
+            "C7506",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C7167",
+          "name": "Myelodysplastic Syndrome with Excess Blasts-1",
+          "parent_ids": [
+            "C7506"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C112006",
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3411",
+            "C3412",
+            "C35742",
+            "C3709",
+            "C4741",
+            "C6450"
+          ],
+          "code": "C115033",
+          "name": "Masaoka Stage II",
+          "parent_ids": [
+            "C112006"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C91218",
+            "C9305"
+          ],
+          "code": "C89636",
+          "name": "Stage IV Uterine (including Endometrial) Cancer",
+          "parent_ids": [
+            "C91218"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3504",
+            "C3674",
+            "C4875",
+            "C6300"
+          ],
+          "code": "C3012",
+          "name": "Endometrial Neoplasm",
+          "parent_ids": [
+            "C3504",
+            "C6300"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C2991"
+          ],
+          "code": "C27667",
+          "name": "Retroperitoneal Disorder",
+          "parent_ids": [
+            "C27664"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3208",
+          "name": "Lymphoma",
+          "parent_ids": [
+            "C7065",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C35814",
+          "name": "Hematopoietic and Lymphoid System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C27262",
+          "name": "Myelodysplastic/Myeloproliferative Disease",
+          "parent_ids": [
+            "C35501",
+            "C9290"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7619",
+          "name": "Recurrent Carcinoma",
+          "parent_ids": [
+            "C4813",
+            "C2916"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C7337",
+          "name": "Peritoneal and Retroperitoneal Neoplasm",
+          "parent_ids": [
+            "C27664",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C35742",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3576",
+          "name": "Malignant Thoracic Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156711",
+            "C26690",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2859",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C3537",
+            "C7062",
+            "C7337",
+            "C9305"
+          ],
+          "code": "C9338",
+          "name": "Malignant Adrenal Gland Neoplasm",
+          "parent_ids": [
+            "C2859",
+            "C3537"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35814"
+          ],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3412",
+            "C35742",
+            "C3709",
+            "C4741",
+            "C6450"
+          ],
+          "code": "C3411",
+          "name": "Thymoma",
+          "parent_ids": [
+            "C6450"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3780",
+          "name": "Large Cell Carcinoma",
+          "parent_ids": [
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C9305"
+          ],
+          "code": "C2852",
+          "name": "Adenocarcinoma",
+          "parent_ids": [
+            "C7132",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27664",
+          "name": "Peritoneal and Retroperitoneal Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C35742"
+          ],
+          "code": "C3412",
+          "name": "Thymus Neoplasm",
+          "parent_ids": [
+            "C26962",
+            "C3406"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4913",
+          "name": "Malignant Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C36076",
+            "C3053"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26690",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2859",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C7337"
+          ],
+          "code": "C2858",
+          "name": "Adrenal Cortex Neoplasm",
+          "parent_ids": [
+            "C2859"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C3010",
+          "name": "Endocrine Neoplasm",
+          "parent_ids": [
+            "C3709",
+            "C3009",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3208",
+          "name": "Lymphoma",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9251",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8841",
+          "name": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3457",
+            "C9251"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C35742"
+          ],
+          "code": "C3198",
+          "name": "Lung Disorder",
+          "parent_ids": [
+            "C35742",
+            "C26871"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C3009",
+          "name": "Endocrine System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156711",
+            "C26690",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2852",
+            "C2858",
+            "C2859",
+            "C2916",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C3537",
+            "C3575",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C7201",
+            "C7337",
+            "C7352",
+            "C9305",
+            "C9327",
+            "C9338"
+          ],
+          "code": "C9325",
+          "name": "Adrenal Cortex Cancer",
+          "parent_ids": [
+            "C7352",
+            "C7201",
+            "C3575",
+            "C2852",
+            "C9327"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3412",
+            "C35742",
+            "C3576",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4962",
+          "name": "Malignant Thymus Neoplasm",
+          "parent_ids": [
+            "C3412",
+            "C3576"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C27134",
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C26323",
+            "C4741",
+            "C35813"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C26323",
+          "name": "Hematologic and Lymphocytic Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C4571",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7377",
+          "name": "Malignant Lung Neoplasm",
+          "parent_ids": [
+            "C3200",
+            "C4571",
+            "C3576"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C35742",
+          "name": "Thoracic Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3200",
+          "name": "Lung Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C2926",
+          "name": "Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C4878",
+            "C65151"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4571",
+          "name": "Malignant Respiratory System Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C3355"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7337"
+          ],
+          "code": "C3357",
+          "name": "Retroperitoneal Neoplasm",
+          "parent_ids": [
+            "C27667",
+            "C7337"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C134157",
+          "name": "Recurrent Lymphoma",
+          "parent_ids": [
+            "C3208",
+            "C172133"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156711",
+            "C26690",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2858",
+            "C2859",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C3537",
+            "C7062",
+            "C7337",
+            "C9305",
+            "C9338"
+          ],
+          "code": "C9327",
+          "name": "Malignant Adrenal Cortex Neoplasm",
+          "parent_ids": [
+            "C9338",
+            "C2858"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3411",
+            "C3412",
+            "C35742",
+            "C3709",
+            "C4741",
+            "C6450",
+            "C7114"
+          ],
+          "code": "C6887",
+          "name": "Thymoma Type B1",
+          "parent_ids": [
+            "C7114"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3009",
+            "C3010",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3575",
+          "name": "Malignant Endocrine Neoplasm",
+          "parent_ids": [
+            "C3010",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C156482",
+          "name": "Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C28193",
+          "name": "Syndrome",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C3780",
+            "C4450",
+            "C4571",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C7619",
+            "C7783",
+            "C8953",
+            "C9305"
+          ],
+          "code": "C8753",
+          "name": "Recurrent Lung Large Cell Carcinoma",
+          "parent_ids": [
+            "C7783",
+            "C4450"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C34433",
+          "name": "Bone Marrow Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C164141",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C27815",
+            "C2852",
+            "C2916",
+            "C2991",
+            "C3012",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3504",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C7132",
+            "C7558",
+            "C9305"
+          ],
+          "code": "C7359",
+          "name": "Endometrial Adenocarcinoma",
+          "parent_ids": [
+            "C2852",
+            "C7558"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35813",
+            "C35814",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C35501",
+          "name": "Malignant Bone Marrow Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C35370"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C27907",
+          "name": "B-Cell Neoplasm",
+          "parent_ids": [
+            "C7065"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C6300",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3556",
+          "name": "Malignant Uterine Corpus Neoplasm",
+          "parent_ids": [
+            "C6300",
+            "C3552"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4798",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4813",
+          "name": "Recurrent Malignant Neoplasm",
+          "parent_ids": [
+            "C4798",
+            "C9305"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C3552",
+          "name": "Malignant Uterine Neoplasm",
+          "parent_ids": [
+            "C3435",
+            "C4913"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C3780",
+            "C4571",
+            "C4741",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C4450",
+          "name": "Large Cell Lung Cancer",
+          "parent_ids": [
+            "C3780",
+            "C2926"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4878",
+            "C7062",
+            "C7377",
+            "C7619",
+            "C9305"
+          ],
+          "code": "C8953",
+          "name": "Recurrent Lung Cancer",
+          "parent_ids": [
+            "C7619",
+            "C4878"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C27669",
+          "name": "Respiratory and Thoracic Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C164141",
+          "name": "Genitourinary System Carcinoma",
+          "parent_ids": [
+            "C156484",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3411",
+            "C3412",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4741",
+            "C4962",
+            "C6450",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7612",
+          "name": "Malignant Thymoma",
+          "parent_ids": [
+            "C4962",
+            "C3411"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C177724",
+          "name": "Recurrent Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156484",
+            "C4813"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C91218",
+            "C9305"
+          ],
+          "code": "C89633",
+          "name": "Stage I Uterine (including Endometrial) Cancer",
+          "parent_ids": [
+            "C91218"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C147861",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C172133",
+          "name": "Recurrent Malignant Lymphoid Neoplasm",
+          "parent_ids": [
+            "C27358",
+            "C147861",
+            "C7065"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C177724",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4798",
+            "C4813",
+            "C4875",
+            "C4913",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C150526",
+          "name": "Recurrent Malignant Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C4913",
+            "C177724"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35813",
+            "C35814"
+          ],
+          "code": "C35370",
+          "name": "Bone Marrow Neoplasm",
+          "parent_ids": [
+            "C34433",
+            "C35813"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C9308",
+          "name": "Lymphoproliferative Disorder",
+          "parent_ids": [
+            "C26323"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C7337",
+            "C9305"
+          ],
+          "code": "C156711",
+          "name": "Malignant Peritoneal and Retroperitoneal Neoplasm",
+          "parent_ids": [
+            "C9305",
+            "C7337"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26690",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C7337"
+          ],
+          "code": "C2859",
+          "name": "Adrenal Gland Neoplasm",
+          "parent_ids": [
+            "C3357",
+            "C26690"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C134157",
+            "C147861",
+            "C172133",
+            "C26323",
+            "C27134",
+            "C27358",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C9251",
+          "name": "Recurrent Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3211",
+            "C134157"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C3435",
+          "name": "Uterine Neoplasm",
+          "parent_ids": [
+            "C26907",
+            "C3053"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C4798",
+          "name": "Recurrent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991"
+          ],
+          "code": "C26690",
+          "name": "Adrenal Gland Disorder",
+          "parent_ids": [
+            "C27667"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C36076",
+          "name": "Malignant Reproductive System Neoplasm",
+          "parent_ids": [
+            "C156484",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991"
+          ],
+          "code": "C26871",
+          "name": "Respiratory System Disorder",
+          "parent_ids": [
+            "C27669"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C28193",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C54705",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C3247",
+          "name": "Myelodysplastic Syndrome",
+          "parent_ids": [
+            "C35501",
+            "C9290",
+            "C54705"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C37869",
+          "name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between Diffuse Large B-Cell Lymphoma and Classic Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C65151",
+          "name": "Non-Small Cell Carcinoma",
+          "parent_ids": [
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27262",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C34433",
+            "C35370",
+            "C35501",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C9290",
+            "C9305"
+          ],
+          "code": "C3178",
+          "name": "Chronic Myelomonocytic Leukemia (CMML)",
+          "parent_ids": [
+            "C27262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C91218",
+            "C9305"
+          ],
+          "code": "C89635",
+          "name": "Stage III Uterine (including Endometrial) Cancer",
+          "parent_ids": [
+            "C91218"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C3709",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3457",
+          "name": "B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3211",
+            "C27907"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C35742"
+          ],
+          "code": "C26962",
+          "name": "Thymus Disorder",
+          "parent_ids": [
+            "C35742"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C26907",
+          "name": "Uterine Disorder",
+          "parent_ids": [
+            "C27020"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C91218",
+            "C9305"
+          ],
+          "code": "C89634",
+          "name": "Stage II Uterine (including Endometrial) Cancer",
+          "parent_ids": [
+            "C91218"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3411",
+            "C3412",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4741",
+            "C4962",
+            "C6450",
+            "C7062",
+            "C7114",
+            "C7612",
+            "C9305"
+          ],
+          "code": "C7997",
+          "name": "Thymoma Type B3",
+          "parent_ids": [
+            "C7114",
+            "C7612"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3012",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3504",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C6300",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C27815",
+          "name": "Malignant Endometrial Neoplasm",
+          "parent_ids": [
+            "C3012",
+            "C3556"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C27358",
+          "name": "Recurrent Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C4813",
+            "C27134"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C27020",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156711",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C7062",
+            "C7337",
+            "C9305"
+          ],
+          "code": "C3537",
+          "name": "Malignant Retroperitoneal Neoplasm",
+          "parent_ids": [
+            "C156711",
+            "C3357"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C7062",
+            "C7377",
+            "C9305"
+          ],
+          "code": "C4878",
+          "name": "Lung Cancer",
+          "parent_ids": [
+            "C7377",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C150526",
+            "C156482",
+            "C156484",
+            "C156660",
+            "C177724",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4798",
+            "C4813",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9072",
+          "name": "Recurrent Uterine (Including Endometrial) Cancer",
+          "parent_ids": [
+            "C150526",
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26962",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3406",
+            "C3411",
+            "C3412",
+            "C35742",
+            "C3709",
+            "C4741",
+            "C6450"
+          ],
+          "code": "C7114",
+          "name": "Thymoma Type B",
+          "parent_ids": [
+            "C3411"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C28193",
+            "C2991"
+          ],
+          "code": "C54705",
+          "name": "Cancer-Related Syndrome",
+          "parent_ids": [
+            "C28193"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3010",
+          "name": "Endocrine Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2916",
+            "C2926",
+            "C2991",
+            "C3198",
+            "C3200",
+            "C3262",
+            "C3263",
+            "C3355",
+            "C3406",
+            "C35742",
+            "C3576",
+            "C3709",
+            "C4571",
+            "C4741",
+            "C4798",
+            "C4813",
+            "C4878",
+            "C65151",
+            "C7062",
+            "C7377",
+            "C7619",
+            "C8953",
+            "C9305"
+          ],
+          "code": "C7783",
+          "name": "Recurrent Non-Small Cell Lung Cancer",
+          "parent_ids": [
+            "C8953",
+            "C2926"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C6300",
+          "name": "Uterine Corpus Neoplasm",
+          "parent_ids": [
+            "C3435"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C7132",
+          "name": "Glandular Cell Neoplasm",
+          "parent_ids": [
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35742"
+          ],
+          "code": "C3406",
+          "name": "Thoracic Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C35742"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156711",
+            "C27551",
+            "C27664",
+            "C27667",
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3357",
+            "C3537",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7337",
+            "C9305"
+          ],
+          "code": "C7352",
+          "name": "Retroperitoneal Cancer",
+          "parent_ids": [
+            "C3537",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C7201",
+          "name": "Infrequent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26871",
+            "C27551",
+            "C27669",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3355",
+          "name": "Respiratory System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C26871"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C4875"
+          ],
+          "code": "C3674",
+          "name": "Reproductive System Neoplasm",
+          "parent_ids": [
+            "C4875",
+            "C156482"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26907",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3435",
+            "C3552",
+            "C3556",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C61574",
+            "C6300",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C91218",
+          "name": "Uterine Corpus Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C61574"
+          ],
+          "type": [
+            "stage"
+          ]
+        }
+      ]
+    }
+  }
+}

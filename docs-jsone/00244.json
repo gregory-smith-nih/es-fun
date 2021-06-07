@@ -1,0 +1,7248 @@
+{
+  "_index": "trials_05242021",
+  "_type": "trial",
+  "_id": "NCI-7777-00032",
+  "_score": 1,
+  "_source": {
+    "alias": "NCI-7777-00032-ALIAS",
+    "anatomic_sites": [
+      "Hodgkin's Lymphoma",
+      "Other Skin"
+    ],
+    "bio_specimen_description": "NCI-7777-00032 bio specimen description",
+    "bio_specimen_retention": "SAMPLES_WITHOUT_DNA",
+    "biomarkers": [
+      {
+        "assay_type": "Immunohistochemistry (IHC), Other",
+        "cadsr_id": "3704589",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C24526",
+        "name": "ITK (IL2-Inducible T-Cell Kinase; T-Cell-Specific Kinase; PSCTK2; EMT; Tyrosine-Protein Kinase LYK; Tyrosine-Protein Kinase ITK/TSK; Kinase EMT; Interleukin-2-Inducible T-Cell Kinase; T-Cell ITK/TSK Homolog; LYK)",
+        "other_assay_type": "2-color IF",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "Immunohistochemistry (IHC)",
+        "cadsr_id": "3260563",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C17966",
+        "name": "ABCB1 (P-gp; ATP-binding cassette, sub-family B (MDR/TAP), member 1; GP170; CD243; ABC20; MDR1; CLCS; PGY1; P-glycoprotein)",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Tissue",
+        "use": "Integrated"
+      },
+      {
+        "assay_type": "HPLC",
+        "cadsr_id": "3218937",
+        "evaluation_type": "Level/Quantity",
+        "evs_id": "C87059",
+        "name": "Isoprostane",
+        "purpose": "Response Assessment",
+        "status": "ACTIVE",
+        "tissue_specimen_type": "Urine",
+        "use": "Integrated"
+      }
+    ],
+    "changes_in_ctrp_ctgov": true,
+    "comments": "NCI-7777-00032 comments",
+    "consortia_trial_category": "NATIONAL",
+    "containers": [
+      {
+        "id": "c600004",
+        "principal_investigator": "p100064",
+        "program_codes": [
+          "888888003"
+        ],
+        "target_accrual": 2219,
+        "trial_id": "c600004-NCI-7777-00032"
+      },
+      {
+        "id": "c600001",
+        "principal_investigator": "p100008",
+        "program_codes": [
+          "888888004"
+        ],
+        "target_accrual": 1005,
+        "trial_id": "c600001-NCI-7777-00032"
+      }
+    ],
+    "ctro_override": false,
+    "ctro_override_comments": "NCI-7777-00032 ctro override comments",
+    "data_monitoring_committee_appointed": false,
+    "datetimes": [
+      {
+        "type": "ACTUAL_START_DATE",
+        "value": "2010-05-31T03:02:25.000000"
+      }
+    ],
+    "delayed_posting": true,
+    "description": "NCI-7777-00032 description",
+    "designee_access_revoked": false,
+    "diseases": [
+      {
+        "display_name": "Stage 0 Gallbladder Cancer AJCC v6 and v7",
+        "id": "C4439",
+        "is_lead_disease": false,
+        "name": "Stage 0 Gallbladder Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage 0 Gallbladder Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Gallbladder Carcinoma",
+                "code": "C3844"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Carcinoma in situ of Gallbladder",
+          "Carcinoma in situ of the Gallbladder",
+          "Gallbladder Cancer Stage 0",
+          "Gallbladder Carcinoma in situ",
+          "Stage 0 Carcinoma of Gallbladder",
+          "Stage 0 Carcinoma of the Gallbladder",
+          "Stage 0 Gallbladder Cancer AJCC v6",
+          "Stage 0 Gallbladder Cancer AJCC v6 and v7",
+          "Stage 0 Gallbladder Cancer AJCC v7",
+          "Stage 0 Gallbladder Carcinoma",
+          "stage 0 gallbladder carcinoma in situ"
+        ],
+        "parents": [
+          "C35180",
+          "C90512",
+          "C91229"
+        ]
+      },
+      {
+        "display_name": "Stage IIA Pancreatic Cancer AJCC v6 and v7",
+        "id": "C88102",
+        "is_lead_disease": false,
+        "name": "Stage IIA Pancreatic Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage IIA Pancreatic Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Pancreatic Carcinoma",
+                "code": "C3850"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Stage IIA Exocrine and Endocrine Pancreatic Cancer AJCC v6 and v7",
+          "Stage IIA Pancreatic Cancer AJCC v6 and v7"
+        ],
+        "parents": [
+          "C7786"
+        ]
+      },
+      {
+        "display_name": "Stage 0 Pancreatic Cancer AJCC v6 and v7",
+        "id": "C5729",
+        "is_lead_disease": true,
+        "name": "Stage 0 Pancreatic Cancer",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage 0 Pancreatic Cancer AJCC v6 and v7",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Pancreatic Carcinoma",
+                "code": "C3850"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Pancreatic Cancer Stage 0",
+          "Pancreatic Carcinoma in Situ",
+          "Stage 0 Carcinoma of Pancreas",
+          "Stage 0 Carcinoma of the Pancreas",
+          "Stage 0 Exocrine and Endocrine Pancreatic Cancer AJCC v6 and v7",
+          "Stage 0 Pancreatic Cancer AJCC v6",
+          "Stage 0 Pancreatic Cancer AJCC v6 and v7",
+          "Stage 0 Pancreatic Cancer AJCC v7",
+          "Stage 0 Pancreatic Carcinoma",
+          "stage 0 pancreatic carcinoma in situ"
+        ],
+        "parents": [
+          "C4123",
+          "C35180",
+          "C134902"
+        ]
+      },
+      {
+        "display_name": "Stage II Adult Contiguous Immunoblastic Lymphoma",
+        "id": "C8564",
+        "is_lead_disease": false,
+        "name": "Stage II Immunoblastic Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Ann Arbor Stage II Adult Contiguous Immunoblastic Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Non-Hodgkin Lymphoma",
+                "code": "C3211"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage II Adult Contiguous Immunoblastic Lymphoma",
+          "Contiguous Adult Immunoblastic Large Cell Lymphoma Stage II",
+          "Contiguous Stage II Adult Immunoblastic Large Cell Lymphoma",
+          "Stage II Adult Contiguous Immunoblastic Lymphoma",
+          "Stage II Contiguous Adult Immunoblastic Large Cell Lymphoma"
+        ],
+        "parents": [
+          "C8124",
+          "C8466"
+        ]
+      },
+      {
+        "display_name": "Primary Systemic Amyloidosis",
+        "id": "C8299",
+        "is_lead_disease": false,
+        "name": "Primary Systemic Amyloidosis",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Primary Systemic Amyloidosis",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Plasma Cell Neoplasm",
+                "code": "C4665"
+              },
+              {
+                "idx": 1,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3819"
+        ]
+      },
+      {
+        "display_name": "Malignant Ovarian Epithelial Tumor",
+        "id": "C40026",
+        "is_lead_disease": false,
+        "name": "Malignant Ovarian Epithelial Tumor",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Malignant Ovarian Epithelial Tumor",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Neoplasm",
+                "code": "C3262"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Ovarian Surface Epithelial-Stromal Neoplasm",
+          "Malignant Ovarian Surface Epithelial-Stromal Tumor",
+          "Ovarian stromal cancer"
+        ],
+        "parents": [
+          "C7431",
+          "C4381"
+        ]
+      },
+      {
+        "display_name": "Stage I Childhood Large Cell Lymphoma",
+        "id": "C8305",
+        "is_lead_disease": true,
+        "name": "Stage I Large Cell Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Stage I Childhood Large Cell Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Neoplasm",
+                "code": "C3262"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Childhood Large Cell Lymphoma Stage I",
+          "Pediatric Large Cell Lymphoma Stage I",
+          "Stage I Childhood Large Cell Lymphoma",
+          "Stage I Pediatric Large Cell Lymphoma"
+        ],
+        "parents": [
+          "C8310"
+        ]
+      },
+      {
+        "display_name": "Ann Arbor Stage IV Grade 1 Follicular Lymphoma",
+        "id": "C8142",
+        "is_lead_disease": false,
+        "name": "Stage IV Grade 1 Follicular Lymphoma",
+        "status": "ACTIVE",
+        "inclusion_indicator": "TRIAL",
+        "preferred_name": "Ann Arbor Stage IV Grade 1 Follicular Lymphoma",
+        "paths": [
+          {
+            "direction": 1,
+            "concepts": [
+              {
+                "idx": 0,
+                "label": "Non-Hodgkin Lymphoma",
+                "code": "C3211"
+              },
+              {
+                "idx": 1,
+                "label": "Lymphoma",
+                "code": "C3208"
+              },
+              {
+                "idx": 2,
+                "label": "Hematopoietic and Lymphoid Cell Neoplasm",
+                "code": "C27134"
+              }
+            ]
+          }
+        ],
+        "type": [
+          "stage",
+          "grade"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage IV Grade 1 Follicular Lymphoma",
+          "Follicular Small Cleaved Cell Lymphoma Stage IV",
+          "Grade I Follicular Lymphoma Stage IV",
+          "Grade I Follicular Small Cleaved Cell Lymphoma Stage IV",
+          "Grade I Stage IV Follicular Lymphoma",
+          "Grade I Stage IV Follicular Small Cleaved Cell Lymphoma",
+          "Stage IV Follicular Small Cleaved Cell Lymphoma"
+        ],
+        "parents": [
+          "C5006",
+          "C3465"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pancreatic Neoplasm",
+        "display_name": "Pancreatic Neoplasm",
+        "preferred_name": "Pancreatic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Pancreas",
+          "Neoplasm of the Pancreas",
+          "Pancreas Neoplasm",
+          "Pancreas Tumor",
+          "Pancreatic Tumor",
+          "Tumor of Pancreas",
+          "Tumor of the Pancreas"
+        ],
+        "parents": [
+          "C3052",
+          "C26842"
+        ]
+      },
+      {
+        "id": "C26842",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Pancreatic Disorder",
+        "display_name": "Pancreatic Disorder",
+        "preferred_name": "Pancreatic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2990"
+        ]
+      },
+      {
+        "id": "C7704",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma",
+        "display_name": "Adult Non-Hodgkin Lymphoma",
+        "preferred_name": "Adult Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult NHL",
+          "Adult Non-Hodgkin Lymphoma",
+          "Adult Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C7587",
+          "C3211"
+        ]
+      },
+      {
+        "id": "C27020",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Female Reproductive System Disorder",
+        "display_name": "Female Reproductive System Disorder",
+        "preferred_name": "Female Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Disease",
+          "Gynecological Disorder"
+        ],
+        "parents": [
+          "C4875"
+        ]
+      },
+      {
+        "id": "C35180",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Carcinoma In Situ",
+        "display_name": "Digestive System Carcinoma In Situ",
+        "preferred_name": "Digestive System Carcinoma In Situ",
+        "type": [
+          "stage",
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Carcinoma In Situ"
+        ],
+        "parents": [
+          "C2917",
+          "C96963",
+          "C7659"
+        ]
+      },
+      {
+        "id": "C8855",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Diffuse Large B-Cell Lymphoma",
+        "display_name": "Ann Arbor Stage II Diffuse Large B-Cell Lymphoma",
+        "preferred_name": "Ann Arbor Stage II Diffuse Large B-Cell Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage II Diffuse Large B-Cell Lymphoma",
+          "Diffuse Large B-Cell Lymphoma Stage II"
+        ],
+        "parents": [
+          "C8843",
+          "C141254"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C27907",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Neoplasm",
+        "display_name": "B-Cell Neoplasm",
+        "preferred_name": "B-Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Lymphocytic Neoplasm"
+        ],
+        "parents": [
+          "C7065"
+        ]
+      },
+      {
+        "id": "C9005",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Pancreatic Neoplasm",
+        "display_name": "Malignant Pancreatic Neoplasm",
+        "preferred_name": "Malignant Pancreatic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Pancreas",
+          "Malignant Neoplasm of the Pancreas"
+        ],
+        "parents": [
+          "C4890",
+          "C3305"
+        ]
+      },
+      {
+        "id": "C141139",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoma by Ann Arbor Stage",
+        "display_name": "Lymphoma by Ann Arbor Stage",
+        "preferred_name": "Lymphoma by Ann Arbor Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C27268"
+        ]
+      },
+      {
+        "id": "C90512",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gallbladder Cancer by AJCC v6 Stage",
+        "display_name": "Gallbladder Cancer by AJCC v6 Stage",
+        "preferred_name": "Gallbladder Cancer by AJCC v6 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Gallbladder Carcinoma by AJCC v6 Stage"
+        ],
+        "parents": [
+          "C3844"
+        ]
+      },
+      {
+        "id": "C134902",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+        "display_name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+        "preferred_name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Exocrine and Endocrine Pancreatic Cancer by AJCC v6 and v7 Stage",
+          "Exocrine and Endocrine Pancreatic Carcinoma by AJCC v6 and v7 Stage",
+          "Pancreatic Carcinoma by AJCC v6 and v7 Stage"
+        ],
+        "parents": [
+          "C3850"
+        ]
+      },
+      {
+        "id": "C7430",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Exocrine Pancreas Neoplasm",
+        "display_name": "Malignant Exocrine Pancreas Neoplasm",
+        "preferred_name": "Malignant Exocrine Pancreas Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Exocrine Pancreas Tumor",
+          "Malignant Neoplasm of Exocrine Pancreas",
+          "Malignant Neoplasm of the Exocrine Pancreas",
+          "Malignant Tumor of Exocrine Pancreas",
+          "Malignant Tumor of the Exocrine Pancreas"
+        ],
+        "parents": [
+          "C9005",
+          "C4445"
+        ]
+      },
+      {
+        "id": "C8845",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Ann Arbor Stage IV B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Ann Arbor Stage IV B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage IV B-Cell Non-Hodgkin Lymphoma",
+          "B Cell Lymphoma Stage IV",
+          "B-Cell Lymphoma Stage IV",
+          "Stage IV B Cell Lymphoma",
+          "Stage IV B-Cell Lymphoma",
+          "Stage IV B-Cell Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C8523",
+          "C141243"
+        ]
+      },
+      {
+        "id": "C8103",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Non-Hodgkin Lymphoma",
+        "display_name": "Ann Arbor Stage II Adult Non-Hodgkin Lymphoma",
+        "preferred_name": "Ann Arbor Stage II Adult Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Adult Non-Hodgkin's Lymphoma Stage II",
+          "Ann Arbor Stage II Adult Non-Hodgkin Lymphoma",
+          "Stage II Adult Non-Hodgkin Lymphoma",
+          "Stage II Adult Non-Hodgkin's Lymphoma",
+          "stage II adult non-Hodgkin lymphoma"
+        ],
+        "parents": [
+          "C141235",
+          "C8521"
+        ]
+      },
+      {
+        "id": "C4741",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Morphology",
+        "display_name": "Neoplasm by Morphology",
+        "preferred_name": "Neoplasm by Morphology",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Tumor Morphology",
+          "Tumor_Morphology"
+        ],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27134",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid Cell Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+          "Hematologic Cancer",
+          "Hematologic Malignancy",
+          "Hematologic Neoplasm",
+          "Hematological Neoplasm",
+          "Hematological Tumor",
+          "Hematopoietic Cancer",
+          "Hematopoietic Cell Tumor",
+          "Hematopoietic Neoplasm",
+          "Hematopoietic Neoplasms including Lymphomas",
+          "Hematopoietic Tumor",
+          "Hematopoietic and Lymphoid Neoplasms",
+          "Hematopoietic malignancy, NOS",
+          "Hematopoietic, Including Myeloma",
+          "Malignant Hematologic Neoplasm",
+          "Malignant Hematopoietic Neoplasm",
+          "hematologic cancer"
+        ],
+        "parents": [
+          "C26323",
+          "C35813",
+          "C4741"
+        ]
+      },
+      {
+        "id": "C7065",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphocytic Neoplasm",
+        "display_name": "Lymphocytic Neoplasm",
+        "preferred_name": "Lymphocytic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphocytic Tumor",
+          "Lymphocytic and Plasma Cell Neoplasm",
+          "Lymphocytic and Plasma Cell Tumor",
+          "Lymphocytic and Plasma Cell Tumour",
+          "Lymphocytic and Plasmacytic Neoplasm",
+          "Lymphoid Neoplasm",
+          "Lymphoid Tumor",
+          "Lymphoid and Plasma Cell Tumor",
+          "Lymphoid and Plasma Cell Tumour",
+          "Lymphoid and Plasmacytic Neoplasm",
+          "Lymphoid and Plasmacytic Tumor",
+          "Lymphoid and Plasmacytic Tumour"
+        ],
+        "parents": [
+          "C27134",
+          "C9308"
+        ]
+      },
+      {
+        "id": "C3208",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoma",
+        "display_name": "Lymphoma",
+        "preferred_name": "Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "LYMPHOMA, MALIGNANT",
+          "Lymphoma (Hodgkin and Non-Hodgkin)",
+          "Lymphoma (Hodgkin's and Non-Hodgkin's)",
+          "Lymphoma, NOS",
+          "Lymphomatous",
+          "Malignant Lymphoma",
+          "lymphoma"
+        ],
+        "parents": [
+          "C7065",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C3211",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma",
+        "display_name": "Non-Hodgkin Lymphoma",
+        "preferred_name": "Non-Hodgkin Lymphoma",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "NHL",
+          "NHL, NOS",
+          "Non-Hodgkin lymphoma, NOS",
+          "Non-Hodgkin's Lymphoma",
+          "Non-Hodgkin's Lymphoma (NHL)",
+          "non-Hodgkin lymphoma"
+        ],
+        "parents": [
+          "C3208"
+        ]
+      },
+      {
+        "id": "C8843",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Ann Arbor Stage II B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Ann Arbor Stage II B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage II B-Cell Non-Hodgkin Lymphoma",
+          "B Cell Lymphoma Stage II",
+          "B-Cell Lymphoma Stage II",
+          "Stage II B Cell Lymphoma",
+          "Stage II B-Cell Lymphoma",
+          "Stage II B-Cell Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C8521",
+          "C141243"
+        ]
+      },
+      {
+        "id": "C3341",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Precancerous Condition",
+        "display_name": "Precancerous Condition",
+        "preferred_name": "Precancerous Condition",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Precancerous State",
+          "Premalignant Condition",
+          "Premalignant State"
+        ],
+        "parents": [
+          "C8278"
+        ]
+      },
+      {
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C7151",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Monoclonal Immunoglobulin Deposition Disease",
+        "display_name": "Monoclonal Immunoglobulin Deposition Disease",
+        "preferred_name": "Monoclonal Immunoglobulin Deposition Disease",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Immunoglobulin Deposition Disease",
+          "Immunoglobulin deposition disease"
+        ],
+        "parents": [
+          "C9305",
+          "C4665"
+        ]
+      },
+      {
+        "id": "C141243",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "display_name": "B-Cell Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "preferred_name": "B-Cell Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3457",
+          "C141140"
+        ]
+      },
+      {
+        "id": "C7481",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gallbladder Malignant Neoplasm",
+        "display_name": "Gallbladder Malignant Neoplasm",
+        "preferred_name": "Gallbladder Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Gallbladder Neoplasm",
+          "Malignant Gallbladder Tumor",
+          "Malignant Neoplasm of Gallbladder",
+          "Malignant Neoplasm of the Gallbladder",
+          "Malignant Tumor of Gallbladder",
+          "Malignant Tumor of the Gallbladder"
+        ],
+        "parents": [
+          "C3048",
+          "C8609"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C156482",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Neoplasm",
+        "display_name": "Genitourinary System Neoplasm",
+        "preferred_name": "Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156660",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3341",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Precancerous Condition",
+        "display_name": "Precancerous Condition",
+        "preferred_name": "Precancerous Condition",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Precancerous State",
+          "Premalignant Condition",
+          "Premalignant State"
+        ],
+        "parents": [
+          "C8278"
+        ]
+      },
+      {
+        "id": "C27910",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Mature B-Cell Neoplasm",
+        "display_name": "Mature B-Cell Neoplasm",
+        "preferred_name": "Mature B-Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Mature B-Cell Lymphocytic Neoplasm"
+        ],
+        "parents": [
+          "C27907"
+        ]
+      },
+      {
+        "id": "C26841",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Disorder",
+        "display_name": "Ovarian Disorder",
+        "preferred_name": "Ovarian Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Ovarian Disease"
+        ],
+        "parents": [
+          "C27020"
+        ]
+      },
+      {
+        "id": "C7786",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Pancreatic Cancer",
+        "display_name": "Stage II Pancreatic Cancer AJCC v6 and v7",
+        "preferred_name": "Stage II Pancreatic Cancer AJCC v6 and v7",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Pancreatic Cancer Stage II",
+          "Stage II Carcinoma of Pancreas",
+          "Stage II Carcinoma of the Pancreas",
+          "Stage II Exocrine and Endocrine Pancreatic Cancer AJCC v6 and v7",
+          "Stage II Pancreatic Cancer AJCC v6",
+          "Stage II Pancreatic Cancer AJCC v6 and v7",
+          "Stage II Pancreatic Cancer AJCC v7",
+          "Stage II Pancreatic Carcinoma",
+          "stage II pancreatic cancer"
+        ],
+        "parents": [
+          "C134902"
+        ]
+      },
+      {
+        "id": "C7132",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Glandular Cell Neoplasm",
+        "display_name": "Glandular Cell Neoplasm",
+        "preferred_name": "Glandular Cell Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Glandular Cell Epithelial Neoplasm",
+          "Glandular Cell Epithelium Neoplasm"
+        ],
+        "parents": [
+          "C3709"
+        ]
+      },
+      {
+        "id": "C2917",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Carcinoma In Situ",
+        "display_name": "Carcinoma In Situ",
+        "preferred_name": "Carcinoma In Situ",
+        "type": [
+          "stage",
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [
+          "CARCINOMA, IN SITU, MALIGNANT",
+          "CIS",
+          "Epithelial Tumor, In situ, Malignant",
+          "Intraepithelial Carcinoma",
+          "Non-invasive Carcinoma",
+          "carcinoma in situ",
+          "stage 0 disease"
+        ],
+        "parents": [
+          "C2916",
+          "C3341"
+        ]
+      },
+      {
+        "id": "C7062",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Special Category",
+        "display_name": "Neoplasm by Special Category",
+        "preferred_name": "Neoplasm by Special Category",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C9005",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Pancreatic Neoplasm",
+        "display_name": "Malignant Pancreatic Neoplasm",
+        "preferred_name": "Malignant Pancreatic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Neoplasm of Pancreas",
+          "Malignant Neoplasm of the Pancreas"
+        ],
+        "parents": [
+          "C4890",
+          "C3305"
+        ]
+      },
+      {
+        "id": "C141140",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "display_name": "Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "preferred_name": "Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C141139",
+          "C3211"
+        ]
+      },
+      {
+        "id": "C7422",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Precancerous Condition by Site",
+        "display_name": "Precancerous Condition by Site",
+        "preferred_name": "Precancerous Condition by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Premalignant Condition by Site"
+        ],
+        "parents": [
+          "C3341"
+        ]
+      },
+      {
+        "id": "C3457",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "B-Cell Non Hodgkin's Lymphoma",
+          "B-Cell Non-Hodgkin's Lymphoma",
+          "B-cell lymphoma",
+          "Lymphomas Non-Hodgkin's B-Cell",
+          "Non-Hodgkin's B-Cell Lymphoma",
+          "Non-Hodgkin's Lymphoma B-Cell"
+        ],
+        "parents": [
+          "C27907",
+          "C3211"
+        ]
+      },
+      {
+        "id": "C7215",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Non-Hodgkin Lymphoma by Clinical Course",
+        "display_name": "Non-Hodgkin Lymphoma by Clinical Course",
+        "preferred_name": "Non-Hodgkin Lymphoma by Clinical Course",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Non-Hodgkin's Lymphoma by Clinical Course"
+        ],
+        "parents": [
+          "C3211"
+        ]
+      },
+      {
+        "id": "C7340",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Hematopoietic and Lymphoid Neoplasm (Antiquated)",
+        "display_name": "Hematopoietic and Lymphoid Neoplasm (Antiquated)",
+        "preferred_name": "Hematopoietic and Lymphoid Neoplasm (Antiquated)",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Borne Cancer"
+        ],
+        "parents": [
+          "C45230"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C156484",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Genitourinary System Neoplasm",
+        "display_name": "Malignant Genitourinary System Neoplasm",
+        "preferred_name": "Malignant Genitourinary System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Genitourinary Cancer",
+          "Genitourinary System Cancer",
+          "Malignant Genitourinary Neoplasm"
+        ],
+        "parents": [
+          "C156482",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C156781",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Biliary Tract Carcinoma",
+        "display_name": "Biliary Tract Carcinoma",
+        "preferred_name": "Biliary Tract Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2899",
+          "C8609",
+          "C166418"
+        ]
+      },
+      {
+        "id": "C8504",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Indolent Non-Hodgkin Lymphoma",
+        "display_name": "Indolent Non-Hodgkin Lymphoma",
+        "preferred_name": "Indolent Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Indolent Non-Hodgkin's Lymphoma",
+          "NHL, indolent, NOS",
+          "Non-Hodgkin lymphoma, indolent, NOS",
+          "indolent lymphoma"
+        ],
+        "parents": [
+          "C7215"
+        ]
+      },
+      {
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Carcinoma",
+        "display_name": "Digestive System Carcinoma",
+        "preferred_name": "Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C34631",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gallbladder Disorder",
+        "display_name": "Gallbladder Disorder",
+        "preferred_name": "Gallbladder Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gall Bladder Disease",
+          "Gall Bladder Disorder",
+          "Gallbladder Disease"
+        ],
+        "parents": [
+          "C2899"
+        ]
+      },
+      {
+        "id": "C7659",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Precancerous Condition",
+        "display_name": "Digestive System Precancerous Condition",
+        "preferred_name": "Digestive System Precancerous Condition",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal Precancerous Condition",
+          "Gastrointestinal Premalignant Condition"
+        ],
+        "parents": [
+          "C2990",
+          "C7422"
+        ]
+      },
+      {
+        "id": "C9305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Neoplasm",
+        "display_name": "Malignant Neoplasm",
+        "preferred_name": "Malignant Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "CA",
+          "Cancer",
+          "Malignancy",
+          "Malignant Growth",
+          "Malignant Neoplastic Disease",
+          "Malignant Tumor",
+          "NEOPLASM, MALIGNANT",
+          "Neoplasm, malignant",
+          "Tumor, malignant, NOS",
+          "Unclassified tumor, malignant",
+          "cancer",
+          "malignancy"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C7430",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Exocrine Pancreas Neoplasm",
+        "display_name": "Malignant Exocrine Pancreas Neoplasm",
+        "preferred_name": "Malignant Exocrine Pancreas Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Exocrine Pancreas Tumor",
+          "Malignant Neoplasm of Exocrine Pancreas",
+          "Malignant Neoplasm of the Exocrine Pancreas",
+          "Malignant Tumor of Exocrine Pancreas",
+          "Malignant Tumor of the Exocrine Pancreas"
+        ],
+        "parents": [
+          "C9005",
+          "C4445"
+        ]
+      },
+      {
+        "id": "C27827",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Lymphoma by Cell Type (Working Formulation)",
+        "display_name": "Malignant Lymphoma by Cell Type (Working Formulation)",
+        "preferred_name": "Malignant Lymphoma by Cell Type (Working Formulation)",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7186"
+        ]
+      },
+      {
+        "id": "C2917",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Carcinoma In Situ",
+        "display_name": "Carcinoma In Situ",
+        "preferred_name": "Carcinoma In Situ",
+        "type": [
+          "stage",
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [
+          "CARCINOMA, IN SITU, MALIGNANT",
+          "CIS",
+          "Epithelial Tumor, In situ, Malignant",
+          "Intraepithelial Carcinoma",
+          "Non-invasive Carcinoma",
+          "carcinoma in situ",
+          "stage 0 disease"
+        ],
+        "parents": [
+          "C2916",
+          "C3341"
+        ]
+      },
+      {
+        "id": "C7422",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Precancerous Condition by Site",
+        "display_name": "Precancerous Condition by Site",
+        "preferred_name": "Precancerous Condition by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Premalignant Condition by Site"
+        ],
+        "parents": [
+          "C3341"
+        ]
+      },
+      {
+        "id": "C2991",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Disease",
+        "display_name": "Disease or Disorder",
+        "preferred_name": "Disease or Disorder",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Diagnosis",
+          "Disease",
+          "Disease or Disorder",
+          "Disease or Disorder, Non-Neoplastic",
+          "Diseases",
+          "Diseases and Disorders",
+          "Disorder",
+          "Disorders",
+          "condition",
+          "disease",
+          "disease term",
+          "disease type",
+          "disease_term",
+          "disease_type",
+          "disorder"
+        ],
+        "parents": [
+          "C7057"
+        ]
+      },
+      {
+        "id": "C3709",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Epithelial Neoplasm",
+        "display_name": "Epithelial Neoplasm",
+        "preferred_name": "Epithelial Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasms, NOS",
+          "Epithelioma",
+          "Epithelioma, malignant"
+        ],
+        "parents": [
+          "C4741"
+        ]
+      },
+      {
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Disorder",
+        "display_name": "Digestive System Disorder",
+        "preferred_name": "Digestive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C4445",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pancreatic Exocrine Neoplasm",
+        "display_name": "Pancreatic Exocrine Neoplasm",
+        "preferred_name": "Pancreatic Exocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Exocrine Pancreas Neoplasm",
+          "Exocrine Pancreas Tumor",
+          "Neoplasm of Exocrine Pancreas",
+          "Neoplasm of the Exocrine Pancreas",
+          "Pancreatic Exocrine Tumor",
+          "Tumor of Exocrine Pancreas",
+          "Tumor of the Exocrine Pancreas"
+        ],
+        "parents": [
+          "C3305"
+        ]
+      },
+      {
+        "id": "C3461",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Immunoblastic Lymphoma",
+        "display_name": "Immunoblastic Lymphoma",
+        "preferred_name": "Immunoblastic Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "LYMPHOMA, IMMUNOBLASTIC, MALIGNANT"
+        ],
+        "parents": [
+          "C80280"
+        ]
+      },
+      {
+        "id": "C80280",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
+        "display_name": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
+        "preferred_name": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C8851"
+        ]
+      },
+      {
+        "id": "C7431",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Ovarian Neoplasm",
+        "display_name": "Malignant Ovarian Neoplasm",
+        "preferred_name": "Malignant Ovarian Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer of Ovary",
+          "Cancer of the Ovary",
+          "Malignant Neoplasm of Ovary",
+          "Malignant Neoplasm of the Ovary",
+          "Malignant Ovarian Tumor",
+          "Malignant Tumor of Ovary",
+          "Malignant Tumor of the Ovary",
+          "Ovarian Cancer",
+          "Ovarian cancer, NOS",
+          "ovarian cancer"
+        ],
+        "parents": [
+          "C4913",
+          "C4984"
+        ]
+      },
+      {
+        "id": "C9308",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoproliferative Disorder",
+        "display_name": "Lymphoproliferative Disorder",
+        "preferred_name": "Lymphoproliferative Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Lymphoproliferative disease, NOS",
+          "Lymphoproliferative disorder, NOS",
+          "lymphoproliferative disorder"
+        ],
+        "parents": [
+          "C26323"
+        ]
+      },
+      {
+        "id": "C4445",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Pancreatic Exocrine Neoplasm",
+        "display_name": "Pancreatic Exocrine Neoplasm",
+        "preferred_name": "Pancreatic Exocrine Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Exocrine Pancreas Neoplasm",
+          "Exocrine Pancreas Tumor",
+          "Neoplasm of Exocrine Pancreas",
+          "Neoplasm of the Exocrine Pancreas",
+          "Pancreatic Exocrine Tumor",
+          "Tumor of Exocrine Pancreas",
+          "Tumor of the Exocrine Pancreas"
+        ],
+        "parents": [
+          "C3305"
+        ]
+      },
+      {
+        "id": "C36076",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Reproductive System Neoplasm",
+        "display_name": "Malignant Reproductive System Neoplasm",
+        "preferred_name": "Malignant Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C156484",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C3465",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Grade 1 Follicular Lymphoma",
+        "display_name": "Grade 1 Follicular Lymphoma",
+        "preferred_name": "Grade 1 Follicular Lymphoma",
+        "type": [
+          "grade"
+        ],
+        "synonyms": [
+          "Follicular Lymphoma Grade 1",
+          "Follicular Small Cleaved Cell Lymphoma",
+          "Follicular lymphoma, grade 1",
+          "Follicular lymphoma, small cleaved cell",
+          "Grade 1",
+          "Grade I Follicular Lymphoma",
+          "Grade I Follicular Small Cleaved Cell Lymphoma",
+          "Poorly Differentiated Nodular Lymphocytic Lymphoma",
+          "WHO Follicular Lymphoma Histologic Grade 1",
+          "grade 1 follicular lymphoma"
+        ],
+        "parents": [
+          "C3209",
+          "C171299"
+        ]
+      },
+      {
+        "id": "C8319",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Lymphoma",
+        "display_name": "Ann Arbor Stage II Lymphoma",
+        "preferred_name": "Ann Arbor Stage II Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage II Lymphoma",
+          "Lymphoma Stage II"
+        ],
+        "parents": [
+          "C141139"
+        ]
+      },
+      {
+        "id": "C7615",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Diffuse Large B-Cell Lymphoma",
+        "display_name": "Adult Diffuse Large B-Cell Lymphoma",
+        "preferred_name": "Adult Diffuse Large B-Cell Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult Diffuse Large B-Cell Lymphoma"
+        ],
+        "parents": [
+          "C7704",
+          "C8851"
+        ]
+      },
+      {
+        "id": "C141235",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Adult Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "display_name": "Adult Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "preferred_name": "Adult Non-Hodgkin Lymphoma by Ann Arbor Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7704",
+          "C141140"
+        ]
+      },
+      {
+        "id": "C35813",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Neoplasm",
+        "display_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "preferred_name": "Hematopoietic and Lymphoid System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Tumor"
+        ],
+        "parents": [
+          "C35814",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C3263",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Neoplasm by Site",
+        "display_name": "Neoplasm by Site",
+        "preferred_name": "Neoplasm by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3262"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C171299",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C8504",
+          "C7056"
+        ]
+      },
+      {
+        "id": "C7659",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Precancerous Condition",
+        "display_name": "Digestive System Precancerous Condition",
+        "preferred_name": "Digestive System Precancerous Condition",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal Precancerous Condition",
+          "Gastrointestinal Premalignant Condition"
+        ],
+        "parents": [
+          "C2990",
+          "C7422"
+        ]
+      },
+      {
+        "id": "C8521",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ann Arbor Stage II Non-Hodgkin Lymphoma",
+        "display_name": "Ann Arbor Stage II Non-Hodgkin Lymphoma",
+        "preferred_name": "Ann Arbor Stage II Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non-Hodgkin's Lymphoma Stage II",
+          "Stage II Non-Hodgkin Lymphoma",
+          "Stage II Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C8319",
+          "C141140"
+        ]
+      },
+      {
+        "id": "C7201",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Infrequent Neoplasm",
+        "display_name": "Infrequent Neoplasm",
+        "preferred_name": "Infrequent Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Infrequent Tumor"
+        ],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C26323",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematologic and Lymphocytic Disorder",
+        "display_name": "Hematologic and Lymphocytic Disorder",
+        "preferred_name": "Hematologic and Lymphocytic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Blood Disease",
+          "Blood Disorder",
+          "Hematologic Disorder",
+          "Hematological Disorder"
+        ],
+        "parents": [
+          "C35814"
+        ]
+      },
+      {
+        "id": "C8614",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Neoplasm",
+        "display_name": "Hepatobiliary Neoplasm",
+        "preferred_name": "Hepatobiliary Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hepatic and Biliary Neoplasms",
+          "Hepatic and Biliary Tumors",
+          "Hepatic, Biliary, and Gallbladder Neoplasms",
+          "Hepato-Biliary Neoplasm",
+          "Hepato-Biliary Tumor",
+          "Hepatobiliary Tumor",
+          "Hepatobiliary Tumors",
+          "Liver and Biliary Neoplasm",
+          "Liver and Biliary System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C3959"
+        ]
+      },
+      {
+        "id": "C27823",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Lymphoma, Large Cell Type",
+        "display_name": "Malignant Lymphoma, Large Cell Type",
+        "preferred_name": "Malignant Lymphoma, Large Cell Type",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C27827"
+        ]
+      },
+      {
+        "id": "C96963",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Carcinoma",
+        "display_name": "Digestive System Carcinoma",
+        "preferred_name": "Digestive System Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Carcinoma of the Gastrointestinal System",
+          "Gastrointestinal System Carcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C8124",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Immunoblastic Lymphoma",
+        "display_name": "Ann Arbor Stage II Adult Immunoblastic Lymphoma",
+        "preferred_name": "Ann Arbor Stage II Adult Immunoblastic Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Adult Immunoblastic Large Cell Lymphoma Stage II",
+          "Ann Arbor Stage II Adult Immunoblastic Lymphoma",
+          "Stage II Adult Immunoblastic Large Cell Lymphoma",
+          "Stage II Adult Immunoblastic Lymphoma"
+        ],
+        "parents": [
+          "C7873",
+          "C8103",
+          "C8855"
+        ]
+      },
+      {
+        "id": "C7873",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Immunoblastic Lymphoma",
+        "display_name": "Adult Immunoblastic Lymphoma",
+        "preferred_name": "Adult Immunoblastic Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult Immunoblastic Large Cell Lymphoma",
+          "Adult Immunoblastic Lymphoma"
+        ],
+        "parents": [
+          "C7615",
+          "C3461"
+        ]
+      },
+      {
+        "id": "C3959",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hepatobiliary Disorder",
+        "display_name": "Hepatobiliary Disorder",
+        "preferred_name": "Hepatobiliary Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Liver Disease",
+          "Liver and Biliary Disease",
+          "Liver and Biliary Disorder",
+          "Liver and Biliary System Disorder"
+        ],
+        "parents": [
+          "C2990"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C8523",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ann Arbor Stage IV Non-Hodgkin Lymphoma",
+        "display_name": "Ann Arbor Stage IV Non-Hodgkin Lymphoma",
+        "preferred_name": "Ann Arbor Stage IV Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Non-Hodgkin's Lymphoma Stage IV",
+          "Stage IV Non-Hodgkin Lymphoma",
+          "Stage IV Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C8321",
+          "C141140"
+        ]
+      },
+      {
+        "id": "C4875",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Reproductive System Disorder",
+        "display_name": "Reproductive System Disorder",
+        "preferred_name": "Reproductive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disorder of Reproductive System",
+          "Genital Disorders",
+          "Reproductive System Disease"
+        ],
+        "parents": [
+          "C156660"
+        ]
+      },
+      {
+        "id": "C156660",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Genitourinary System Disorder",
+        "display_name": "Genitourinary System Disorder",
+        "preferred_name": "Genitourinary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Urogenital Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2990",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Disorder",
+        "display_name": "Digestive System Disorder",
+        "preferred_name": "Digestive System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Disease",
+          "Digestive System Disease",
+          "Disorder of Digestive System",
+          "Gastrointestinal Disorder",
+          "Gastrointestinal System Disease",
+          "Gastrointestinal System Disorder",
+          "Unspecified Gastrointestinal Problem",
+          "stomach or intestinal disorder"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C2852",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Adenocarcinoma",
+        "display_name": "Adenocarcinoma",
+        "preferred_name": "Adenocarcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "ADENOCARCINOMA, MALIGNANT",
+          "Adenocarcinoma, NOS",
+          "adenocarcinoma"
+        ],
+        "parents": [
+          "C2916",
+          "C7132"
+        ]
+      },
+      {
+        "id": "C8278",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Cancer-Related Condition",
+        "display_name": "Cancer-Related Condition",
+        "preferred_name": "Cancer-Related Condition",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer Related Condition",
+          "Cancer-Related Problem or Condition",
+          "Oncologic Complications",
+          "cancer related problem/condition",
+          "problem/condition, cancer related",
+          "problem/condition, cancer-related"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3844",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gallbladder Cancer",
+        "display_name": "Gallbladder Carcinoma",
+        "preferred_name": "Gallbladder Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Gallbladder",
+          "Cancer of the Gallbladder",
+          "Carcinoma of Gallbladder",
+          "Carcinoma of the Gallbladder",
+          "Gall bladder carcinoma (adeno)",
+          "Gall bladder carcinoma (adenocarcinoma)",
+          "Gallbladder Carcinoma",
+          "gallbladder cancer"
+        ],
+        "parents": [
+          "C156781",
+          "C7481",
+          "C7201"
+        ]
+      },
+      {
+        "id": "C2916",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Other Carcinoma",
+        "display_name": "Carcinoma",
+        "preferred_name": "Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "CARCINOMA, MALIGNANT",
+          "Carcinoma",
+          "Carcinoma, NOS",
+          "Epithelial Carcinoma",
+          "Epithelial tumor, malignant",
+          "Epithelioma Malignant",
+          "Malignant Epithelial Neoplasm",
+          "Malignant Epithelial Tumor",
+          "Malignant Epithelioma",
+          "carcinoma",
+          "epithelial carcinoma"
+        ],
+        "parents": [
+          "C3709",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C45230",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Neoplasm by Obsolete Classification",
+        "display_name": "Neoplasm by Obsolete Classification",
+        "preferred_name": "Neoplasm by Obsolete Classification",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7062"
+        ]
+      },
+      {
+        "id": "C8310",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Large Cell Lymphoma",
+        "display_name": "Childhood Large Cell Lymphoma",
+        "preferred_name": "Childhood Large Cell Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Childhood Large Cell Lymphoma",
+          "Pediatric Large Cell Lymphoma"
+        ],
+        "parents": [
+          "C27823"
+        ]
+      },
+      {
+        "id": "C3048",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gallbladder Neoplasm",
+        "display_name": "Gallbladder Neoplasm",
+        "preferred_name": "Gallbladder Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gallbladder Tumor",
+          "Neoplasm of Gallbladder",
+          "Neoplasm of the Gallbladder",
+          "Tumor of Gallbladder",
+          "Tumor of the Gallbladder"
+        ],
+        "parents": [
+          "C34631",
+          "C8614"
+        ]
+      },
+      {
+        "id": "C8609",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Hepatobiliary Neoplasm",
+        "display_name": "Malignant Hepatobiliary Neoplasm",
+        "preferred_name": "Malignant Hepatobiliary Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Malignant Hepato-Biliary Neoplasm",
+          "Malignant Liver and Biliary Neoplasm",
+          "Malignant Liver and Biliary System Neoplasm"
+        ],
+        "parents": [
+          "C8614",
+          "C4890"
+        ]
+      },
+      {
+        "id": "C4381",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Epithelial Tumor",
+        "display_name": "Ovarian Epithelial Tumor",
+        "preferred_name": "Ovarian Epithelial Tumor",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Epithelial Neoplasm of Ovary",
+          "Epithelial Neoplasm of the Ovary",
+          "Epithelial Tumor of Ovary",
+          "Epithelial Tumor of the Ovary",
+          "Ovarian Surface Epithelial-Stromal Tumor",
+          "Ovarian Surface-Epithelial Stromal Neoplasm"
+        ],
+        "parents": [
+          "C3709",
+          "C4984"
+        ]
+      },
+      {
+        "id": "C166418",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pancreatobiliary Carcinoma",
+        "display_name": "Pancreatobiliary Carcinoma",
+        "preferred_name": "Pancreatobiliary Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Pancreaticobiliary Cancer",
+          "Pancreaticobiliary Carcinoma",
+          "Pancreatobiliary Cancer"
+        ],
+        "parents": [
+          "C96963"
+        ]
+      },
+      {
+        "id": "C91229",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Gallbladder Cancer by AJCC v7 Stage",
+        "display_name": "Gallbladder Cancer by AJCC v7 Stage",
+        "preferred_name": "Gallbladder Cancer by AJCC v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Gallbladder Carcinoma by AJCC v7 Stage"
+        ],
+        "parents": [
+          "C3844"
+        ]
+      },
+      {
+        "id": "C2899",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Biliary System Disorder",
+        "display_name": "Biliary System Disorder",
+        "preferred_name": "Biliary System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Biliary Disease",
+          "Biliary Disorder"
+        ],
+        "parents": [
+          "C3959"
+        ]
+      },
+      {
+        "id": "C3850",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Pancreatic Cancer",
+        "display_name": "Pancreatic Carcinoma",
+        "preferred_name": "Pancreatic Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Pancreas",
+          "Cancer of the Pancreas",
+          "Carcinoma of Pancreas",
+          "Carcinoma of the Pancreas",
+          "Exocrine Pancreas Carcinoma",
+          "Pancreas Cancer",
+          "Pancreas Carcinoma",
+          "Pancreatic Carcinoma",
+          "Pancreatic cancer (excluding Islets), NOS",
+          "Pancreatic cancer (not Islets)",
+          "exocrine cancer",
+          "pancreatic cancer"
+        ],
+        "parents": [
+          "C7430",
+          "C166418"
+        ]
+      },
+      {
+        "id": "C3262",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Other Neoplasm",
+        "display_name": "Neoplasm",
+        "preferred_name": "Neoplasm",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Neoplasia",
+          "Neoplasm",
+          "Neoplasm, NOS",
+          "Neoplasms, NOS",
+          "Neoplastic Disease",
+          "Neoplastic Growth",
+          "Tumor, NOS",
+          "neoplasia",
+          "neoplasm",
+          "tumor"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C8466",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage II Non-Hodgkin Lymphoma",
+        "display_name": "Ann Arbor Stage II Contiguous Adult Non-Hodgkin Lymphoma",
+        "preferred_name": "Ann Arbor Stage II Contiguous Adult Non-Hodgkin Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Adult Contiguous Non-Hodgkin's Lymphoma Stage II",
+          "Adult Contiguous Stage II Non-Hodgkin's Lymphoma",
+          "Ann Arbor Stage II Contiguous Adult Non-Hodgkin Lymphoma",
+          "Contiguous Adult Non-Hodgkin's Lymphoma Stage II",
+          "Contiguous Stage II Adult Non-Hodgkin's Lymphoma",
+          "Stage II Adult Contiguous Non-Hodgkin's Lymphoma",
+          "Stage II Contiguous Adult Non-Hodgkin Lymphoma",
+          "Stage II Contiguous Adult Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C8103"
+        ]
+      },
+      {
+        "id": "C2868",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Amyloidosis",
+        "display_name": "Amyloidosis",
+        "preferred_name": "Amyloidosis",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "AMYLOID",
+          "amyloidosis"
+        ],
+        "parents": [
+          "C8278"
+        ]
+      },
+      {
+        "id": "C8278",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Cancer-Related Condition",
+        "display_name": "Cancer-Related Condition",
+        "preferred_name": "Cancer-Related Condition",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Cancer Related Condition",
+          "Cancer-Related Problem or Condition",
+          "Oncologic Complications",
+          "cancer related problem/condition",
+          "problem/condition, cancer related",
+          "problem/condition, cancer-related"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C35180",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Carcinoma In Situ",
+        "display_name": "Digestive System Carcinoma In Situ",
+        "preferred_name": "Digestive System Carcinoma In Situ",
+        "type": [
+          "stage",
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Carcinoma In Situ"
+        ],
+        "parents": [
+          "C2917",
+          "C96963",
+          "C7659"
+        ]
+      },
+      {
+        "id": "C4890",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Malignant Gastrointestinal Neoplasm",
+        "display_name": "Malignant Gastrointestinal Neoplasm",
+        "preferred_name": "Malignant Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Gastrointestinal System Cancer",
+          "Gastrointestinal cancer, NOS",
+          "Malignant Digestive System Neoplasm",
+          "Malignant Gastrointestinal System Neoplasm"
+        ],
+        "parents": [
+          "C3052",
+          "C9305"
+        ]
+      },
+      {
+        "id": "C8321",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Lymphoma",
+        "display_name": "Ann Arbor Stage IV Lymphoma",
+        "preferred_name": "Ann Arbor Stage IV Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage IV Lymphoma",
+          "Lymphoma Stage IV"
+        ],
+        "parents": [
+          "C141139"
+        ]
+      },
+      {
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Digestive System Neoplasm",
+        "display_name": "Digestive System Neoplasm",
+        "preferred_name": "Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "parents": [
+          "C2990",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C4123",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Adenocarcinoma In Situ",
+        "display_name": "Adenocarcinoma In Situ",
+        "preferred_name": "Adenocarcinoma In Situ",
+        "type": [
+          "stage",
+          "grade",
+          "subtype"
+        ],
+        "synonyms": [
+          "AIS",
+          "Adenocarcinoma in situ",
+          "Adenocarcinoma in situ, NOS"
+        ],
+        "parents": [
+          "C2852",
+          "C2917"
+        ]
+      },
+      {
+        "id": "C7186",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Lymphoma by Working Formulation (Antiquated)",
+        "display_name": "Lymphoma by Working Formulation (Antiquated)",
+        "preferred_name": "Lymphoma by Working Formulation (Antiquated)",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C7340"
+        ]
+      },
+      {
+        "id": "C141255",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Follicular Lymphoma by Ann Arbor Stage",
+        "display_name": "Follicular Lymphoma by Ann Arbor Stage",
+        "preferred_name": "Follicular Lymphoma by Ann Arbor Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C141243",
+          "C3209"
+        ]
+      },
+      {
+        "id": "C4984",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Ovarian Tumor",
+        "display_name": "Ovarian Neoplasm",
+        "preferred_name": "Ovarian Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Ovary",
+          "Neoplasm of the Ovary",
+          "Ovarian Neoplasm",
+          "Ovarian Tumors",
+          "Tumor of Ovary",
+          "Tumor of the Ovary"
+        ],
+        "parents": [
+          "C3053",
+          "C26841"
+        ]
+      },
+      {
+        "id": "C3819",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Primary Amyloidosis",
+        "display_name": "Primary Amyloidosis",
+        "preferred_name": "Primary Amyloidosis",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Primary amyloidosis"
+        ],
+        "parents": [
+          "C2868",
+          "C7151"
+        ]
+      },
+      {
+        "id": "C7587",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoma",
+        "display_name": "Adult Lymphoma",
+        "preferred_name": "Adult Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Adult Lymphoma"
+        ],
+        "parents": [
+          "C3208"
+        ]
+      },
+      {
+        "id": "C35814",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Hematopoietic and Lymphoid System Disorder",
+        "display_name": "Hematopoietic and Lymphoid System Disorder",
+        "preferred_name": "Hematopoietic and Lymphoid System Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Hematopoietic and Lymphoid System Disease"
+        ],
+        "parents": [
+          "C27551"
+        ]
+      },
+      {
+        "id": "C26842",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pancreatic Disorder",
+        "display_name": "Pancreatic Disorder",
+        "preferred_name": "Pancreatic Disorder",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C2990"
+        ]
+      },
+      {
+        "id": "C4665",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Plasma Cell Tumor",
+        "display_name": "Plasma Cell Neoplasm",
+        "preferred_name": "Plasma Cell Neoplasm",
+        "type": [
+          "maintype",
+          "subtype"
+        ],
+        "synonyms": [
+          "PLASMA CELL TUMOR, MALIGNANT",
+          "Plasma Cell Dyscrasia",
+          "Plasma Cell Neoplasm",
+          "Plasma Cell Tumors",
+          "Plasma cell tumor",
+          "Plasmacytic Neoplasm",
+          "Plasmacytic Tumor",
+          "Plasmacytic Tumour",
+          "plasma cell tumor"
+        ],
+        "parents": [
+          "C27910"
+        ]
+      },
+      {
+        "id": "C7056",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Mature B-Cell Non-Hodgkin Lymphoma",
+        "display_name": "Mature B-Cell Non-Hodgkin Lymphoma",
+        "preferred_name": "Mature B-Cell Non-Hodgkin Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Mature B-Cell Lymphoma",
+          "Mature B-Cell Lymphomas",
+          "Mature B-Cell Non-Hodgkin's Lymphoma"
+        ],
+        "parents": [
+          "C3457",
+          "C27910"
+        ]
+      },
+      {
+        "id": "C27268",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Lymphoma by Stage",
+        "display_name": "Lymphoma by Stage",
+        "preferred_name": "Lymphoma by Stage",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C3208"
+        ]
+      },
+      {
+        "id": "C4913",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Malignant Female Reproductive System Neoplasm",
+        "display_name": "Malignant Female Reproductive System Neoplasm",
+        "preferred_name": "Malignant Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive Cancer",
+          "Female reprod. system cancer, NOS",
+          "Female reproductive system cancer, NOS",
+          "Gynecologic Cancer",
+          "Malignant Female Reproductive System Tumor",
+          "Malignant Gynecologic Neoplasm",
+          "Malignant Gynecologic Tumor",
+          "Malignant Neoplasm of Female Reproductive System",
+          "Malignant Neoplasm of the Female Reproductive System",
+          "Malignant Tumor of Female Reproductive System",
+          "Malignant Tumor of the Female Reproductive System",
+          "gynecologic cancer"
+        ],
+        "parents": [
+          "C3053",
+          "C36076"
+        ]
+      },
+      {
+        "id": "C3850",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Pancreatic Cancer",
+        "display_name": "Pancreatic Carcinoma",
+        "preferred_name": "Pancreatic Carcinoma",
+        "type": [
+          "maintype"
+        ],
+        "synonyms": [
+          "Cancer of Pancreas",
+          "Cancer of the Pancreas",
+          "Carcinoma of Pancreas",
+          "Carcinoma of the Pancreas",
+          "Exocrine Pancreas Carcinoma",
+          "Pancreas Cancer",
+          "Pancreas Carcinoma",
+          "Pancreatic Carcinoma",
+          "Pancreatic cancer (excluding Islets), NOS",
+          "Pancreatic cancer (not Islets)",
+          "exocrine cancer",
+          "pancreatic cancer"
+        ],
+        "parents": [
+          "C7430",
+          "C166418"
+        ]
+      },
+      {
+        "id": "C3052",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Digestive System Neoplasm",
+        "display_name": "Digestive System Neoplasm",
+        "preferred_name": "Digestive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Digestive Neoplasm",
+          "Digestive System Tumor",
+          "Digestive Tumor",
+          "GI Neoplasm",
+          "GI System Neoplasm",
+          "GI System Tumor",
+          "GI Tumor",
+          "Gastrointestinal Neoplasm",
+          "Gastrointestinal System Neoplasm",
+          "Gastrointestinal System Tumor",
+          "Gastrointestinal Tumor",
+          "Neoplasm of Digestive System",
+          "Neoplasm of GI System",
+          "Neoplasm of Gastrointestinal System",
+          "Neoplasm of the Digestive System",
+          "Neoplasm of the GI System",
+          "Neoplasm of the Gastrointestinal System",
+          "Tumor of Digestive System",
+          "Tumor of GI System",
+          "Tumor of Gastrointestinal System",
+          "Tumor of the Digestive System",
+          "Tumor of the GI System",
+          "Tumor of the Gastrointestinal System"
+        ],
+        "parents": [
+          "C2990",
+          "C3263"
+        ]
+      },
+      {
+        "id": "C134902",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+        "display_name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+        "preferred_name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Exocrine and Endocrine Pancreatic Cancer by AJCC v6 and v7 Stage",
+          "Exocrine and Endocrine Pancreatic Carcinoma by AJCC v6 and v7 Stage",
+          "Pancreatic Carcinoma by AJCC v6 and v7 Stage"
+        ],
+        "parents": [
+          "C3850"
+        ]
+      },
+      {
+        "id": "C3305",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Pancreatic Neoplasm",
+        "display_name": "Pancreatic Neoplasm",
+        "preferred_name": "Pancreatic Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Pancreas",
+          "Neoplasm of the Pancreas",
+          "Pancreas Neoplasm",
+          "Pancreas Tumor",
+          "Pancreatic Tumor",
+          "Tumor of Pancreas",
+          "Tumor of the Pancreas"
+        ],
+        "parents": [
+          "C3052",
+          "C26842"
+        ]
+      },
+      {
+        "id": "C3674",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Reproductive System Neoplasm",
+        "display_name": "Reproductive System Neoplasm",
+        "preferred_name": "Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Neoplasm of Reproductive System",
+          "Neoplasm of the Reproductive System",
+          "Reproductive Neoplasm",
+          "Reproductive System Tumor",
+          "Reproductive Tumor",
+          "Tumor of Reproductive System",
+          "Tumor of the Reproductive System"
+        ],
+        "parents": [
+          "C156482",
+          "C4875"
+        ]
+      },
+      {
+        "id": "C141254",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Diffuse Large B-Cell Lymphoma by Ann Arbor Stage",
+        "display_name": "Diffuse Large B-Cell Lymphoma by Ann Arbor Stage",
+        "preferred_name": "Diffuse Large B-Cell Lymphoma by Ann Arbor Stage",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [],
+        "parents": [
+          "C141243",
+          "C8851"
+        ]
+      },
+      {
+        "id": "C5006",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Stage IV Follicular Lymphoma",
+        "display_name": "Ann Arbor Stage IV Follicular Lymphoma",
+        "preferred_name": "Ann Arbor Stage IV Follicular Lymphoma",
+        "type": [
+          "stage"
+        ],
+        "synonyms": [
+          "Ann Arbor Stage IV Follicular Lymphoma",
+          "Follicle Centre Lymphoma, Follicular Grade I, II, III Stage IV"
+        ],
+        "parents": [
+          "C8845",
+          "C141255"
+        ]
+      },
+      {
+        "id": "C27551",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disorder by Site",
+        "display_name": "Disorder by Site",
+        "preferred_name": "Disorder by Site",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Disease by Site"
+        ],
+        "parents": [
+          "C2991"
+        ]
+      },
+      {
+        "id": "C3053",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Female Reproductive System Neoplasm",
+        "display_name": "Female Reproductive System Neoplasm",
+        "preferred_name": "Female Reproductive System Neoplasm",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Female Reproductive System Tumor",
+          "Gynecologic Neoplasm",
+          "Gynecologic Tumor",
+          "Neoplasm of Female Reproductive System",
+          "Neoplasm of the Female Reproductive System",
+          "Tumor of Female Reproductive System",
+          "Tumor of the Female Reproductive System"
+        ],
+        "parents": [
+          "C27020",
+          "C3674"
+        ]
+      },
+      {
+        "id": "C8851",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Diffuse Large B-Cell Lymphoma",
+        "display_name": "Diffuse Large B-Cell Lymphoma",
+        "preferred_name": "Diffuse Large B-Cell Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "DLBCL",
+          "Diffuse Large B-Cell Lymphoma (DLBCL)",
+          "Diffuse large B-cell lymphoma",
+          "diffuse large B-cell lymphoma"
+        ],
+        "parents": [
+          "C7056"
+        ]
+      },
+      {
+        "id": "C166418",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Pancreatobiliary Carcinoma",
+        "display_name": "Pancreatobiliary Carcinoma",
+        "preferred_name": "Pancreatobiliary Carcinoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Pancreaticobiliary Cancer",
+          "Pancreaticobiliary Carcinoma",
+          "Pancreatobiliary Cancer"
+        ],
+        "parents": [
+          "C96963"
+        ]
+      },
+      {
+        "id": "C7057",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": true,
+        "name": "Disease, Disorder or Finding",
+        "display_name": "Disease, Disorder or Finding",
+        "preferred_name": "Disease, Disorder or Finding",
+        "type": [],
+        "synonyms": [],
+        "parents": []
+      },
+      {
+        "id": "C3209",
+        "inclusion_indicator": "TREE",
+        "is_lead_disease": false,
+        "name": "Follicular Lymphoma",
+        "display_name": "Follicular Lymphoma",
+        "preferred_name": "Follicular Lymphoma",
+        "type": [
+          "subtype"
+        ],
+        "synonyms": [
+          "Follicle Center Lymphoma",
+          "Follicular Centre Cell Lymphoma",
+          "Follicular Non-Hodgkin Lymphoma",
+          "Follicular Non-Hodgkin's Lymphoma",
+          "Follicular lymphoma",
+          "LYMPHOMA, FOLLICULAR, MALIGNANT",
+          "Lymphoma, Follicular Centre Cell",
+          "follicular lymphoma"
+        ],
+        "parents": [
+          "C7056"
+        ]
+      }
+    ],
+    "division_department_id": "DCCPS",
+    "eligibility_criteria": [
+      {
+        "description": "Minimum age: 5 Years\nMaximum age: 100 Years",
+        "inclusive": true,
+        "type": "AGE"
+      },
+      {
+        "description": "SEX: BOTH",
+        "inclusive": true,
+        "type": "SEX"
+      },
+      {
+        "description": "This trial does not accept healthy volunteers.",
+        "type": "ACCEPTS_HEALTHY_VOLUNTEERS"
+      },
+      {
+        "description": "Karnofsky performance status >= 60%",
+        "display_order": 8,
+        "inclusive": true
+      },
+      {
+        "description": "Eastern Cooperative Oncology Group (ECOG) performance status 0-2",
+        "display_order": 4,
+        "inclusive": true
+      },
+      {
+        "description": "Known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies)",
+        "display_order": 20,
+        "inclusive": false
+      },
+      {
+        "description": "Prior therapy:\r\n* Subjects must have fully recovered from the acute toxic effects of all prior anti-cancer chemotherapy\r\n** Myelosuppressive chemotherapy: at least 21 days after the last dose of myelosuppressive chemotherapy (42 days if prior nitrosourea)\r\n** Hematopoietic growth factors: at least 14 days after the last dose of a long-acting growth factor (e.g. pegfilgrastim) or 7 days for short acting growth factor; for agents that have known adverse events occurring beyond 7 days after administration, this period must be extended beyond the time during which adverse events are known to occur; the duration of this interval must be discussed with the study chair\r\n** Biologic (anti-neoplastic agent): at least 7 days after the last dose of a biologic agent; for agents that have known adverse events occurring beyond 7 days after administration, this period must be extended beyond the time during which adverse events are known to occur; the duration of this interval must be discussed with the study chair\r\n** Immunotherapy: at least 42 days after the completion of any type of immunotherapy, e.g. tumor vaccines \r\n** Antibodies: > 21 days must have elapsed from infusion of last dose of antibody, and toxicity related to prior antibody therapy must be recovered to grade < 1 \r\n** External beam radiation therapy (XRT): at least 14 days after local palliative XRT (small port); 6 weeks must have elapsed since treatment with therapeutic doses of iodine 131-metaiodobenzylguanidine (I131-MIBG); at least 150 days must have elapsed if prior total body irradiation (TBI), craniospinal XRT, or if >= 50% radiation of pelvis; at least 42 days must have elapsed if other substantial bone marrow (BM) radiation\r\n** Stem cell infusion without TBI: no evidence of active graft vs. host disease and at least 84 days must have elapsed after transplant and 42 days for autologous stem cell infusion after I131-MIBG therapy\r\n** Subjects must not have received any prior therapy with simvastatin",
+        "display_order": 5,
+        "inclusive": true
+      }
+    ],
+    "expanded_access_trial": false,
+    "fda_regulated": true,
+    "grants": [
+      {
+        "id": "UM1CA186717",
+        "nci_division_program": "CTEP"
+      },
+      {
+        "id": "P30CA15083",
+        "nci_division_program": "OD"
+      },
+      {
+        "id": "P30CA16087",
+        "nci_division_program": "OD"
+      },
+      {
+        "id": "P30CA6516",
+        "nci_division_program": "OD"
+      }
+    ],
+    "groups": [
+      {
+        "description": "Patients receive omacetaxine mepesuccinate SC every 12 hours on days 1-3. Treatment repeats every 28 days for up to 24 courses in the absence of disease progression or unacceptable toxicity.",
+        "interventions": [
+          {
+            "description": "Given SC",
+            "id": "C1127",
+            "name": "Omacetaxine Mepesuccinate",
+            "type": "Drug",
+            "inclusion_indicator": "TRIAL",
+            "category": "agent",
+            "synonyms": [
+              "Ceflatonin",
+              "Synribo"
+            ]
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Agent",
+            "id": "C274",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Differentiation Inducer",
+            "id": "C1934",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Pharmacologic Substance",
+            "id": "C1909",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Natural Product",
+            "id": "C1907",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Drug, Food, Chemical or Biomedical Material",
+            "id": "C1908",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Cell Differentiating Agent",
+            "id": "C2122",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          },
+          {
+            "type": "Drug",
+            "name": "Antineoplastic Plant Product",
+            "id": "C1931",
+            "inclusion_indicator": "TREE",
+            "category": "agent category",
+            "synonyms": []
+          }
+        ],
+        "name": "Treatment (omacetaxine mepesuccinate)",
+        "type": "EXPERIMENTAL"
+      },
+      {
+        "description": "Veliparib on Day -2 through 5 of a 21-day cycle. In addition, carboplatin and paclitaxel will be administered on Day 1 of a 21-day cycle.",
+        "name": "Veliparib with Carboplatin and Paclitaxel",
+        "type": "EXPERIMENTAL",
+        "interventions": []
+      }
+    ],
+    "ids": [
+      {
+        "type": "NCT_ID",
+        "value": "NCT777700032"
+      },
+      {
+        "type": "CTEP_ID",
+        "value": "CTEP777700032"
+      },
+      {
+        "type": "LEAD_ORG_ID",
+        "value": "LOID777700032"
+      },
+      {
+        "type": "Study Protocol Other Identifier",
+        "value": "OTHER777700032"
+      },
+      {
+        "type": "NCI study protocol entity identifier",
+        "value": "NCI-7777-00032"
+      }
+    ],
+    "interventional": false,
+    "keywords": [
+      "BDD",
+      "TEST",
+      "SEED DATA"
+    ],
+    "legacy_id": "3333300032",
+    "min_target_accrual": 1000,
+    "nci_grant_provided": true,
+    "nci_id": "NCI-7777-00032",
+    "non_interventional_design": "ECOLOGIC_OR_COMMUNITY_STUDIES",
+    "number_of_groups": 3,
+    "organizations": [
+      {
+        "address_line_1": "1874 Overlook Kelly Ave.",
+        "city_municipality": "Killington",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:12.037713",
+        "ctep_id": "o100016_CTEP",
+        "emails": [
+          "o100016_0@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-016-1083",
+          "100-016-1085"
+        ],
+        "id": "o100016",
+        "name": "Bellevue Inc",
+        "phone_numbers": [
+          "100-016-9094",
+          "100-016-9043",
+          "100-016-9046"
+        ],
+        "state_province_territory": "VT",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:12.037713",
+        "strap_created_datetime": "2020-05-01T20:33:12.920864",
+        "strap_updated_datetime": "2021-04-24T20:37:12.164700",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:12.164700",
+        "urls": [
+          "www.o100016_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": true,
+        "zipcode": "5751",
+        "strap_publication_date": "2021-04-24T20:37:12.164700",
+        "version_no": "2924439c32e239c72b61001b67991dc1",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:30.878613",
+            "ctep_id": "p100060_CTEP",
+            "first_name": "Keith",
+            "id": "p100060",
+            "last_name": "Perkins",
+            "middle_name": "Casey",
+            "strap_created_datetime": "2020-05-01T19:22:39.808336",
+            "strap_updated_datetime": "2021-04-24T20:37:30.961572",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:30.961572",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:30.961572",
+            "version_no": "49b8ebb05b653552ee1652ec1315f6be",
+            "name": "Perkins, Keith Casey",
+            "roles": [
+              {
+                "email": "o100016_0@yahoo.com",
+                "phone": "100-016-9050",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:04.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:04.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:04.000000"
+          }
+        ],
+        "name_with_id": "Bellevue Inc___id:o100016",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "2164 Bellevue Overlook Ave.",
+        "city_municipality": "Phoenix",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:13.754147",
+        "ctep_id": "o100021_CTEP",
+        "id": "o100021",
+        "name": "Castle Cancer Care",
+        "phone_numbers": [
+          "100-021-9029"
+        ],
+        "state_province_territory": "AZ",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:13.754147",
+        "strap_created_datetime": "2020-05-01T20:33:15.239096",
+        "strap_updated_datetime": "2021-04-24T20:37:13.955650",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:13.955650",
+        "urls": [
+          "www.o100021_0.com",
+          "www.o100021_1.com",
+          "www.o100021_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "85042",
+        "strap_publication_date": "2021-04-24T20:37:13.955650",
+        "version_no": "5aed8cb86182ac2759e787a2d38a0520",
+        "geo_coordinates": {
+          "lat": 33.3811,
+          "lon": -112.0268
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:21.036904",
+            "ctep_id": "p100084_CTEP",
+            "first_name": "Matthew",
+            "id": "p100084",
+            "last_name": "Benson",
+            "middle_name": "Riley",
+            "strap_created_datetime": "2020-05-01T19:20:58.651505",
+            "strap_updated_datetime": "2021-04-24T20:37:21.106913",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:21.106913",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:21.106913",
+            "version_no": "49c08b662be460b5facaeb084937e571",
+            "name": "Benson, Matthew Riley",
+            "roles": [
+              {
+                "email": "o100021_0@yahoo.com",
+                "phone": "100-021-9012",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:09.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:09.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:09.000000"
+          }
+        ],
+        "name_with_id": "Castle Cancer Care___id:o100021",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "247 Castle Summit Pl.",
+        "city_municipality": "New Orleans",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:12.472527",
+        "ctep_id": "o100017_CTEP",
+        "emails": [
+          "o100017_0@yahoo.com",
+          "o100017_1@yahoo.com"
+        ],
+        "id": "o100017",
+        "name": "Forest Garden Cancer Care",
+        "phone_numbers": [
+          "100-017-9073",
+          "100-017-9042"
+        ],
+        "state_province_territory": "LA",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:12.472527",
+        "strap_created_datetime": "2020-05-01T20:33:13.584628",
+        "strap_updated_datetime": "2021-04-24T20:37:12.555207",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:12.555207",
+        "urls": [
+          "www.o100017_0.com",
+          "www.o100017_1.com",
+          "www.o100017_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "70116",
+        "strap_publication_date": "2021-04-24T20:37:12.555207",
+        "version_no": "035faecbfb0bb3015a2308acaa18b455",
+        "geo_coordinates": {
+          "lat": 29.968,
+          "lon": -90.065
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:15.172485",
+            "ctep_id": "p100067_CTEP",
+            "first_name": "Daniella",
+            "id": "p100067",
+            "last_name": "Contreras",
+            "middle_name": "Allie",
+            "strap_created_datetime": "2020-05-01T19:20:48.630075",
+            "strap_updated_datetime": "2021-04-24T20:37:15.420763",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:15.420763",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:15.420763",
+            "version_no": "fae10d9c8328ead282bd2319dfc03f00",
+            "name": "Contreras, Daniella Allie",
+            "roles": [
+              {
+                "email": "o100017_0@yahoo.com",
+                "phone": "100-017-9009",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:08.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:08.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:08.000000"
+          }
+        ],
+        "name_with_id": "Forest Garden Cancer Care___id:o100017",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "8790 Valley Dr.",
+        "city_municipality": "Camden",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:36:59.387007",
+        "ctep_id": "o100018_CTEP",
+        "emails": [
+          "o100018_0@yahoo.com",
+          "o100018_1@yahoo.com",
+          "o100018_2@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-018-1056",
+          "100-018-1085",
+          "100-018-1012"
+        ],
+        "id": "o100018",
+        "name": "Hallmark Cancer Group",
+        "phone_numbers": [
+          "100-018-9070"
+        ],
+        "state_province_territory": "SC",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:36:59.387007",
+        "strap_created_datetime": "2020-05-01T20:32:56.916733",
+        "strap_updated_datetime": "2021-04-24T20:36:59.652118",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:36:59.652118",
+        "urls": [
+          "www.o100018_0.com",
+          "www.o100018_1.com",
+          "www.o100018_2.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "29020",
+        "strap_publication_date": "2021-04-24T20:36:59.652118",
+        "version_no": "025bfce051dca0cd2da0f77ec4bec965",
+        "geo_coordinates": {
+          "lat": 34.3199,
+          "lon": -80.6053
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:26.072768",
+            "ctep_id": "p100070_CTEP",
+            "first_name": "Jazlyn",
+            "id": "p100070",
+            "last_name": "Bell",
+            "middle_name": "Ryan",
+            "strap_created_datetime": "2020-05-01T19:21:04.456746",
+            "strap_updated_datetime": "2021-04-24T20:37:26.303636",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:26.303636",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:26.303636",
+            "version_no": "e14d2ba985d5fb13fb88c04e509656ac",
+            "name": "Bell, Jazlyn Ryan",
+            "roles": [
+              {
+                "email": "o100018_0@yahoo.com",
+                "phone": "100-018-9021",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:08.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:08.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:08.000000"
+          },
+          {
+            "local_sp_identifier": "00-C-0201",
+            "role": "LEAD_ORGANIZATION",
+            "status": "PENDING",
+            "status_start_datetime": "2016-01-28T18:28:25.455000"
+          }
+        ],
+        "name_with_id": "Hallmark Cancer Group___id:o100018",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5476 Bellevue Kelly Blvd.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:12.869491",
+        "ctep_id": "o100001_CTEP",
+        "emails": [
+          "o100001_0@yahoo.com",
+          "o100001_1@yahoo.com"
+        ],
+        "fax_numbers": [
+          "100-001-1013"
+        ],
+        "id": "o100001",
+        "name": "Ocean Repose Cancer Care",
+        "phone_numbers": [
+          "100-001-9064",
+          "100-001-9095",
+          "100-001-9041"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:12.869491",
+        "strap_created_datetime": "2020-05-01T19:20:46.976248",
+        "strap_updated_datetime": "2021-04-24T20:37:12.948145",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:12.948145",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "83254",
+        "strap_publication_date": "2021-04-24T20:37:12.948145",
+        "version_no": "8987e2e09d10fc1ad48b49dec7161d8d",
+        "geo_coordinates": {
+          "lat": 42.3329,
+          "lon": -111.2712
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:59.516361",
+            "ctep_id": "p100001_CTEP",
+            "first_name": "Seth",
+            "id": "p100001",
+            "last_name": "Becker",
+            "middle_name": "Jimmy",
+            "strap_created_datetime": "2020-05-01T19:23:23.137533",
+            "strap_updated_datetime": "2021-04-24T20:37:59.605276",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:59.605276",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:59.605276",
+            "version_no": "be675f424b6eeb1b6807a79d64cd560d",
+            "name": "Becker, Seth Jimmy",
+            "roles": [
+              {
+                "email": "o100001_0@yahoo.com",
+                "phone": "100-001-9054",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:05.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:05.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:05.000000"
+          }
+        ],
+        "name_with_id": "Ocean Repose Cancer Care___id:o100001",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "5928 Summerfield Northshore Ln.",
+        "city_municipality": "Montpelier",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:01.066363",
+        "ctep_id": "o100003_CTEP",
+        "emails": [
+          "o100003_0@yahoo.com",
+          "o100003_1@yahoo.com",
+          "o100003_2@yahoo.com"
+        ],
+        "id": "o100003",
+        "name": "Shelby Drug Development Institute",
+        "phone_numbers": [
+          "100-003-9001"
+        ],
+        "state_province_territory": "ID",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:01.066363",
+        "strap_created_datetime": "2020-05-01T20:32:59.412437",
+        "strap_updated_datetime": "2021-04-24T20:37:01.143019",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:01.143019",
+        "urls": [
+          "www.o100003_0.com"
+        ],
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "1454",
+        "strap_publication_date": "2021-04-24T20:37:01.143019",
+        "version_no": "9a570653f4169f44407a0b920bcadffb",
+        "geo_coordinates_empty": true,
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:38.194766",
+            "ctep_id": "p100010_CTEP",
+            "first_name": "Charley",
+            "id": "p100010",
+            "last_name": "Salinas",
+            "strap_created_datetime": "2020-05-01T19:22:48.824208",
+            "strap_updated_datetime": "2021-04-24T20:37:38.270430",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:38.270430",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:38.270430",
+            "version_no": "b398fc9823a014c3894afd590f4ee542",
+            "name": "Salinas, Charley",
+            "roles": [
+              {
+                "email": "o100003_0@yahoo.com",
+                "phone": "100-003-9034",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2019-05-02T14:34:06.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:06.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:06.000000"
+          }
+        ],
+        "name_with_id": "Shelby Drug Development Institute___id:o100003",
+        "current_recruiting_status": "ACTIVE"
+      },
+      {
+        "address_line_1": "4533 Valley Juliet St.",
+        "city_municipality": "Springfield",
+        "country": "United States",
+        "created_datetime": "2021-04-24T20:37:03.349630",
+        "ctep_id": "o100023_CTEP",
+        "emails": [
+          "o100023_0@yahoo.com",
+          "o100023_1@yahoo.com"
+        ],
+        "id": "o100023",
+        "name": "Tranquil Wallace Oncology",
+        "phone_numbers": [
+          "100-023-9060",
+          "100-023-9043"
+        ],
+        "state_province_territory": "IL",
+        "status": "ACTIVE",
+        "status_datetime": "2021-04-24T20:37:03.349630",
+        "strap_created_datetime": "2020-05-01T19:20:41.087890",
+        "strap_updated_datetime": "2021-04-24T20:37:03.440830",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:03.440830",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "user_updated_id": "0",
+        "user_updated_organization": "0",
+        "va_organization": false,
+        "zipcode": "62703",
+        "strap_publication_date": "2021-04-24T20:37:03.440830",
+        "version_no": "f334df0036cfa45ad24fab15d33f1bde",
+        "geo_coordinates": {
+          "lat": 39.7587,
+          "lon": -89.6325
+        },
+        "persons": [
+          {
+            "created_datetime": "2021-04-24T20:37:52.713355",
+            "ctep_id": "p100090_CTEP",
+            "first_name": "Jeffrey",
+            "id": "p100090",
+            "last_name": "Singh",
+            "strap_created_datetime": "2020-05-01T19:23:13.079611",
+            "strap_updated_datetime": "2021-04-24T20:37:52.789417",
+            "test_data": true,
+            "updated_datetime": "2021-04-24T20:37:52.789417",
+            "user_created_id": "Test Data Service",
+            "user_created_organization": "Testing Team",
+            "strap_publication_date": "2021-04-24T20:37:52.789417",
+            "version_no": "c0300df442a7344fb8ee043e8d642c32",
+            "name": "Singh, Jeffrey",
+            "roles": [
+              {
+                "email": "o100023_0@yahoo.com",
+                "phone": "100-023-9026",
+                "role": "PRINCIPAL_INVESTIGATOR",
+                "status": "ACTIVE",
+                "status_start_datetime": "2018-11-08T10:29:16.000000"
+              }
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "accrual_statuses": [
+              {
+                "comment": "accrual status comment",
+                "status": "ACTIVE",
+                "status_datetime": "2019-05-02T14:34:07.000000"
+              }
+            ],
+            "role": "PARTICIPATING_SITE",
+            "status": "ACTIVE",
+            "status_start_datetime": "2019-05-02T14:34:07.000000"
+          }
+        ],
+        "name_with_id": "Tranquil Wallace Oncology___id:o100023",
+        "current_recruiting_status": "ACTIVE"
+      }
+    ],
+    "outcome_measures": [
+      {
+        "analysis_method": "Interim monitoring for efficacy and futility will be performed. The study will also be monitored for futility using the method of Freidlin and Korn.",
+        "is_safety_related": false,
+        "measure": "EFS between modified ABFM backbone with or without bortezomib in all randomized patients",
+        "time_frame": "Up to 10 years",
+        "type": "PRIMARY"
+      },
+      {
+        "analysis_method": "Will be graphically summarized for the individual patients using a “swimmer plot” to convey the duration of treatment, timing of response and its duration, time until progression and survival. Descriptive statistics (mean, median, and 95% confidence intervals) will be utilized to present the exploratory efficacy results.",
+        "measure": "Progression-free survival",
+        "time_frame": "Time from registration to the earlier of progression or death due to any cause, assessed up to 2 years",
+        "type": "SECONDARY"
+      }
+    ],
+    "persons": [
+      {
+        "created_datetime": "2021-04-24T20:37:32.694983",
+        "ctep_id": "p100063_CTEP",
+        "first_name": "Braelynn",
+        "id": "p100063",
+        "last_name": "Johnston",
+        "strap_created_datetime": "2020-05-01T19:22:41.954655",
+        "strap_updated_datetime": "2021-04-24T20:37:32.781774",
+        "test_data": true,
+        "updated_datetime": "2021-04-24T20:37:32.781774",
+        "user_created_id": "Test Data Service",
+        "user_created_organization": "Testing Team",
+        "strap_publication_date": "2021-04-24T20:37:32.781774",
+        "version_no": "1e96b956f219d3b058ac19065a90f067",
+        "name": "Johnston, Braelynn",
+        "roles": [
+          {
+            "role": "STUDY_PRINCIPAL_INVESTIGATOR",
+            "status": "ACTIVE",
+            "status_start_datetime": "2016-11-09T13:55:47.057000"
+          }
+        ]
+      }
+    ],
+    "phase": "II/III",
+    "pilot": false,
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "primary_purpose_additional_qualifier": "OTHER",
+    "probability_sample": true,
+    "proprietary_trial": false,
+    "public_title": "NCI-7777-00032 public title",
+    "scientific_description": "NCI-7777-00032 scientific description",
+    "section801_indicator": false,
+    "status_history": [
+      {
+        "message_datetime": "2019-05-03T14:34:10.000000",
+        "status": "Completed",
+        "status_datetime": "2019-05-03T14:34:10.000000"
+      },
+      {
+        "message_datetime": "2019-05-02T14:34:10.000000",
+        "status": "Active, not recruiting",
+        "status_datetime": "2019-05-02T14:34:10.000000"
+      },
+      {
+        "message_datetime": "2010-05-31T03:02:25.000000",
+        "status": "Recruiting",
+        "status_datetime": "2010-05-31T03:02:25.000000"
+      }
+    ],
+    "strap_created_datetime": "2020-05-01T20:03:14.151169",
+    "strap_updated_datetime": "2021-04-24T21:11:14.643178",
+    "study_classification_code": "PHARMACOKINETICS_OR_DYNAMICS",
+    "study_population_description": "NCI-7777-00032 study population description",
+    "study_source": "NATIONAL",
+    "study_subtype": "OBSERVATIONAL",
+    "test_data": true,
+    "time_perspective": "OTHER",
+    "time_perspective_other_text": "NCI-7777-00032 time perspective other text",
+    "title": "NCI-7777-00032 title",
+    "user_created_id": "Test Data Service",
+    "user_created_organization": "Testing Team",
+    "version_no": "58bca716ddb1ba7295e973f84f50a572",
+    "strap_publication_date": "2021-04-24T21:11:14.643178",
+    "current_trial_status": "Completed",
+    "participating_sites": [
+      "o100016",
+      "o100001",
+      "o100003",
+      "o100023",
+      "o100018",
+      "o100017",
+      "o100021"
+    ],
+    "site_principal_investigators": [
+      {
+        "id": "p100060",
+        "name": "Perkins, Keith Casey",
+        "first_name": "Keith",
+        "middle_name": "Casey",
+        "last_name": "Perkins",
+        "org_id": "o100016",
+        "org_name": null
+      },
+      {
+        "id": "p100001",
+        "name": "Becker, Seth Jimmy",
+        "first_name": "Seth",
+        "middle_name": "Jimmy",
+        "last_name": "Becker",
+        "org_id": "o100001",
+        "org_name": null
+      },
+      {
+        "id": "p100010",
+        "name": "Salinas, Charley",
+        "first_name": "Charley",
+        "middle_name": null,
+        "last_name": "Salinas",
+        "org_id": "o100003",
+        "org_name": null
+      },
+      {
+        "id": "p100090",
+        "name": "Singh, Jeffrey",
+        "first_name": "Jeffrey",
+        "middle_name": null,
+        "last_name": "Singh",
+        "org_id": "o100023",
+        "org_name": null
+      },
+      {
+        "id": "p100070",
+        "name": "Bell, Jazlyn Ryan",
+        "first_name": "Jazlyn",
+        "middle_name": "Ryan",
+        "last_name": "Bell",
+        "org_id": "o100018",
+        "org_name": null
+      },
+      {
+        "id": "p100067",
+        "name": "Contreras, Daniella Allie",
+        "first_name": "Daniella",
+        "middle_name": "Allie",
+        "last_name": "Contreras",
+        "org_id": "o100017",
+        "org_name": null
+      },
+      {
+        "id": "p100084",
+        "name": "Benson, Matthew Riley",
+        "first_name": "Matthew",
+        "middle_name": "Riley",
+        "last_name": "Benson",
+        "org_id": "o100021",
+        "org_name": null
+      }
+    ],
+    "total_accrual": 0,
+    "trial_type": "Non-Interventional",
+    "nct_id": "NCT777700032",
+    "ctep_id": "CTEP777700032",
+    "lead_organization_id": "LOID777700032",
+    "va_associated": true,
+    "principal_investigators": [
+      {
+        "first_name": "Braelynn",
+        "last_name": "Johnston",
+        "middle_name": null,
+        "name": "Johnston, Braelynn",
+        "prefix": null,
+        "id": "p100063"
+      }
+    ],
+    "current_trial_status_date": "2019-05-03T14:34:10.000000",
+    "start_date_type": "ACTUAL_START_DATE",
+    "start_date_value": "2010-05-31T03:02:25.000000",
+    "lead_organizations": {
+      "id": "o100018",
+      "name": "Hallmark Cancer Group"
+    },
+    "total_participating_sites": 7,
+    "total_open_participating_sites": 7,
+    "has_count_history": true,
+    "lead_diseases": [
+      {
+        "id": "C3850",
+        "name": "Pancreatic Cancer",
+        "type": "maintype"
+      },
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      }
+    ],
+    "lead_diseases2": [
+      {
+        "id": "C3262",
+        "name": "Other Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C3052",
+        "name": "Digestive System Neoplasm",
+        "type": "maintype"
+      },
+      {
+        "id": "C2991",
+        "name": "Other Disease",
+        "type": "maintype"
+      }
+    ],
+    "_aggregates": {
+      "diseases": [
+        {
+          "name": "Primary Systemic Amyloidosis",
+          "code": "C8299",
+          "ancestor_ids": [
+            "C27134",
+            "C4665"
+          ],
+          "parent_ids": [
+            "C4665"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Malignant Ovarian Epithelial Tumor",
+          "code": "C40026",
+          "ancestor_ids": [
+            "C3262"
+          ],
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "name": "Gallbladder Cancer",
+          "code": "C3844",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Stage I Large Cell Lymphoma",
+          "code": "C8305",
+          "ancestor_ids": [
+            "C3262"
+          ],
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage 0 Pancreatic Cancer",
+          "code": "C5729",
+          "ancestor_ids": [
+            "C3850"
+          ],
+          "parent_ids": [
+            "C3850"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Stage IIA Pancreatic Cancer",
+          "code": "C88102",
+          "ancestor_ids": [
+            "C3850"
+          ],
+          "parent_ids": [
+            "C3850"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Stage IV Grade 1 Follicular Lymphoma",
+          "code": "C8142",
+          "ancestor_ids": [
+            "C27134",
+            "C3208",
+            "C3211"
+          ],
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Stage 0 Gallbladder Cancer",
+          "code": "C4439",
+          "ancestor_ids": [
+            "C3844"
+          ],
+          "parent_ids": [
+            "C3844"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "name": "Other Neoplasm",
+          "code": "C3262",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Plasma Cell Tumor",
+          "code": "C4665",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Non-Hodgkin Lymphoma",
+          "code": "C3211",
+          "ancestor_ids": [
+            "C27134",
+            "C3208"
+          ],
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Pancreatic Cancer",
+          "code": "C3850",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "name": "Lymphoma",
+          "code": "C3208",
+          "ancestor_ids": [
+            "C27134"
+          ],
+          "parent_ids": [
+            "C27134"
+          ],
+          "type": [
+            "maintype",
+            "subtype"
+          ]
+        },
+        {
+          "name": "Stage II Immunoblastic Lymphoma",
+          "code": "C8564",
+          "ancestor_ids": [
+            "C27134",
+            "C3208",
+            "C3211"
+          ],
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "code": "C27134",
+          "ancestor_ids": [],
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        }
+      ],
+      "diseases2": [
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C8278",
+          "name": "Cancer-Related Condition",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C45230",
+            "C7062",
+            "C7186",
+            "C7340"
+          ],
+          "code": "C27827",
+          "name": "Malignant Lymphoma by Cell Type (Working Formulation)",
+          "parent_ids": [
+            "C7186"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3959"
+          ],
+          "code": "C8614",
+          "name": "Hepatobiliary Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C3959"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C3709",
+            "C4741",
+            "C4875",
+            "C4984"
+          ],
+          "code": "C4381",
+          "name": "Ovarian Epithelial Tumor",
+          "parent_ids": [
+            "C3709",
+            "C4984"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C156484",
+          "name": "Malignant Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C156482",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C8321",
+            "C8523",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8845",
+          "name": "Stage IV B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C8523",
+            "C141243"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2899",
+            "C2990",
+            "C2991",
+            "C3959"
+          ],
+          "code": "C34631",
+          "name": "Gallbladder Disorder",
+          "parent_ids": [
+            "C2899"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C27020",
+          "name": "Female Reproductive System Disorder",
+          "parent_ids": [
+            "C4875"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8319",
+          "name": "Stage II Lymphoma",
+          "parent_ids": [
+            "C141139"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C156660",
+          "name": "Genitourinary System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C4741"
+          ],
+          "code": "C3709",
+          "name": "Epithelial Neoplasm",
+          "parent_ids": [
+            "C4741"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C166418",
+            "C26842",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C3709",
+            "C4445",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7430",
+            "C9005",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C3850",
+          "name": "Pancreatic Cancer",
+          "parent_ids": [
+            "C166418",
+            "C7430"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C141254",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C8319",
+            "C8521",
+            "C8843",
+            "C8851",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8855",
+          "name": "Stage II Diffuse Large B-Cell Lymphoma",
+          "parent_ids": [
+            "C8843",
+            "C141254"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C9308"
+          ],
+          "code": "C7065",
+          "name": "Lymphocytic Neoplasm",
+          "parent_ids": [
+            "C9308",
+            "C27134"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C45230",
+            "C7062"
+          ],
+          "code": "C7340",
+          "name": "Hematopoietic and Lymphoid Neoplasm (Antiquated)",
+          "parent_ids": [
+            "C45230"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156781",
+            "C166418",
+            "C27551",
+            "C2899",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3048",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C34631",
+            "C3709",
+            "C3844",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7201",
+            "C7481",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C91229",
+          "name": "Gallbladder Cancer by AJCC v7 Stage",
+          "parent_ids": [
+            "C3844"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7056",
+          "name": "Mature B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3457",
+            "C27910"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2868",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C3819",
+            "C4665",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7151",
+            "C8278",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8299",
+          "name": "Primary Systemic Amyloidosis",
+          "parent_ids": [
+            "C3819"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C27910",
+          "name": "Mature B-Cell Neoplasm",
+          "parent_ids": [
+            "C27907"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991"
+          ],
+          "code": "C4875",
+          "name": "Reproductive System Disorder",
+          "parent_ids": [
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C8319",
+            "C8521",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8843",
+          "name": "Stage II B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C8521",
+            "C141243"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2868",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4665",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7151",
+            "C8278",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3819",
+          "name": "Primary Amyloidosis",
+          "parent_ids": [
+            "C2868",
+            "C7151"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3211",
+          "name": "Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2899",
+            "C2990",
+            "C2991",
+            "C3048",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C34631",
+            "C3959",
+            "C4890",
+            "C7062",
+            "C8609",
+            "C8614",
+            "C9305"
+          ],
+          "code": "C7481",
+          "name": "Gallbladder Malignant Neoplasm",
+          "parent_ids": [
+            "C8609",
+            "C3048"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C134902",
+            "C166418",
+            "C26842",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C3709",
+            "C3850",
+            "C4445",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7430",
+            "C7786",
+            "C9005",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C88102",
+          "name": "Stage IIA Pancreatic Cancer",
+          "parent_ids": [
+            "C7786"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C171299",
+          "name": "Indolent B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C8504",
+            "C7056"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C166418",
+          "name": "Pancreatobiliary Carcinoma",
+          "parent_ids": [
+            "C96963"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C4741",
+          "name": "Neoplasm by Morphology",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C134902",
+            "C166418",
+            "C26842",
+            "C27551",
+            "C2852",
+            "C2916",
+            "C2917",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C3341",
+            "C35180",
+            "C3709",
+            "C3850",
+            "C4123",
+            "C4445",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7132",
+            "C7422",
+            "C7430",
+            "C7659",
+            "C8278",
+            "C9005",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C5729",
+          "name": "Stage 0 Pancreatic Cancer",
+          "parent_ids": [
+            "C4123",
+            "C35180",
+            "C134902"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3208",
+          "name": "Lymphoma",
+          "parent_ids": [
+            "C7065",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C35814",
+          "name": "Hematopoietic and Lymphoid System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26842",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C9005",
+          "name": "Malignant Pancreatic Neoplasm",
+          "parent_ids": [
+            "C3305",
+            "C4890"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156781",
+            "C166418",
+            "C27551",
+            "C2899",
+            "C2916",
+            "C2917",
+            "C2990",
+            "C2991",
+            "C3048",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3341",
+            "C34631",
+            "C35180",
+            "C3709",
+            "C3844",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7201",
+            "C7422",
+            "C7481",
+            "C7659",
+            "C8278",
+            "C8609",
+            "C8614",
+            "C90512",
+            "C91229",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C4439",
+          "name": "Stage 0 Gallbladder Cancer",
+          "parent_ids": [
+            "C90512",
+            "C35180",
+            "C91229"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C166418",
+            "C27551",
+            "C2899",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C156781",
+          "name": "Biliary Tract Carcinoma",
+          "parent_ids": [
+            "C2899",
+            "C8609",
+            "C166418"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35814"
+          ],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8504",
+          "name": "Indolent Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C7215"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27827",
+            "C2991",
+            "C3262",
+            "C45230",
+            "C7062",
+            "C7186",
+            "C7340"
+          ],
+          "code": "C27823",
+          "name": "Malignant Lymphoma, Large Cell Type",
+          "parent_ids": [
+            "C27827"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7215",
+          "name": "Non-Hodgkin Lymphoma by Clinical Course",
+          "parent_ids": [
+            "C3211"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [
+            "C2990",
+            "C3263"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991"
+          ],
+          "code": "C2990",
+          "name": "Digestive System Disorder",
+          "parent_ids": [
+            "C27551"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C4665",
+          "name": "Plasma Cell Tumor",
+          "parent_ids": [
+            "C27910"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C9305"
+          ],
+          "code": "C2852",
+          "name": "Adenocarcinoma",
+          "parent_ids": [
+            "C7132",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C80280",
+            "C8851",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3461",
+          "name": "Immunoblastic Lymphoma",
+          "parent_ids": [
+            "C80280"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4913",
+          "name": "Malignant Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C36076",
+            "C3053"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3208",
+          "name": "Lymphoma",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7704",
+          "name": "Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3211",
+            "C7587"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3959",
+            "C4890",
+            "C7062",
+            "C8614",
+            "C9305"
+          ],
+          "code": "C8609",
+          "name": "Malignant Hepatobiliary Neoplasm",
+          "parent_ids": [
+            "C4890",
+            "C8614"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8851",
+          "name": "Diffuse Large B-Cell Lymphoma",
+          "parent_ids": [
+            "C7056"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741"
+          ],
+          "code": "C27134",
+          "name": "Hematopoietic and Lymphoid Cell Neoplasm",
+          "parent_ids": [
+            "C26323",
+            "C4741",
+            "C35813"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C26323",
+          "name": "Hematologic and Lymphocytic Disorder",
+          "parent_ids": [
+            "C35814"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C8851",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C80280",
+          "name": "Diffuse Large B-Cell Lymphoma, Not Otherwise Specified",
+          "parent_ids": [
+            "C8851"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C45230",
+          "name": "Neoplasm by Obsolete Classification",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8321",
+          "name": "Stage IV Lymphoma",
+          "parent_ids": [
+            "C141139"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26842",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C4445",
+            "C4890",
+            "C7062",
+            "C9005",
+            "C9305"
+          ],
+          "code": "C7430",
+          "name": "Malignant Exocrine Pancreas Neoplasm",
+          "parent_ids": [
+            "C4445",
+            "C9005"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3959"
+          ],
+          "code": "C2899",
+          "name": "Biliary System Disorder",
+          "parent_ids": [
+            "C3959"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C8278"
+          ],
+          "code": "C3341",
+          "name": "Precancerous Condition",
+          "parent_ids": [
+            "C8278"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27823",
+            "C27827",
+            "C2991",
+            "C3262",
+            "C45230",
+            "C7062",
+            "C7186",
+            "C7340"
+          ],
+          "code": "C8310",
+          "name": "Large Cell Lymphoma",
+          "parent_ids": [
+            "C27823"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C3461",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7615",
+            "C7704",
+            "C80280",
+            "C8851",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7873",
+          "name": "Immunoblastic Lymphoma",
+          "parent_ids": [
+            "C3461",
+            "C7615"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C156482",
+          "name": "Genitourinary System Neoplasm",
+          "parent_ids": [
+            "C3263",
+            "C156660"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141235",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7704",
+            "C8103",
+            "C8319",
+            "C8521",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8466",
+          "name": "Stage II Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C8103"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3341",
+            "C7422",
+            "C8278"
+          ],
+          "code": "C7659",
+          "name": "Digestive System Precancerous Condition",
+          "parent_ids": [
+            "C2990",
+            "C7422"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991"
+          ],
+          "code": "C3959",
+          "name": "Hepatobiliary Disorder",
+          "parent_ids": [
+            "C2990"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7065",
+            "C9308"
+          ],
+          "code": "C27907",
+          "name": "B-Cell Neoplasm",
+          "parent_ids": [
+            "C7065"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C3262",
+          "name": "Other Neoplasm",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26842",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305"
+          ],
+          "code": "C4445",
+          "name": "Pancreatic Exocrine Neoplasm",
+          "parent_ids": [
+            "C3305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C4875",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C7431",
+          "name": "Malignant Ovarian Neoplasm",
+          "parent_ids": [
+            "C4984",
+            "C4913"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C4890",
+          "name": "Malignant Gastrointestinal Neoplasm",
+          "parent_ids": [
+            "C3052",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C8851",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C141254",
+          "name": "Diffuse Large B-Cell Lymphoma by Ann Arbor Stage",
+          "parent_ids": [
+            "C8851",
+            "C141243"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C96963",
+          "name": "Digestive System Carcinoma",
+          "parent_ids": [
+            "C4890",
+            "C2916"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2899",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C34631",
+            "C3959",
+            "C8614"
+          ],
+          "code": "C3048",
+          "name": "Gallbladder Neoplasm",
+          "parent_ids": [
+            "C34631",
+            "C8614"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991"
+          ],
+          "code": "C27551",
+          "name": "Disorder by Site",
+          "parent_ids": [
+            "C2991"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141235",
+            "C141243",
+            "C141254",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C3461",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7615",
+            "C7704",
+            "C7873",
+            "C80280",
+            "C8103",
+            "C8319",
+            "C8521",
+            "C8843",
+            "C8851",
+            "C8855",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8124",
+          "name": "Stage II Immunoblastic Lymphoma",
+          "parent_ids": [
+            "C8855",
+            "C7873",
+            "C8103"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2852",
+            "C2916",
+            "C2917",
+            "C2991",
+            "C3262",
+            "C3341",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C7132",
+            "C8278",
+            "C9305"
+          ],
+          "code": "C4123",
+          "name": "Adenocarcinoma In Situ",
+          "parent_ids": [
+            "C2852",
+            "C2917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141235",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7704",
+            "C8319",
+            "C8521",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8103",
+          "name": "Stage II Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C141235",
+            "C8521"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2990",
+            "C2991"
+          ],
+          "code": "C26842",
+          "name": "Pancreatic Disorder",
+          "parent_ids": [
+            "C2990"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7704",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C141235",
+          "name": "Adult Non-Hodgkin Lymphoma by Ann Arbor Stage",
+          "parent_ids": [
+            "C7704",
+            "C141140"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27551",
+            "C2991",
+            "C35814"
+          ],
+          "code": "C9308",
+          "name": "Lymphoproliferative Disorder",
+          "parent_ids": [
+            "C26323"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C2991",
+          "name": "Other Disease",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26842",
+            "C27551",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263"
+          ],
+          "code": "C3305",
+          "name": "Pancreatic Neoplasm",
+          "parent_ids": [
+            "C26842",
+            "C3052"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C4875"
+          ],
+          "code": "C26841",
+          "name": "Ovarian Disorder",
+          "parent_ids": [
+            "C27020"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C36076",
+          "name": "Malignant Reproductive System Neoplasm",
+          "parent_ids": [
+            "C156484",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C8278"
+          ],
+          "code": "C2868",
+          "name": "Amyloidosis",
+          "parent_ids": [
+            "C8278"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C8321",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8523",
+          "name": "Ann Arbor Stage IV Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C141140",
+            "C8321"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C3263",
+          "name": "Neoplasm by Site",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C9305",
+          "name": "Malignant Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C171299",
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8504",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3465",
+          "name": "Grade 1 Follicular Lymphoma",
+          "parent_ids": [
+            "C3209",
+            "C171299"
+          ],
+          "type": [
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C9305"
+          ],
+          "code": "C2916",
+          "name": "Other Carcinoma",
+          "parent_ids": [
+            "C3709",
+            "C9305"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3457",
+          "name": "B-Cell Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C3211",
+            "C27907"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C166418",
+            "C26842",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C3709",
+            "C3850",
+            "C4445",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7430",
+            "C9005",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C134902",
+          "name": "Pancreatic Cancer by AJCC v6 and v7 Stage",
+          "parent_ids": [
+            "C3850"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7587",
+          "name": "Lymphoma",
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C27551",
+            "C2916",
+            "C2917",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3341",
+            "C3709",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7422",
+            "C7659",
+            "C8278",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C35180",
+          "name": "Digestive System Carcinoma In Situ",
+          "parent_ids": [
+            "C7659",
+            "C96963",
+            "C2917"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C141243",
+          "name": "B-Cell Non-Hodgkin Lymphoma by Ann Arbor Stage",
+          "parent_ids": [
+            "C141140",
+            "C3457"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141235",
+            "C141243",
+            "C141254",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C3461",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7615",
+            "C7704",
+            "C7873",
+            "C80280",
+            "C8103",
+            "C8124",
+            "C8319",
+            "C8466",
+            "C8521",
+            "C8843",
+            "C8851",
+            "C8855",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8564",
+          "name": "Stage II Immunoblastic Lymphoma",
+          "parent_ids": [
+            "C8466",
+            "C8124"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2916",
+            "C2991",
+            "C3262",
+            "C3341",
+            "C3709",
+            "C4741",
+            "C7062",
+            "C8278",
+            "C9305"
+          ],
+          "code": "C2917",
+          "name": "Carcinoma In Situ",
+          "parent_ids": [
+            "C3341",
+            "C2916"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C4665",
+          "name": "Plasma Cell Tumor",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C27268",
+          "name": "Lymphoma by Stage",
+          "parent_ids": [
+            "C3208"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C141255",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C8321",
+            "C8523",
+            "C8845",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C5006",
+          "name": "Stage IV Follicular Lymphoma",
+          "parent_ids": [
+            "C141255",
+            "C8845"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C3209",
+          "name": "Follicular Lymphoma",
+          "parent_ids": [
+            "C7056"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C141255",
+          "name": "Follicular Lymphoma by Ann Arbor Stage",
+          "parent_ids": [
+            "C3209",
+            "C141243"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [
+            "C27020",
+            "C3674"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262"
+          ],
+          "code": "C7062",
+          "name": "Neoplasm by Special Category",
+          "parent_ids": [
+            "C3262"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7587",
+            "C7704",
+            "C8851",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7615",
+          "name": "Diffuse Large B-Cell Lymphoma",
+          "parent_ids": [
+            "C8851",
+            "C7704"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C8319",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8521",
+          "name": "Ann Arbor Stage II Non-Hodgkin Lymphoma",
+          "parent_ids": [
+            "C141140",
+            "C8319"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3053",
+          "name": "Female Reproductive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3341",
+            "C8278"
+          ],
+          "code": "C7422",
+          "name": "Precancerous Condition by Site",
+          "parent_ids": [
+            "C3341"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C141140",
+            "C141243",
+            "C141255",
+            "C171299",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3208",
+            "C3209",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C3457",
+            "C3465",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C5006",
+            "C7056",
+            "C7062",
+            "C7065",
+            "C7215",
+            "C8321",
+            "C8504",
+            "C8523",
+            "C8845",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C8142",
+          "name": "Stage IV Grade 1 Follicular Lymphoma",
+          "parent_ids": [
+            "C3465",
+            "C5006"
+          ],
+          "type": [
+            "stage",
+            "grade"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C134902",
+            "C166418",
+            "C26842",
+            "C27551",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C3305",
+            "C3709",
+            "C3850",
+            "C4445",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7430",
+            "C9005",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C7786",
+          "name": "Stage II Pancreatic Cancer",
+          "parent_ids": [
+            "C134902"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C3674",
+            "C4875"
+          ],
+          "code": "C4984",
+          "name": "Ovarian Tumor",
+          "parent_ids": [
+            "C26841",
+            "C3053"
+          ],
+          "type": [
+            "subtype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C27823",
+            "C27827",
+            "C2991",
+            "C3262",
+            "C45230",
+            "C7062",
+            "C7186",
+            "C7340",
+            "C8310"
+          ],
+          "code": "C8305",
+          "name": "Stage I Large Cell Lymphoma",
+          "parent_ids": [
+            "C8310"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C3709",
+            "C4741"
+          ],
+          "code": "C7132",
+          "name": "Glandular Cell Neoplasm",
+          "parent_ids": [
+            "C3709"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156484",
+            "C156660",
+            "C26841",
+            "C27020",
+            "C27551",
+            "C2991",
+            "C3053",
+            "C3262",
+            "C3263",
+            "C36076",
+            "C3674",
+            "C3709",
+            "C4381",
+            "C4741",
+            "C4875",
+            "C4913",
+            "C4984",
+            "C7062",
+            "C7431",
+            "C9305"
+          ],
+          "code": "C40026",
+          "name": "Malignant Ovarian Epithelial Tumor",
+          "parent_ids": [
+            "C7431",
+            "C4381"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C3052",
+          "name": "Digestive System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C141139",
+          "name": "Lymphoma by Ann Arbor Stage",
+          "parent_ids": [
+            "C27268"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C7062"
+          ],
+          "code": "C7201",
+          "name": "Infrequent Neoplasm",
+          "parent_ids": [
+            "C7062"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156781",
+            "C166418",
+            "C27551",
+            "C2899",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3048",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C34631",
+            "C3709",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7201",
+            "C7481",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C3844",
+          "name": "Gallbladder Cancer",
+          "parent_ids": [
+            "C7481",
+            "C7201",
+            "C156781"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156482",
+            "C156660",
+            "C27551",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C4875"
+          ],
+          "code": "C3674",
+          "name": "Reproductive System Neoplasm",
+          "parent_ids": [
+            "C4875",
+            "C156482"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C141139",
+            "C26323",
+            "C27134",
+            "C27268",
+            "C27551",
+            "C2991",
+            "C3208",
+            "C3211",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C141140",
+          "name": "Non-Hodgkin Lymphoma by Ann Arbor Stage",
+          "parent_ids": [
+            "C141139",
+            "C3211"
+          ],
+          "type": [
+            "stage"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C26323",
+            "C27134",
+            "C27551",
+            "C27907",
+            "C27910",
+            "C2991",
+            "C3262",
+            "C3263",
+            "C35813",
+            "C35814",
+            "C4665",
+            "C4741",
+            "C7062",
+            "C7065",
+            "C9305",
+            "C9308"
+          ],
+          "code": "C7151",
+          "name": "Monoclonal Immunoglobulin Deposition Disease",
+          "parent_ids": [
+            "C9305",
+            "C4665"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [],
+          "code": "C35813",
+          "name": "Hematopoietic and Lymphoid System Neoplasm",
+          "parent_ids": [],
+          "type": [
+            "maintype"
+          ]
+        },
+        {
+          "ancestor_ids": [
+            "C2991",
+            "C3262",
+            "C45230",
+            "C7062",
+            "C7340"
+          ],
+          "code": "C7186",
+          "name": "Lymphoma by Working Formulation (Antiquated)",
+          "parent_ids": [
+            "C7340"
+          ],
+          "type": []
+        },
+        {
+          "ancestor_ids": [
+            "C156781",
+            "C166418",
+            "C27551",
+            "C2899",
+            "C2916",
+            "C2990",
+            "C2991",
+            "C3048",
+            "C3052",
+            "C3262",
+            "C3263",
+            "C34631",
+            "C3709",
+            "C3844",
+            "C3959",
+            "C4741",
+            "C4890",
+            "C7062",
+            "C7201",
+            "C7481",
+            "C8609",
+            "C8614",
+            "C9305",
+            "C96963"
+          ],
+          "code": "C90512",
+          "name": "Gallbladder Cancer by AJCC v6 Stage",
+          "parent_ids": [
+            "C3844"
+          ],
+          "type": [
+            "stage"
+          ]
+        }
+      ]
+    }
+  }
+}
